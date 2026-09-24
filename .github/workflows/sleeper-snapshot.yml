@@ -1,0 +1,354 @@
+# Saves a daily snapshot of the Oxmen Sleeper league into data/ so Claude's
+# scheduled fantasy tasks can read it from GitHub (Claude's sandbox can't reach Sleeper directly).
+name: Sleeper snapshot
+
+on:
+  schedule:
+    - cron: "40 10 * * *"   # daily 6:40 AM ET, ahead of the 8 AM ET daily watch
+    - cron: "20 13 * * 0"   # Sundays 9:20 AM ET, ahead of the 10 AM ET start/sit check
+  workflow_dispatch: {}      # lets you (or Claude, via you) run it on demand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sleeper-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch league data from Sleeper
+        env:
+          LEAGUE_ID: "1389391912175153152"
+          MY_ROSTER_ID: "10"
+          OUT_DIR: data
+        run: |
+          python3 - <<'PY'
+          #!/usr/bin/env python3
+          """Snapshot a Sleeper league into data/ so Claude's daily fantasy watch can read it from GitHub.
+
+          Standard library only. Writes:
+            data/latest/meta.json          when it ran, what week, any errors  (check this first)
+            data/latest/summary.json       every roster with names, records, waiver order, lineup flags
+            data/latest/changes.json       what changed since the previous snapshot (adds/drops, waivers, injuries)
+            data/latest/available.json     best unrostered players by position, with usage
+            data/latest/transactions.json  readable recent transactions
+            data/latest/players.json       trimmed Sleeper player DB (fantasy positions only)
+            data/latest/raw/*.json         untouched API responses (league, users, rosters, matchups, state)
+            data/archive/<stamp>/          summary + changes + meta for every run
+          """
+          import datetime as dt
+          import json
+          import os
+          import shutil
+          import time
+          import urllib.request
+
+          LEAGUE_ID = os.environ.get("LEAGUE_ID", "1389391912175153152")
+          MY_ROSTER_ID = int(os.environ.get("MY_ROSTER_ID", "10"))
+          BASE = "https://api.sleeper.app/v1"
+          OUT = os.environ.get("OUT_DIR", "data")
+          FANTASY_POS = {"QB", "RB", "WR", "TE", "K", "DEF"}
+          AVAILABLE_LIMITS = {"QB": 20, "RB": 45, "WR": 50, "TE": 25, "K": 12, "DEF": 12}
+          PLAYER_FIELDS = ["full_name", "first_name", "last_name", "position", "team", "status",
+                           "injury_status", "injury_body_part", "injury_notes", "injury_start_date",
+                           "practice_participation", "practice_description", "depth_chart_position",
+                           "depth_chart_order", "search_rank", "years_exp", "age", "active"]
+          STAT_FIELDS = ["gp", "pts_ppr", "off_snp", "tm_off_snp", "rec_tgt", "rec", "rec_yd", "rec_td",
+                         "rush_att", "rush_yd", "rush_td", "pass_att", "pass_yd", "pass_td", "pass_int"]
+          BAD_STATUS = {"Out", "IR", "Doubtful", "PUP", "Sus", "NA", "COV", "DNR"}
+
+          errors = []
+
+
+          def get(path, required=True):
+              url = path if path.startswith("http") else BASE + path
+              last = None
+              for attempt in range(4):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": "oxmen-snapshot/1.0"})
+                      with urllib.request.urlopen(req, timeout=90) as r:
+                          return json.load(r)
+                  except Exception as e:  # noqa: BLE001 - retry anything, report at the end
+                      last = e
+                      time.sleep(3 * (attempt + 1))
+              msg = f"{url} -> {last}"
+              if required:
+                  raise SystemExit("FATAL: " + msg)
+              errors.append(msg)
+              return None
+
+
+          def write(rel, obj):
+              path = os.path.join(OUT, rel)
+              os.makedirs(os.path.dirname(path), exist_ok=True)
+              with open(path, "w") as f:
+                  json.dump(obj, f, indent=1, sort_keys=True, ensure_ascii=False)
+                  f.write("\n")
+
+
+          def read(rel):
+              try:
+                  with open(os.path.join(OUT, rel)) as f:
+                      return json.load(f)
+              except (OSError, ValueError):
+                  return None
+
+
+          def normalize_stats(raw):
+              """Sleeper has returned both {pid: {...}} and [{player_id, stats}]; accept either."""
+              if isinstance(raw, dict):
+                  return raw
+              out = {}
+              for row in raw or []:
+                  if isinstance(row, dict) and row.get("player_id"):
+                      out[str(row["player_id"])] = row.get("stats") or row
+              return out
+
+
+          def usage(st):
+              if not st:
+                  return None
+              u = {k: st[k] for k in STAT_FIELDS if st.get(k) not in (None, 0)}
+              if st.get("off_snp") and st.get("tm_off_snp"):
+                  u["snap_pct"] = round(100 * st["off_snp"] / st["tm_off_snp"])
+              return u or None
+
+
+          def main():
+              now = dt.datetime.now(dt.timezone.utc)
+              stamp = now.strftime("%Y-%m-%d_%H%MZ")
+
+              state = get("/state/nfl")
+              season, week = str(state.get("season")), int(state.get("week") or 0)
+              league = get(f"/league/{LEAGUE_ID}")
+              users = get(f"/league/{LEAGUE_ID}/users")
+              rosters = get(f"/league/{LEAGUE_ID}/rosters")
+              expected = int(league.get("total_rosters") or 0)
+              if expected and len(rosters) != expected:
+                  errors.append(f"INCOMPLETE rosters: got {len(rosters)}, league says {expected}")
+
+              txns = {}
+              for w in sorted({max(week - 1, 1), max(week, 1), week + 1}):
+                  for t in get(f"/league/{LEAGUE_ID}/transactions/{w}", required=False) or []:
+                      txns[t["transaction_id"]] = t
+              matchups = {}
+              for w in sorted({max(week - 1, 1), max(week, 1)}):
+                  matchups[str(w)] = get(f"/league/{LEAGUE_ID}/matchups/{w}", required=False)
+
+              players_raw = get("/players/nfl")
+              trending_add = get("/players/nfl/trending/add?lookback_hours=24&limit=40", required=False)
+              trending_drop = get("/players/nfl/trending/drop?lookback_hours=24&limit=40", required=False)
+              season_stats = normalize_stats(get(f"/stats/nfl/regular/{season}", required=False))
+              last_week = week - 1 if week > 1 else None
+              week_stats = normalize_stats(get(f"/stats/nfl/regular/{season}/{last_week}", required=False)) if last_week else {}
+
+              # ---- trim player DB ----
+              rostered = {}
+              for r in rosters:
+                  for pid in (r.get("players") or []):
+                      rostered[str(pid)] = r["roster_id"]
+              players = {}
+              for pid, p in (players_raw or {}).items():
+                  if p.get("position") in FANTASY_POS and (p.get("team") or pid in rostered):
+                      e = {k: p.get(k) for k in PLAYER_FIELDS if p.get(k) not in (None, "", [])}
+                      if pid in season_stats:
+                          e["season"] = usage(season_stats[pid])
+                      if pid in week_stats:
+                          e["last_week"] = usage(week_stats[pid])
+                      players[pid] = e
+
+              def name(pid):
+                  p = players.get(pid) or players_raw.get(pid) or {}
+                  if p.get("position") == "DEF":
+                      return f"{p.get('team') or pid} DEF"
+                  return p.get("full_name") or f"{p.get('first_name', '')} {p.get('last_name', '')}".strip() or f"#{pid}"
+
+              def card(pid):
+                  p = players.get(pid) or {}
+                  c = {"id": pid, "name": name(pid), "pos": p.get("position"), "team": p.get("team")}
+                  if p.get("injury_status"):
+                      c["inj"] = p["injury_status"] + (f" ({p['injury_body_part']})" if p.get("injury_body_part") else "")
+                  if p.get("status") and p["status"] != "Active":
+                      c["status"] = p["status"]
+                  if p.get("season"):
+                      c["season"] = p["season"]
+                  return c
+
+              # ---- summary ----
+              umap = {u["user_id"]: u for u in users}
+              slots = [s for s in league.get("roster_positions", []) if s not in ("BN", "IR", "TAXI")]
+              out_rosters = []
+              for r in sorted(rosters, key=lambda x: x["roster_id"]):
+                  s = r.get("settings") or {}
+                  u = umap.get(r.get("owner_id")) or {}
+                  starters = [str(x) for x in (r.get("starters") or [])]
+                  reserve = [str(x) for x in (r.get("reserve") or [])]
+                  taxi = [str(x) for x in (r.get("taxi") or [])]
+                  allp = [str(x) for x in (r.get("players") or [])]
+                  bench = [p for p in allp if p not in starters and p not in reserve and p not in taxi]
+                  lineup = []
+                  flags = []
+                  for i, pid in enumerate(starters):
+                      slot = slots[i] if i < len(slots) else f"S{i}"
+                      if pid in ("0", "", "None"):
+                          lineup.append({"slot": slot, "empty": True})
+                          flags.append(f"{slot} slot is EMPTY")
+                          continue
+                      c = card(pid)
+                      c["slot"] = slot
+                      lineup.append(c)
+                      st = (players.get(pid) or {}).get("injury_status")
+                      if st:
+                          flags.append(f"{slot} {c['name']} is {c.get('inj', st)}")
+                  out_rosters.append({
+                      "roster_id": r["roster_id"],
+                      "owner": u.get("display_name"),
+                      "owner_id": r.get("owner_id"),
+                      "team_name": (u.get("metadata") or {}).get("team_name"),
+                      "record": f"{s.get('wins', 0)}-{s.get('losses', 0)}" + (f"-{s['ties']}" if s.get("ties") else ""),
+                      "pf": round(s.get("fpts", 0) + s.get("fpts_decimal", 0) / 100, 2),
+                      "pa": round(s.get("fpts_against", 0) + s.get("fpts_against_decimal", 0) / 100, 2),
+                      "waiver_position": s.get("waiver_position"),
+                      "lineup": lineup,
+                      "bench": [card(p) for p in bench],
+                      "ir": [card(p) for p in reserve],
+                      "taxi": [card(p) for p in taxi],
+                      "player_ids": sorted(allp),
+                      "lineup_flags": flags,
+                  })
+              waiver_order = [{"pos": x["waiver_position"], "roster_id": x["roster_id"], "owner": x["owner"]}
+                              for x in sorted(out_rosters, key=lambda x: x["waiver_position"] or 99)]
+              mine = next((x for x in out_rosters if x["roster_id"] == MY_ROSTER_ID), None)
+
+              # opponent this week
+              opponent = None
+              for m in matchups.get(str(max(week, 1))) or []:
+                  if m.get("roster_id") == MY_ROSTER_ID and m.get("matchup_id") is not None:
+                      mid = m["matchup_id"]
+                      opp = next((o for o in matchups[str(max(week, 1))]
+                                  if o.get("matchup_id") == mid and o.get("roster_id") != MY_ROSTER_ID), None)
+                      if opp:
+                          opp_r = next((x for x in out_rosters if x["roster_id"] == opp["roster_id"]), {})
+                          opponent = {"roster_id": opp["roster_id"], "owner": opp_r.get("owner"),
+                                      "my_points": m.get("points"), "their_points": opp.get("points")}
+
+              rmap = {x["roster_id"]: x["owner"] for x in out_rosters}
+              readable_txns = []
+              for t in sorted(txns.values(), key=lambda t: t.get("status_updated") or t.get("created") or 0, reverse=True):
+                  when = t.get("status_updated") or t.get("created")
+                  readable_txns.append({
+                      "id": t["transaction_id"], "type": t.get("type"), "status": t.get("status"),
+                      "week": t.get("leg"),
+                      "when_utc": dt.datetime.fromtimestamp(when / 1000, dt.timezone.utc).strftime("%Y-%m-%d %H:%M") if when else None,
+                      "teams": [rmap.get(x, x) for x in (t.get("roster_ids") or [])],
+                      "adds": {name(str(pid)): rmap.get(rid, rid) for pid, rid in (t.get("adds") or {}).items()},
+                      "drops": {name(str(pid)): rmap.get(rid, rid) for pid, rid in (t.get("drops") or {}).items()},
+                      "waiver_priority_used": (t.get("settings") or {}).get("seq") if t.get("type") == "waiver" else None,
+                  })
+
+              summary = {
+                  "fetched_at": now.isoformat(timespec="seconds"),
+                  "season": season, "week": week, "season_type": state.get("season_type"),
+                  "league": league.get("name"), "my_roster_id": MY_ROSTER_ID,
+                  "my_team": mine, "opponent_this_week": opponent,
+                  "waiver_order": waiver_order, "rosters": out_rosters,
+              }
+
+              # ---- available ----
+              available = {}
+              for pos, lim in AVAILABLE_LIMITS.items():
+                  pool = [pid for pid, p in players.items()
+                          if p.get("position") == pos and p.get("team") and pid not in rostered]
+                  pool.sort(key=lambda pid: players[pid].get("search_rank") or 10 ** 9)
+                  available[pos] = [dict(card(pid), rank=players[pid].get("search_rank"),
+                                         depth=f"{players[pid].get('depth_chart_position') or ''}{players[pid].get('depth_chart_order') or ''}" or None,
+                                         last_week=players[pid].get("last_week"))
+                                    for pid in pool[:lim]]
+              trending = {
+                  "adds": [dict(card(str(x["player_id"])), count=x.get("count"), rostered_by=rmap.get(rostered.get(str(x["player_id"]))))
+                           for x in (trending_add or [])],
+                  "drops": [dict(card(str(x["player_id"])), count=x.get("count"), rostered_by=rmap.get(rostered.get(str(x["player_id"]))))
+                            for x in (trending_drop or [])],
+              }
+
+              # ---- changes vs previous snapshot ----
+              prev = read("latest/summary.json")
+              prev_players = read("latest/players.json") or {}
+              changes = {"since": prev.get("fetched_at") if prev else None, "rosters": [], "waiver_moves": [],
+                         "injury_changes": [], "first_run": prev is None}
+              if prev:
+                  pr = {x["roster_id"]: x for x in prev.get("rosters", [])}
+                  for r in out_rosters:
+                      p = pr.get(r["roster_id"])
+                      if not p:
+                          continue
+                      added = sorted(set(r["player_ids"]) - set(p.get("player_ids", [])))
+                      dropped = sorted(set(p.get("player_ids", [])) - set(r["player_ids"]))
+                      now_ir = {c["id"] for c in r["ir"]} - {c["id"] for c in p.get("ir", [])}
+                      if added or dropped or now_ir:
+                          changes["rosters"].append({"roster_id": r["roster_id"], "owner": r["owner"],
+                                                     "added": [name(x) for x in added], "dropped": [name(x) for x in dropped],
+                                                     "moved_to_ir": [name(x) for x in sorted(now_ir)]})
+                      if p.get("waiver_position") != r["waiver_position"]:
+                          changes["waiver_moves"].append({"owner": r["owner"], "from": p.get("waiver_position"),
+                                                          "to": r["waiver_position"]})
+                  for pid, rid in rostered.items():
+                      old = (prev_players.get(pid) or {}).get("injury_status")
+                      new = (players.get(pid) or {}).get("injury_status")
+                      if old != new:
+                          changes["injury_changes"].append({"player": name(pid), "owner": rmap.get(rid),
+                                                            "mine": rid == MY_ROSTER_ID, "from": old, "to": new,
+                                                            "body_part": (players.get(pid) or {}).get("injury_body_part")})
+                  changes["injury_changes"].sort(key=lambda x: (not x["mine"], x["player"]))
+              changes["my_team_changed"] = any(x["roster_id"] == MY_ROSTER_ID for x in changes["rosters"]) or \
+                  any(x["owner"] == (mine or {}).get("owner") for x in changes["waiver_moves"]) or \
+                  any(x["mine"] for x in changes["injury_changes"])
+
+              meta = {
+                  "fetched_at": now.isoformat(timespec="seconds"), "season": season, "week": week,
+                  "counts": {"rosters": len(rosters), "expected_rosters": expected, "players_trimmed": len(players),
+                             "rostered_players": len(rostered), "transactions": len(txns),
+                             "season_stats": len(season_stats), "last_week_stats": len(week_stats)},
+                  # ok = the core league data is complete; warnings are optional endpoints (stats, trending) that failed
+                  "ok": bool(rosters) and (not expected or len(rosters) == expected) and len(players) > 0,
+                  "warnings": errors,
+              }
+
+              # ---- write ----
+              write("latest/raw/state.json", state)
+              write("latest/raw/league.json", league)
+              write("latest/raw/users.json", users)
+              write("latest/raw/rosters.json", rosters)
+              write("latest/raw/matchups.json", matchups)
+              write("latest/players.json", players)
+              write("latest/summary.json", summary)
+              write("latest/available.json", {"fetched_at": meta["fetched_at"], "note": "Unrostered in this league at fetch time. Sorted by Sleeper search_rank.",
+                                              "by_position": available, "trending_24h": trending})
+              write("latest/transactions.json", readable_txns)
+              write("latest/changes.json", changes)
+              write("latest/meta.json", meta)
+              arch = os.path.join(OUT, "archive", stamp)
+              os.makedirs(arch, exist_ok=True)
+              for f in ("summary.json", "changes.json", "meta.json", "transactions.json"):
+                  shutil.copy(os.path.join(OUT, "latest", f), arch)
+              print(json.dumps(meta, indent=1))
+
+
+          if __name__ == "__main__":
+              main()
+          PY
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "sleeper-snapshot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
