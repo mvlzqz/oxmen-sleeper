@@ -4,9 +4,17 @@ name: Sleeper snapshot
 
 on:
   schedule:
-    - cron: "40 10 * * *"   # daily 6:40 AM ET, ahead of the 8 AM ET daily watch
-    - cron: "20 13 * * 0"   # Sundays 9:20 AM ET, ahead of the 10 AM ET start/sit check
-  workflow_dispatch: {}      # lets you (or Claude, via you) run it on demand from the Actions tab
+    # BACKUP ONLY. GitHub's cron is best-effort: on 9/25 the 10:40 UTC run started at 15:30 UTC.
+    # The primary trigger is an external cron (cron-job.org) calling workflow_dispatch with kind=daily/sunday.
+    - cron: "40 10 * * *"   # daily 6:40 AM ET
+    - cron: "20 13 * * 0"   # Sundays 9:20 AM ET
+  workflow_dispatch:         # Actions-tab button, and the external cron's API call
+    inputs:
+      kind:
+        description: "manual / daily / sunday"
+        required: false
+        default: manual
+        type: string
 
 permissions:
   contents: write
@@ -27,6 +35,9 @@ jobs:
           LEAGUE_ID: "1389391912175153152"
           MY_ROSTER_ID: "10"
           OUT_DIR: data
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          KIND_INPUT: ${{ inputs.kind }}
         run: |
           python3 - <<'PY'
           #!/usr/bin/env python3
@@ -62,6 +73,7 @@ jobs:
           STAT_FIELDS = ["gp", "pts_ppr", "off_snp", "tm_off_snp", "rec_tgt", "rec", "rec_yd", "rec_td",
                          "rush_att", "rush_yd", "rush_td", "pass_att", "pass_yd", "pass_td", "pass_int"]
           BAD_STATUS = {"Out", "IR", "Doubtful", "PUP", "Sus", "NA", "COV", "DNR"}
+          BASELINE_MIN_AGE_H = 20   # changes.json diffs against the newest archived snapshot at least this old
 
           errors = []
 
@@ -120,8 +132,51 @@ jobs:
               return u or None
 
 
+          def run_kind(now):
+              ev = os.environ.get("EVENT_NAME", "")
+              sched = os.environ.get("EVENT_SCHEDULE", "")
+              info = {"event": ev or None}
+              if ev == "schedule":
+                  kind = "sunday" if sched.startswith("20 13") else "daily"
+                  try:  # how late did GitHub start the cron?
+                      m, h = sched.split()[:2]
+                      due = now.replace(hour=int(h), minute=int(m), second=0, microsecond=0)
+                      if due > now:
+                          due -= dt.timedelta(days=1)
+                      info["schedule"] = sched
+                      info["cron_lag_min"] = round((now - due).total_seconds() / 60)
+                  except Exception:  # noqa: BLE001
+                      pass
+              else:
+                  kind = (os.environ.get("KIND_INPUT") or "manual").strip() or "manual"
+              info["kind"] = kind
+              return info
+
+
+          def pick_baseline(now):
+              """Newest archived snapshot >= BASELINE_MIN_AGE_H old, so extra runs in a day never shrink the diff."""
+              adir = os.path.join(OUT, "archive")
+              cands = []
+              for d in sorted(os.listdir(adir)) if os.path.isdir(adir) else []:
+                  m = read(f"archive/{d}/meta.json") or {}
+                  try:
+                      t = dt.datetime.fromisoformat(m["fetched_at"])
+                  except Exception:  # noqa: BLE001
+                      continue
+                  if read(f"archive/{d}/summary.json"):
+                      cands.append((t, d))
+              if not cands:
+                  return None, None
+              cands.sort()
+              cutoff = now - dt.timedelta(hours=BASELINE_MIN_AGE_H)
+              old = [c for c in cands if c[0] <= cutoff]
+              t, d = old[-1] if old else cands[0]
+              return d, read(f"archive/{d}/summary.json")
+
+
           def main():
               now = dt.datetime.now(dt.timezone.utc)
+              trigger = run_kind(now)
               stamp = now.strftime("%Y-%m-%d_%H%MZ")
 
               state = get("/state/nfl")
@@ -265,7 +320,8 @@ jobs:
               for pos, lim in AVAILABLE_LIMITS.items():
                   pool = [pid for pid, p in players.items()
                           if p.get("position") == pos and p.get("team") and pid not in rostered]
-                  pool.sort(key=lambda pid: players[pid].get("search_rank") or 10 ** 9)
+                  pool.sort(key=lambda pid: (players[pid].get("injury_status") in BAD_STATUS,
+                                             players[pid].get("search_rank") or 10 ** 9))
                   available[pos] = [dict(card(pid), rank=players[pid].get("search_rank"),
                                          depth=f"{players[pid].get('depth_chart_position') or ''}{players[pid].get('depth_chart_order') or ''}" or None,
                                          last_week=players[pid].get("last_week"))
@@ -278,9 +334,16 @@ jobs:
               }
 
               # ---- changes vs previous snapshot ----
-              prev = read("latest/summary.json")
-              prev_players = read("latest/players.json") or {}
-              changes = {"since": prev.get("fetched_at") if prev else None, "rosters": [], "waiver_moves": [],
+              base_dir, prev = pick_baseline(now)
+              prev_inj = read(f"archive/{base_dir}/injuries.json") if base_dir else None
+              if prev_inj is None:  # archives made before this version have no injuries.json
+                  prev_inj = {pid: p.get("injury_status") for pid, p in (read("latest/players.json") or {}).items()}
+                  inj_base = "previous latest/players.json (older archive has no injuries.json)"
+              else:
+                  inj_base = base_dir
+              prev_players = {pid: {"injury_status": st} for pid, st in prev_inj.items()}
+              changes = {"since": prev.get("fetched_at") if prev else None, "baseline": base_dir,
+                         "injury_baseline": inj_base, "rosters": [], "waiver_moves": [],
                          "injury_changes": [], "first_run": prev is None}
               if prev:
                   pr = {x["roster_id"]: x for x in prev.get("rosters", [])}
@@ -312,6 +375,7 @@ jobs:
 
               meta = {
                   "fetched_at": now.isoformat(timespec="seconds"), "season": season, "week": week,
+                  "kind": trigger["kind"], "trigger": trigger,
                   "counts": {"rosters": len(rosters), "expected_rosters": expected, "players_trimmed": len(players),
                              "rostered_players": len(rostered), "transactions": len(txns),
                              "season_stats": len(season_stats), "last_week_stats": len(week_stats)},
@@ -328,7 +392,7 @@ jobs:
               write("latest/raw/matchups.json", matchups)
               write("latest/players.json", players)
               write("latest/summary.json", summary)
-              write("latest/available.json", {"fetched_at": meta["fetched_at"], "note": "Unrostered in this league at fetch time. Sorted by Sleeper search_rank.",
+              write("latest/available.json", {"fetched_at": meta["fetched_at"], "note": "Unrostered in this league at fetch time. Healthy first (Out/IR/Doubtful/etc. last), then Sleeper search_rank.",
                                               "by_position": available, "trending_24h": trending})
               write("latest/transactions.json", readable_txns)
               write("latest/changes.json", changes)
@@ -337,6 +401,8 @@ jobs:
               os.makedirs(arch, exist_ok=True)
               for f in ("summary.json", "changes.json", "meta.json", "transactions.json"):
                   shutil.copy(os.path.join(OUT, "latest", f), arch)
+              write(f"archive/{stamp}/injuries.json",
+                    {pid: p.get("injury_status") for pid, p in players.items() if p.get("injury_status")})
               print(json.dumps(meta, indent=1))
 
 
@@ -350,5 +416,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git diff --cached --quiet && exit 0
-          git commit -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ) (${{ inputs.kind || github.event_name }})"
+          git pull --rebase --quiet || true
           git push
