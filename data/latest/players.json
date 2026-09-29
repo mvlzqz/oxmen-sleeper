@@ -2,7 +2,7 @@
  "10210": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Cameron",
   "full_name": "Cameron Latu",
@@ -120,24 +120,10 @@
   "team": "LAR",
   "years_exp": 3
  },
- "10215": {
-  "active": true,
-  "age": 27,
-  "first_name": "Jake",
-  "full_name": "Jake Haener",
-  "last_name": "Haener",
-  "last_week": null,
-  "position": "QB",
-  "search_rank": 655,
-  "season": null,
-  "status": "Active",
-  "team": "NYG",
-  "years_exp": 3
- },
  "10218": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "LWR",
   "first_name": "Xavier",
   "full_name": "Xavier Hutchinson",
@@ -224,24 +210,10 @@
   "team": "IND",
   "years_exp": 3
  },
- "10221": {
-  "active": true,
-  "age": 26,
-  "first_name": "Ronnie",
-  "full_name": "Ronnie Bell",
-  "last_name": "Bell",
-  "last_week": null,
-  "position": "WR",
-  "search_rank": 683,
-  "season": null,
-  "status": "Active",
-  "team": "LV",
-  "years_exp": 3
- },
  "10222": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 6,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Jayden",
   "full_name": "Jayden Reed",
@@ -512,7 +484,7 @@
  "10234": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Derius",
   "full_name": "Derius Davis",
@@ -545,7 +517,8 @@
   "full_name": "Roschon Johnson",
   "last_name": "Johnson",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "tm_off_snp": 72.0
   },
   "position": "RB",
   "search_rank": 681,
@@ -834,7 +807,7 @@
  "11058": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "K",
   "first_name": "Blake",
   "full_name": "Blake Grupe",
@@ -859,7 +832,7 @@
   "search_rank": 608,
   "season": null,
   "status": "Active",
-  "team": "HOU",
+  "team": "CIN",
   "years_exp": 3
  },
  "11113": {
@@ -879,7 +852,7 @@
  "11157": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "RWR",
   "first_name": "Brycen",
   "full_name": "Brycen Tremayne",
@@ -913,7 +886,7 @@
  "11168": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Xavier",
   "full_name": "Xavier Smith",
@@ -954,7 +927,7 @@
  "11199": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 6,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "Emari",
   "full_name": "Emari Demercado",
@@ -1049,12 +1022,14 @@
  "11256": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "QB",
   "first_name": "Tyson",
   "full_name": "Tyson Bagent",
   "last_name": "Bagent",
-  "last_week": null,
+  "last_week": {
+   "tm_off_snp": 72.0
+  },
   "position": "QB",
   "search_rank": 546,
   "season": {
@@ -1135,7 +1110,7 @@
  "11280": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 6,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Brady",
   "full_name": "Brady Russell",
@@ -1219,13 +1194,16 @@
  "11304": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "E.J.",
   "full_name": "E.J. Jenkins",
   "last_name": "Jenkins",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 13.0,
+   "snap_pct": 26,
+   "tm_off_snp": 50.0
   },
   "position": "TE",
   "search_rank": 392,
@@ -1314,7 +1292,7 @@
  "11371": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "TE",
   "first_name": "Julian",
   "full_name": "Julian Hill",
@@ -1332,7 +1310,7 @@
  "11377": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 7,
+  "depth_chart_order": 8,
   "depth_chart_position": "RWR",
   "first_name": "Tyrell",
   "full_name": "Tyrell Shavers",
@@ -1364,7 +1342,7 @@
  "11421": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "RWR",
   "first_name": "Ryan",
   "full_name": "Ryan Miller",
@@ -1714,7 +1692,7 @@
  "11562": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "QB",
   "first_name": "Spencer",
   "full_name": "Spencer Rattler",
@@ -2000,7 +1978,7 @@
  "11576": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "RB",
   "first_name": "Braelon",
   "full_name": "Braelon Allen",
@@ -2046,10 +2024,13 @@
   "last_name": "Shipley",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 13.0,
    "pts_ppr": 2.1,
    "rec": 1.0,
    "rec_tgt": 2.0,
-   "rec_yd": 11.0
+   "rec_yd": 11.0,
+   "snap_pct": 26,
+   "tm_off_snp": 50.0
   },
   "position": "RB",
   "search_rank": 686,
@@ -2263,7 +2244,7 @@
  "11592": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Erick",
   "full_name": "Erick All",
@@ -2327,7 +2308,7 @@
  "11595": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Jared",
   "full_name": "Jared Wiley",
@@ -2344,7 +2325,7 @@
  "11596": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Ben",
   "full_name": "Ben Sinnott",
@@ -2435,7 +2416,7 @@
  "11600": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Ja'Tavion",
   "full_name": "Ja'Tavion Sanders",
@@ -2525,7 +2506,7 @@
  "11608": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "SWR",
   "first_name": "Isaiah",
   "full_name": "Isaiah Williams",
@@ -2693,10 +2674,13 @@
   "last_name": "Odunze",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 61.0,
    "pts_ppr": 7.4,
    "rec": 3.0,
    "rec_tgt": 6.0,
-   "rec_yd": 44.0
+   "rec_yd": 44.0,
+   "snap_pct": 85,
+   "tm_off_snp": 72.0
   },
   "position": "WR",
   "search_rank": 64,
@@ -2717,7 +2701,7 @@
  "11623": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 2,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Jordan",
   "full_name": "Jordan Whittington",
@@ -2782,7 +2766,7 @@
  "11625": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 8,
+  "depth_chart_order": 2,
   "depth_chart_position": "RWR",
   "first_name": "Adonai",
   "full_name": "Adonai Mitchell",
@@ -2808,7 +2792,7 @@
  "11626": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 7,
+  "depth_chart_order": 3,
   "depth_chart_position": "RWR",
   "first_name": "Xavier",
   "full_name": "Xavier Legette",
@@ -2904,7 +2888,7 @@
  "11629": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "RWR",
   "first_name": "Devontez",
   "full_name": "Devontez Walker",
@@ -2971,7 +2955,7 @@
  "11631": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "LWR",
   "first_name": "Brian",
   "full_name": "Brian Thomas",
@@ -3142,7 +3126,7 @@
  "11643": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 5,
+  "depth_chart_order": 2,
   "depth_chart_position": "RB",
   "first_name": "Jaylen",
   "full_name": "Jaylen Wright",
@@ -3285,7 +3269,7 @@
  "11650": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "SWR",
   "first_name": "Luke",
   "full_name": "Luke McCaffrey",
@@ -3340,7 +3324,7 @@
  "11655": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Tyrone",
   "full_name": "Tyrone Tracy",
@@ -3647,7 +3631,7 @@
  "11895": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 8,
+  "depth_chart_order": 9,
   "depth_chart_position": "RWR",
   "first_name": "Mason",
   "full_name": "Mason Tipton",
@@ -3683,7 +3667,7 @@
  "11942": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Colson",
   "full_name": "Colson Yankoff",
@@ -3887,7 +3871,7 @@
  "12113": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 7,
+  "depth_chart_order": 6,
   "depth_chart_position": "TE",
   "first_name": "Thomas",
   "full_name": "Thomas Yassmin",
@@ -4063,7 +4047,7 @@
  "12389": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Hayden",
   "full_name": "Hayden Rucci",
@@ -4484,7 +4468,7 @@
  "12484": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 11,
+  "depth_chart_order": 10,
   "first_name": "Jayden",
   "full_name": "Jayden Higgins",
   "injury_body_part": "Knee - ACL",
@@ -4905,7 +4889,7 @@
  "12498": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 4,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Mason",
   "full_name": "Mason Taylor",
@@ -4931,7 +4915,7 @@
  "12499": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "LWR",
   "first_name": "Elic",
   "full_name": "Elic Ayomanor",
@@ -5238,7 +5222,7 @@
  "12508": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "QB",
   "first_name": "Jaxson",
   "full_name": "Jaxson Dart",
@@ -5434,10 +5418,13 @@
   "last_name": "Loveland",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 57.0,
    "pts_ppr": 7.1,
    "rec": 4.0,
    "rec_tgt": 4.0,
-   "rec_yd": 31.0
+   "rec_yd": 31.0,
+   "snap_pct": 79,
+   "tm_off_snp": 72.0
   },
   "position": "TE",
   "search_rank": 36,
@@ -5504,13 +5491,16 @@
   "last_name": "Burden",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 44.0,
    "pts_ppr": 19.8,
    "rec": 7.0,
    "rec_td": 1.0,
    "rec_tgt": 11.0,
    "rec_yd": 61.0,
    "rush_att": 1.0,
-   "rush_yd": 7.0
+   "rush_yd": 7.0,
+   "snap_pct": 61,
+   "tm_off_snp": 72.0
   },
   "position": "WR",
   "search_rank": 40,
@@ -5841,9 +5831,12 @@
   "last_name": "Monangai",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 22.0,
    "pts_ppr": 3.1,
    "rush_att": 10.0,
-   "rush_yd": 31.0
+   "rush_yd": 31.0,
+   "snap_pct": 31,
+   "tm_off_snp": 72.0
   },
   "position": "RB",
   "search_rank": 61,
@@ -5901,7 +5894,7 @@
  "12536": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Jaylin",
   "full_name": "Jaylin Noel",
@@ -5956,7 +5949,7 @@
  "12539": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 10,
+  "depth_chart_order": 9,
   "first_name": "Arian",
   "full_name": "Arian Smith",
   "injury_body_part": "Knee",
@@ -6216,7 +6209,7 @@
  "12634": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "RWR",
   "first_name": "Jordan",
   "full_name": "Jordan Watkins",
@@ -6250,7 +6243,7 @@
  "12641": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 6,
+  "depth_chart_order": 7,
   "depth_chart_position": "SWR",
   "first_name": "Jaylin",
   "full_name": "Jaylin Lane",
@@ -6330,7 +6323,7 @@
  "12670": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 8,
+  "depth_chart_order": 9,
   "depth_chart_position": "LWR",
   "first_name": "KeAndre",
   "full_name": "KeAndre Lambert-Smith",
@@ -6381,7 +6374,7 @@
  "12700": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Gavin",
   "full_name": "Gavin Bartholomew",
@@ -6543,7 +6536,7 @@
  "12735": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "TE",
   "first_name": "Caleb",
   "full_name": "Caleb Lohner",
@@ -6932,7 +6925,7 @@
  "12925": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 9,
+  "depth_chart_order": 8,
   "depth_chart_position": "SWR",
   "first_name": "Jamaal",
   "full_name": "Jamaal Pritchett",
@@ -7137,7 +7130,7 @@
  "13013": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 4,
+  "depth_chart_order": 7,
   "depth_chart_position": "TE",
   "first_name": "Mark",
   "full_name": "Mark Redman",
@@ -7253,7 +7246,10 @@
   "full_name": "Jahdae Walker",
   "last_name": "Walker",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 4.0,
+   "snap_pct": 6,
+   "tm_off_snp": 72.0
   },
   "position": "WR",
   "search_rank": 664,
@@ -7362,7 +7358,10 @@
   "full_name": "Darius Cooper",
   "last_name": "Cooper",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 5.0,
+   "snap_pct": 10,
+   "tm_off_snp": 50.0
   },
   "position": "WR",
   "search_rank": 658,
@@ -7502,7 +7501,7 @@
  "13264": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "RWR",
   "first_name": "Dohnte",
   "full_name": "Dohnte Meyers",
@@ -7538,7 +7537,7 @@
  "13268": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 7,
+  "depth_chart_order": 6,
   "depth_chart_position": "LWR",
   "first_name": "Elijah",
   "full_name": "Elijah Sarratt",
@@ -7577,7 +7576,7 @@
  "13270": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 9,
+  "depth_chart_order": 7,
   "depth_chart_position": "LWR",
   "first_name": "CJ",
   "full_name": "CJ Daniels",
@@ -7701,7 +7700,7 @@
  "13276": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 11,
+  "depth_chart_order": 10,
   "depth_chart_position": "SWR",
   "first_name": "Omar",
   "full_name": "Omar Cooper",
@@ -7839,7 +7838,7 @@
  "13282": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Jack",
   "full_name": "Jack Endries",
@@ -8067,10 +8066,13 @@
   "last_name": "Lemon",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 35.0,
    "pts_ppr": 5.9,
    "rec": 3.0,
    "rec_tgt": 4.0,
-   "rec_yd": 29.0
+   "rec_yd": 29.0,
+   "snap_pct": 70,
+   "tm_off_snp": 50.0
   },
   "position": "WR",
   "search_rank": 91,
@@ -8110,7 +8112,7 @@
  "13296": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 9,
+  "depth_chart_order": 2,
   "depth_chart_position": "RWR",
   "first_name": "Caleb",
   "full_name": "Caleb Douglas",
@@ -8136,7 +8138,7 @@
  "13297": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 7,
+  "depth_chart_order": 5,
   "depth_chart_position": "LWR",
   "first_name": "Reggie",
   "full_name": "Reggie Virgil",
@@ -8418,7 +8420,7 @@
  "13311": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "LWR",
   "first_name": "Chris",
   "full_name": "Chris Bell",
@@ -8649,10 +8651,13 @@
   "last_name": "Roush",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 16.0,
    "pts_ppr": 2.6,
    "rec": 1.0,
    "rec_tgt": 1.0,
-   "rec_yd": 16.0
+   "rec_yd": 16.0,
+   "snap_pct": 22,
+   "tm_off_snp": 72.0
   },
   "position": "TE",
   "search_rank": 630,
@@ -8673,7 +8678,7 @@
  "13324": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Matt",
   "full_name": "Matt Hibner",
@@ -8795,7 +8800,7 @@
  "13333": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 6,
   "depth_chart_position": "SWR",
   "first_name": "Deion",
   "full_name": "Deion Burks",
@@ -8890,7 +8895,7 @@
  "13338": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 3,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Kevin",
   "full_name": "Kevin Coleman",
@@ -9036,7 +9041,7 @@
  "13347": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RB",
   "first_name": "Demond",
   "full_name": "Demond Claiborne",
@@ -9169,7 +9174,7 @@
  "13380": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 9,
+  "depth_chart_order": 4,
   "depth_chart_position": "RWR",
   "first_name": "Brenen",
   "full_name": "Brenen Thompson",
@@ -9195,17 +9200,20 @@
  "1339": {
   "active": true,
   "age": 35,
-  "depth_chart_order": 3,
+  "depth_chart_order": 1,
   "depth_chart_position": "TE",
   "first_name": "Zach",
   "full_name": "Zach Ertz",
   "last_name": "Ertz",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 19.0,
    "pts_ppr": 1.9,
    "rec": 1.0,
    "rec_tgt": 2.0,
-   "rec_yd": 9.0
+   "rec_yd": 9.0,
+   "snap_pct": 38,
+   "tm_off_snp": 50.0
   },
   "position": "TE",
   "search_rank": 646,
@@ -9241,7 +9249,7 @@
  "13394": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "RWR",
   "first_name": "Josh",
   "full_name": "Josh Cameron",
@@ -9277,7 +9285,7 @@
  "13400": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Justin",
   "full_name": "Justin Joly",
@@ -9313,7 +9321,7 @@
  "13402": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 9,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Skyler",
   "full_name": "Skyler Bell",
@@ -9427,10 +9435,13 @@
   "last_name": "Thomas",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 8.0,
    "pts_ppr": 1.1,
    "rec": 1.0,
    "rec_tgt": 1.0,
-   "rec_yd": 1.0
+   "rec_yd": 1.0,
+   "snap_pct": 11,
+   "tm_off_snp": 72.0
   },
   "position": "WR",
   "search_rank": 377,
@@ -9645,7 +9656,7 @@
  "13421": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 5,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Eli",
   "full_name": "Eli Raridon",
@@ -9690,7 +9701,7 @@
  "13423": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 6,
+  "depth_chart_order": 5,
   "depth_chart_position": "RB",
   "first_name": "Eli",
   "full_name": "Eli Heidenreich",
@@ -9746,7 +9757,7 @@
  "13425": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "QB",
   "first_name": "Jalon",
   "full_name": "Jalon Daniels",
@@ -9796,7 +9807,7 @@
  "13429": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Seydou",
   "full_name": "Seydou Traore",
@@ -9845,7 +9856,7 @@
  "13433": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "Riley",
   "full_name": "Riley Nowakowski",
@@ -9967,7 +9978,7 @@
  "13477": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "LWR",
   "first_name": "Colbie",
   "full_name": "Colbie Young",
@@ -10051,7 +10062,7 @@
  "13533": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 9,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Barion",
   "full_name": "Barion Brown",
@@ -10168,7 +10179,7 @@
  "13577": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 6,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Dallen",
   "full_name": "Dallen Bentley",
@@ -10513,7 +10524,7 @@
  "13770": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "LWR",
   "first_name": "J. Michael",
   "full_name": "J. Michael Sturdivant",
@@ -10588,7 +10599,7 @@
  "13825": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 11,
   "depth_chart_position": "RWR",
   "first_name": "Malik",
   "full_name": "Malik McClain",
@@ -11052,20 +11063,23 @@
  "1737": {
   "active": true,
   "age": 38,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "QB",
   "first_name": "Case",
   "full_name": "Case Keenum",
   "last_name": "Keenum",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 72.0,
    "pass_att": 34.0,
    "pass_td": 2.0,
    "pass_yd": 247.0,
    "pts_ppr": 24.48,
    "rush_att": 4.0,
    "rush_td": 1.0,
-   "rush_yd": 6.0
+   "rush_yd": 6.0,
+   "snap_pct": 100,
+   "tm_off_snp": 72.0
   },
   "position": "QB",
   "search_rank": 550,
@@ -11165,7 +11179,8 @@
   "last_name": "Santos",
   "last_week": {
    "gp": 1.0,
-   "pts_ppr": 10.0
+   "pts_ppr": 10.0,
+   "tm_off_snp": 72.0
   },
   "position": "K",
   "search_rank": 190,
@@ -11222,7 +11237,7 @@
  "2133": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "LWR",
   "first_name": "Davante",
   "full_name": "Davante Adams",
@@ -11581,7 +11596,7 @@
  "3155": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Laquon",
   "full_name": "Laquon Treadwell",
@@ -11891,7 +11906,7 @@
  "3269": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "RWR",
   "first_name": "Chris",
   "full_name": "Chris Moore",
@@ -12087,11 +12102,14 @@
   "last_name": "Raymond",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 54.0,
    "pts_ppr": 21.0,
    "rec": 6.0,
    "rec_td": 1.0,
    "rec_tgt": 7.0,
-   "rec_yd": 90.0
+   "rec_yd": 90.0,
+   "snap_pct": 75,
+   "tm_off_snp": 72.0
   },
   "position": "WR",
   "search_rank": 645,
@@ -12234,7 +12252,7 @@
  "4033": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "David",
   "full_name": "David Njoku",
@@ -12301,7 +12319,7 @@
  "4035": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "RB",
   "first_name": "Alvin",
   "full_name": "Alvin Kamara",
@@ -12705,7 +12723,8 @@
   "last_name": "Elliott",
   "last_week": {
    "gp": 1.0,
-   "pts_ppr": 1.0
+   "pts_ppr": 1.0,
+   "tm_off_snp": 50.0
   },
   "position": "K",
   "search_rank": 215,
@@ -12917,17 +12936,20 @@
  "4314": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Johnny",
   "full_name": "Johnny Mundt",
   "last_name": "Mundt",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 26.0,
    "pts_ppr": 1.4,
    "rec": 1.0,
    "rec_tgt": 1.0,
-   "rec_yd": 4.0
+   "rec_yd": 4.0,
+   "snap_pct": 52,
+   "tm_off_snp": 50.0
   },
   "position": "TE",
   "search_rank": 699,
@@ -13187,12 +13209,15 @@
   "last_name": "Barkley",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 36.0,
    "pts_ppr": 9.0,
    "rec": 1.0,
    "rec_tgt": 2.0,
    "rec_yd": -2.0,
    "rush_att": 15.0,
-   "rush_yd": 82.0
+   "rush_yd": 82.0,
+   "snap_pct": 72,
+   "tm_off_snp": 50.0
   },
   "position": "RB",
   "search_rank": 11,
@@ -13255,7 +13280,7 @@
  "4892": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "QB",
   "first_name": "Baker",
   "full_name": "Baker Mayfield",
@@ -13472,7 +13497,7 @@
  "4981": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "RWR",
   "first_name": "Calvin",
   "full_name": "Calvin Ridley",
@@ -13702,7 +13727,7 @@
  "5008": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Durham",
   "full_name": "Durham Smythe",
@@ -13830,7 +13855,7 @@
  "5086": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "LWR",
   "first_name": "Marquez",
   "full_name": "Marquez Valdes-Scantling",
@@ -14102,7 +14127,7 @@
  "5773": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "LWR",
   "first_name": "KhaDarel",
   "full_name": "KhaDarel Hodge",
@@ -14586,7 +14611,7 @@
  "5938": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "LWR",
   "first_name": "Lil'Jordan",
   "full_name": "Lil'Jordan Humphrey",
@@ -14609,7 +14634,7 @@
  "5947": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RWR",
   "first_name": "Jakobi",
   "full_name": "Jakobi Meyers",
@@ -14698,7 +14723,7 @@
  "5970": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 6,
+  "depth_chart_order": 7,
   "depth_chart_position": "RWR",
   "first_name": "Greg",
   "full_name": "Greg Dortch",
@@ -14724,7 +14749,7 @@
  "5973": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Josh",
   "full_name": "Josh Oliver",
@@ -14828,7 +14853,7 @@
  "6001": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Drew",
   "full_name": "Drew Sample",
@@ -14881,7 +14906,7 @@
  "6012": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 2,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Travis",
   "full_name": "Travis Homer",
@@ -14998,7 +15023,7 @@
  "6130": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 5,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "Devin",
   "full_name": "Devin Singletary",
@@ -15060,7 +15085,7 @@
  "6149": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 6,
+  "depth_chart_order": 3,
   "depth_chart_position": "RWR",
   "first_name": "Darius",
   "full_name": "Darius Slayton",
@@ -15209,7 +15234,7 @@
  "6427": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 7,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Ashton",
   "full_name": "Ashton Dulin",
@@ -15246,7 +15271,7 @@
  "6453": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 8,
+  "depth_chart_order": 7,
   "first_name": "D.J.",
   "full_name": "D.J. Montgomery",
   "injury_body_part": "Abdomen",
@@ -15355,7 +15380,7 @@
  "6588": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RWR",
   "first_name": "Tom",
   "full_name": "Tom Kennedy",
@@ -15580,12 +15605,15 @@
   "last_name": "Swift",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 50.0,
    "pts_ppr": 10.8,
    "rec": 2.0,
    "rec_tgt": 3.0,
    "rec_yd": 4.0,
    "rush_att": 20.0,
-   "rush_yd": 84.0
+   "rush_yd": 84.0,
+   "snap_pct": 69,
+   "tm_off_snp": 72.0
   },
   "position": "RB",
   "search_rank": 45,
@@ -15914,7 +15942,10 @@
   "last_name": "Kmet",
   "last_week": {
    "gp": 1.0,
-   "rec_tgt": 1.0
+   "off_snp": 43.0,
+   "rec_tgt": 1.0,
+   "snap_pct": 60,
+   "tm_off_snp": 72.0
   },
   "position": "TE",
   "search_rank": 488,
@@ -15974,7 +16005,7 @@
  "6847": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "SWR",
   "first_name": "Devin",
   "full_name": "Devin Duvernay",
@@ -16093,13 +16124,16 @@
   "last_name": "Hurts",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 46.0,
    "pass_att": 25.0,
    "pass_int": 1.0,
    "pass_yd": 153.0,
    "pts_ppr": 13.62,
    "rush_att": 4.0,
    "rush_td": 1.0,
-   "rush_yd": 25.0
+   "rush_yd": 25.0,
+   "snap_pct": 92,
+   "tm_off_snp": 50.0
   },
   "position": "QB",
   "search_rank": 27,
@@ -16152,7 +16186,7 @@
  "6931": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "DeeJay",
   "full_name": "DeeJay Dallas",
@@ -16250,7 +16284,7 @@
  "7021": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 5,
+  "depth_chart_order": 2,
   "depth_chart_position": "RB",
   "first_name": "Rico",
   "full_name": "Rico Dowdle",
@@ -16694,10 +16728,13 @@
   "last_name": "Smith",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 50.0,
    "pts_ppr": 12.5,
    "rec": 6.0,
    "rec_tgt": 8.0,
-   "rec_yd": 65.0
+   "rec_yd": 65.0,
+   "snap_pct": 100,
+   "tm_off_snp": 50.0
   },
   "position": "WR",
   "search_rank": 33,
@@ -16815,7 +16852,7 @@
  "7531": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "TE",
   "first_name": "Feleipe",
   "full_name": "Feleipe Franks",
@@ -16917,7 +16954,7 @@
  "7538": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "QB",
   "first_name": "Zach",
   "full_name": "Zach Wilson",
@@ -16934,7 +16971,7 @@
  "7543": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 1,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "Travis",
   "full_name": "Travis Etienne",
@@ -17178,7 +17215,7 @@
  "7569": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 6,
+  "depth_chart_order": 1,
   "depth_chart_position": "LWR",
   "first_name": "Nico",
   "full_name": "Nico Collins",
@@ -17280,7 +17317,7 @@
  "7587": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RWR",
   "first_name": "Dyami",
   "full_name": "Dyami Brown",
@@ -17468,7 +17505,10 @@
   "full_name": "Elijah Moore",
   "last_name": "Moore",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 6.0,
+   "snap_pct": 12,
+   "tm_off_snp": 50.0
   },
   "position": "WR",
   "search_rank": 641,
@@ -17704,7 +17744,7 @@
  "7716": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "John",
   "full_name": "John Bates",
@@ -17805,7 +17845,7 @@
  "7812": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 6,
+  "depth_chart_order": 7,
   "depth_chart_position": "RWR",
   "first_name": "Simi",
   "full_name": "Simi Fehoko",
@@ -18399,7 +18439,7 @@
  "8127": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Charlie",
   "full_name": "Charlie Kolar",
@@ -18581,7 +18621,7 @@
  "8135": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 7,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Treylon",
   "full_name": "Treylon Burks",
@@ -18821,7 +18861,7 @@
  "8145": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Jeremy",
   "full_name": "Jeremy Ruckert",
@@ -18893,7 +18933,7 @@
  "8147": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "LWR",
   "first_name": "John",
   "full_name": "John Metchie",
@@ -19082,7 +19122,7 @@
  "8155": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "RB",
   "first_name": "Breece",
   "full_name": "Breece Hall",
@@ -19483,7 +19523,7 @@
  "8195": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "Ronnie",
   "full_name": "Ronnie Rivers",
@@ -19540,7 +19580,7 @@
  "8204": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RWR",
   "first_name": "Bo",
   "full_name": "Bo Melton",
@@ -19683,7 +19723,7 @@
  "8210": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
+  "depth_chart_order": 1,
   "depth_chart_position": "TE",
   "first_name": "Chig",
   "full_name": "Chig Okonkwo",
@@ -19727,7 +19767,7 @@
  "8219": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Jelani",
   "full_name": "Jelani Woods",
@@ -19913,7 +19953,7 @@
  "8250": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "LWR",
   "first_name": "Tay",
   "full_name": "Tay Martin",
@@ -20026,9 +20066,12 @@
   "last_name": "Dalton",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 4.0,
    "pass_att": 1.0,
    "pass_int": 1.0,
-   "pts_ppr": -1.0
+   "pts_ppr": -1.0,
+   "snap_pct": 8,
+   "tm_off_snp": 50.0
   },
   "position": "QB",
   "search_rank": 657,
@@ -20080,7 +20123,8 @@
   "full_name": "Britain Covey",
   "last_name": "Covey",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "tm_off_snp": 50.0
   },
   "position": "WR",
   "search_rank": 596,
@@ -20192,7 +20236,7 @@
  "8527": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 6,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Dareke",
   "full_name": "Dareke Young",
@@ -20343,7 +20387,7 @@
  "8800": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RB",
   "first_name": "Malik",
   "full_name": "Malik Davis",
@@ -20550,10 +20594,13 @@
   "last_name": "Bigsby",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 2.0,
    "pts_ppr": -0.5,
    "rec": 1.0,
    "rec_tgt": 1.0,
-   "rec_yd": 5.0
+   "rec_yd": 5.0,
+   "snap_pct": 4,
+   "tm_off_snp": 50.0
   },
   "position": "RB",
   "search_rank": 147,
@@ -20577,7 +20624,7 @@
  "9226": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "De'Von",
   "full_name": "De'Von Achane",
@@ -20775,7 +20822,7 @@
  "9481": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Luke",
   "full_name": "Luke Musgrave",
@@ -20870,10 +20917,13 @@
   "last_name": "Wicks",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 44.0,
    "pts_ppr": 5.2,
    "rec": 2.0,
    "rec_tgt": 5.0,
-   "rec_yd": 32.0
+   "rec_yd": 32.0,
+   "snap_pct": 88,
+   "tm_off_snp": 50.0
   },
   "position": "WR",
   "search_rank": 207,
@@ -21015,7 +21065,7 @@
  "9493": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 7,
+  "depth_chart_order": 1,
   "depth_chart_position": "RWR",
   "first_name": "Puka",
   "full_name": "Puka Nacua",
@@ -21042,7 +21092,7 @@
  "9494": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 7,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Marvin",
   "full_name": "Marvin Mims",
@@ -21146,7 +21196,7 @@
  "9502": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 7,
+  "depth_chart_order": 6,
   "depth_chart_position": "SWR",
   "first_name": "Tank",
   "full_name": "Tank Dell",
@@ -21165,7 +21215,7 @@
  "9504": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "RWR",
   "first_name": "Kayshon",
   "full_name": "Kayshon Boutte",
@@ -21409,7 +21459,7 @@
  "9753": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RB",
   "first_name": "Zach",
   "full_name": "Zach Charbonnet",
@@ -21500,7 +21550,7 @@
  "9757": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RB",
   "first_name": "Kendre",
   "full_name": "Kendre Miller",
