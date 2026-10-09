@@ -964,27 +964,6 @@
   "team": "MIA",
   "years_exp": 3
  },
- "11199": {
-  "active": true,
-  "age": 27,
-  "first_name": "Emari",
-  "full_name": "Emari Demercado",
-  "last_name": "Demercado",
-  "position": "RB",
-  "search_rank": 502,
-  "season": {
-   "gp": 2.0,
-   "off_snp": 14.0,
-   "pts_ppr": 1.5,
-   "rush_att": 5.0,
-   "rush_yd": 15.0,
-   "snap_pct": 12,
-   "tm_off_snp": 113.0
-  },
-  "status": "Active",
-  "team": "DAL",
-  "years_exp": 3
- },
  "11201": {
   "active": true,
   "age": 26,
@@ -2847,7 +2826,7 @@
   "first_name": "Adonai",
   "full_name": "Adonai Mitchell",
   "injury_body_part": "Finger",
-  "injury_status": "Doubtful",
+  "injury_status": "Out",
   "last_name": "Mitchell",
   "position": "WR",
   "search_rank": 162,
@@ -5895,8 +5874,9 @@
   "depth_chart_position": "RB",
   "first_name": "Kyle",
   "full_name": "Kyle Monangai",
-  "injury_body_part": "Thumb",
-  "injury_status": "Questionable",
+  "injury_body_part": "Toe",
+  "injury_notes": "Sprain",
+  "injury_status": "Out",
   "last_name": "Monangai",
   "last_week": {
    "gp": 1.0,
@@ -7914,8 +7894,6 @@
   "depth_chart_position": "LWR",
   "first_name": "Carnell",
   "full_name": "Carnell Tate",
-  "injury_body_part": "Back",
-  "injury_status": "Questionable",
   "last_name": "Tate",
   "last_week": {
    "gp": 1.0,
@@ -9479,36 +9457,6 @@
   "season": null,
   "status": "Active",
   "team": "KC",
-  "years_exp": 0
- },
- "13405": {
-  "active": true,
-  "age": 23,
-  "first_name": "Kaytron",
-  "full_name": "Kaytron Allen",
-  "last_name": "Allen",
-  "last_week": {
-   "gp": 1.0,
-   "off_snp": 12.0,
-   "pts_ppr": 0.1,
-   "rush_att": 3.0,
-   "rush_yd": 1.0,
-   "snap_pct": 19,
-   "tm_off_snp": 64.0
-  },
-  "position": "RB",
-  "search_rank": 157,
-  "season": {
-   "gp": 4.0,
-   "off_snp": 25.0,
-   "pts_ppr": 4.1,
-   "rush_att": 12.0,
-   "rush_yd": 41.0,
-   "snap_pct": 9,
-   "tm_off_snp": 274.0
-  },
-  "status": "Active",
-  "team": "WAS",
   "years_exp": 0
  },
  "13407": {
@@ -13828,22 +13776,6 @@
   },
   "status": "Active",
   "team": "BUF",
-  "years_exp": 8
- },
- "4992": {
-  "active": true,
-  "age": 30,
-  "first_name": "Dante",
-  "full_name": "Dante Pettis",
-  "injury_body_part": "Calf",
-  "injury_status": "Questionable",
-  "last_name": "Pettis",
-  "last_week": null,
-  "position": "WR",
-  "search_rank": 524,
-  "season": null,
-  "status": "Active",
-  "team": "SF",
   "years_exp": 8
  },
  "4993": {
@@ -19507,7 +19439,7 @@
   "first_name": "Breece",
   "full_name": "Breece Hall",
   "injury_body_part": "Quadriceps",
-  "injury_status": "Doubtful",
+  "injury_status": "Out",
   "last_name": "Hall",
   "position": "RB",
   "search_rank": 27,
