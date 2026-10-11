@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-11T10:40:14+00:00",
+ "fetched_at": "2026-10-11T16:24:19+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -603,24 +603,6 @@
      "team": "LV"
     },
     {
-     "id": "13298",
-     "name": "KC Concepcion",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 192.0,
-      "pts_ppr": 30.3,
-      "rec": 17.0,
-      "rec_tgt": 28.0,
-      "rec_yd": 144.0,
-      "rush_att": 4.0,
-      "rush_yd": 9.0,
-      "snap_pct": 79,
-      "tm_off_snp": 243.0
-     },
-     "team": "CLE"
-    },
-    {
      "id": "3214",
      "name": "Hunter Henry",
      "pos": "TE",
@@ -635,6 +617,23 @@
       "tm_off_snp": 265.0
      },
      "team": "NE"
+    },
+    {
+     "id": "5927",
+     "name": "Terry McLaurin",
+     "pos": "WR",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 163.0,
+      "pts_ppr": 30.1,
+      "rec": 10.0,
+      "rec_td": 1.0,
+      "rec_tgt": 22.0,
+      "rec_yd": 141.0,
+      "snap_pct": 78,
+      "tm_off_snp": 210.0
+     },
+     "team": "WAS"
     }
    ],
    "ir": [],
@@ -724,23 +723,23 @@
      "team": "DAL"
     },
     {
-     "id": "5927",
-     "inj": "Questionable (Hamstring)",
-     "name": "Terry McLaurin",
+     "id": "13298",
+     "name": "KC Concepcion",
      "pos": "WR",
      "season": {
-      "gp": 3.0,
-      "off_snp": 163.0,
-      "pts_ppr": 30.1,
-      "rec": 10.0,
-      "rec_td": 1.0,
-      "rec_tgt": 22.0,
-      "rec_yd": 141.0,
-      "snap_pct": 78,
-      "tm_off_snp": 210.0
+      "gp": 4.0,
+      "off_snp": 192.0,
+      "pts_ppr": 30.3,
+      "rec": 17.0,
+      "rec_tgt": 28.0,
+      "rec_yd": 144.0,
+      "rush_att": 4.0,
+      "rush_yd": 9.0,
+      "snap_pct": 79,
+      "tm_off_snp": 243.0
      },
      "slot": "WR",
-     "team": "WAS"
+     "team": "CLE"
     },
     {
      "id": "10859",
@@ -805,8 +804,7 @@
     }
    ],
    "lineup_flags": [
-    "WR CeeDee Lamb is Questionable (Quadriceps)",
-    "WR Terry McLaurin is Questionable (Hamstring)"
+    "WR CeeDee Lamb is Questionable (Quadriceps)"
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
@@ -1170,7 +1168,7 @@
     },
     {
      "id": "7021",
-     "inj": "Questionable (Toe)",
+     "inj": "Out (Toe)",
      "name": "Rico Dowdle",
      "pos": "RB",
      "season": {
@@ -1616,7 +1614,6 @@
     },
     {
      "id": "7611",
-     "inj": "Questionable (Undisclosed)",
      "name": "Rhamondre Stevenson",
      "pos": "RB",
      "season": {
@@ -1659,9 +1656,7 @@
      "team": "BAL"
     }
    ],
-   "lineup_flags": [
-    "FLEX Rhamondre Stevenson is Questionable (Undisclosed)"
-   ],
+   "lineup_flags": [],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
    "pa": 484.6,
@@ -2099,7 +2094,6 @@
     },
     {
      "id": "12527",
-     "inj": "Questionable (Ankle)",
      "name": "Ashton Jeanty",
      "pos": "RB",
      "season": {
@@ -2140,7 +2134,6 @@
     },
     {
      "id": "6794",
-     "inj": "Questionable (Ankle)",
      "name": "Justin Jefferson",
      "pos": "WR",
      "season": {
@@ -2235,10 +2228,7 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [
-    "RB Ashton Jeanty is Questionable (Ankle)",
-    "WR Justin Jefferson is Questionable (Ankle)"
-   ],
+   "lineup_flags": [],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
    "pa": 408.86,
@@ -3143,7 +3133,6 @@
     },
     {
      "id": "1479",
-     "inj": "Questionable (Groin)",
      "name": "Keenan Allen",
      "pos": "WR",
      "season": {
@@ -3304,7 +3293,6 @@
     },
     {
      "id": "7564",
-     "inj": "Questionable (Concussion)",
      "name": "Ja'Marr Chase",
      "pos": "WR",
      "season": {
@@ -3323,7 +3311,6 @@
     },
     {
      "id": "6801",
-     "inj": "Questionable (Groin)",
      "name": "Tee Higgins",
      "pos": "WR",
      "season": {
@@ -3360,7 +3347,7 @@
     },
     {
      "id": "9756",
-     "inj": "Questionable (Hamstring)",
+     "inj": "Out (Hamstring)",
      "name": "Jordan Addison",
      "pos": "WR",
      "season": {
@@ -3404,9 +3391,7 @@
     }
    ],
    "lineup_flags": [
-    "WR Ja'Marr Chase is Questionable (Concussion)",
-    "WR Tee Higgins is Questionable (Groin)",
-    "FLEX Jordan Addison is Questionable (Hamstring)"
+    "FLEX Jordan Addison is Out (Hamstring)"
    ],
    "owner": "erictheleghel",
    "owner_id": "730759755336929280",
@@ -3576,6 +3561,7 @@
     },
     {
      "id": "11577",
+     "inj": "Out (Foot)",
      "name": "Will Shipley",
      "pos": "RB",
      "season": {
@@ -3715,7 +3701,9 @@
      "team": "MIN"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "RB Will Shipley is Out (Foot)"
+   ],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
    "pa": 454.2,
@@ -3767,7 +3755,7 @@
     },
     {
      "id": "11560",
-     "inj": "Questionable (Hamstring)",
+     "inj": "Out (Hamstring)",
      "name": "Caleb Williams",
      "pos": "QB",
      "season": {
@@ -4071,7 +4059,6 @@
     },
     {
      "id": "4035",
-     "inj": "Questionable (Back)",
      "name": "Alvin Kamara",
      "pos": "RB",
      "season": {
@@ -4232,7 +4219,6 @@
     },
     {
      "id": "13279",
-     "inj": "Questionable (Back)",
      "name": "Carnell Tate",
      "pos": "WR",
      "season": {
@@ -4314,7 +4300,6 @@
     }
    ],
    "lineup_flags": [
-    "WR Carnell Tate is Questionable (Back)",
     "FLEX Zay Flowers is Questionable (Hamstring)"
    ],
    "owner": "chopkins30",

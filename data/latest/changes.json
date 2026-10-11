@@ -1,8 +1,40 @@
 {
- "baseline": "2026-10-10_1040Z",
+ "baseline": "2026-10-10_1556Z",
  "first_run": false,
- "injury_baseline": "2026-10-10_1040Z",
+ "injury_baseline": "2026-10-10_1556Z",
  "injury_changes": [
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Alvin Kamara",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "dleach16",
+   "player": "Ashton Jeanty",
+   "to": null
+  },
+  {
+   "body_part": "Hamstring",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Caleb Williams",
+   "to": "Out"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Carnell Tate",
+   "to": null
+  },
   {
    "body_part": "Ankle",
    "from": "Out",
@@ -12,27 +44,80 @@
    "to": "IR"
   },
   {
-   "body_part": "Coach's Decision",
-   "from": null,
+   "body_part": null,
+   "from": "Questionable",
    "mine": false,
    "owner": "erictheleghel",
-   "player": "Marvin Harrison",
+   "player": "Ja'Marr Chase",
+   "to": null
+  },
+  {
+   "body_part": "Hamstring",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "erictheleghel",
+   "player": "Jordan Addison",
+   "to": "Out"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "dleach16",
+   "player": "Justin Jefferson",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "erictheleghel",
+   "player": "Keenan Allen",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Rhamondre Stevenson",
+   "to": null
+  },
+  {
+   "body_part": "Toe",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "kitano",
+   "player": "Rico Dowdle",
+   "to": "Out"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "erictheleghel",
+   "player": "Tee Higgins",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "nusskyle",
+   "player": "Terry McLaurin",
+   "to": null
+  },
+  {
+   "body_part": "Foot",
+   "from": null,
+   "mine": false,
+   "owner": "wmont",
+   "player": "Will Shipley",
    "to": "Out"
   }
  ],
  "my_team_changed": false,
  "rosters": [
-  {
-   "added": [],
-   "dropped": [
-    "De'Zhaun Stribling"
-   ],
-   "moved_to_ir": [
-    "Kyle Monangai"
-   ],
-   "owner": "dleach16",
-   "roster_id": 7
-  },
   {
    "added": [
     "Dameon Pierce"
@@ -58,6 +143,6 @@
    "roster_id": 11
   }
  ],
- "since": "2026-10-10T10:40:12+00:00",
+ "since": "2026-10-10T15:56:38+00:00",
  "waiver_moves": []
 }
