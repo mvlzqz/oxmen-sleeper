@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-10T15:56:38+00:00",
+ "fetched_at": "2026-10-11T10:40:14+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -2610,23 +2610,10 @@
      "team": "LAC"
     },
     {
-     "id": "8136",
-     "name": "Rachaad White",
+     "id": "8129",
+     "name": "Dameon Pierce",
      "pos": "RB",
-     "season": {
-      "gp": 3.0,
-      "off_snp": 96.0,
-      "pts_ppr": 30.1,
-      "rec": 9.0,
-      "rec_td": 1.0,
-      "rec_tgt": 9.0,
-      "rec_yd": 51.0,
-      "rush_att": 22.0,
-      "rush_yd": 100.0,
-      "snap_pct": 46,
-      "tm_off_snp": 210.0
-     },
-     "team": "WAS"
+     "team": "PHI"
     }
    ],
    "ir": [
@@ -2845,7 +2832,7 @@
     "7543",
     "7547",
     "7588",
-    "8136",
+    "8129",
     "8142",
     "CIN"
    ],
@@ -3137,24 +3124,6 @@
   {
    "bench": [
     {
-     "id": "11628",
-     "inj": "Out (Coach's Decision)",
-     "name": "Marvin Harrison",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 206.0,
-      "pts_ppr": 19.5,
-      "rec": 5.0,
-      "rec_td": 1.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 85.0,
-      "snap_pct": 74,
-      "tm_off_snp": 278.0
-     },
-     "team": "ARI"
-    },
-    {
      "id": "11635",
      "inj": "Questionable (Foot)",
      "name": "Ladd McConkey",
@@ -3171,6 +3140,24 @@
       "tm_off_snp": 263.0
      },
      "team": "LAC"
+    },
+    {
+     "id": "1479",
+     "inj": "Questionable (Groin)",
+     "name": "Keenan Allen",
+     "pos": "WR",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 121.0,
+      "pts_ppr": 29.0,
+      "rec": 13.0,
+      "rec_td": 1.0,
+      "rec_tgt": 20.0,
+      "rec_yd": 100.0,
+      "snap_pct": 64,
+      "tm_off_snp": 190.0
+     },
+     "team": "IND"
     },
     {
      "id": "4046",
@@ -3215,25 +3202,22 @@
    ],
    "ir": [
     {
-     "id": "13345",
-     "inj": "IR (Ankle)",
-     "name": "Jonah Coleman",
-     "pos": "RB",
+     "id": "11628",
+     "inj": "Out (Coach's Decision)",
+     "name": "Marvin Harrison",
+     "pos": "WR",
      "season": {
-      "gp": 2.0,
-      "off_snp": 28.0,
-      "pts_ppr": 14.8,
-      "rec": 3.0,
-      "rec_tgt": 3.0,
-      "rec_yd": 19.0,
-      "rush_att": 10.0,
-      "rush_td": 1.0,
-      "rush_yd": 39.0,
-      "snap_pct": 25,
-      "tm_off_snp": 113.0
+      "gp": 4.0,
+      "off_snp": 206.0,
+      "pts_ppr": 19.5,
+      "rec": 5.0,
+      "rec_td": 1.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 85.0,
+      "snap_pct": 74,
+      "tm_off_snp": 278.0
      },
-     "status": "Inactive",
-     "team": "DEN"
+     "team": "ARI"
     },
     {
      "id": "8155",
@@ -3432,7 +3416,7 @@
     "11584",
     "11628",
     "11635",
-    "13345",
+    "1479",
     "2020",
     "3257",
     "4046",
@@ -3763,7 +3747,7 @@
    "bench": [
     {
      "id": "11370",
-     "inj": "Out (Ankle)",
+     "inj": "IR (Ankle)",
      "name": "Chris Brooks",
      "pos": "RB",
      "season": {
@@ -3778,6 +3762,7 @@
       "snap_pct": 40,
       "tm_off_snp": 253.0
      },
+     "status": "Inactive",
      "team": "GB"
     },
     {

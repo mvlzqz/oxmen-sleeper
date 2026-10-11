@@ -1,127 +1,15 @@
 {
- "baseline": "2026-10-09_1709Z",
+ "baseline": "2026-10-10_1040Z",
  "first_run": false,
- "injury_baseline": "2026-10-09_1709Z",
+ "injury_baseline": "2026-10-10_1040Z",
  "injury_changes": [
   {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Mike Evans",
-   "to": null
-  },
-  {
-   "body_part": "Hamstring",
+   "body_part": "Ankle",
    "from": "Out",
    "mine": false,
    "owner": "phile2211",
-   "player": "Caleb Williams",
-   "to": "Questionable"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "nusskyle",
-   "player": "Cam Skattebo",
-   "to": null
-  },
-  {
-   "body_part": "Back",
-   "from": null,
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Carnell Tate",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Ankle",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "phile2211",
    "player": "Chris Brooks",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Chris Olave",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "D'Andre Swift",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "dleach16",
-   "player": "Dallas Goedert",
-   "to": null
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "DeVonta Smith",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Dontayvion Wicks",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "coltierney",
-   "player": "Isaiah Likely",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Jacory Croskey-Merritt",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Jeremiyah Love",
-   "to": null
-  },
-  {
-   "body_part": "Ankle",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "Lamar Jackson",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "dleach16",
-   "player": "Malik Nabers",
-   "to": null
+   "to": "IR"
   },
   {
    "body_part": "Coach's Decision",
@@ -130,33 +18,9 @@
    "owner": "erictheleghel",
    "player": "Marvin Harrison",
    "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "pauliv8811",
-   "player": "Rachaad White",
-   "to": null
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "wmont",
-   "player": "Saquon Barkley",
-   "to": "Out"
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "wmont",
-   "player": "Stefon Diggs",
-   "to": "Out"
   }
  ],
- "my_team_changed": true,
+ "my_team_changed": false,
  "rosters": [
   {
    "added": [],
@@ -168,8 +32,32 @@
    ],
    "owner": "dleach16",
    "roster_id": 7
+  },
+  {
+   "added": [
+    "Dameon Pierce"
+   ],
+   "dropped": [
+    "Rachaad White"
+   ],
+   "moved_to_ir": [],
+   "owner": "pauliv8811",
+   "roster_id": 9
+  },
+  {
+   "added": [
+    "Keenan Allen"
+   ],
+   "dropped": [
+    "Jonah Coleman"
+   ],
+   "moved_to_ir": [
+    "Marvin Harrison"
+   ],
+   "owner": "erictheleghel",
+   "roster_id": 11
   }
  ],
- "since": "2026-10-09T17:09:45+00:00",
+ "since": "2026-10-10T10:40:12+00:00",
  "waiver_moves": []
 }
