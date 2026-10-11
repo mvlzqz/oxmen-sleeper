@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-11T16:24:19+00:00",
+ "fetched_at": "2026-10-11T18:10:37+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -282,10 +282,10 @@
   "waiver_position": 5
  },
  "opponent_this_week": {
-  "my_points": 0.0,
+  "my_points": 29.9,
   "owner": "NikoGs",
   "roster_id": 8,
-  "their_points": 17.2
+  "their_points": 46.44
  },
  "rosters": [
   {
@@ -404,6 +404,7 @@
     },
     {
      "id": "12529",
+     "inj": "Questionable (Leg)",
      "name": "TreVeyon Henderson",
      "pos": "RB",
      "season": {
@@ -537,7 +538,9 @@
      "team": "HOU"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "RB TreVeyon Henderson is Questionable (Leg)"
+   ],
    "owner": "coltierney",
    "owner_id": "1028748479369187328",
    "pa": 490.4,
@@ -724,6 +727,7 @@
     },
     {
      "id": "13298",
+     "inj": "Out (Concussion)",
      "name": "KC Concepcion",
      "pos": "WR",
      "season": {
@@ -804,7 +808,8 @@
     }
    ],
    "lineup_flags": [
-    "WR CeeDee Lamb is Questionable (Quadriceps)"
+    "WR CeeDee Lamb is Questionable (Quadriceps)",
+    "WR KC Concepcion is Out (Concussion)"
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
@@ -2114,6 +2119,7 @@
     },
     {
      "id": "4199",
+     "inj": "Questionable (Leg)",
      "name": "Aaron Jones",
      "pos": "RB",
      "season": {
@@ -2228,7 +2234,9 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "RB Aaron Jones is Questionable (Leg)"
+   ],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
    "pa": 408.86,
@@ -2453,6 +2461,7 @@
     },
     {
      "id": "5844",
+     "inj": "Out (Concussion)",
      "name": "T.J. Hockenson",
      "pos": "TE",
      "season": {
@@ -2515,6 +2524,7 @@
     }
    ],
    "lineup_flags": [
+    "TE T.J. Hockenson is Out (Concussion)",
     "FLEX DJ Moore is Questionable (Undisclosed)"
    ],
    "owner": "NikoGs",
@@ -3870,6 +3880,7 @@
     },
     {
      "id": "5892",
+     "inj": "Questionable (Groin)",
      "name": "David Montgomery",
      "pos": "RB",
      "season": {
@@ -4008,7 +4019,9 @@
      "team": "SEA"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "RB David Montgomery is Questionable (Groin)"
+   ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
    "pa": 417.0,
