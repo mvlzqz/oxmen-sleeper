@@ -1,8 +1,16 @@
 {
- "baseline": "2026-10-10_1556Z",
+ "baseline": "2026-10-11_1040Z",
  "first_run": false,
- "injury_baseline": "2026-10-10_1556Z",
+ "injury_baseline": "2026-10-11_1040Z",
  "injury_changes": [
+  {
+   "body_part": "Lower Leg",
+   "from": null,
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Quinshon Judkins",
+   "to": "Questionable"
+  },
   {
    "body_part": "Leg",
    "from": null,
@@ -44,20 +52,20 @@
    "to": null
   },
   {
-   "body_part": "Ankle",
-   "from": "Out",
-   "mine": false,
-   "owner": "phile2211",
-   "player": "Chris Brooks",
-   "to": "IR"
-  },
-  {
    "body_part": "Groin",
    "from": null,
    "mine": false,
    "owner": "phile2211",
    "player": "David Montgomery",
-   "to": "Questionable"
+   "to": "Out"
+  },
+  {
+   "body_part": "Hamstring",
+   "from": null,
+   "mine": false,
+   "owner": "NikoGs",
+   "player": "Deebo Samuel",
+   "to": "Out"
   },
   {
    "body_part": null,
@@ -100,6 +108,30 @@
    "to": null
   },
   {
+   "body_part": "Concussion",
+   "from": null,
+   "mine": false,
+   "owner": "wmont",
+   "player": "Kenyon Sadiq",
+   "to": "Out"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "erictheleghel",
+   "player": "Ladd McConkey",
+   "to": null
+  },
+  {
+   "body_part": "Undisclosed",
+   "from": null,
+   "mine": false,
+   "owner": "kitano",
+   "player": "Ollie Gordon",
+   "to": "Questionable"
+  },
+  {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
@@ -113,6 +145,14 @@
    "mine": false,
    "owner": "kitano",
    "player": "Rico Dowdle",
+   "to": "Out"
+  },
+  {
+   "body_part": "Finger",
+   "from": null,
+   "mine": false,
+   "owner": "pauliv8811",
+   "player": "Roman Wilson",
    "to": "Out"
   },
   {
@@ -140,12 +180,20 @@
    "to": null
   },
   {
-   "body_part": "Leg",
+   "body_part": "Hamstring",
+   "from": null,
+   "mine": false,
+   "owner": "TheDudePlayingADude",
+   "player": "Tre' Harris",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Ankle",
    "from": null,
    "mine": false,
    "owner": "coltierney",
    "player": "TreVeyon Henderson",
-   "to": "Questionable"
+   "to": "Out"
   },
   {
    "body_part": "Foot",
@@ -154,35 +202,18 @@
    "owner": "wmont",
    "player": "Will Shipley",
    "to": "Out"
-  }
- ],
- "my_team_changed": false,
- "rosters": [
-  {
-   "added": [
-    "Dameon Pierce"
-   ],
-   "dropped": [
-    "Rachaad White"
-   ],
-   "moved_to_ir": [],
-   "owner": "pauliv8811",
-   "roster_id": 9
   },
   {
-   "added": [
-    "Keenan Allen"
-   ],
-   "dropped": [
-    "Jonah Coleman"
-   ],
-   "moved_to_ir": [
-    "Marvin Harrison"
-   ],
-   "owner": "erictheleghel",
-   "roster_id": 11
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Zay Flowers",
+   "to": null
   }
  ],
- "since": "2026-10-10T15:56:38+00:00",
+ "my_team_changed": true,
+ "rosters": [],
+ "since": "2026-10-11T10:40:14+00:00",
  "waiver_moves": []
 }
