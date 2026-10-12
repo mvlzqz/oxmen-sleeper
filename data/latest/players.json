@@ -616,8 +616,6 @@
  "10444": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 5,
-  "depth_chart_position": "RWR",
   "first_name": "Cedric",
   "full_name": "Cedric Tillman",
   "last_name": "Tillman",
@@ -967,8 +965,6 @@
  "11186": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
-  "depth_chart_position": "RB",
   "first_name": "Carlos",
   "full_name": "Carlos Washington",
   "last_name": "Washington",
@@ -1202,8 +1198,6 @@
  "11299": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 3,
-  "depth_chart_position": "RB",
   "first_name": "Zavier",
   "full_name": "Zavier Scott",
   "last_name": "Scott",
@@ -3148,6 +3142,8 @@
   "depth_chart_position": "SWR",
   "first_name": "Ladd",
   "full_name": "Ladd McConkey",
+  "injury_body_part": "Foot",
+  "injury_status": "Questionable",
   "last_name": "McConkey",
   "last_week": {
    "gp": 1.0,
@@ -3766,8 +3762,6 @@
  "11911": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 7,
-  "depth_chart_position": "LWR",
   "first_name": "Jeshaun",
   "full_name": "Jeshaun Jones",
   "last_name": "Jones",
@@ -3822,6 +3816,19 @@
   },
   "status": "Active",
   "team": "WAS",
+  "years_exp": 2
+ },
+ "11959": {
+  "active": true,
+  "age": 26,
+  "first_name": "Bryce",
+  "full_name": "Bryce Oliver",
+  "last_name": "Oliver",
+  "position": "WR",
+  "search_rank": 543,
+  "season": null,
+  "status": "Active",
+  "team": "HOU",
   "years_exp": 2
  },
  "11963": {
@@ -5509,8 +5516,6 @@
  "12516": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
-  "depth_chart_position": "RB",
   "first_name": "Kalel",
   "full_name": "Kalel Mullings",
   "last_name": "Mullings",
@@ -6965,8 +6970,6 @@
  "12888": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 10,
-  "depth_chart_position": "RWR",
   "first_name": "Dalen",
   "full_name": "Dalen Cambre",
   "last_name": "Cambre",
@@ -9397,8 +9400,6 @@
  "1339": {
   "active": true,
   "age": 35,
-  "depth_chart_order": 2,
-  "depth_chart_position": "TE",
   "first_name": "Zach",
   "full_name": "Zach Ertz",
   "last_name": "Ertz",
@@ -9771,8 +9772,6 @@
  "13416": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 6,
-  "depth_chart_position": "RB",
   "first_name": "Roman",
   "full_name": "Roman Hemby",
   "injury_body_part": "Coach's Decision",
@@ -10857,6 +10856,19 @@
   "team": "LV",
   "years_exp": 0
  },
+ "13816": {
+  "active": true,
+  "age": 25,
+  "first_name": "Mark",
+  "full_name": "Mark Gronowski",
+  "last_name": "Gronowski",
+  "position": "QB",
+  "search_rank": 341,
+  "season": null,
+  "status": "Active",
+  "team": "HOU",
+  "years_exp": 0
+ },
  "13825": {
   "active": true,
   "age": 24,
@@ -11472,8 +11484,6 @@
  "2078": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 5,
-  "depth_chart_position": "RWR",
   "first_name": "Odell",
   "full_name": "Odell Beckham",
   "injury_body_part": "Coach's Decision",
@@ -14409,6 +14419,19 @@
   "team": "TEN",
   "years_exp": 4
  },
+ "5374": {
+  "active": true,
+  "age": 30,
+  "first_name": "Justin",
+  "full_name": "Justin Watson",
+  "last_name": "Watson",
+  "position": "WR",
+  "search_rank": 534,
+  "season": null,
+  "status": "Active",
+  "team": "KC",
+  "years_exp": 8
+ },
  "5409": {
   "active": true,
   "age": 31,
@@ -14416,6 +14439,8 @@
   "depth_chart_position": "TE",
   "first_name": "Tanner",
   "full_name": "Tanner Hudson",
+  "injury_body_part": "Pectoral",
+  "injury_status": "Questionable",
   "last_name": "Hudson",
   "last_week": {
    "gp": 1.0,
@@ -15753,8 +15778,9 @@
   "depth_chart_position": "RWR",
   "first_name": "Tom",
   "full_name": "Tom Kennedy",
-  "injury_body_part": "Knee",
-  "injury_status": "Questionable",
+  "injury_body_part": "Knee - MCL",
+  "injury_notes": "Surgery",
+  "injury_status": "Out",
   "last_name": "Kennedy",
   "last_week": {
    "gp": 1.0,
@@ -16440,8 +16466,6 @@
  "6853": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 6,
-  "depth_chart_position": "RWR",
   "first_name": "Van",
   "full_name": "Van Jefferson",
   "last_name": "Jefferson",
@@ -17087,8 +17111,6 @@
  "7496": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 5,
-  "depth_chart_position": "RWR",
   "first_name": "Nick",
   "full_name": "Nick Westbrook-Ikhine",
   "last_name": "Westbrook-Ikhine",
@@ -18317,7 +18339,7 @@
   "first_name": "Ben",
   "full_name": "Ben Skowronek",
   "injury_body_part": "Leg",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Skowronek",
   "last_week": {
    "gp": 1.0,
@@ -18463,8 +18485,6 @@
  "7865": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 8,
-  "depth_chart_position": "RWR",
   "first_name": "Brandon",
   "full_name": "Brandon Smith",
   "last_name": "Smith",
@@ -18552,8 +18572,6 @@
  "7946": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 4,
-  "depth_chart_position": "TE",
   "first_name": "Jack",
   "full_name": "Jack Stoll",
   "last_name": "Stoll",
@@ -20010,7 +20028,8 @@
   "first_name": "Tyquan",
   "full_name": "Tyquan Thornton",
   "injury_body_part": "Ankle",
-  "injury_status": "Out",
+  "injury_notes": "Surgery",
+  "injury_status": "IR",
   "last_name": "Thornton",
   "last_week": {
    "gp": 1.0,
@@ -20036,7 +20055,7 @@
    "snap_pct": 60,
    "tm_off_snp": 261.0
   },
-  "status": "Active",
+  "status": "Inactive",
   "team": "KC",
   "years_exp": 4
  },
@@ -20492,8 +20511,6 @@
  "8253": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 7,
-  "depth_chart_position": "RWR",
   "first_name": "Deven",
   "full_name": "Deven Thompkins",
   "last_name": "Thompkins",
@@ -21899,8 +21916,6 @@
  "9510": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 3,
-  "depth_chart_position": "RB",
   "first_name": "Lew",
   "full_name": "Lew Nichols",
   "last_name": "Nichols",
