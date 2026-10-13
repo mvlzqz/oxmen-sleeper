@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-13T10:40:14+00:00",
+ "fetched_at": "2026-10-13T17:46:34+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -844,7 +844,7 @@
    "record": "2-3",
    "roster_id": 2,
    "taxi": [],
-   "team_name": "Sully's Hairline",
+   "team_name": "Tears and Beers",
    "waiver_position": 1
   },
   {
@@ -1715,6 +1715,24 @@
   {
    "bench": [
     {
+     "id": "12509",
+     "inj": "Questionable (Hamstring)",
+     "name": "Tre' Harris",
+     "pos": "WR",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 233.0,
+      "pass_att": 1.0,
+      "pts_ppr": 37.5,
+      "rec": 15.0,
+      "rec_tgt": 25.0,
+      "rec_yd": 225.0,
+      "snap_pct": 71,
+      "tm_off_snp": 330.0
+     },
+     "team": "LAC"
+    },
+    {
      "id": "13414",
      "name": "Kaelon Black",
      "pos": "RB",
@@ -1752,32 +1770,14 @@
      "team": "GB"
     },
     {
-     "id": "7525",
-     "inj": "Out (Hamstring)",
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "season": {
-      "gp": 3.0,
-      "off_snp": 169.0,
-      "pts_ppr": 48.5,
-      "rec": 19.0,
-      "rec_td": 1.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 235.0,
-      "snap_pct": 93,
-      "tm_off_snp": 181.0
-     },
-     "team": "PHI"
-    },
-    {
-     "id": "LAR",
-     "name": "LAR DEF",
+     "id": "LV",
+     "name": "LV DEF",
      "pos": "DEF",
      "season": {
       "gp": 5.0,
-      "pts_ppr": 27.0
+      "pts_ppr": 48.0
      },
-     "team": "LAR"
+     "team": "LV"
     }
    ],
    "ir": [
@@ -1900,23 +1900,23 @@
      "team": "WAS"
     },
     {
-     "id": "12509",
-     "inj": "Questionable (Hamstring)",
-     "name": "Tre' Harris",
+     "id": "7525",
+     "inj": "Out (Hamstring)",
+     "name": "DeVonta Smith",
      "pos": "WR",
      "season": {
-      "gp": 5.0,
-      "off_snp": 233.0,
-      "pass_att": 1.0,
-      "pts_ppr": 37.5,
-      "rec": 15.0,
-      "rec_tgt": 25.0,
-      "rec_yd": 225.0,
-      "snap_pct": 71,
-      "tm_off_snp": 330.0
+      "gp": 3.0,
+      "off_snp": 169.0,
+      "pts_ppr": 48.5,
+      "rec": 19.0,
+      "rec_td": 1.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 235.0,
+      "snap_pct": 93,
+      "tm_off_snp": 181.0
      },
      "slot": "WR",
-     "team": "LAC"
+     "team": "PHI"
     },
     {
      "id": "11604",
@@ -1969,19 +1969,19 @@
      "team": "CIN"
     },
     {
-     "id": "LV",
-     "name": "LV DEF",
+     "id": "LAR",
+     "name": "LAR DEF",
      "pos": "DEF",
      "season": {
       "gp": 5.0,
-      "pts_ppr": 48.0
+      "pts_ppr": 27.0
      },
      "slot": "DEF",
-     "team": "LV"
+     "team": "LAR"
     }
    ],
    "lineup_flags": [
-    "WR Tre' Harris is Questionable (Hamstring)"
+    "WR DeVonta Smith is Out (Hamstring)"
    ],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
@@ -3492,6 +3492,26 @@
   {
    "bench": [
     {
+     "id": "11583",
+     "inj": "IR (Abdomen)",
+     "name": "Jonathon Brooks",
+     "pos": "RB",
+     "season": {
+      "gp": 2.0,
+      "off_snp": 33.0,
+      "pts_ppr": 9.3,
+      "rec": 2.0,
+      "rec_tgt": 3.0,
+      "rec_yd": 43.0,
+      "rush_att": 9.0,
+      "rush_yd": 30.0,
+      "snap_pct": 25,
+      "tm_off_snp": 134.0
+     },
+     "status": "Inactive",
+     "team": "CAR"
+    },
+    {
      "id": "13330",
      "inj": "Out (Concussion)",
      "name": "Kenyon Sadiq",
@@ -3511,24 +3531,6 @@
       "tm_off_snp": 309.0
      },
      "team": "NYJ"
-    },
-    {
-     "id": "2449",
-     "inj": "Out (Hamstring)",
-     "name": "Stefon Diggs",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 163.0,
-      "pts_ppr": 53.0,
-      "rec": 18.0,
-      "rec_td": 3.0,
-      "rec_tgt": 31.0,
-      "rec_yd": 170.0,
-      "snap_pct": 59,
-      "tm_off_snp": 274.0
-     },
-     "team": "WAS"
     },
     {
      "id": "8121",
@@ -3570,24 +3572,22 @@
    ],
    "ir": [
     {
-     "id": "11583",
-     "inj": "IR (Abdomen)",
-     "name": "Jonathon Brooks",
-     "pos": "RB",
+     "id": "2449",
+     "inj": "Out (Hamstring)",
+     "name": "Stefon Diggs",
+     "pos": "WR",
      "season": {
-      "gp": 2.0,
-      "off_snp": 33.0,
-      "pts_ppr": 9.3,
-      "rec": 2.0,
-      "rec_tgt": 3.0,
-      "rec_yd": 43.0,
-      "rush_att": 9.0,
-      "rush_yd": 30.0,
-      "snap_pct": 25,
-      "tm_off_snp": 134.0
+      "gp": 4.0,
+      "off_snp": 163.0,
+      "pts_ppr": 53.0,
+      "rec": 18.0,
+      "rec_td": 3.0,
+      "rec_tgt": 31.0,
+      "rec_yd": 170.0,
+      "snap_pct": 59,
+      "tm_off_snp": 274.0
      },
-     "status": "Inactive",
-     "team": "CAR"
+     "team": "WAS"
     },
     {
      "id": "4866",
