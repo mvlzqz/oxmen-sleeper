@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-14T10:40:12+00:00",
+ "fetched_at": "2026-10-14T15:25:21+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -900,37 +900,6 @@
      "team": "KC"
     },
     {
-     "id": "2306",
-     "name": "Jameis Winston",
-     "pos": "QB",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 266.0,
-      "pass_att": 132.0,
-      "pass_int": 3.0,
-      "pass_td": 6.0,
-      "pass_yd": 805.0,
-      "pts_ppr": 55.4,
-      "rush_att": 9.0,
-      "rush_yd": 42.0,
-      "snap_pct": 77,
-      "tm_off_snp": 347.0
-     },
-     "team": "NYG"
-    }
-   ],
-   "ir": [
-    {
-     "id": "9502",
-     "inj": "IR (Knee - ACL + MCL)",
-     "name": "Tank Dell",
-     "pos": "WR",
-     "status": "Inactive",
-     "team": "HOU"
-    }
-   ],
-   "lineup": [
-    {
      "id": "6770",
      "name": "Joe Burrow",
      "pos": "QB",
@@ -948,8 +917,39 @@
       "snap_pct": 100,
       "tm_off_snp": 322.0
      },
-     "slot": "QB",
      "team": "CIN"
+    }
+   ],
+   "ir": [
+    {
+     "id": "9502",
+     "inj": "IR (Knee - ACL + MCL)",
+     "name": "Tank Dell",
+     "pos": "WR",
+     "status": "Inactive",
+     "team": "HOU"
+    }
+   ],
+   "lineup": [
+    {
+     "id": "2306",
+     "name": "Jameis Winston",
+     "pos": "QB",
+     "season": {
+      "gp": 4.0,
+      "off_snp": 266.0,
+      "pass_att": 132.0,
+      "pass_int": 3.0,
+      "pass_td": 6.0,
+      "pass_yd": 805.0,
+      "pts_ppr": 55.4,
+      "rush_att": 9.0,
+      "rush_yd": 42.0,
+      "snap_pct": 77,
+      "tm_off_snp": 347.0
+     },
+     "slot": "QB",
+     "team": "NYG"
     },
     {
      "id": "8138",
@@ -1076,16 +1076,16 @@
      "team": "JAX"
     },
     {
-     "id": "11792",
-     "name": "Will Reichard",
+     "id": "13833",
+     "name": "Dominic Zvada",
      "pos": "K",
      "season": {
       "gp": 5.0,
-      "pts_ppr": 68.0,
-      "tm_off_snp": 325.0
+      "pts_ppr": 48.0,
+      "tm_off_snp": 347.0
      },
      "slot": "K",
-     "team": "MIN"
+     "team": "NYG"
     },
     {
      "id": "CLE",
@@ -1108,9 +1108,9 @@
    "pf": 700.4,
    "player_ids": [
     "11610",
-    "11792",
     "12474",
     "12490",
+    "13833",
     "1466",
     "2306",
     "5846",
@@ -1125,7 +1125,7 @@
    "record": "4-1",
    "roster_id": 3,
    "taxi": [],
-   "team_name": "We’re on to Philinnati",
+   "team_name": "Phake Chug Phil ",
    "waiver_position": 4
   },
   {
@@ -1715,24 +1715,22 @@
   {
    "bench": [
     {
-     "id": "11647",
-     "name": "Kimani Vidal",
+     "id": "13414",
+     "name": "Kaelon Black",
      "pos": "RB",
      "season": {
       "gp": 5.0,
       "off_snp": 81.0,
-      "pts_ppr": 27.2,
-      "rec": 4.0,
-      "rec_td": 1.0,
-      "rec_tgt": 8.0,
-      "rec_yd": 24.0,
-      "rush_att": 14.0,
-      "rush_td": 1.0,
-      "rush_yd": 88.0,
-      "snap_pct": 25,
-      "tm_off_snp": 330.0
+      "pts_ppr": 15.1,
+      "rec": 1.0,
+      "rec_tgt": 2.0,
+      "rec_yd": 5.0,
+      "rush_att": 37.0,
+      "rush_yd": 136.0,
+      "snap_pct": 27,
+      "tm_off_snp": 297.0
      },
-     "team": "LAC"
+     "team": "SF"
     },
     {
      "id": "6804",
@@ -1754,6 +1752,17 @@
      "team": "GB"
     },
     {
+     "id": "7839",
+     "name": "Evan McPherson",
+     "pos": "K",
+     "season": {
+      "gp": 5.0,
+      "pts_ppr": 54.0,
+      "tm_off_snp": 322.0
+     },
+     "team": "CIN"
+    },
+    {
      "id": "9224",
      "name": "Chase Brown",
      "pos": "RB",
@@ -1771,25 +1780,6 @@
       "tm_off_snp": 322.0
      },
      "team": "CIN"
-    },
-    {
-     "id": "9757",
-     "name": "Kendre Miller",
-     "pos": "RB",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 73.0,
-      "pts_ppr": 23.8,
-      "rec": 4.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 15.0,
-      "rush_att": 29.0,
-      "rush_td": 2.0,
-      "rush_yd": 83.0,
-      "snap_pct": 26,
-      "tm_off_snp": 283.0
-     },
-     "team": "NO"
     }
    ],
    "ir": [
@@ -1852,23 +1842,25 @@
      "team": "LAR"
     },
     {
-     "id": "13414",
-     "name": "Kaelon Black",
+     "id": "11647",
+     "name": "Kimani Vidal",
      "pos": "RB",
      "season": {
       "gp": 5.0,
       "off_snp": 81.0,
-      "pts_ppr": 15.1,
-      "rec": 1.0,
-      "rec_tgt": 2.0,
-      "rec_yd": 5.0,
-      "rush_att": 37.0,
-      "rush_yd": 136.0,
-      "snap_pct": 27,
-      "tm_off_snp": 297.0
+      "pts_ppr": 27.2,
+      "rec": 4.0,
+      "rec_td": 1.0,
+      "rec_tgt": 8.0,
+      "rec_yd": 24.0,
+      "rush_att": 14.0,
+      "rush_td": 1.0,
+      "rush_yd": 88.0,
+      "snap_pct": 25,
+      "tm_off_snp": 330.0
      },
      "slot": "RB",
-     "team": "SF"
+     "team": "LAC"
     },
     {
      "id": "8228",
@@ -1948,36 +1940,36 @@
      "team": "LV"
     },
     {
-     "id": "11608",
-     "name": "Isaiah Williams",
-     "pos": "WR",
+     "id": "9757",
+     "name": "Kendre Miller",
+     "pos": "RB",
      "season": {
-      "gp": 5.0,
-      "off_snp": 233.0,
-      "pts_ppr": 33.8,
-      "rec": 11.0,
-      "rec_td": 1.0,
-      "rec_tgt": 14.0,
-      "rec_yd": 151.0,
-      "rush_att": 2.0,
-      "rush_yd": 17.0,
-      "snap_pct": 75,
-      "tm_off_snp": 309.0
+      "gp": 4.0,
+      "off_snp": 73.0,
+      "pts_ppr": 23.8,
+      "rec": 4.0,
+      "rec_tgt": 6.0,
+      "rec_yd": 15.0,
+      "rush_att": 29.0,
+      "rush_td": 2.0,
+      "rush_yd": 83.0,
+      "snap_pct": 26,
+      "tm_off_snp": 283.0
      },
      "slot": "FLEX",
-     "team": "NYJ"
+     "team": "NO"
     },
     {
-     "id": "7839",
-     "name": "Evan McPherson",
+     "id": "6650",
+     "name": "Chase McLaughlin",
      "pos": "K",
      "season": {
       "gp": 5.0,
-      "pts_ppr": 54.0,
-      "tm_off_snp": 322.0
+      "pts_ppr": 48.0,
+      "tm_off_snp": 327.0
      },
      "slot": "K",
-     "team": "CIN"
+     "team": "TB"
     },
     {
      "id": "LAR",
@@ -2000,12 +1992,12 @@
    "pf": 501.18,
    "player_ids": [
     "11604",
-    "11608",
     "11647",
     "13301",
     "13414",
     "421",
     "5859",
+    "6650",
     "6804",
     "7525",
     "7839",
@@ -2862,15 +2854,15 @@
      "team": "IND"
     },
     {
-     "id": "CIN",
-     "name": "CIN DEF",
+     "id": "IND",
+     "name": "IND DEF",
      "pos": "DEF",
      "season": {
       "gp": 5.0,
-      "pts_ppr": 51.0
+      "pts_ppr": 15.0
      },
      "slot": "DEF",
-     "team": "CIN"
+     "team": "IND"
     }
    ],
    "lineup_flags": [],
@@ -2893,7 +2885,7 @@
     "7588",
     "8129",
     "8142",
-    "CIN"
+    "IND"
    ],
    "record": "2-3",
    "roster_id": 9,
