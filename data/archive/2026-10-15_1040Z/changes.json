@@ -1,0 +1,231 @@
+{
+ "baseline": "2026-10-14_1040Z",
+ "first_run": false,
+ "injury_baseline": "2026-10-14_1040Z",
+ "injury_changes": [
+  {
+   "body_part": "Finger",
+   "from": "Questionable",
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Adonai Mitchell",
+   "to": "Doubtful"
+  },
+  {
+   "body_part": "Hamstring",
+   "from": null,
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Josh Downs",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Back",
+   "from": null,
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Alvin Kamara",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Quadriceps",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "erictheleghel",
+   "player": "Breece Hall",
+   "to": "Doubtful"
+  },
+  {
+   "body_part": "Knee",
+   "from": null,
+   "mine": false,
+   "owner": "TheDudePlayingADude",
+   "player": "Brock Bowers",
+   "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "nusskyle",
+   "player": "CeeDee Lamb",
+   "to": null
+  },
+  {
+   "body_part": "Illness",
+   "from": null,
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Chris Olave",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Foot",
+   "from": null,
+   "mine": false,
+   "owner": "dleach16",
+   "player": "Denzel Boston",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Hamstring",
+   "from": null,
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Dontayvion Wicks",
+   "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Jalen Coker",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "PawtucketPatriot",
+   "player": "Jaxon Smith-Njigba",
+   "to": null
+  },
+  {
+   "body_part": "Ankle",
+   "from": null,
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Jeremiyah Love",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Ankle",
+   "from": "Doubtful",
+   "mine": false,
+   "owner": "coltierney",
+   "player": "TreVeyon Henderson",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Knee",
+   "from": null,
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Tyjae Spears",
+   "to": "Questionable"
+  }
+ ],
+ "my_team_changed": true,
+ "rosters": [
+  {
+   "added": [
+    "Dominic Zvada"
+   ],
+   "dropped": [
+    "Will Reichard"
+   ],
+   "moved_to_ir": [],
+   "owner": "PawtucketPatriot",
+   "roster_id": 3
+  },
+  {
+   "added": [
+    "Chase McLaughlin"
+   ],
+   "dropped": [
+    "Isaiah Williams",
+    "Antonio Williams"
+   ],
+   "moved_to_ir": [],
+   "owner": "TheDudePlayingADude",
+   "roster_id": 6
+  },
+  {
+   "added": [
+    "Will Reichard"
+   ],
+   "dropped": [
+    "Harrison Mevis"
+   ],
+   "moved_to_ir": [],
+   "owner": "NikoGs",
+   "roster_id": 8
+  },
+  {
+   "added": [
+    "Jake Ferguson",
+    "IND DEF"
+   ],
+   "dropped": [
+    "Roman Wilson",
+    "CIN DEF"
+   ],
+   "moved_to_ir": [],
+   "owner": "pauliv8811",
+   "roster_id": 9
+  },
+  {
+   "added": [
+    "Nick Folk"
+   ],
+   "dropped": [
+    "Jake Bates"
+   ],
+   "moved_to_ir": [],
+   "owner": "mvlzqz",
+   "roster_id": 10
+  },
+  {
+   "added": [
+    "Kendrick Bourne"
+   ],
+   "dropped": [
+    "Jacoby Brissett"
+   ],
+   "moved_to_ir": [
+    "Jordan Addison"
+   ],
+   "owner": "erictheleghel",
+   "roster_id": 11
+  }
+ ],
+ "since": "2026-10-14T10:40:12+00:00",
+ "waiver_moves": [
+  {
+   "from": 11,
+   "owner": "coltierney",
+   "to": 10
+  },
+  {
+   "from": 13,
+   "owner": "kitano",
+   "to": 12
+  },
+  {
+   "from": 14,
+   "owner": "TheDudePlayingADude",
+   "to": 13
+  },
+  {
+   "from": 8,
+   "owner": "NikoGs",
+   "to": 14
+  },
+  {
+   "from": 9,
+   "owner": "pauliv8811",
+   "to": 8
+  },
+  {
+   "from": 12,
+   "owner": "wmont",
+   "to": 11
+  },
+  {
+   "from": 10,
+   "owner": "chopkins30",
+   "to": 9
+  }
+ ]
+}
