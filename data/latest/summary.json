@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-15T10:40:16+00:00",
+ "fetched_at": "2026-10-15T15:18:39+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1125,6 +1125,26 @@
   {
    "bench": [
     {
+     "id": "12495",
+     "inj": "Questionable (Undisclosed)",
+     "name": "Ollie Gordon",
+     "pos": "RB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 141.0,
+      "pts_ppr": 48.0,
+      "rec": 5.0,
+      "rec_tgt": 5.0,
+      "rec_yd": 14.0,
+      "rush_att": 47.0,
+      "rush_td": 3.0,
+      "rush_yd": 236.0,
+      "snap_pct": 48,
+      "tm_off_snp": 293.0
+     },
+     "team": "MIA"
+    },
+    {
      "id": "13337",
      "name": "Emmett Johnson",
      "pos": "RB",
@@ -1141,24 +1161,6 @@
       "tm_off_snp": 261.0
      },
      "team": "KC"
-    },
-    {
-     "id": "4037",
-     "name": "Chris Godwin",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 267.0,
-      "pts_ppr": 38.7,
-      "rec": 19.0,
-      "rec_tgt": 21.0,
-      "rec_yd": 179.0,
-      "rush_att": 3.0,
-      "rush_yd": 18.0,
-      "snap_pct": 82,
-      "tm_off_snp": 327.0
-     },
-     "team": "TB"
     },
     {
      "id": "4943",
@@ -1197,16 +1199,6 @@
       "tm_off_snp": 137.0
      },
      "team": "PIT"
-    },
-    {
-     "id": "SF",
-     "name": "SF DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 5.0,
-      "pts_ppr": 45.0
-     },
-     "team": "SF"
     }
    ],
    "ir": [
@@ -1346,25 +1338,23 @@
      "team": "HOU"
     },
     {
-     "id": "12495",
-     "inj": "Questionable (Undisclosed)",
-     "name": "Ollie Gordon",
-     "pos": "RB",
+     "id": "4037",
+     "name": "Chris Godwin",
+     "pos": "WR",
      "season": {
       "gp": 5.0,
-      "off_snp": 141.0,
-      "pts_ppr": 48.0,
-      "rec": 5.0,
-      "rec_tgt": 5.0,
-      "rec_yd": 14.0,
-      "rush_att": 47.0,
-      "rush_td": 3.0,
-      "rush_yd": 236.0,
-      "snap_pct": 48,
-      "tm_off_snp": 293.0
+      "off_snp": 267.0,
+      "pts_ppr": 38.7,
+      "rec": 19.0,
+      "rec_tgt": 21.0,
+      "rec_yd": 179.0,
+      "rush_att": 3.0,
+      "rush_yd": 18.0,
+      "snap_pct": 82,
+      "tm_off_snp": 327.0
      },
      "slot": "FLEX",
-     "team": "MIA"
+     "team": "TB"
     },
     {
      "id": "5189",
@@ -1379,14 +1369,18 @@
      "team": "SF"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "SF",
+     "name": "SF DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 5.0,
+      "pts_ppr": 45.0
+     },
+     "slot": "DEF",
+     "team": "SF"
     }
    ],
-   "lineup_flags": [
-    "FLEX Ollie Gordon is Questionable (Undisclosed)",
-    "DEF slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "kitano",
    "owner_id": "473949092301500416",
    "pa": 565.36,
