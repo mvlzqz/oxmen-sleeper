@@ -6,15 +6,17 @@
   "rostered_players": 201,
   "rosters": 14,
   "season_stats": 8187,
-  "transactions": 45
+  "transactions": 46
  },
- "fetched_at": "2026-10-16T10:40:14+00:00",
+ "fetched_at": "2026-10-16T14:58:48+00:00",
  "kind": "daily",
  "ok": true,
  "season": "2026",
  "trigger": {
-  "event": "workflow_dispatch",
-  "kind": "daily"
+  "cron_lag_min": 259,
+  "event": "schedule",
+  "kind": "daily",
+  "schedule": "40 10 * * *"
  },
  "warnings": [],
  "week": 6
