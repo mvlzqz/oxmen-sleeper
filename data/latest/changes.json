@@ -1,118 +1,86 @@
 {
- "baseline": "2026-10-14_1525Z",
+ "baseline": "2026-10-15_1040Z",
  "first_run": false,
- "injury_baseline": "2026-10-14_1525Z",
+ "injury_baseline": "2026-10-15_1040Z",
  "injury_changes": [
   {
-   "body_part": "Finger",
+   "body_part": null,
    "from": "Questionable",
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Adonai Mitchell",
-   "to": "Doubtful"
-  },
-  {
-   "body_part": "Hamstring",
-   "from": null,
    "mine": true,
    "owner": "mvlzqz",
    "player": "Josh Downs",
-   "to": "Questionable"
+   "to": null
   },
   {
-   "body_part": "Back",
+   "body_part": "Ribs",
    "from": null,
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Alvin Kamara",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Quadriceps",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "erictheleghel",
-   "player": "Breece Hall",
-   "to": "Doubtful"
-  },
-  {
-   "body_part": "Knee",
-   "from": null,
-   "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "Brock Bowers",
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Mike Evans",
    "to": "Questionable"
   },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "nusskyle",
-   "player": "CeeDee Lamb",
+   "owner": "TheDudePlayingADude",
+   "player": "Brock Bowers",
    "to": null
   },
   {
-   "body_part": "Illness",
+   "body_part": "Groin",
+   "from": "Doubtful",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "David Montgomery",
+   "to": "Out"
+  },
+  {
+   "body_part": "Groin",
    "from": null,
    "mine": false,
-   "owner": "brendonferreira",
-   "player": "Chris Olave",
+   "owner": "chopkins30",
+   "player": "Jacory Croskey-Merritt",
    "to": "Questionable"
   },
   {
-   "body_part": "Foot",
+   "body_part": "Calf",
    "from": null,
    "mine": false,
    "owner": "dleach16",
-   "player": "Denzel Boston",
+   "player": "Jalen Hurts",
+   "to": "Out"
+  },
+  {
+   "body_part": "Shoulder",
+   "from": null,
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Jaylen Waddle",
    "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "kitano",
+   "player": "Rico Dowdle",
+   "to": null
   },
   {
    "body_part": "Hamstring",
    "from": null,
    "mine": false,
-   "owner": "brendonferreira",
-   "player": "Dontayvion Wicks",
+   "owner": "nusskyle",
+   "player": "Terry McLaurin",
    "to": "Questionable"
   },
   {
-   "body_part": null,
-   "from": "Questionable",
+   "body_part": "Toe",
+   "from": null,
    "mine": false,
    "owner": "chopkins30",
-   "player": "Jalen Coker",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "Jaxon Smith-Njigba",
-   "to": null
-  },
-  {
-   "body_part": "Ankle",
-   "from": null,
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Jeremiyah Love",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Ankle",
-   "from": "Doubtful",
-   "mine": false,
-   "owner": "coltierney",
-   "player": "TreVeyon Henderson",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Knee",
-   "from": null,
-   "mine": false,
-   "owner": "phile2211",
-   "player": "Tyjae Spears",
+   "player": "Zay Flowers",
    "to": "Questionable"
   }
  ],
@@ -120,19 +88,21 @@
  "rosters": [
   {
    "added": [],
-   "dropped": [
-    "Antonio Williams"
+   "dropped": [],
+   "moved_to_ir": [
+    "Jalen Hurts"
    ],
-   "moved_to_ir": [],
-   "owner": "TheDudePlayingADude",
-   "roster_id": 6
+   "owner": "dleach16",
+   "roster_id": 7
   },
   {
    "added": [
-    "Will Reichard"
+    "Harrison Butker",
+    "Pat Freiermuth"
    ],
    "dropped": [
-    "Harrison Mevis"
+    "Will Reichard",
+    "T.J. Hockenson"
    ],
    "moved_to_ir": [],
    "owner": "NikoGs",
@@ -140,76 +110,18 @@
   },
   {
    "added": [
-    "Jake Ferguson"
+    "Jaleel McLaughlin",
+    "Corey Kiner"
    ],
    "dropped": [
-    "Roman Wilson"
+    "Chris Brooks",
+    "Jauan Jennings"
    ],
    "moved_to_ir": [],
-   "owner": "pauliv8811",
-   "roster_id": 9
-  },
-  {
-   "added": [
-    "Nick Folk"
-   ],
-   "dropped": [
-    "Jake Bates"
-   ],
-   "moved_to_ir": [],
-   "owner": "mvlzqz",
-   "roster_id": 10
-  },
-  {
-   "added": [
-    "Kendrick Bourne"
-   ],
-   "dropped": [
-    "Jacoby Brissett"
-   ],
-   "moved_to_ir": [
-    "Jordan Addison"
-   ],
-   "owner": "erictheleghel",
-   "roster_id": 11
+   "owner": "phile2211",
+   "roster_id": 13
   }
  ],
- "since": "2026-10-14T15:25:21+00:00",
- "waiver_moves": [
-  {
-   "from": 11,
-   "owner": "coltierney",
-   "to": 10
-  },
-  {
-   "from": 13,
-   "owner": "kitano",
-   "to": 12
-  },
-  {
-   "from": 14,
-   "owner": "TheDudePlayingADude",
-   "to": 13
-  },
-  {
-   "from": 8,
-   "owner": "NikoGs",
-   "to": 14
-  },
-  {
-   "from": 9,
-   "owner": "pauliv8811",
-   "to": 8
-  },
-  {
-   "from": 12,
-   "owner": "wmont",
-   "to": 11
-  },
-  {
-   "from": 10,
-   "owner": "chopkins30",
-   "to": 9
-  }
- ]
+ "since": "2026-10-15T10:40:16+00:00",
+ "waiver_moves": []
 }
