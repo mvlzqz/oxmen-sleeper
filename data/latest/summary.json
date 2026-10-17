@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-17T10:40:14+00:00",
+ "fetched_at": "2026-10-17T13:53:29+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1717,6 +1717,22 @@
   {
    "bench": [
     {
+     "id": "11783",
+     "name": "Ryan Flournoy",
+     "pos": "WR",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 231.0,
+      "pts_ppr": 35.4,
+      "rec": 16.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 194.0,
+      "snap_pct": 71,
+      "tm_off_snp": 325.0
+     },
+     "team": "DAL"
+    },
+    {
      "id": "13414",
      "name": "Kaelon Black",
      "pos": "RB",
@@ -1922,21 +1938,8 @@
      "team": "LV"
     },
     {
-     "id": "11783",
-     "name": "Ryan Flournoy",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 231.0,
-      "pts_ppr": 35.4,
-      "rec": 16.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 194.0,
-      "snap_pct": 71,
-      "tm_off_snp": 325.0
-     },
-     "slot": "FLEX",
-     "team": "DAL"
+     "empty": true,
+     "slot": "FLEX"
     },
     {
      "id": "6650",
@@ -1963,7 +1966,8 @@
     }
    ],
    "lineup_flags": [
-    "WR A.J. Brown is IR (Ankle)"
+    "WR A.J. Brown is IR (Ankle)",
+    "FLEX slot is EMPTY"
    ],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
