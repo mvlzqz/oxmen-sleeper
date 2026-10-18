@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-18T10:40:12+00:00",
+ "fetched_at": "2026-10-18T14:07:26+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1429,27 +1429,6 @@
      "team": "NYJ"
     },
     {
-     "id": "13287",
-     "inj": "Out (Ankle)",
-     "name": "Jeremiyah Love",
-     "pos": "RB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 174.0,
-      "pts_ppr": 51.1,
-      "rec": 11.0,
-      "rec_td": 1.0,
-      "rec_tgt": 14.0,
-      "rec_yd": 36.0,
-      "rush_att": 67.0,
-      "rush_td": 1.0,
-      "rush_yd": 245.0,
-      "snap_pct": 50,
-      "tm_off_snp": 351.0
-     },
-     "team": "ARI"
-    },
-    {
      "id": "13294",
      "name": "Makai Lemon",
      "pos": "WR",
@@ -1486,6 +1465,27 @@
     }
    ],
    "ir": [
+    {
+     "id": "13287",
+     "inj": "Out (Ankle)",
+     "name": "Jeremiyah Love",
+     "pos": "RB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 174.0,
+      "pts_ppr": 51.1,
+      "rec": 11.0,
+      "rec_td": 1.0,
+      "rec_tgt": 14.0,
+      "rec_yd": 36.0,
+      "rush_att": 67.0,
+      "rush_td": 1.0,
+      "rush_yd": 245.0,
+      "snap_pct": 50,
+      "tm_off_snp": 351.0
+     },
+     "team": "ARI"
+    },
     {
      "id": "8205",
      "inj": "IR (Back)",
@@ -3518,23 +3518,6 @@
      "team": "WAS"
     },
     {
-     "id": "8121",
-     "name": "Romeo Doubs",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 234.0,
-      "pts_ppr": 46.9,
-      "rec": 13.0,
-      "rec_td": 2.0,
-      "rec_tgt": 23.0,
-      "rec_yd": 219.0,
-      "snap_pct": 69,
-      "tm_off_snp": 340.0
-     },
-     "team": "NE"
-    },
-    {
      "id": "9228",
      "name": "Bryce Young",
      "pos": "QB",
@@ -3619,8 +3602,23 @@
      "team": "WAS"
     },
     {
-     "empty": true,
-     "slot": "RB"
+     "id": "7528",
+     "name": "Najee Harris",
+     "pos": "RB",
+     "season": {
+      "gp": 4.0,
+      "off_snp": 50.0,
+      "pts_ppr": 11.2,
+      "rec": 1.0,
+      "rec_tgt": 1.0,
+      "rec_yd": 5.0,
+      "rush_att": 27.0,
+      "rush_yd": 97.0,
+      "snap_pct": 18,
+      "tm_off_snp": 278.0
+     },
+     "slot": "RB",
+     "team": "NYG"
     },
     {
      "id": "11435",
@@ -3744,9 +3742,7 @@
      "team": "MIN"
     }
    ],
-   "lineup_flags": [
-    "RB slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
    "pa": 600.94,
@@ -3761,9 +3757,9 @@
     "2449",
     "4866",
     "6083",
+    "7528",
     "7569",
     "8112",
-    "8121",
     "9228",
     "9487",
     "MIN"
