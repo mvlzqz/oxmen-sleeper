@@ -1,172 +1,98 @@
 {
- "baseline": "2026-10-16_1458Z",
+ "baseline": "2026-10-17_1353Z",
  "first_run": false,
- "injury_baseline": "2026-10-16_1458Z",
+ "injury_baseline": "2026-10-17_1353Z",
  "injury_changes": [
   {
-   "body_part": "Finger",
-   "from": "Doubtful",
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Adonai Mitchell",
-   "to": "Out"
-  },
-  {
-   "body_part": "Quadriceps",
-   "from": "Doubtful",
+   "body_part": "Ankle",
+   "from": "IR",
    "mine": false,
-   "owner": "erictheleghel",
-   "player": "Breece Hall",
-   "to": "Out"
-  },
-  {
-   "body_part": "Illness",
-   "from": null,
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "DK Metcalf",
+   "owner": "TheDudePlayingADude",
+   "player": "A.J. Brown",
    "to": "Questionable"
   },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "DeVonta Smith",
+   "owner": "PawtucketPatriot",
+   "player": "DK Metcalf",
    "to": null
   },
   {
-   "body_part": null,
+   "body_part": "Wrist",
+   "from": "IR",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Ja'Kobi Lane",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Groin",
    "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Jacory Croskey-Merritt",
+   "to": "Out"
+  },
+  {
+   "body_part": "Calf",
+   "from": "Out",
    "mine": false,
    "owner": "dleach16",
-   "player": "Denzel Boston",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Dontayvion Wicks",
-   "to": null
+   "player": "Jalen Hurts",
+   "to": "IR"
   },
   {
    "body_part": "Ankle",
-   "from": "Questionable",
+   "from": "IR",
    "mine": false,
    "owner": "brendonferreira",
-   "player": "Jeremiyah Love",
-   "to": "Out"
+   "player": "Omar Cooper",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Calf",
+   "from": null,
+   "mine": false,
+   "owner": "NikoGs",
+   "player": "Pat Freiermuth",
+   "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "coltierney",
+   "player": "Rachaad White",
+   "to": null
   },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
    "owner": "nusskyle",
-   "player": "KC Concepcion",
-   "to": null
-  },
-  {
-   "body_part": "Toe",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "dleach16",
-   "player": "Kyle Monangai",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "erictheleghel",
-   "player": "Ladd McConkey",
-   "to": null
-  },
-  {
-   "body_part": "Ankle",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "Lamar Jackson",
-   "to": "Out"
-  },
-  {
-   "body_part": "Shoulder",
-   "from": null,
-   "mine": false,
-   "owner": "coltierney",
-   "player": "Rachaad White",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "dleach16",
-   "player": "Rashee Rice",
-   "to": "Out"
-  },
-  {
-   "body_part": "Toe",
-   "from": null,
-   "mine": false,
-   "owner": "kitano",
-   "player": "Rico Dowdle",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "wmont",
-   "player": "Saquon Barkley",
-   "to": "Out"
-  },
-  {
-   "body_part": "Groin",
-   "from": null,
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Tyler Warren",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Foot",
-   "from": "Doubtful",
-   "mine": false,
-   "owner": "wmont",
-   "player": "Will Shipley",
-   "to": "IR"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Zay Flowers",
+   "player": "Terry McLaurin",
    "to": null
   }
  ],
- "my_team_changed": true,
+ "my_team_changed": false,
  "rosters": [
   {
-   "added": [
-    "Brandin Cooks"
-   ],
+   "added": [],
    "dropped": [
-    "Sam Darnold"
+    "Mike Washington"
    ],
    "moved_to_ir": [],
-   "owner": "kitano",
-   "roster_id": 4
+   "owner": "brendonferreira",
+   "roster_id": 5
   },
   {
    "added": [
-    "Ryan Flournoy"
+    "Darren Waller"
    ],
    "dropped": [
-    "Kimani Vidal"
+    "Ryan Flournoy"
    ],
    "moved_to_ir": [],
    "owner": "TheDudePlayingADude",
@@ -174,34 +100,66 @@
   },
   {
    "added": [
-    "Jacoby Brissett"
+    "Kimani Vidal"
    ],
-   "dropped": [],
+   "dropped": [
+    "Mark Andrews"
+   ],
    "moved_to_ir": [],
    "owner": "dleach16",
    "roster_id": 7
   },
   {
-   "added": [
-    "Kyler Murray"
-   ],
-   "dropped": [
-    "Dohnte Meyers"
-   ],
-   "moved_to_ir": [],
-   "owner": "mvlzqz",
-   "roster_id": 10
-  },
-  {
    "added": [],
    "dropped": [],
    "moved_to_ir": [
-    "Will Shipley"
+    "Jacory Croskey-Merritt"
    ],
-   "owner": "wmont",
-   "roster_id": 12
+   "owner": "chopkins30",
+   "roster_id": 14
   }
  ],
- "since": "2026-10-16T14:58:48+00:00",
- "waiver_moves": []
+ "since": "2026-10-17T13:53:29+00:00",
+ "waiver_moves": [
+  {
+   "from": 10,
+   "owner": "coltierney",
+   "to": 9
+  },
+  {
+   "from": 12,
+   "owner": "kitano",
+   "to": 11
+  },
+  {
+   "from": 13,
+   "owner": "TheDudePlayingADude",
+   "to": 12
+  },
+  {
+   "from": 7,
+   "owner": "dleach16",
+   "to": 14
+  },
+  {
+   "from": 14,
+   "owner": "NikoGs",
+   "to": 13
+  },
+  {
+   "from": 8,
+   "owner": "pauliv8811",
+   "to": 7
+  },
+  {
+   "from": 11,
+   "owner": "wmont",
+   "to": 10
+  },
+  {
+   "from": 9,
+   "owner": "chopkins30",
+   "to": 8
+  }
+ ]
 }
