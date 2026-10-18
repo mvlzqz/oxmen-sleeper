@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-10-18T14:07:26+00:00",
+ "fetched_at": "2026-10-18T16:36:30+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
   "bench": [
    {
     "id": "12512",
-    "inj": "Questionable (Lower Leg)",
+    "inj": "Out (Foot)",
     "name": "Quinshon Judkins",
     "pos": "RB",
     "season": {
@@ -23,6 +23,24 @@
      "tm_off_snp": 311.0
     },
     "team": "CLE"
+   },
+   {
+    "id": "2216",
+    "inj": "Questionable (Ribs)",
+    "name": "Mike Evans",
+    "pos": "WR",
+    "season": {
+     "gp": 5.0,
+     "off_snp": 172.0,
+     "pts_ppr": 76.6,
+     "rec": 24.0,
+     "rec_td": 3.0,
+     "rec_tgt": 34.0,
+     "rec_yd": 326.0,
+     "snap_pct": 58,
+     "tm_off_snp": 297.0
+    },
+    "team": "SF"
    },
    {
     "id": "5849",
@@ -61,22 +79,6 @@
      "tm_off_snp": 321.0
     },
     "team": "ATL"
-   },
-   {
-    "id": "9500",
-    "name": "Josh Downs",
-    "pos": "WR",
-    "season": {
-     "gp": 5.0,
-     "off_snp": 261.0,
-     "pts_ppr": 44.9,
-     "rec": 20.0,
-     "rec_tgt": 34.0,
-     "rec_yd": 249.0,
-     "snap_pct": 80,
-     "tm_off_snp": 327.0
-    },
-    "team": "IND"
    }
   ],
   "ir": [
@@ -179,23 +181,21 @@
     "team": "NYJ"
    },
    {
-    "id": "2216",
-    "inj": "Questionable (Ribs)",
-    "name": "Mike Evans",
+    "id": "9500",
+    "name": "Josh Downs",
     "pos": "WR",
     "season": {
      "gp": 5.0,
-     "off_snp": 172.0,
-     "pts_ppr": 76.6,
-     "rec": 24.0,
-     "rec_td": 3.0,
+     "off_snp": 261.0,
+     "pts_ppr": 44.9,
+     "rec": 20.0,
      "rec_tgt": 34.0,
-     "rec_yd": 326.0,
-     "snap_pct": 58,
-     "tm_off_snp": 297.0
+     "rec_yd": 249.0,
+     "snap_pct": 80,
+     "tm_off_snp": 327.0
     },
     "slot": "WR",
-    "team": "SF"
+    "team": "IND"
    },
    {
     "id": "7002",
@@ -259,9 +259,7 @@
     "team": "PIT"
    }
   ],
-  "lineup_flags": [
-   "WR Mike Evans is Questionable (Ribs)"
-  ],
+  "lineup_flags": [],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
   "pa": 541.28,
@@ -299,7 +297,6 @@
    "bench": [
     {
      "id": "12529",
-     "inj": "Questionable (Ankle)",
      "name": "TreVeyon Henderson",
      "pos": "RB",
      "season": {
@@ -1184,7 +1181,6 @@
     },
     {
      "id": "7021",
-     "inj": "Questionable (Toe)",
      "name": "Rico Dowdle",
      "pos": "RB",
      "season": {
@@ -1413,7 +1409,6 @@
    "bench": [
     {
      "id": "13276",
-     "inj": "Questionable (Ankle)",
      "name": "Omar Cooper",
      "pos": "WR",
      "season": {
@@ -1558,7 +1553,6 @@
     },
     {
      "id": "8144",
-     "inj": "Questionable (Illness)",
      "name": "Chris Olave",
      "pos": "WR",
      "season": {
@@ -1655,9 +1649,7 @@
      "team": "BAL"
     }
    ],
-   "lineup_flags": [
-    "WR Chris Olave is Questionable (Illness)"
-   ],
+   "lineup_flags": [],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
    "pa": 617.06,
@@ -1856,7 +1848,6 @@
     },
     {
      "id": "5859",
-     "inj": "Questionable (Ankle)",
      "name": "A.J. Brown",
      "pos": "WR",
      "season": {
@@ -1932,9 +1923,7 @@
      "team": "LAR"
     }
    ],
-   "lineup_flags": [
-    "WR A.J. Brown is Questionable (Ankle)"
-   ],
+   "lineup_flags": [],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 595.62,
@@ -2475,7 +2464,6 @@
     },
     {
      "id": "7600",
-     "inj": "Questionable (Calf)",
      "name": "Pat Freiermuth",
      "pos": "TE",
      "season": {
@@ -2539,8 +2527,7 @@
     }
    ],
    "lineup_flags": [
-    "WR DJ Moore is Questionable (Shoulder - AC Joint)",
-    "TE Pat Freiermuth is Questionable (Calf)"
+    "WR DJ Moore is Questionable (Shoulder - AC Joint)"
    ],
    "owner": "NikoGs",
    "owner_id": "1130659599352180736",
@@ -2570,6 +2557,23 @@
   },
   {
    "bench": [
+    {
+     "id": "11637",
+     "name": "Keon Coleman",
+     "pos": "WR",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 207.0,
+      "pts_ppr": 49.4,
+      "rec": 15.0,
+      "rec_td": 2.0,
+      "rec_tgt": 18.0,
+      "rec_yd": 224.0,
+      "snap_pct": 64,
+      "tm_off_snp": 321.0
+     },
+     "team": "BUF"
+    },
     {
      "id": "6797",
      "name": "Justin Herbert",
@@ -2623,24 +2627,6 @@
       "tm_off_snp": 325.0
      },
      "team": "DAL"
-    },
-    {
-     "id": "8129",
-     "name": "Dameon Pierce",
-     "pos": "RB",
-     "season": {
-      "gp": 1.0,
-      "off_snp": 48.0,
-      "pts_ppr": 3.2,
-      "rec": 2.0,
-      "rec_tgt": 5.0,
-      "rec_yd": -2.0,
-      "rush_att": 11.0,
-      "rush_yd": 14.0,
-      "snap_pct": 77,
-      "tm_off_snp": 62.0
-     },
-     "team": "PHI"
     }
    ],
    "ir": [
@@ -2801,22 +2787,23 @@
      "team": "CHI"
     },
     {
-     "id": "11637",
-     "name": "Keon Coleman",
-     "pos": "WR",
+     "id": "8129",
+     "name": "Dameon Pierce",
+     "pos": "RB",
      "season": {
-      "gp": 5.0,
-      "off_snp": 207.0,
-      "pts_ppr": 49.4,
-      "rec": 15.0,
-      "rec_td": 2.0,
-      "rec_tgt": 18.0,
-      "rec_yd": 224.0,
-      "snap_pct": 64,
-      "tm_off_snp": 321.0
+      "gp": 1.0,
+      "off_snp": 48.0,
+      "pts_ppr": 3.2,
+      "rec": 2.0,
+      "rec_tgt": 5.0,
+      "rec_yd": -2.0,
+      "rush_att": 11.0,
+      "rush_yd": 14.0,
+      "snap_pct": 77,
+      "tm_off_snp": 62.0
      },
      "slot": "FLEX",
-     "team": "BUF"
+     "team": "PHI"
     },
     {
      "id": "12185",
@@ -2874,7 +2861,7 @@
    "bench": [
     {
      "id": "12512",
-     "inj": "Questionable (Lower Leg)",
+     "inj": "Out (Foot)",
      "name": "Quinshon Judkins",
      "pos": "RB",
      "season": {
@@ -2891,6 +2878,24 @@
       "tm_off_snp": 311.0
      },
      "team": "CLE"
+    },
+    {
+     "id": "2216",
+     "inj": "Questionable (Ribs)",
+     "name": "Mike Evans",
+     "pos": "WR",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 172.0,
+      "pts_ppr": 76.6,
+      "rec": 24.0,
+      "rec_td": 3.0,
+      "rec_tgt": 34.0,
+      "rec_yd": 326.0,
+      "snap_pct": 58,
+      "tm_off_snp": 297.0
+     },
+     "team": "SF"
     },
     {
      "id": "5849",
@@ -2929,22 +2934,6 @@
       "tm_off_snp": 321.0
      },
      "team": "ATL"
-    },
-    {
-     "id": "9500",
-     "name": "Josh Downs",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 261.0,
-      "pts_ppr": 44.9,
-      "rec": 20.0,
-      "rec_tgt": 34.0,
-      "rec_yd": 249.0,
-      "snap_pct": 80,
-      "tm_off_snp": 327.0
-     },
-     "team": "IND"
     }
    ],
    "ir": [
@@ -3047,23 +3036,21 @@
      "team": "NYJ"
     },
     {
-     "id": "2216",
-     "inj": "Questionable (Ribs)",
-     "name": "Mike Evans",
+     "id": "9500",
+     "name": "Josh Downs",
      "pos": "WR",
      "season": {
       "gp": 5.0,
-      "off_snp": 172.0,
-      "pts_ppr": 76.6,
-      "rec": 24.0,
-      "rec_td": 3.0,
+      "off_snp": 261.0,
+      "pts_ppr": 44.9,
+      "rec": 20.0,
       "rec_tgt": 34.0,
-      "rec_yd": 326.0,
-      "snap_pct": 58,
-      "tm_off_snp": 297.0
+      "rec_yd": 249.0,
+      "snap_pct": 80,
+      "tm_off_snp": 327.0
      },
      "slot": "WR",
-     "team": "SF"
+     "team": "IND"
     },
     {
      "id": "7002",
@@ -3127,9 +3114,7 @@
      "team": "PIT"
     }
    ],
-   "lineup_flags": [
-    "WR Mike Evans is Questionable (Ribs)"
-   ],
+   "lineup_flags": [],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",
    "pa": 541.28,
@@ -3480,7 +3465,6 @@
     },
     {
      "id": "13330",
-     "inj": "Questionable (Concussion)",
      "name": "Kenyon Sadiq",
      "pos": "TE",
      "season": {
@@ -3871,7 +3855,6 @@
     },
     {
      "id": "13293",
-     "inj": "Questionable (Wrist)",
      "name": "Ja'Kobi Lane",
      "pos": "WR",
      "season": {
@@ -3890,7 +3873,6 @@
    "lineup": [
     {
      "id": "11560",
-     "inj": "Questionable (Hamstring)",
      "name": "Caleb Williams",
      "pos": "QB",
      "season": {
@@ -3930,7 +3912,6 @@
     },
     {
      "id": "9508",
-     "inj": "Questionable (Knee)",
      "name": "Tyjae Spears",
      "pos": "RB",
      "season": {
@@ -4049,10 +4030,7 @@
      "team": "SEA"
     }
    ],
-   "lineup_flags": [
-    "QB Caleb Williams is Questionable (Hamstring)",
-    "RB Tyjae Spears is Questionable (Knee)"
-   ],
+   "lineup_flags": [],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
    "pa": 530.72,
@@ -4160,6 +4138,27 @@
    ],
    "ir": [
     {
+     "id": "12518",
+     "inj": "Out (Groin)",
+     "name": "Tyler Warren",
+     "pos": "TE",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 298.0,
+      "pts_ppr": 69.9,
+      "rec": 30.0,
+      "rec_td": 2.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 213.0,
+      "rush_att": 3.0,
+      "rush_td": 1.0,
+      "rush_yd": 6.0,
+      "snap_pct": 91,
+      "tm_off_snp": 327.0
+     },
+     "team": "IND"
+    },
+    {
      "id": "12533",
      "inj": "Out (Groin)",
      "name": "Jacory Croskey-Merritt",
@@ -4204,7 +4203,6 @@
     },
     {
      "id": "4035",
-     "inj": "Questionable (Back)",
      "name": "Alvin Kamara",
      "pos": "RB",
      "season": {
@@ -4282,26 +4280,22 @@
      "team": "CAR"
     },
     {
-     "id": "12518",
-     "inj": "Questionable (Groin)",
-     "name": "Tyler Warren",
+     "id": "7553",
+     "name": "Kyle Pitts",
      "pos": "TE",
      "season": {
       "gp": 5.0,
-      "off_snp": 298.0,
-      "pts_ppr": 69.9,
-      "rec": 30.0,
-      "rec_td": 2.0,
-      "rec_tgt": 36.0,
-      "rec_yd": 213.0,
-      "rush_att": 3.0,
-      "rush_td": 1.0,
-      "rush_yd": 6.0,
-      "snap_pct": 91,
-      "tm_off_snp": 327.0
+      "off_snp": 178.0,
+      "pts_ppr": 26.9,
+      "rec": 10.0,
+      "rec_td": 1.0,
+      "rec_tgt": 15.0,
+      "rec_yd": 109.0,
+      "snap_pct": 55,
+      "tm_off_snp": 321.0
      },
      "slot": "TE",
-     "team": "IND"
+     "team": "ATL"
     },
     {
      "id": "12519",
@@ -4347,10 +4341,7 @@
      "team": "KC"
     }
    ],
-   "lineup_flags": [
-    "RB Alvin Kamara is Questionable (Back)",
-    "TE Tyler Warren is Questionable (Groin)"
-   ],
+   "lineup_flags": [],
    "owner": "chopkins30",
    "owner_id": "1258779579946897408",
    "pa": 697.68,
@@ -4365,6 +4356,7 @@
     "13279",
     "4035",
     "7526",
+    "7553",
     "8183",
     "9221",
     "9758",

@@ -4,12 +4,44 @@
  "injury_baseline": "2026-10-17_1353Z",
  "injury_changes": [
   {
-   "body_part": "Ankle",
+   "body_part": "Foot",
+   "from": "Questionable",
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Quinshon Judkins",
+   "to": "Out"
+  },
+  {
+   "body_part": null,
    "from": "IR",
    "mine": false,
    "owner": "TheDudePlayingADude",
    "player": "A.J. Brown",
-   "to": "Questionable"
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Alvin Kamara",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Caleb Williams",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Chris Olave",
+   "to": null
   },
   {
    "body_part": null,
@@ -20,12 +52,12 @@
    "to": null
   },
   {
-   "body_part": "Wrist",
+   "body_part": null,
    "from": "IR",
    "mine": false,
    "owner": "phile2211",
    "player": "Ja'Kobi Lane",
-   "to": "Questionable"
+   "to": null
   },
   {
    "body_part": "Groin",
@@ -44,20 +76,20 @@
    "to": "IR"
   },
   {
-   "body_part": "Ankle",
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "wmont",
+   "player": "Kenyon Sadiq",
+   "to": null
+  },
+  {
+   "body_part": null,
    "from": "IR",
    "mine": false,
    "owner": "brendonferreira",
    "player": "Omar Cooper",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Calf",
-   "from": null,
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "Pat Freiermuth",
-   "to": "Questionable"
+   "to": null
   },
   {
    "body_part": null,
@@ -71,12 +103,44 @@
    "body_part": null,
    "from": "Questionable",
    "mine": false,
+   "owner": "kitano",
+   "player": "Rico Dowdle",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
    "owner": "nusskyle",
    "player": "Terry McLaurin",
    "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "coltierney",
+   "player": "TreVeyon Henderson",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Tyjae Spears",
+   "to": null
+  },
+  {
+   "body_part": "Groin",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Tyler Warren",
+   "to": "Out"
   }
  ],
- "my_team_changed": false,
+ "my_team_changed": true,
  "rosters": [
   {
    "added": [],
@@ -123,9 +187,12 @@
    "roster_id": 12
   },
   {
-   "added": [],
+   "added": [
+    "Kyle Pitts"
+   ],
    "dropped": [],
    "moved_to_ir": [
+    "Tyler Warren",
     "Jacory Croskey-Merritt"
    ],
    "owner": "chopkins30",
