@@ -3257,7 +3257,7 @@
  "11636": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 9,
+  "depth_chart_order": 8,
   "first_name": "Johnny",
   "full_name": "Johnny Wilson",
   "injury_body_part": "Knee",
@@ -9392,7 +9392,7 @@
  "13349": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 6,
+  "depth_chart_order": 5,
   "depth_chart_position": "TE",
   "first_name": "Eli",
   "full_name": "Eli Stowers",
@@ -13481,35 +13481,6 @@
   "team": "CAR",
   "years_exp": 1
  },
- "4574": {
-  "active": true,
-  "age": 32,
-  "depth_chart_order": 2,
-  "depth_chart_position": "QB",
-  "first_name": "Cooper",
-  "full_name": "Cooper Rush",
-  "injury_body_part": "Coach's Decision",
-  "injury_status": "Out",
-  "last_name": "Rush",
-  "position": "QB",
-  "search_rank": 682,
-  "season": {
-   "gp": 2.0,
-   "off_snp": 100.0,
-   "pass_att": 39.0,
-   "pass_int": 4.0,
-   "pass_td": 1.0,
-   "pass_yd": 229.0,
-   "pts_ppr": 9.16,
-   "rush_att": 2.0,
-   "rush_yd": 20.0,
-   "snap_pct": 78,
-   "tm_off_snp": 129.0
-  },
-  "status": "Active",
-  "team": "ATL",
-  "years_exp": 9
- },
  "4602": {
   "active": true,
   "age": 32,
@@ -14489,7 +14460,7 @@
   "full_name": "Tanner Hudson",
   "injury_body_part": "Pectoral",
   "injury_notes": "Strain",
-  "injury_status": "Out",
+  "injury_status": "IR",
   "last_name": "Hudson",
   "last_week": {
    "gp": 1.0,
@@ -14515,7 +14486,7 @@
    "snap_pct": 26,
    "tm_off_snp": 262.0
   },
-  "status": "Active",
+  "status": "Inactive",
   "team": "CIN",
   "years_exp": 8
  },
@@ -16893,6 +16864,23 @@
   },
   "status": "Active",
   "team": "MIN",
+  "years_exp": 6
+ },
+ "7050": {
+  "active": true,
+  "age": 29,
+  "first_name": "Josiah",
+  "full_name": "Josiah Deguara",
+  "last_name": "Deguara",
+  "last_week": null,
+  "position": "TE",
+  "search_rank": 542,
+  "season": {
+   "gp": 1.0,
+   "tm_off_snp": 61.0
+  },
+  "status": "Active",
+  "team": "SEA",
   "years_exp": 6
  },
  "7066": {
@@ -19938,7 +19926,7 @@
  "8177": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Grant",
   "full_name": "Grant Calcaterra",
@@ -20676,6 +20664,28 @@
   },
   "status": "Active",
   "team": "GB",
+  "years_exp": 15
+ },
+ "829": {
+  "active": true,
+  "age": 38,
+  "depth_chart_position": "QB",
+  "first_name": "Andy",
+  "full_name": "Andy Dalton",
+  "last_name": "Dalton",
+  "position": "QB",
+  "search_rank": 657,
+  "season": {
+   "gp": 1.0,
+   "off_snp": 4.0,
+   "pass_att": 1.0,
+   "pass_int": 1.0,
+   "pts_ppr": -1.0,
+   "snap_pct": 2,
+   "tm_off_snp": 242.0
+  },
+  "status": "Active",
+  "team": "ATL",
   "years_exp": 15
  },
  "8408": {
