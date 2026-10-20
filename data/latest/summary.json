@@ -1,29 +1,9 @@
 {
- "fetched_at": "2026-10-20T10:40:15+00:00",
+ "fetched_at": "2026-10-20T15:20:34+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
   "bench": [
-   {
-    "id": "12512",
-    "inj": "Out (Foot)",
-    "name": "Quinshon Judkins",
-    "pos": "RB",
-    "season": {
-     "gp": 5.0,
-     "off_snp": 186.0,
-     "pts_ppr": 56.3,
-     "rec": 18.0,
-     "rec_tgt": 20.0,
-     "rec_yd": 102.0,
-     "rush_att": 73.0,
-     "rush_td": 1.0,
-     "rush_yd": 221.0,
-     "snap_pct": 60,
-     "tm_off_snp": 311.0
-    },
-    "team": "CLE"
-   },
    {
     "id": "2216",
     "inj": "Out (Achilles)",
@@ -98,6 +78,26 @@
      "tm_off_snp": 141.0
     },
     "team": "NYJ"
+   },
+   {
+    "id": "12512",
+    "inj": "Out (Foot)",
+    "name": "Quinshon Judkins",
+    "pos": "RB",
+    "season": {
+     "gp": 5.0,
+     "off_snp": 186.0,
+     "pts_ppr": 56.3,
+     "rec": 18.0,
+     "rec_tgt": 20.0,
+     "rec_yd": 102.0,
+     "rush_att": 73.0,
+     "rush_td": 1.0,
+     "rush_yd": 221.0,
+     "snap_pct": 60,
+     "tm_off_snp": 311.0
+    },
+    "team": "CLE"
    }
   ],
   "lineup": [
@@ -579,81 +579,41 @@
   {
    "bench": [
     {
-     "id": "10859",
-     "name": "Sam LaPorta",
-     "pos": "TE",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 301.0,
-      "pts_ppr": 76.6,
-      "rec": 27.0,
-      "rec_td": 3.0,
-      "rec_tgt": 37.0,
-      "rec_yd": 316.0,
-      "snap_pct": 88,
-      "tm_off_snp": 344.0
-     },
-     "team": "DET"
-    },
-    {
-     "id": "1166",
-     "name": "Kirk Cousins",
-     "pos": "QB",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 401.0,
-      "pass_att": 213.0,
-      "pass_int": 5.0,
-      "pass_td": 14.0,
-      "pass_yd": 1582.0,
-      "pts_ppr": 116.08,
-      "rush_att": 12.0,
-      "rush_yd": -2.0,
-      "snap_pct": 98,
-      "tm_off_snp": 411.0
-     },
-     "team": "LV"
-    },
-    {
-     "id": "13298",
-     "name": "KC Concepcion",
+     "id": "11624",
+     "name": "Xavier Worthy",
      "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "off_snp": 254.0,
-      "pts_ppr": 39.7,
-      "rec": 22.0,
-      "rec_tgt": 35.0,
-      "rec_yd": 186.0,
-      "rush_att": 6.0,
-      "rush_yd": 11.0,
-      "snap_pct": 68,
-      "tm_off_snp": 373.0
+      "gp": 5.0,
+      "off_snp": 261.0,
+      "pts_ppr": 47.6,
+      "rec": 21.0,
+      "rec_td": 1.0,
+      "rec_tgt": 29.0,
+      "rec_yd": 206.0,
+      "snap_pct": 81,
+      "tm_off_snp": 322.0
      },
-     "team": "CLE"
+     "team": "KC"
     },
     {
-     "id": "7567",
-     "name": "Kenny Gainwell",
+     "id": "12481",
+     "name": "Cam Skattebo",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 145.0,
-      "pts_ppr": 30.2,
-      "rec": 12.0,
-      "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 61.0,
-      "rush_att": 19.0,
-      "rush_yd": 61.0,
-      "snap_pct": 36,
-      "tm_off_snp": 401.0
+      "off_snp": 230.0,
+      "pts_ppr": 51.3,
+      "rec": 10.0,
+      "rec_tgt": 12.0,
+      "rec_yd": 79.0,
+      "rush_att": 81.0,
+      "rush_td": 1.0,
+      "rush_yd": 294.0,
+      "snap_pct": 54,
+      "tm_off_snp": 424.0
      },
-     "team": "TB"
-    }
-   ],
-   "ir": [],
-   "lineup": [
+     "team": "NYG"
+    },
     {
      "id": "4984",
      "name": "Josh Allen",
@@ -675,28 +635,69 @@
       "snap_pct": 100,
       "tm_off_snp": 389.0
      },
-     "slot": "QB",
      "team": "BUF"
+    }
+   ],
+   "ir": [
+    {
+     "id": "5927",
+     "inj": "Out (Knee)",
+     "name": "Terry McLaurin",
+     "pos": "WR",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 199.0,
+      "pts_ppr": 46.0,
+      "rec": 15.0,
+      "rec_td": 1.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 230.0,
+      "snap_pct": 73,
+      "tm_off_snp": 272.0
+     },
+     "team": "WAS"
+    }
+   ],
+   "lineup": [
+    {
+     "id": "1166",
+     "name": "Kirk Cousins",
+     "pos": "QB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 401.0,
+      "pass_att": 213.0,
+      "pass_int": 5.0,
+      "pass_td": 14.0,
+      "pass_yd": 1582.0,
+      "pts_ppr": 116.08,
+      "rush_att": 12.0,
+      "rush_yd": -2.0,
+      "snap_pct": 98,
+      "tm_off_snp": 411.0
+     },
+     "slot": "QB",
+     "team": "LV"
     },
     {
-     "id": "12481",
-     "name": "Cam Skattebo",
+     "id": "7567",
+     "name": "Kenny Gainwell",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 230.0,
-      "pts_ppr": 51.3,
-      "rec": 10.0,
-      "rec_tgt": 12.0,
-      "rec_yd": 79.0,
-      "rush_att": 81.0,
-      "rush_td": 1.0,
-      "rush_yd": 294.0,
-      "snap_pct": 54,
-      "tm_off_snp": 424.0
+      "off_snp": 145.0,
+      "pts_ppr": 30.2,
+      "rec": 12.0,
+      "rec_td": 1.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 61.0,
+      "rush_att": 19.0,
+      "rush_yd": 61.0,
+      "snap_pct": 36,
+      "tm_off_snp": 401.0
      },
      "slot": "RB",
-     "team": "NYG"
+     "team": "TB"
     },
     {
      "id": "12489",
@@ -739,23 +740,41 @@
      "team": "DAL"
     },
     {
-     "id": "5927",
-     "inj": "Out (Knee)",
-     "name": "Terry McLaurin",
+     "id": "13298",
+     "name": "KC Concepcion",
      "pos": "WR",
      "season": {
-      "gp": 5.0,
-      "off_snp": 199.0,
-      "pts_ppr": 46.0,
-      "rec": 15.0,
-      "rec_td": 1.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 230.0,
-      "snap_pct": 73,
-      "tm_off_snp": 272.0
+      "gp": 6.0,
+      "off_snp": 254.0,
+      "pts_ppr": 39.7,
+      "rec": 22.0,
+      "rec_tgt": 35.0,
+      "rec_yd": 186.0,
+      "rush_att": 6.0,
+      "rush_yd": 11.0,
+      "snap_pct": 68,
+      "tm_off_snp": 373.0
      },
      "slot": "WR",
-     "team": "WAS"
+     "team": "CLE"
+    },
+    {
+     "id": "10859",
+     "name": "Sam LaPorta",
+     "pos": "TE",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 301.0,
+      "pts_ppr": 76.6,
+      "rec": 27.0,
+      "rec_td": 3.0,
+      "rec_tgt": 37.0,
+      "rec_yd": 316.0,
+      "snap_pct": 88,
+      "tm_off_snp": 344.0
+     },
+     "slot": "TE",
+     "team": "DET"
     },
     {
      "id": "3214",
@@ -772,26 +791,8 @@
       "snap_pct": 73,
       "tm_off_snp": 408.0
      },
-     "slot": "TE",
-     "team": "NE"
-    },
-    {
-     "id": "11624",
-     "name": "Xavier Worthy",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 261.0,
-      "pts_ppr": 47.6,
-      "rec": 21.0,
-      "rec_td": 1.0,
-      "rec_tgt": 29.0,
-      "rec_yd": 206.0,
-      "snap_pct": 81,
-      "tm_off_snp": 322.0
-     },
      "slot": "FLEX",
-     "team": "KC"
+     "team": "NE"
     },
     {
      "id": "11533",
@@ -817,9 +818,7 @@
      "team": "DEN"
     }
    ],
-   "lineup_flags": [
-    "WR Terry McLaurin is Out (Knee)"
-   ],
+   "lineup_flags": [],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
    "pa": 698.54,
@@ -1968,61 +1967,43 @@
   {
    "bench": [
     {
-     "id": "10229",
-     "inj": "Out (Hamstring)",
-     "name": "Rashee Rice",
+     "id": "10213",
+     "name": "Tre Tucker",
      "pos": "WR",
      "season": {
-      "gp": 4.0,
-      "off_snp": 166.0,
-      "pts_ppr": 38.0,
-      "rec": 13.0,
-      "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 190.0,
-      "snap_pct": 64,
-      "tm_off_snp": 261.0
+      "gp": 6.0,
+      "off_snp": 272.0,
+      "pts_ppr": 78.5,
+      "rec": 24.0,
+      "rec_td": 3.0,
+      "rec_tgt": 35.0,
+      "rec_yd": 371.0,
+      "rush_att": 2.0,
+      "rush_yd": -6.0,
+      "snap_pct": 66,
+      "tm_off_snp": 411.0
      },
-     "team": "KC"
+     "team": "LV"
     },
     {
-     "id": "4199",
-     "inj": "Questionable (Leg)",
-     "name": "Aaron Jones",
+     "id": "11647",
+     "name": "Kimani Vidal",
      "pos": "RB",
      "season": {
-      "gp": 5.0,
-      "off_snp": 238.0,
-      "pts_ppr": 70.2,
-      "rec": 12.0,
-      "rec_tgt": 18.0,
-      "rec_yd": 72.0,
-      "rush_att": 97.0,
-      "rush_td": 2.0,
-      "rush_yd": 410.0,
-      "snap_pct": 73,
-      "tm_off_snp": 325.0
+      "gp": 6.0,
+      "off_snp": 106.0,
+      "pts_ppr": 34.2,
+      "rec": 7.0,
+      "rec_td": 1.0,
+      "rec_tgt": 12.0,
+      "rec_yd": 43.0,
+      "rush_att": 21.0,
+      "rush_td": 1.0,
+      "rush_yd": 109.0,
+      "snap_pct": 27,
+      "tm_off_snp": 398.0
      },
-     "team": "MIN"
-    },
-    {
-     "id": "6794",
-     "name": "Justin Jefferson",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 182.0,
-      "pts_ppr": 63.7,
-      "rec": 19.0,
-      "rec_td": 3.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 258.0,
-      "rush_att": 1.0,
-      "rush_yd": -11.0,
-      "snap_pct": 56,
-      "tm_off_snp": 325.0
-     },
-     "team": "MIN"
+     "team": "LAC"
     },
     {
      "id": "8134",
@@ -2044,6 +2025,24 @@
    ],
    "ir": [
     {
+     "id": "10229",
+     "inj": "Out (Hamstring)",
+     "name": "Rashee Rice",
+     "pos": "WR",
+     "season": {
+      "gp": 4.0,
+      "off_snp": 166.0,
+      "pts_ppr": 38.0,
+      "rec": 13.0,
+      "rec_td": 1.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 190.0,
+      "snap_pct": 64,
+      "tm_off_snp": 261.0
+     },
+     "team": "KC"
+    },
+    {
      "id": "12534",
      "inj": "Out (Toe)",
      "name": "Kyle Monangai",
@@ -2062,28 +2061,6 @@
       "tm_off_snp": 314.0
      },
      "team": "CHI"
-    },
-    {
-     "id": "6904",
-     "inj": "IR (Calf)",
-     "name": "Jalen Hurts",
-     "pos": "QB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 300.0,
-      "pass_att": 154.0,
-      "pass_int": 3.0,
-      "pass_td": 8.0,
-      "pass_yd": 933.0,
-      "pts_ppr": 83.02,
-      "rush_att": 23.0,
-      "rush_td": 1.0,
-      "rush_yd": 107.0,
-      "snap_pct": 99,
-      "tm_off_snp": 304.0
-     },
-     "status": "Inactive",
-     "team": "PHI"
     }
    ],
    "lineup": [
@@ -2133,45 +2110,45 @@
      "team": "LV"
     },
     {
-     "id": "11647",
-     "name": "Kimani Vidal",
+     "id": "4199",
+     "inj": "Questionable (Leg)",
+     "name": "Aaron Jones",
      "pos": "RB",
      "season": {
-      "gp": 6.0,
-      "off_snp": 106.0,
-      "pts_ppr": 34.2,
-      "rec": 7.0,
-      "rec_td": 1.0,
-      "rec_tgt": 12.0,
-      "rec_yd": 43.0,
-      "rush_att": 21.0,
-      "rush_td": 1.0,
-      "rush_yd": 109.0,
-      "snap_pct": 27,
-      "tm_off_snp": 398.0
+      "gp": 5.0,
+      "off_snp": 238.0,
+      "pts_ppr": 70.2,
+      "rec": 12.0,
+      "rec_tgt": 18.0,
+      "rec_yd": 72.0,
+      "rush_att": 97.0,
+      "rush_td": 2.0,
+      "rush_yd": 410.0,
+      "snap_pct": 73,
+      "tm_off_snp": 325.0
      },
      "slot": "RB",
-     "team": "LAC"
+     "team": "MIN"
     },
     {
-     "id": "10213",
-     "name": "Tre Tucker",
+     "id": "6794",
+     "name": "Justin Jefferson",
      "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "off_snp": 272.0,
-      "pts_ppr": 78.5,
-      "rec": 24.0,
+      "gp": 4.0,
+      "off_snp": 182.0,
+      "pts_ppr": 63.7,
+      "rec": 19.0,
       "rec_td": 3.0,
-      "rec_tgt": 35.0,
-      "rec_yd": 371.0,
-      "rush_att": 2.0,
-      "rush_yd": -6.0,
-      "snap_pct": 66,
-      "tm_off_snp": 411.0
+      "rec_tgt": 24.0,
+      "rec_yd": 258.0,
+      "rush_att": 1.0,
+      "rush_yd": -11.0,
+      "snap_pct": 56,
+      "tm_off_snp": 325.0
      },
      "slot": "WR",
-     "team": "LV"
+     "team": "MIN"
     },
     {
      "id": "11632",
@@ -2251,7 +2228,9 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "RB Aaron Jones is Questionable (Leg)"
+   ],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
    "pa": 570.9,
@@ -2269,7 +2248,6 @@
     "4199",
     "5022",
     "6794",
-    "6904",
     "8134",
     "JAX"
    ],
@@ -2880,26 +2858,6 @@
   {
    "bench": [
     {
-     "id": "12512",
-     "inj": "Out (Foot)",
-     "name": "Quinshon Judkins",
-     "pos": "RB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 186.0,
-      "pts_ppr": 56.3,
-      "rec": 18.0,
-      "rec_tgt": 20.0,
-      "rec_yd": 102.0,
-      "rush_att": 73.0,
-      "rush_td": 1.0,
-      "rush_yd": 221.0,
-      "snap_pct": 60,
-      "tm_off_snp": 311.0
-     },
-     "team": "CLE"
-    },
-    {
      "id": "2216",
      "inj": "Out (Achilles)",
      "name": "Mike Evans",
@@ -2973,6 +2931,26 @@
       "tm_off_snp": 141.0
      },
      "team": "NYJ"
+    },
+    {
+     "id": "12512",
+     "inj": "Out (Foot)",
+     "name": "Quinshon Judkins",
+     "pos": "RB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 186.0,
+      "pts_ppr": 56.3,
+      "rec": 18.0,
+      "rec_tgt": 20.0,
+      "rec_yd": 102.0,
+      "rush_att": 73.0,
+      "rush_td": 1.0,
+      "rush_yd": 221.0,
+      "snap_pct": 60,
+      "tm_off_snp": 311.0
+     },
+     "team": "CLE"
     }
    ],
    "lineup": [
