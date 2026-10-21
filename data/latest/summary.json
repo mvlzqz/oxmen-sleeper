@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-21T10:40:13+00:00",
+ "fetched_at": "2026-10-21T15:33:04+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -612,26 +612,6 @@
      "team": "KC"
     },
     {
-     "id": "11655",
-     "name": "Tyrone Tracy",
-     "pos": "RB",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 62.0,
-      "pts_ppr": 23.2,
-      "rec": 4.0,
-      "rec_td": 1.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 52.0,
-      "rush_att": 13.0,
-      "rush_td": 1.0,
-      "rush_yd": 40.0,
-      "snap_pct": 15,
-      "tm_off_snp": 424.0
-     },
-     "team": "NYG"
-    },
-    {
      "id": "12481",
      "name": "Cam Skattebo",
      "pos": "RB",
@@ -672,6 +652,25 @@
       "tm_off_snp": 389.0
      },
      "team": "BUF"
+    },
+    {
+     "id": "7567",
+     "name": "Kenny Gainwell",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 145.0,
+      "pts_ppr": 30.2,
+      "rec": 12.0,
+      "rec_td": 1.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 61.0,
+      "rush_att": 19.0,
+      "rush_yd": 61.0,
+      "snap_pct": 36,
+      "tm_off_snp": 401.0
+     },
+     "team": "TB"
     }
    ],
    "ir": [
@@ -716,24 +715,25 @@
      "team": "LV"
     },
     {
-     "id": "7567",
-     "name": "Kenny Gainwell",
+     "id": "11655",
+     "name": "Tyrone Tracy",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 145.0,
-      "pts_ppr": 30.2,
-      "rec": 12.0,
+      "off_snp": 62.0,
+      "pts_ppr": 23.2,
+      "rec": 4.0,
       "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 61.0,
-      "rush_att": 19.0,
-      "rush_yd": 61.0,
-      "snap_pct": 36,
-      "tm_off_snp": 401.0
+      "rec_tgt": 6.0,
+      "rec_yd": 52.0,
+      "rush_att": 13.0,
+      "rush_td": 1.0,
+      "rush_yd": 40.0,
+      "snap_pct": 15,
+      "tm_off_snp": 424.0
      },
      "slot": "RB",
-     "team": "TB"
+     "team": "NYG"
     },
     {
      "id": "12489",
@@ -1797,54 +1797,33 @@
      "team": "SF"
     },
     {
-     "id": "6804",
-     "name": "Jordan Love",
+     "id": "421",
+     "name": "Matthew Stafford",
      "pos": "QB",
      "season": {
       "gp": 6.0,
-      "off_snp": 387.0,
-      "pass_att": 226.0,
-      "pass_int": 4.0,
+      "off_snp": 423.0,
+      "pass_att": 249.0,
+      "pass_int": 6.0,
       "pass_td": 11.0,
-      "pass_yd": 1684.0,
-      "pts_ppr": 114.36,
+      "pass_yd": 1794.0,
+      "pts_ppr": 111.86,
       "rush_att": 11.0,
-      "rush_td": 1.0,
-      "rush_yd": 10.0,
-      "snap_pct": 99,
-      "tm_off_snp": 389.0
+      "rush_yd": 21.0,
+      "snap_pct": 98,
+      "tm_off_snp": 433.0
      },
-     "team": "GB"
+     "team": "LAR"
     },
     {
-     "id": "7839",
-     "name": "Evan McPherson",
-     "pos": "K",
+     "id": "LAR",
+     "name": "LAR DEF",
+     "pos": "DEF",
      "season": {
-      "gp": 5.0,
-      "pts_ppr": 54.0,
-      "tm_off_snp": 322.0
+      "gp": 6.0,
+      "pts_ppr": 31.0
      },
-     "team": "CIN"
-    },
-    {
-     "id": "9224",
-     "name": "Chase Brown",
-     "pos": "RB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 227.0,
-      "pts_ppr": 65.0,
-      "rec": 24.0,
-      "rec_tgt": 28.0,
-      "rec_yd": 124.0,
-      "rush_att": 71.0,
-      "rush_td": 1.0,
-      "rush_yd": 246.0,
-      "snap_pct": 70,
-      "tm_off_snp": 322.0
-     },
-     "team": "CIN"
+     "team": "LAR"
     }
    ],
    "ir": [
@@ -1869,44 +1848,45 @@
    ],
    "lineup": [
     {
-     "id": "421",
-     "name": "Matthew Stafford",
+     "id": "6804",
+     "name": "Jordan Love",
      "pos": "QB",
      "season": {
       "gp": 6.0,
-      "off_snp": 423.0,
-      "pass_att": 249.0,
-      "pass_int": 6.0,
+      "off_snp": 387.0,
+      "pass_att": 226.0,
+      "pass_int": 4.0,
       "pass_td": 11.0,
-      "pass_yd": 1794.0,
-      "pts_ppr": 111.86,
+      "pass_yd": 1684.0,
+      "pts_ppr": 114.36,
       "rush_att": 11.0,
-      "rush_yd": 21.0,
-      "snap_pct": 98,
-      "tm_off_snp": 433.0
+      "rush_td": 1.0,
+      "rush_yd": 10.0,
+      "snap_pct": 99,
+      "tm_off_snp": 389.0
      },
      "slot": "QB",
-     "team": "LAR"
+     "team": "GB"
     },
     {
-     "id": "9757",
-     "name": "Kendre Miller",
+     "id": "9224",
+     "name": "Chase Brown",
      "pos": "RB",
      "season": {
       "gp": 5.0,
-      "off_snp": 105.0,
-      "pts_ppr": 32.8,
-      "rec": 6.0,
-      "rec_tgt": 8.0,
-      "rec_yd": 15.0,
-      "rush_att": 49.0,
-      "rush_td": 2.0,
-      "rush_yd": 153.0,
-      "snap_pct": 30,
-      "tm_off_snp": 355.0
+      "off_snp": 227.0,
+      "pts_ppr": 65.0,
+      "rec": 24.0,
+      "rec_tgt": 28.0,
+      "rec_yd": 124.0,
+      "rush_att": 71.0,
+      "rush_td": 1.0,
+      "rush_yd": 246.0,
+      "snap_pct": 70,
+      "tm_off_snp": 322.0
      },
      "slot": "RB",
-     "team": "NO"
+     "team": "CIN"
     },
     {
      "id": "8228",
@@ -1984,42 +1964,51 @@
      "team": "LV"
     },
     {
-     "id": "2505",
-     "name": "Darren Waller",
-     "pos": "TE",
+     "id": "9757",
+     "name": "Kendre Miller",
+     "pos": "RB",
      "season": {
       "gp": 5.0,
-      "off_snp": 168.0,
-      "pts_ppr": 39.8,
-      "rec": 13.0,
-      "rec_td": 2.0,
-      "rec_tgt": 21.0,
-      "rec_yd": 148.0,
-      "snap_pct": 46,
-      "tm_off_snp": 365.0
+      "off_snp": 105.0,
+      "pts_ppr": 32.8,
+      "rec": 6.0,
+      "rec_tgt": 8.0,
+      "rec_yd": 15.0,
+      "rush_att": 49.0,
+      "rush_td": 2.0,
+      "rush_yd": 153.0,
+      "snap_pct": 30,
+      "tm_off_snp": 355.0
      },
      "slot": "FLEX",
-     "team": "CAR"
+     "team": "NO"
     },
     {
-     "empty": true,
-     "slot": "K"
+     "id": "7839",
+     "name": "Evan McPherson",
+     "pos": "K",
+     "season": {
+      "gp": 5.0,
+      "pts_ppr": 54.0,
+      "tm_off_snp": 322.0
+     },
+     "slot": "K",
+     "team": "CIN"
     },
     {
-     "id": "LAR",
-     "name": "LAR DEF",
+     "id": "CAR",
+     "name": "CAR DEF",
      "pos": "DEF",
      "season": {
-      "gp": 6.0,
-      "pts_ppr": 31.0
+      "gp": 5.0,
+      "pts_ppr": 36.0
      },
      "slot": "DEF",
-     "team": "LAR"
+     "team": "CAR"
     }
    ],
    "lineup_flags": [
-    "WR A.J. Brown is Questionable (Ankle)",
-    "K slot is EMPTY"
+    "WR A.J. Brown is Questionable (Ankle)"
    ],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
@@ -2029,7 +2018,6 @@
     "11604",
     "13301",
     "13414",
-    "2505",
     "421",
     "5859",
     "6804",
@@ -2039,6 +2027,7 @@
     "8408",
     "9224",
     "9757",
+    "CAR",
     "LAR"
    ],
    "record": "1-5",
@@ -2632,6 +2621,26 @@
   {
    "bench": [
     {
+     "id": "11581",
+     "name": "MarShawn Lloyd",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 151.0,
+      "pts_ppr": 43.7,
+      "rec": 10.0,
+      "rec_td": 1.0,
+      "rec_tgt": 14.0,
+      "rec_yd": 55.0,
+      "rush_att": 48.0,
+      "rush_td": 2.0,
+      "rush_yd": 122.0,
+      "snap_pct": 39,
+      "tm_off_snp": 389.0
+     },
+     "team": "GB"
+    },
+    {
      "id": "11631",
      "name": "Brian Thomas",
      "pos": "WR",
@@ -2666,25 +2675,6 @@
      "team": "BUF"
     },
     {
-     "id": "12487",
-     "inj": "IR (Ankle)",
-     "name": "Terrance Ferguson",
-     "pos": "TE",
-     "season": {
-      "gp": 3.0,
-      "off_snp": 89.0,
-      "pts_ppr": 19.3,
-      "rec": 7.0,
-      "rec_td": 1.0,
-      "rec_tgt": 12.0,
-      "rec_yd": 63.0,
-      "snap_pct": 43,
-      "tm_off_snp": 209.0
-     },
-     "status": "Inactive",
-     "team": "LAR"
-    },
-    {
      "id": "6797",
      "name": "Justin Herbert",
      "pos": "QB",
@@ -2703,16 +2693,6 @@
       "tm_off_snp": 398.0
      },
      "team": "LAC"
-    },
-    {
-     "id": "NYJ",
-     "name": "NYJ DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 6.0,
-      "pts_ppr": 50.0
-     },
-     "team": "NYJ"
     }
    ],
    "ir": [
@@ -2873,25 +2853,23 @@
      "team": "CHI"
     },
     {
-     "id": "11581",
-     "name": "MarShawn Lloyd",
-     "pos": "RB",
+     "id": "5844",
+     "inj": "Questionable (Concussion)",
+     "name": "T.J. Hockenson",
+     "pos": "TE",
      "season": {
-      "gp": 6.0,
-      "off_snp": 151.0,
-      "pts_ppr": 43.7,
-      "rec": 10.0,
+      "gp": 5.0,
+      "off_snp": 196.0,
+      "pts_ppr": 49.2,
+      "rec": 23.0,
       "rec_td": 1.0,
-      "rec_tgt": 14.0,
-      "rec_yd": 55.0,
-      "rush_att": 48.0,
-      "rush_td": 2.0,
-      "rush_yd": 122.0,
-      "snap_pct": 39,
-      "tm_off_snp": 389.0
+      "rec_tgt": 27.0,
+      "rec_yd": 202.0,
+      "snap_pct": 60,
+      "tm_off_snp": 325.0
      },
      "slot": "FLEX",
-     "team": "GB"
+     "team": "MIN"
     },
     {
      "id": "12185",
@@ -2906,12 +2884,19 @@
      "team": "IND"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "NYJ",
+     "name": "NYJ DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 6.0,
+      "pts_ppr": 50.0
+     },
+     "slot": "DEF",
+     "team": "NYJ"
     }
    ],
    "lineup_flags": [
-    "DEF slot is EMPTY"
+    "FLEX T.J. Hockenson is Questionable (Concussion)"
    ],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
@@ -2922,10 +2907,10 @@
     "11631",
     "11637",
     "12185",
-    "12487",
     "12517",
     "12526",
     "12545",
+    "5844",
     "6797",
     "7543",
     "7547",

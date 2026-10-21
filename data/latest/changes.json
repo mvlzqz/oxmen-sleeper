@@ -1,7 +1,7 @@
 {
- "baseline": "2026-10-20_1040Z",
+ "baseline": "2026-10-20_1520Z",
  "first_run": false,
- "injury_baseline": "2026-10-20_1040Z",
+ "injury_baseline": "2026-10-20_1520Z",
  "injury_changes": [
   {
    "body_part": "Finger",
@@ -164,6 +164,14 @@
    "to": "Questionable"
   },
   {
+   "body_part": "Concussion",
+   "from": "Out",
+   "mine": false,
+   "owner": "pauliv8811",
+   "player": "T.J. Hockenson",
+   "to": "Questionable"
+  },
+  {
    "body_part": "Groin",
    "from": "Out",
    "mine": false,
@@ -190,9 +198,7 @@
     "Tyrone Tracy"
    ],
    "dropped": [],
-   "moved_to_ir": [
-    "Terry McLaurin"
-   ],
+   "moved_to_ir": [],
    "owner": "nusskyle",
    "roster_id": 2
   },
@@ -219,25 +225,16 @@
   },
   {
    "added": [
-    "Antonio Williams"
+    "Antonio Williams",
+    "CAR DEF"
    ],
    "dropped": [
+    "Darren Waller",
     "Chase McLaughlin"
    ],
    "moved_to_ir": [],
    "owner": "TheDudePlayingADude",
    "roster_id": 6
-  },
-  {
-   "added": [],
-   "dropped": [
-    "Jalen Hurts"
-   ],
-   "moved_to_ir": [
-    "Rashee Rice"
-   ],
-   "owner": "dleach16",
-   "roster_id": 7
   },
   {
    "added": [
@@ -252,7 +249,7 @@
   },
   {
    "added": [
-    "Terrance Ferguson",
+    "T.J. Hockenson",
     "NYJ DEF"
    ],
    "dropped": [
@@ -268,9 +265,7 @@
     "Konata Mumpfield"
    ],
    "dropped": [],
-   "moved_to_ir": [
-    "Quinshon Judkins"
-   ],
+   "moved_to_ir": [],
    "owner": "mvlzqz",
    "roster_id": 10
   },
@@ -294,7 +289,7 @@
    "roster_id": 12
   }
  ],
- "since": "2026-10-20T10:40:15+00:00",
+ "since": "2026-10-20T15:20:34+00:00",
  "waiver_moves": [
   {
    "from": 9,
