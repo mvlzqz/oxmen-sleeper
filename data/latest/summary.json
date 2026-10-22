@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-22T10:40:13+00:00",
+ "fetched_at": "2026-10-22T15:34:53+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -77,38 +77,9 @@
      "tm_off_snp": 273.0
     },
     "team": "MIN"
-   },
-   {
-    "id": "6650",
-    "name": "Chase McLaughlin",
-    "pos": "K",
-    "season": {
-     "gp": 6.0,
-     "pts_ppr": 65.0,
-     "tm_off_snp": 401.0
-    },
-    "team": "TB"
    }
   ],
-  "ir": [
-   {
-    "id": "11625",
-    "inj": "Questionable (Finger)",
-    "name": "Adonai Mitchell",
-    "pos": "WR",
-    "season": {
-     "gp": 2.0,
-     "off_snp": 107.0,
-     "pts_ppr": 21.3,
-     "rec": 9.0,
-     "rec_tgt": 15.0,
-     "rec_yd": 123.0,
-     "snap_pct": 76,
-     "tm_off_snp": 141.0
-    },
-    "team": "NYJ"
-   }
-  ],
+  "ir": [],
   "lineup": [
    {
     "id": "11563",
@@ -247,8 +218,16 @@
     "team": "ARI"
    },
    {
-    "empty": true,
-    "slot": "K"
+    "id": "6650",
+    "name": "Chase McLaughlin",
+    "pos": "K",
+    "season": {
+     "gp": 6.0,
+     "pts_ppr": 65.0,
+     "tm_off_snp": 401.0
+    },
+    "slot": "K",
+    "team": "TB"
    },
    {
     "id": "PIT",
@@ -262,9 +241,7 @@
     "team": "PIT"
    }
   ],
-  "lineup_flags": [
-   "K slot is EMPTY"
-  ],
+  "lineup_flags": [],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
   "pa": 641.34,
@@ -272,7 +249,6 @@
   "player_ids": [
    "10232",
    "11563",
-   "11625",
    "12512",
    "12718",
    "2216",
@@ -1111,16 +1087,16 @@
      "team": "KC"
     },
     {
-     "id": "13833",
-     "name": "Dominic Zvada",
+     "id": "11261",
+     "name": "Andre Szmyt",
      "pos": "K",
      "season": {
       "gp": 6.0,
-      "pts_ppr": 56.0,
-      "tm_off_snp": 424.0
+      "pts_ppr": 51.0,
+      "tm_off_snp": 373.0
      },
      "slot": "K",
-     "team": "NYG"
+     "team": "CLE"
     },
     {
      "id": "CLE",
@@ -1142,10 +1118,10 @@
    "pa": 683.38,
    "pf": 839.98,
    "player_ids": [
+    "11261",
     "11610",
     "12474",
     "12490",
-    "13833",
     "1466",
     "4950",
     "5045",
@@ -1161,7 +1137,7 @@
    "record": "5-1",
    "roster_id": 3,
    "taxi": [],
-   "team_name": "Pawtucket Patriot ",
+   "team_name": "Congrats on The Win Chris",
    "waiver_position": 3
   },
   {
@@ -2058,6 +2034,35 @@
      "team": "LV"
     },
     {
+     "id": "10229",
+     "inj": "Questionable (Hamstring)",
+     "name": "Rashee Rice",
+     "pos": "WR",
+     "season": {
+      "gp": 4.0,
+      "off_snp": 166.0,
+      "pts_ppr": 38.0,
+      "rec": 13.0,
+      "rec_td": 1.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 190.0,
+      "snap_pct": 64,
+      "tm_off_snp": 261.0
+     },
+     "team": "KC"
+    },
+    {
+     "id": "11539",
+     "name": "Jake Bates",
+     "pos": "K",
+     "season": {
+      "gp": 5.0,
+      "pts_ppr": 49.0,
+      "tm_off_snp": 344.0
+     },
+     "team": "DET"
+    },
+    {
      "id": "11647",
      "name": "Kimani Vidal",
      "pos": "RB",
@@ -2097,24 +2102,6 @@
    ],
    "ir": [
     {
-     "id": "10229",
-     "inj": "Questionable (Hamstring)",
-     "name": "Rashee Rice",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 166.0,
-      "pts_ppr": 38.0,
-      "rec": 13.0,
-      "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 190.0,
-      "snap_pct": 64,
-      "tm_off_snp": 261.0
-     },
-     "team": "KC"
-    },
-    {
      "id": "12534",
      "inj": "Out (Toe)",
      "name": "Kyle Monangai",
@@ -2137,28 +2124,24 @@
    ],
    "lineup": [
     {
-     "id": "3257",
-     "name": "Jacoby Brissett",
+     "id": "1373",
+     "name": "Geno Smith",
      "pos": "QB",
      "season": {
       "gp": 6.0,
-      "off_snp": 423.0,
-      "pass_att": 234.0,
-      "pass_int": 6.0,
-      "pass_td": 9.0,
-      "pass_yd": 1328.0,
-      "pts_ppr": 97.22,
-      "rec": 1.0,
-      "rec_tgt": 1.0,
-      "rec_yd": 7.0,
-      "rush_att": 19.0,
-      "rush_td": 1.0,
-      "rush_yd": 64.0,
+      "off_snp": 371.0,
+      "pass_att": 177.0,
+      "pass_int": 1.0,
+      "pass_td": 7.0,
+      "pass_yd": 1336.0,
+      "pts_ppr": 82.64,
+      "rush_att": 20.0,
+      "rush_yd": 42.0,
       "snap_pct": 100,
-      "tm_off_snp": 423.0
+      "tm_off_snp": 371.0
      },
      "slot": "QB",
-     "team": "ARI"
+     "team": "NYJ"
     },
     {
      "id": "12527",
@@ -2278,16 +2261,8 @@
      "team": "CLE"
     },
     {
-     "id": "11786",
-     "name": "Cam Little",
-     "pos": "K",
-     "season": {
-      "gp": 6.0,
-      "pts_ppr": 54.0,
-      "tm_off_snp": 382.0
-     },
-     "slot": "K",
-     "team": "JAX"
+     "empty": true,
+     "slot": "K"
     },
     {
      "id": "JAX",
@@ -2303,7 +2278,8 @@
    ],
    "lineup_flags": [
     "WR Justin Jefferson is Questionable (Ankle)",
-    "FLEX Denzel Boston is Questionable (Foot)"
+    "FLEX Denzel Boston is Questionable (Foot)",
+    "K slot is EMPTY"
    ],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
@@ -2312,13 +2288,13 @@
    "player_ids": [
     "10213",
     "10229",
+    "11539",
     "11632",
     "11647",
-    "11786",
     "12527",
     "12534",
     "13346",
-    "3257",
+    "1373",
     "4199",
     "5022",
     "6794",
@@ -3007,38 +2983,9 @@
       "tm_off_snp": 273.0
      },
      "team": "MIN"
-    },
-    {
-     "id": "6650",
-     "name": "Chase McLaughlin",
-     "pos": "K",
-     "season": {
-      "gp": 6.0,
-      "pts_ppr": 65.0,
-      "tm_off_snp": 401.0
-     },
-     "team": "TB"
     }
    ],
-   "ir": [
-    {
-     "id": "11625",
-     "inj": "Questionable (Finger)",
-     "name": "Adonai Mitchell",
-     "pos": "WR",
-     "season": {
-      "gp": 2.0,
-      "off_snp": 107.0,
-      "pts_ppr": 21.3,
-      "rec": 9.0,
-      "rec_tgt": 15.0,
-      "rec_yd": 123.0,
-      "snap_pct": 76,
-      "tm_off_snp": 141.0
-     },
-     "team": "NYJ"
-    }
-   ],
+   "ir": [],
    "lineup": [
     {
      "id": "11563",
@@ -3177,8 +3124,16 @@
      "team": "ARI"
     },
     {
-     "empty": true,
-     "slot": "K"
+     "id": "6650",
+     "name": "Chase McLaughlin",
+     "pos": "K",
+     "season": {
+      "gp": 6.0,
+      "pts_ppr": 65.0,
+      "tm_off_snp": 401.0
+     },
+     "slot": "K",
+     "team": "TB"
     },
     {
      "id": "PIT",
@@ -3192,9 +3147,7 @@
      "team": "PIT"
     }
    ],
-   "lineup_flags": [
-    "K slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",
    "pa": 641.34,
@@ -3202,7 +3155,6 @@
    "player_ids": [
     "10232",
     "11563",
-    "11625",
     "12512",
     "12718",
     "2216",
