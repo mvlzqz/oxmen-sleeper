@@ -1,8 +1,16 @@
 {
- "baseline": "2026-10-22_1040Z",
+ "baseline": "2026-10-22_1534Z",
  "first_run": false,
- "injury_baseline": "2026-10-22_1040Z",
+ "injury_baseline": "2026-10-22_1534Z",
  "injury_changes": [
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Alvin Kamara",
+   "to": null
+  },
   {
    "body_part": null,
    "from": "Questionable",
@@ -84,27 +92,14 @@
    "to": "Questionable"
   }
  ],
- "my_team_changed": true,
+ "my_team_changed": false,
  "rosters": [
   {
    "added": [
-    "Andre Szmyt"
+    "TEN DEF"
    ],
    "dropped": [
-    "Dominic Zvada"
-   ],
-   "moved_to_ir": [],
-   "owner": "PawtucketPatriot",
-   "roster_id": 3
-  },
-  {
-   "added": [
-    "Jake Bates",
-    "Geno Smith"
-   ],
-   "dropped": [
-    "Cam Little",
-    "Jacoby Brissett"
+    "JAX DEF"
    ],
    "moved_to_ir": [],
    "owner": "dleach16",
@@ -120,17 +115,8 @@
    "moved_to_ir": [],
    "owner": "NikoGs",
    "roster_id": 8
-  },
-  {
-   "added": [],
-   "dropped": [
-    "Adonai Mitchell"
-   ],
-   "moved_to_ir": [],
-   "owner": "mvlzqz",
-   "roster_id": 10
   }
  ],
- "since": "2026-10-22T10:40:13+00:00",
+ "since": "2026-10-22T15:34:53+00:00",
  "waiver_moves": []
 }
