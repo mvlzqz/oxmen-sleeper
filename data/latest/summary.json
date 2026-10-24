@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-24T10:40:15+00:00",
+ "fetched_at": "2026-10-24T14:06:10+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1416,25 +1416,6 @@
   {
    "bench": [
     {
-     "id": "12536",
-     "name": "Jaylin Noel",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 181.0,
-      "pts_ppr": 65.0,
-      "rec": 17.0,
-      "rec_td": 2.0,
-      "rec_tgt": 21.0,
-      "rec_yd": 334.0,
-      "rush_att": 4.0,
-      "rush_yd": 26.0,
-      "snap_pct": 46,
-      "tm_off_snp": 397.0
-     },
-     "team": "HOU"
-    },
-    {
      "id": "13294",
      "name": "Makai Lemon",
      "pos": "WR",
@@ -1489,6 +1470,24 @@
       "tm_off_snp": 382.0
      },
      "team": "JAX"
+    },
+    {
+     "id": "9486",
+     "inj": "Questionable (Ankle)",
+     "name": "Dontayvion Wicks",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 289.0,
+      "pts_ppr": 53.4,
+      "rec": 19.0,
+      "rec_td": 1.0,
+      "rec_tgt": 32.0,
+      "rec_yd": 284.0,
+      "snap_pct": 79,
+      "tm_off_snp": 368.0
+     },
+     "team": "PHI"
     }
    ],
    "ir": [
@@ -1535,25 +1534,24 @@
    ],
    "lineup": [
     {
-     "id": "8161",
-     "name": "Malik Willis",
+     "id": "11559",
+     "name": "Michael Penix Jr.",
      "pos": "QB",
      "season": {
-      "gp": 5.0,
-      "off_snp": 293.0,
-      "pass_att": 130.0,
-      "pass_int": 4.0,
-      "pass_td": 2.0,
-      "pass_yd": 849.0,
-      "pts_ppr": 64.56,
-      "rush_att": 27.0,
-      "rush_td": 2.0,
-      "rush_yd": 186.0,
-      "snap_pct": 100,
-      "tm_off_snp": 293.0
+      "gp": 4.0,
+      "off_snp": 244.0,
+      "pass_att": 110.0,
+      "pass_int": 1.0,
+      "pass_td": 6.0,
+      "pass_yd": 944.0,
+      "pts_ppr": 65.26,
+      "rush_att": 7.0,
+      "rush_yd": 5.0,
+      "snap_pct": 99,
+      "tm_off_snp": 247.0
      },
      "slot": "QB",
-     "team": "MIA"
+     "team": "ATL"
     },
     {
      "id": "4034",
@@ -1651,23 +1649,24 @@
      "team": "ARI"
     },
     {
-     "id": "9486",
-     "inj": "Questionable (Ankle)",
-     "name": "Dontayvion Wicks",
+     "id": "12536",
+     "name": "Jaylin Noel",
      "pos": "WR",
      "season": {
       "gp": 6.0,
-      "off_snp": 289.0,
-      "pts_ppr": 53.4,
-      "rec": 19.0,
-      "rec_td": 1.0,
-      "rec_tgt": 32.0,
-      "rec_yd": 284.0,
-      "snap_pct": 79,
-      "tm_off_snp": 368.0
+      "off_snp": 181.0,
+      "pts_ppr": 65.0,
+      "rec": 17.0,
+      "rec_td": 2.0,
+      "rec_tgt": 21.0,
+      "rec_yd": 334.0,
+      "rush_att": 4.0,
+      "rush_yd": 26.0,
+      "snap_pct": 46,
+      "tm_off_snp": 397.0
      },
      "slot": "FLEX",
-     "team": "PHI"
+     "team": "HOU"
     },
     {
      "id": "3451",
@@ -1693,14 +1692,13 @@
      "team": "BAL"
     }
    ],
-   "lineup_flags": [
-    "FLEX Dontayvion Wicks is Questionable (Ankle)"
-   ],
+   "lineup_flags": [],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
    "pa": 729.08,
    "pf": 788.7,
    "player_ids": [
+    "11559",
     "12536",
     "13276",
     "13287",
@@ -1713,14 +1711,13 @@
     "7611",
     "8130",
     "8144",
-    "8161",
     "9486",
     "BAL"
    ],
    "record": "4-2",
    "roster_id": 5,
    "taxi": [],
-   "team_name": "Over The Pants Tug Job",
+   "team_name": "Kansas City Strangler",
    "waiver_position": 8
   },
   {

@@ -1,7 +1,7 @@
 {
- "baseline": "2026-10-23_1040Z",
+ "baseline": "2026-10-23_1525Z",
  "first_run": false,
- "injury_baseline": "2026-10-23_1040Z",
+ "injury_baseline": "2026-10-23_1525Z",
  "injury_changes": [
   {
    "body_part": "Achilles",
@@ -17,14 +17,6 @@
    "mine": true,
    "owner": "mvlzqz",
    "player": "Quinshon Judkins",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Alvin Kamara",
    "to": null
   },
   {
@@ -176,12 +168,20 @@
  "rosters": [
   {
    "added": [
-    "Zonovan Knight",
-    "TEN DEF"
+    "Michael Penix Jr."
    ],
    "dropped": [
-    "JAX DEF"
+    "Malik Willis"
    ],
+   "moved_to_ir": [],
+   "owner": "brendonferreira",
+   "roster_id": 5
+  },
+  {
+   "added": [
+    "Zonovan Knight"
+   ],
+   "dropped": [],
    "moved_to_ir": [
     "Rashee Rice"
    ],
@@ -198,6 +198,6 @@
    "roster_id": 10
   }
  ],
- "since": "2026-10-23T10:40:13+00:00",
+ "since": "2026-10-23T15:25:08+00:00",
  "waiver_moves": []
 }
