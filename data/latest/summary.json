@@ -1,12 +1,11 @@
 {
- "fetched_at": "2026-10-23T15:25:08+00:00",
+ "fetched_at": "2026-10-24T10:40:15+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
   "bench": [
    {
     "id": "12512",
-    "inj": "Questionable (Ankle)",
     "name": "Quinshon Judkins",
     "pos": "RB",
     "season": {
@@ -42,24 +41,6 @@
     "team": "LAR"
    },
    {
-    "id": "2216",
-    "inj": "Questionable (Achilles)",
-    "name": "Mike Evans",
-    "pos": "WR",
-    "season": {
-     "gp": 6.0,
-     "off_snp": 197.0,
-     "pts_ppr": 89.0,
-     "rec": 27.0,
-     "rec_td": 3.0,
-     "rec_tgt": 39.0,
-     "rec_yd": 420.0,
-     "snap_pct": 55,
-     "tm_off_snp": 359.0
-    },
-    "team": "SF"
-   },
-   {
     "id": "5849",
     "name": "Kyler Murray",
     "pos": "QB",
@@ -79,7 +60,26 @@
     "team": "MIN"
    }
   ],
-  "ir": [],
+  "ir": [
+   {
+    "id": "2216",
+    "inj": "Out (Achilles)",
+    "name": "Mike Evans",
+    "pos": "WR",
+    "season": {
+     "gp": 6.0,
+     "off_snp": 197.0,
+     "pts_ppr": 89.0,
+     "rec": 27.0,
+     "rec_td": 3.0,
+     "rec_tgt": 39.0,
+     "rec_yd": 420.0,
+     "snap_pct": 55,
+     "tm_off_snp": 359.0
+    },
+    "team": "SF"
+   }
+  ],
   "lineup": [
    {
     "id": "11563",
@@ -295,7 +295,6 @@
     },
     {
      "id": "13296",
-     "inj": "Questionable (Ankle)",
      "name": "Caleb Douglas",
      "pos": "WR",
      "season": {
@@ -396,7 +395,7 @@
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 112.0,
+      "off_snp": 125.0,
       "pts_ppr": 33.8,
       "rec": 5.0,
       "rec_tgt": 7.0,
@@ -404,8 +403,8 @@
       "rush_att": 52.0,
       "rush_td": 1.0,
       "rush_yd": 203.0,
-      "snap_pct": 33,
-      "tm_off_snp": 337.0
+      "snap_pct": 32,
+      "tm_off_snp": 391.0
      },
      "slot": "RB",
      "team": "NE"
@@ -451,7 +450,6 @@
     },
     {
      "id": "8167",
-     "inj": "Questionable (Ankle)",
      "name": "Christian Watson",
      "pos": "WR",
      "season": {
@@ -492,13 +490,13 @@
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 384.0,
+      "off_snp": 449.0,
       "pts_ppr": 60.1,
       "rec": 24.0,
       "rec_tgt": 38.0,
       "rec_yd": 381.0,
-      "snap_pct": 83,
-      "tm_off_snp": 460.0
+      "snap_pct": 85,
+      "tm_off_snp": 529.0
      },
      "slot": "FLEX",
      "team": "CHI"
@@ -527,9 +525,7 @@
      "team": "HOU"
     }
    ],
-   "lineup_flags": [
-    "WR Christian Watson is Questionable (Ankle)"
-   ],
+   "lineup_flags": [],
    "owner": "coltierney",
    "owner_id": "1028748479369187328",
    "pa": 732.32,
@@ -741,7 +737,6 @@
     },
     {
      "id": "13298",
-     "inj": "Questionable (Quadriceps)",
      "name": "KC Concepcion Jr.",
      "pos": "WR",
      "season": {
@@ -783,14 +778,14 @@
      "pos": "TE",
      "season": {
       "gp": 7.0,
-      "off_snp": 297.0,
+      "off_snp": 338.0,
       "pts_ppr": 67.6,
       "rec": 26.0,
       "rec_td": 2.0,
       "rec_tgt": 31.0,
       "rec_yd": 296.0,
       "snap_pct": 73,
-      "tm_off_snp": 408.0
+      "tm_off_snp": 462.0
      },
      "slot": "FLEX",
      "team": "NE"
@@ -819,9 +814,7 @@
      "team": "DEN"
     }
    ],
-   "lineup_flags": [
-    "WR KC Concepcion Jr. is Questionable (Quadriceps)"
-   ],
+   "lineup_flags": [],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
    "pa": 698.54,
@@ -939,6 +932,7 @@
      "inj": "IR (Knee - ACL + MCL)",
      "name": "Tank Dell",
      "pos": "WR",
+     "status": "Inactive",
      "team": "HOU"
     }
    ],
@@ -1069,7 +1063,6 @@
     },
     {
      "id": "1466",
-     "inj": "Questionable (Ankle)",
      "name": "Travis Kelce",
      "pos": "TE",
      "season": {
@@ -1110,9 +1103,7 @@
      "team": "CLE"
     }
    ],
-   "lineup_flags": [
-    "FLEX Travis Kelce is Questionable (Ankle)"
-   ],
+   "lineup_flags": [],
    "owner": "PawtucketPatriot",
    "owner_id": "1129839158073237504",
    "pa": 683.38,
@@ -1227,7 +1218,7 @@
     },
     {
      "id": "9753",
-     "inj": "Questionable (Knee - ACL)",
+     "inj": "Out (Knee - ACL)",
      "name": "Zach Charbonnet",
      "pos": "RB",
      "team": "SEA"
@@ -1240,7 +1231,7 @@
      "pos": "QB",
      "season": {
       "gp": 7.0,
-      "off_snp": 396.0,
+      "off_snp": 450.0,
       "pass_att": 214.0,
       "pass_int": 8.0,
       "pass_td": 13.0,
@@ -1250,7 +1241,7 @@
       "rush_td": 2.0,
       "rush_yd": 211.0,
       "snap_pct": 97,
-      "tm_off_snp": 408.0
+      "tm_off_snp": 462.0
      },
      "slot": "QB",
      "team": "NE"
@@ -1298,7 +1289,6 @@
     },
     {
      "id": "8137",
-     "inj": "Questionable (Shoulder)",
      "name": "George Pickens",
      "pos": "WR",
      "season": {
@@ -1337,7 +1327,6 @@
     },
     {
      "id": "5001",
-     "inj": "Questionable (Quadriceps)",
      "name": "Dalton Schultz",
      "pos": "TE",
      "season": {
@@ -1396,10 +1385,7 @@
      "team": "SF"
     }
    ],
-   "lineup_flags": [
-    "WR George Pickens is Questionable (Shoulder)",
-    "TE Dalton Schultz is Questionable (Quadriceps)"
-   ],
+   "lineup_flags": [],
    "owner": "kitano",
    "owner_id": "473949092301500416",
    "pa": 662.38,
@@ -1508,7 +1494,7 @@
    "ir": [
     {
      "id": "13287",
-     "inj": "Questionable (Ankle)",
+     "inj": "Out (Ankle)",
      "name": "Jeremiyah Love",
      "pos": "RB",
      "season": {
@@ -1595,7 +1581,7 @@
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 257.0,
+      "off_snp": 294.0,
       "pts_ppr": 86.9,
       "rec": 20.0,
       "rec_td": 1.0,
@@ -1604,8 +1590,8 @@
       "rush_att": 77.0,
       "rush_td": 2.0,
       "rush_yd": 285.0,
-      "snap_pct": 63,
-      "tm_off_snp": 408.0
+      "snap_pct": 64,
+      "tm_off_snp": 462.0
      },
      "slot": "RB",
      "team": "NE"
@@ -1913,13 +1899,13 @@
      "pos": "WR",
      "season": {
       "gp": 3.0,
-      "off_snp": 83.0,
+      "off_snp": 132.0,
       "pts_ppr": 19.1,
       "rec": 9.0,
       "rec_tgt": 20.0,
       "rec_yd": 101.0,
-      "snap_pct": 60,
-      "tm_off_snp": 139.0
+      "snap_pct": 68,
+      "tm_off_snp": 193.0
      },
      "slot": "WR",
      "team": "NE"
@@ -2037,24 +2023,6 @@
      "team": "LV"
     },
     {
-     "id": "10229",
-     "inj": "Questionable (Hamstring)",
-     "name": "Rashee Rice",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 166.0,
-      "pts_ppr": 38.0,
-      "rec": 13.0,
-      "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 190.0,
-      "snap_pct": 64,
-      "tm_off_snp": 261.0
-     },
-     "team": "KC"
-    },
-    {
      "id": "11647",
      "name": "Kimani Vidal",
      "pos": "RB",
@@ -2075,6 +2043,24 @@
      "team": "LAC"
     },
     {
+     "id": "8122",
+     "name": "Zonovan Knight",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 44.0,
+      "pts_ppr": 15.0,
+      "rec": 2.0,
+      "rec_tgt": 2.0,
+      "rec_yd": 18.0,
+      "rush_att": 18.0,
+      "rush_yd": 112.0,
+      "snap_pct": 10,
+      "tm_off_snp": 423.0
+     },
+     "team": "ARI"
+    },
+    {
      "id": "8134",
      "name": "Khalil Shakir",
      "pos": "WR",
@@ -2093,6 +2079,24 @@
     }
    ],
    "ir": [
+    {
+     "id": "10229",
+     "inj": "Out (Hamstring)",
+     "name": "Rashee Rice",
+     "pos": "WR",
+     "season": {
+      "gp": 4.0,
+      "off_snp": 166.0,
+      "pts_ppr": 38.0,
+      "rec": 13.0,
+      "rec_td": 1.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 190.0,
+      "snap_pct": 64,
+      "tm_off_snp": 261.0
+     },
+     "team": "KC"
+    },
     {
      "id": "12534",
      "inj": "Out (Toe)",
@@ -2235,7 +2239,6 @@
     },
     {
      "id": "13346",
-     "inj": "Questionable (Foot)",
      "name": "Denzel Boston",
      "pos": "WR",
      "season": {
@@ -2277,8 +2280,7 @@
     }
    ],
    "lineup_flags": [
-    "TE Dallas Goedert is Questionable (Knee)",
-    "FLEX Denzel Boston is Questionable (Foot)"
+    "TE Dallas Goedert is Questionable (Knee)"
    ],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
@@ -2297,6 +2299,7 @@
     "4199",
     "5022",
     "6794",
+    "8122",
     "8134",
     "TEN"
    ],
@@ -2308,6 +2311,27 @@
   },
   {
    "bench": [
+    {
+     "id": "12514",
+     "inj": "Out (Concussion)",
+     "name": "Emeka Egbuka",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 343.0,
+      "pts_ppr": 71.1,
+      "rec": 28.0,
+      "rec_td": 2.0,
+      "rec_tgt": 49.0,
+      "rec_yd": 240.0,
+      "rush_att": 2.0,
+      "rush_td": 1.0,
+      "rush_yd": 11.0,
+      "snap_pct": 86,
+      "tm_off_snp": 401.0
+     },
+     "team": "TB"
+    },
     {
      "id": "4881",
      "inj": "Questionable (Ankle)",
@@ -2459,7 +2483,7 @@
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 261.0,
+      "off_snp": 320.0,
       "pts_ppr": 122.8,
       "rec": 22.0,
       "rec_tgt": 26.0,
@@ -2467,33 +2491,15 @@
       "rush_att": 116.0,
       "rush_td": 7.0,
       "rush_yd": 476.0,
-      "snap_pct": 57,
-      "tm_off_snp": 460.0
+      "snap_pct": 60,
+      "tm_off_snp": 529.0
      },
      "slot": "RB",
      "team": "CHI"
     },
     {
-     "id": "12514",
-     "inj": "Questionable (Concussion)",
-     "name": "Emeka Egbuka",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 343.0,
-      "pts_ppr": 71.1,
-      "rec": 28.0,
-      "rec_td": 2.0,
-      "rec_tgt": 49.0,
-      "rec_yd": 240.0,
-      "rush_att": 2.0,
-      "rush_td": 1.0,
-      "rush_yd": 11.0,
-      "snap_pct": 86,
-      "tm_off_snp": 401.0
-     },
-     "slot": "WR",
-     "team": "TB"
+     "empty": true,
+     "slot": "WR"
     },
     {
      "id": "9501",
@@ -2501,14 +2507,14 @@
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 219.0,
+      "off_snp": 254.0,
       "pts_ppr": 64.6,
       "rec": 23.0,
       "rec_td": 3.0,
       "rec_tgt": 34.0,
       "rec_yd": 256.0,
-      "snap_pct": 54,
-      "tm_off_snp": 408.0
+      "snap_pct": 55,
+      "tm_off_snp": 462.0
      },
      "slot": "WR",
      "team": "NE"
@@ -2568,7 +2574,7 @@
     }
    ],
    "lineup_flags": [
-    "WR Emeka Egbuka is Questionable (Concussion)"
+    "WR slot is EMPTY"
    ],
    "owner": "NikoGs",
    "owner_id": "1130659599352180736",
@@ -2818,21 +2824,20 @@
      "pos": "TE",
      "season": {
       "gp": 7.0,
-      "off_snp": 395.0,
+      "off_snp": 453.0,
       "pts_ppr": 62.4,
       "rec": 26.0,
       "rec_td": 2.0,
       "rec_tgt": 42.0,
       "rec_yd": 244.0,
       "snap_pct": 86,
-      "tm_off_snp": 460.0
+      "tm_off_snp": 529.0
      },
      "slot": "TE",
      "team": "CHI"
     },
     {
      "id": "5844",
-     "inj": "Questionable (Concussion)",
      "name": "T.J. Hockenson",
      "pos": "TE",
      "season": {
@@ -2873,9 +2878,7 @@
      "team": "NYJ"
     }
    ],
-   "lineup_flags": [
-    "FLEX T.J. Hockenson is Questionable (Concussion)"
-   ],
+   "lineup_flags": [],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
    "pa": 665.98,
@@ -2907,7 +2910,6 @@
    "bench": [
     {
      "id": "12512",
-     "inj": "Questionable (Ankle)",
      "name": "Quinshon Judkins",
      "pos": "RB",
      "season": {
@@ -2943,24 +2945,6 @@
      "team": "LAR"
     },
     {
-     "id": "2216",
-     "inj": "Questionable (Achilles)",
-     "name": "Mike Evans",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 197.0,
-      "pts_ppr": 89.0,
-      "rec": 27.0,
-      "rec_td": 3.0,
-      "rec_tgt": 39.0,
-      "rec_yd": 420.0,
-      "snap_pct": 55,
-      "tm_off_snp": 359.0
-     },
-     "team": "SF"
-    },
-    {
      "id": "5849",
      "name": "Kyler Murray",
      "pos": "QB",
@@ -2980,7 +2964,26 @@
      "team": "MIN"
     }
    ],
-   "ir": [],
+   "ir": [
+    {
+     "id": "2216",
+     "inj": "Out (Achilles)",
+     "name": "Mike Evans",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 197.0,
+      "pts_ppr": 89.0,
+      "rec": 27.0,
+      "rec_td": 3.0,
+      "rec_tgt": 39.0,
+      "rec_yd": 420.0,
+      "snap_pct": 55,
+      "tm_off_snp": 359.0
+     },
+     "team": "SF"
+    }
+   ],
    "lineup": [
     {
      "id": "11563",
@@ -3171,27 +3174,6 @@
   {
    "bench": [
     {
-     "id": "11584",
-     "inj": "Questionable (Illness)",
-     "name": "Bucky Irving",
-     "pos": "RB",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 261.0,
-      "pts_ppr": 85.6,
-      "rec": 17.0,
-      "rec_td": 1.0,
-      "rec_tgt": 21.0,
-      "rec_yd": 74.0,
-      "rush_att": 96.0,
-      "rush_td": 2.0,
-      "rush_yd": 452.0,
-      "snap_pct": 65,
-      "tm_off_snp": 401.0
-     },
-     "team": "TB"
-    },
-    {
      "id": "11628",
      "name": "Marvin Harrison Jr.",
      "pos": "WR",
@@ -3226,6 +3208,26 @@
       "tm_off_snp": 367.0
      },
      "team": "DEN"
+    },
+    {
+     "id": "8155",
+     "inj": "Questionable (Quadriceps)",
+     "name": "Breece Hall",
+     "pos": "RB",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 119.0,
+      "pts_ppr": 42.5,
+      "rec": 10.0,
+      "rec_tgt": 10.0,
+      "rec_yd": 102.0,
+      "rush_att": 51.0,
+      "rush_td": 1.0,
+      "rush_yd": 163.0,
+      "snap_pct": 57,
+      "tm_off_snp": 207.0
+     },
+     "team": "NYJ"
     },
     {
      "id": "9756",
@@ -3311,25 +3313,25 @@
      "team": "CAR"
     },
     {
-     "id": "8155",
-     "inj": "Questionable (Quadriceps)",
-     "name": "Breece Hall",
+     "id": "11584",
+     "name": "Bucky Irving",
      "pos": "RB",
      "season": {
-      "gp": 3.0,
-      "off_snp": 119.0,
-      "pts_ppr": 42.5,
-      "rec": 10.0,
-      "rec_tgt": 10.0,
-      "rec_yd": 102.0,
-      "rush_att": 51.0,
-      "rush_td": 1.0,
-      "rush_yd": 163.0,
-      "snap_pct": 57,
-      "tm_off_snp": 207.0
+      "gp": 6.0,
+      "off_snp": 261.0,
+      "pts_ppr": 85.6,
+      "rec": 17.0,
+      "rec_td": 1.0,
+      "rec_tgt": 21.0,
+      "rec_yd": 74.0,
+      "rush_att": 96.0,
+      "rush_td": 2.0,
+      "rush_yd": 452.0,
+      "snap_pct": 65,
+      "tm_off_snp": 401.0
      },
      "slot": "RB",
-     "team": "NYJ"
+     "team": "TB"
     },
     {
      "id": "7564",
@@ -3427,9 +3429,7 @@
      "team": "NE"
     }
    ],
-   "lineup_flags": [
-    "RB Breece Hall is Questionable (Quadriceps)"
-   ],
+   "lineup_flags": [],
    "owner": "erictheleghel",
    "owner_id": "730759755336929280",
    "pa": 668.76,
@@ -3785,7 +3785,7 @@
     },
     {
      "id": "5892",
-     "inj": "Doubtful (Groin)",
+     "inj": "Out (Groin)",
      "name": "David Montgomery",
      "pos": "RB",
      "season": {
@@ -3834,7 +3834,7 @@
      "pos": "QB",
      "season": {
       "gp": 4.0,
-      "off_snp": 216.0,
+      "off_snp": 285.0,
       "pass_att": 124.0,
       "pass_int": 1.0,
       "pass_td": 5.0,
@@ -3843,8 +3843,8 @@
       "rush_att": 24.0,
       "rush_td": 2.0,
       "rush_yd": 128.0,
-      "snap_pct": 96,
-      "tm_off_snp": 226.0
+      "snap_pct": 97,
+      "tm_off_snp": 295.0
      },
      "slot": "QB",
      "team": "CHI"
@@ -3871,6 +3871,7 @@
     },
     {
      "id": "9508",
+     "inj": "Questionable (Knee)",
      "name": "Tyjae Spears",
      "pos": "RB",
      "season": {
@@ -3912,7 +3913,6 @@
     },
     {
      "id": "12501",
-     "inj": "Questionable (Shoulder)",
      "name": "Matthew Golden",
      "pos": "WR",
      "season": {
@@ -3991,8 +3991,8 @@
     }
    ],
    "lineup_flags": [
-    "WR Puka Nacua is Questionable (Calf)",
-    "WR Matthew Golden is Questionable (Shoulder)"
+    "RB Tyjae Spears is Questionable (Knee)",
+    "WR Puka Nacua is Questionable (Calf)"
    ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
@@ -4041,7 +4041,6 @@
     },
     {
      "id": "7526",
-     "inj": "Questionable (Chest)",
      "name": "Jaylen Waddle",
      "pos": "WR",
      "season": {
@@ -4103,7 +4102,7 @@
    "ir": [
     {
      "id": "12518",
-     "inj": "Questionable (Groin)",
+     "inj": "Out (Groin)",
      "name": "Tyler Warren",
      "pos": "TE",
      "season": {
@@ -4269,7 +4268,7 @@
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 276.0,
+      "off_snp": 318.0,
       "pts_ppr": 97.0,
       "rec": 35.0,
       "rec_td": 2.0,
@@ -4278,7 +4277,7 @@
       "rush_att": 8.0,
       "rush_yd": 29.0,
       "snap_pct": 60,
-      "tm_off_snp": 460.0
+      "tm_off_snp": 529.0
      },
      "slot": "FLEX",
      "team": "CHI"
