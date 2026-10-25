@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-25T14:32:40+00:00",
+ "fetched_at": "2026-10-25T17:05:53+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -286,10 +286,10 @@
   "waiver_position": 14
  },
  "opponent_this_week": {
-  "my_points": 8.0,
+  "my_points": 10.7,
   "owner": "wmont",
   "roster_id": 12,
-  "their_points": 1.6
+  "their_points": 15.7
  },
  "rosters": [
   {
@@ -590,20 +590,21 @@
      "team": "KC"
     },
     {
-     "id": "12481",
-     "name": "Cam Skattebo",
+     "id": "11655",
+     "name": "Tyrone Tracy Jr.",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 230.0,
-      "pts_ppr": 51.3,
-      "rec": 10.0,
-      "rec_tgt": 12.0,
-      "rec_yd": 79.0,
-      "rush_att": 81.0,
+      "off_snp": 62.0,
+      "pts_ppr": 23.2,
+      "rec": 4.0,
+      "rec_td": 1.0,
+      "rec_tgt": 6.0,
+      "rec_yd": 52.0,
+      "rush_att": 13.0,
       "rush_td": 1.0,
-      "rush_yd": 294.0,
-      "snap_pct": 54,
+      "rush_yd": 40.0,
+      "snap_pct": 15,
       "tm_off_snp": 424.0
      },
      "team": "NYG"
@@ -693,21 +694,20 @@
      "team": "LV"
     },
     {
-     "id": "11655",
-     "name": "Tyrone Tracy Jr.",
+     "id": "12481",
+     "name": "Cam Skattebo",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 62.0,
-      "pts_ppr": 23.2,
-      "rec": 4.0,
-      "rec_td": 1.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 52.0,
-      "rush_att": 13.0,
+      "off_snp": 230.0,
+      "pts_ppr": 51.3,
+      "rec": 10.0,
+      "rec_tgt": 12.0,
+      "rec_yd": 79.0,
+      "rush_att": 81.0,
       "rush_td": 1.0,
-      "rush_yd": 40.0,
-      "snap_pct": 15,
+      "rush_yd": 294.0,
+      "snap_pct": 54,
       "tm_off_snp": 424.0
      },
      "slot": "RB",
@@ -3239,7 +3239,7 @@
     },
     {
      "id": "8155",
-     "inj": "Questionable (Quadriceps)",
+     "inj": "Out (Quadriceps)",
      "name": "Breece Hall",
      "pos": "RB",
      "season": {
@@ -3899,7 +3899,7 @@
     },
     {
      "id": "9508",
-     "inj": "Questionable (Knee)",
+     "inj": "Out (Knee)",
      "name": "Tyjae Spears",
      "pos": "RB",
      "season": {
@@ -4019,7 +4019,7 @@
     }
    ],
    "lineup_flags": [
-    "RB Tyjae Spears is Questionable (Knee)",
+    "RB Tyjae Spears is Out (Knee)",
     "WR Puka Nacua is Questionable (Calf)"
    ],
    "owner": "phile2211",
