@@ -1,28 +1,9 @@
 {
- "fetched_at": "2026-10-24T14:06:10+00:00",
+ "fetched_at": "2026-10-25T10:40:13+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
   "bench": [
-   {
-    "id": "12512",
-    "name": "Quinshon Judkins",
-    "pos": "RB",
-    "season": {
-     "gp": 5.0,
-     "off_snp": 186.0,
-     "pts_ppr": 56.3,
-     "rec": 18.0,
-     "rec_tgt": 20.0,
-     "rec_yd": 102.0,
-     "rush_att": 73.0,
-     "rush_td": 1.0,
-     "rush_yd": 221.0,
-     "snap_pct": 60,
-     "tm_off_snp": 311.0
-    },
-    "team": "CLE"
-   },
    {
     "id": "12718",
     "name": "Konata Mumpfield",
@@ -39,6 +20,23 @@
      "tm_off_snp": 433.0
     },
     "team": "LAR"
+   },
+   {
+    "id": "5012",
+    "name": "Mark Andrews",
+    "pos": "TE",
+    "season": {
+     "gp": 6.0,
+     "off_snp": 256.0,
+     "pts_ppr": 45.1,
+     "rec": 23.0,
+     "rec_td": 1.0,
+     "rec_tgt": 33.0,
+     "rec_yd": 181.0,
+     "snap_pct": 66,
+     "tm_off_snp": 387.0
+    },
+    "team": "BAL"
    },
    {
     "id": "5849",
@@ -58,6 +56,25 @@
      "tm_off_snp": 273.0
     },
     "team": "MIN"
+   },
+   {
+    "id": "5967",
+    "name": "Tony Pollard",
+    "pos": "RB",
+    "season": {
+     "gp": 6.0,
+     "off_snp": 186.0,
+     "pts_ppr": 51.3,
+     "rec": 8.0,
+     "rec_tgt": 13.0,
+     "rec_yd": 24.0,
+     "rush_att": 87.0,
+     "rush_td": 1.0,
+     "rush_yd": 349.0,
+     "snap_pct": 55,
+     "tm_off_snp": 336.0
+    },
+    "team": "TEN"
    }
   ],
   "ir": [
@@ -123,24 +140,24 @@
     "team": "IND"
    },
    {
-    "id": "5967",
-    "name": "Tony Pollard",
+    "id": "12512",
+    "name": "Quinshon Judkins",
     "pos": "RB",
     "season": {
-     "gp": 6.0,
+     "gp": 5.0,
      "off_snp": 186.0,
-     "pts_ppr": 51.3,
-     "rec": 8.0,
-     "rec_tgt": 13.0,
-     "rec_yd": 24.0,
-     "rush_att": 87.0,
+     "pts_ppr": 56.3,
+     "rec": 18.0,
+     "rec_tgt": 20.0,
+     "rec_yd": 102.0,
+     "rush_att": 73.0,
      "rush_td": 1.0,
-     "rush_yd": 349.0,
-     "snap_pct": 55,
-     "tm_off_snp": 336.0
+     "rush_yd": 221.0,
+     "snap_pct": 60,
+     "tm_off_snp": 311.0
     },
     "slot": "RB",
-    "team": "TEN"
+    "team": "CLE"
    },
    {
     "id": "8146",
@@ -252,6 +269,7 @@
    "12512",
    "12718",
    "2216",
+   "5012",
    "5849",
    "5967",
    "6650",
@@ -921,18 +939,14 @@
    "ir": [
     {
      "id": "4950",
-     "inj": "IR (Calf)",
      "name": "Christian Kirk",
      "pos": "WR",
-     "status": "Inactive",
      "team": "SF"
     },
     {
      "id": "9502",
-     "inj": "IR (Knee - ACL + MCL)",
      "name": "Tank Dell",
      "pos": "WR",
-     "status": "Inactive",
      "team": "HOU"
     }
    ],
@@ -1473,7 +1487,7 @@
     },
     {
      "id": "9486",
-     "inj": "Questionable (Ankle)",
+     "inj": "Out (Ankle)",
      "name": "Dontayvion Wicks",
      "pos": "WR",
      "season": {
@@ -1778,20 +1792,27 @@
      "team": "LAR"
     },
     {
-     "id": "LAR",
-     "name": "LAR DEF",
-     "pos": "DEF",
+     "id": "7525",
+     "inj": "Out (Hamstring)",
+     "name": "DeVonta Smith",
+     "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "pts_ppr": 31.0
+      "gp": 4.0,
+      "off_snp": 211.0,
+      "pts_ppr": 69.0,
+      "rec": 26.0,
+      "rec_td": 2.0,
+      "rec_tgt": 41.0,
+      "rec_yd": 310.0,
+      "snap_pct": 86,
+      "tm_off_snp": 245.0
      },
-     "team": "LAR"
+     "team": "PHI"
     }
    ],
    "ir": [
     {
      "id": "8408",
-     "inj": "IR (Thumb)",
      "name": "Jordan Mason",
      "pos": "RB",
      "season": {
@@ -1804,7 +1825,6 @@
       "snap_pct": 45,
       "tm_off_snp": 65.0
      },
-     "status": "Inactive",
      "team": "MIN"
     }
    ],
@@ -1872,23 +1892,22 @@
      "team": "PIT"
     },
     {
-     "id": "7525",
-     "inj": "Questionable (Hamstring)",
-     "name": "DeVonta Smith",
+     "id": "13317",
+     "name": "Ted Hurst III",
      "pos": "WR",
      "season": {
-      "gp": 4.0,
-      "off_snp": 211.0,
-      "pts_ppr": 69.0,
-      "rec": 26.0,
-      "rec_td": 2.0,
-      "rec_tgt": 41.0,
-      "rec_yd": 310.0,
-      "snap_pct": 86,
-      "tm_off_snp": 245.0
+      "gp": 6.0,
+      "off_snp": 238.0,
+      "pts_ppr": 33.8,
+      "rec": 11.0,
+      "rec_td": 1.0,
+      "rec_tgt": 22.0,
+      "rec_yd": 168.0,
+      "snap_pct": 59,
+      "tm_off_snp": 401.0
      },
      "slot": "WR",
-     "team": "PHI"
+     "team": "TB"
     },
     {
      "id": "5859",
@@ -1969,9 +1988,7 @@
      "team": "CAR"
     }
    ],
-   "lineup_flags": [
-    "WR DeVonta Smith is Questionable (Hamstring)"
-   ],
+   "lineup_flags": [],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 728.18,
@@ -1979,6 +1996,7 @@
    "player_ids": [
     "11604",
     "13301",
+    "13317",
     "13414",
     "421",
     "5859",
@@ -1989,8 +2007,7 @@
     "8408",
     "9224",
     "9757",
-    "CAR",
-    "LAR"
+    "CAR"
    ],
    "record": "1-5",
    "roster_id": 6,
@@ -2217,7 +2234,6 @@
     },
     {
      "id": "5022",
-     "inj": "Questionable (Knee)",
      "name": "Dallas Goedert",
      "pos": "TE",
      "season": {
@@ -2276,9 +2292,7 @@
      "team": "TEN"
     }
    ],
-   "lineup_flags": [
-    "TE Dallas Goedert is Questionable (Knee)"
-   ],
+   "lineup_flags": [],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
    "pa": 570.9,
@@ -2331,7 +2345,7 @@
     },
     {
      "id": "4881",
-     "inj": "Questionable (Ankle)",
+     "inj": "Out (Ankle)",
      "name": "Lamar Jackson",
      "pos": "QB",
      "season": {
@@ -2906,25 +2920,6 @@
   {
    "bench": [
     {
-     "id": "12512",
-     "name": "Quinshon Judkins",
-     "pos": "RB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 186.0,
-      "pts_ppr": 56.3,
-      "rec": 18.0,
-      "rec_tgt": 20.0,
-      "rec_yd": 102.0,
-      "rush_att": 73.0,
-      "rush_td": 1.0,
-      "rush_yd": 221.0,
-      "snap_pct": 60,
-      "tm_off_snp": 311.0
-     },
-     "team": "CLE"
-    },
-    {
      "id": "12718",
      "name": "Konata Mumpfield",
      "pos": "WR",
@@ -2940,6 +2935,23 @@
       "tm_off_snp": 433.0
      },
      "team": "LAR"
+    },
+    {
+     "id": "5012",
+     "name": "Mark Andrews",
+     "pos": "TE",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 256.0,
+      "pts_ppr": 45.1,
+      "rec": 23.0,
+      "rec_td": 1.0,
+      "rec_tgt": 33.0,
+      "rec_yd": 181.0,
+      "snap_pct": 66,
+      "tm_off_snp": 387.0
+     },
+     "team": "BAL"
     },
     {
      "id": "5849",
@@ -2959,6 +2971,25 @@
       "tm_off_snp": 273.0
      },
      "team": "MIN"
+    },
+    {
+     "id": "5967",
+     "name": "Tony Pollard",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 186.0,
+      "pts_ppr": 51.3,
+      "rec": 8.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 24.0,
+      "rush_att": 87.0,
+      "rush_td": 1.0,
+      "rush_yd": 349.0,
+      "snap_pct": 55,
+      "tm_off_snp": 336.0
+     },
+     "team": "TEN"
     }
    ],
    "ir": [
@@ -3024,24 +3055,24 @@
      "team": "IND"
     },
     {
-     "id": "5967",
-     "name": "Tony Pollard",
+     "id": "12512",
+     "name": "Quinshon Judkins",
      "pos": "RB",
      "season": {
-      "gp": 6.0,
+      "gp": 5.0,
       "off_snp": 186.0,
-      "pts_ppr": 51.3,
-      "rec": 8.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 24.0,
-      "rush_att": 87.0,
+      "pts_ppr": 56.3,
+      "rec": 18.0,
+      "rec_tgt": 20.0,
+      "rec_yd": 102.0,
+      "rush_att": 73.0,
       "rush_td": 1.0,
-      "rush_yd": 349.0,
-      "snap_pct": 55,
-      "tm_off_snp": 336.0
+      "rush_yd": 221.0,
+      "snap_pct": 60,
+      "tm_off_snp": 311.0
      },
      "slot": "RB",
-     "team": "TEN"
+     "team": "CLE"
     },
     {
      "id": "8146",
@@ -3153,6 +3184,7 @@
     "12512",
     "12718",
     "2216",
+    "5012",
     "5849",
     "5967",
     "6650",
@@ -3456,26 +3488,6 @@
   {
    "bench": [
     {
-     "id": "11435",
-     "name": "Emanuel Wilson",
-     "pos": "RB",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 156.0,
-      "pts_ppr": 56.3,
-      "rec": 5.0,
-      "rec_td": 1.0,
-      "rec_tgt": 8.0,
-      "rec_yd": 50.0,
-      "rush_att": 87.0,
-      "rush_td": 2.0,
-      "rush_yd": 303.0,
-      "snap_pct": 39,
-      "tm_off_snp": 395.0
-     },
-     "team": "SEA"
-    },
-    {
      "id": "11566",
      "name": "Jayden Daniels",
      "pos": "QB",
@@ -3493,6 +3505,26 @@
       "tm_off_snp": 270.0
      },
      "team": "WAS"
+    },
+    {
+     "id": "11586",
+     "name": "Blake Corum",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 118.0,
+      "pts_ppr": 52.4,
+      "rec": 9.0,
+      "rec_td": 1.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 91.0,
+      "rush_att": 47.0,
+      "rush_td": 1.0,
+      "rush_yd": 223.0,
+      "snap_pct": 27,
+      "tm_off_snp": 433.0
+     },
+     "team": "LAR"
     },
     {
      "id": "2449",
@@ -3575,25 +3607,25 @@
      "team": "PHI"
     },
     {
-     "id": "11586",
-     "name": "Blake Corum",
+     "id": "11435",
+     "name": "Emanuel Wilson",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 118.0,
-      "pts_ppr": 52.4,
-      "rec": 9.0,
+      "off_snp": 156.0,
+      "pts_ppr": 56.3,
+      "rec": 5.0,
       "rec_td": 1.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 91.0,
-      "rush_att": 47.0,
-      "rush_td": 1.0,
-      "rush_yd": 223.0,
-      "snap_pct": 27,
-      "tm_off_snp": 433.0
+      "rec_tgt": 8.0,
+      "rec_yd": 50.0,
+      "rush_att": 87.0,
+      "rush_td": 2.0,
+      "rush_yd": 303.0,
+      "snap_pct": 39,
+      "tm_off_snp": 395.0
      },
      "slot": "RB",
-     "team": "LAR"
+     "team": "SEA"
     },
     {
      "id": "8112",
@@ -4037,6 +4069,26 @@
      "team": "TEN"
     },
     {
+     "id": "4035",
+     "name": "Alvin Kamara",
+     "pos": "RB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 103.0,
+      "pts_ppr": 52.6,
+      "rec": 15.0,
+      "rec_td": 1.0,
+      "rec_tgt": 20.0,
+      "rec_yd": 76.0,
+      "rush_att": 35.0,
+      "rush_td": 2.0,
+      "rush_yd": 120.0,
+      "snap_pct": 31,
+      "tm_off_snp": 333.0
+     },
+     "team": "NO"
+    },
+    {
      "id": "7526",
      "name": "Jaylen Waddle",
      "pos": "WR",
@@ -4056,44 +4108,24 @@
      "team": "DEN"
     },
     {
-     "id": "9221",
-     "name": "Jahmyr Gibbs",
-     "pos": "RB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 264.0,
-      "pts_ppr": 153.7,
-      "rec": 27.0,
-      "rec_td": 2.0,
-      "rec_tgt": 34.0,
-      "rec_yd": 243.0,
-      "rush_att": 105.0,
-      "rush_td": 7.0,
-      "rush_yd": 504.0,
-      "snap_pct": 77,
-      "tm_off_snp": 344.0
-     },
-     "team": "DET"
-    },
-    {
-     "id": "9758",
-     "name": "C.J. Stroud",
+     "id": "8183",
+     "name": "Brock Purdy",
      "pos": "QB",
      "season": {
       "gp": 6.0,
-      "off_snp": 397.0,
-      "pass_att": 219.0,
-      "pass_int": 1.0,
-      "pass_td": 9.0,
-      "pass_yd": 1714.0,
-      "pts_ppr": 113.16,
-      "rush_att": 16.0,
+      "off_snp": 351.0,
+      "pass_att": 171.0,
+      "pass_int": 2.0,
+      "pass_td": 14.0,
+      "pass_yd": 1460.0,
+      "pts_ppr": 136.0,
+      "rush_att": 30.0,
       "rush_td": 1.0,
-      "rush_yd": 76.0,
-      "snap_pct": 100,
-      "tm_off_snp": 397.0
+      "rush_yd": 156.0,
+      "snap_pct": 98,
+      "tm_off_snp": 359.0
      },
-     "team": "HOU"
+     "team": "SF"
     }
    ],
    "ir": [
@@ -4142,46 +4174,46 @@
    ],
    "lineup": [
     {
-     "id": "8183",
-     "name": "Brock Purdy",
+     "id": "9758",
+     "name": "C.J. Stroud",
      "pos": "QB",
      "season": {
       "gp": 6.0,
-      "off_snp": 351.0,
-      "pass_att": 171.0,
-      "pass_int": 2.0,
-      "pass_td": 14.0,
-      "pass_yd": 1460.0,
-      "pts_ppr": 136.0,
-      "rush_att": 30.0,
+      "off_snp": 397.0,
+      "pass_att": 219.0,
+      "pass_int": 1.0,
+      "pass_td": 9.0,
+      "pass_yd": 1714.0,
+      "pts_ppr": 113.16,
+      "rush_att": 16.0,
       "rush_td": 1.0,
-      "rush_yd": 156.0,
-      "snap_pct": 98,
-      "tm_off_snp": 359.0
+      "rush_yd": 76.0,
+      "snap_pct": 100,
+      "tm_off_snp": 397.0
      },
      "slot": "QB",
-     "team": "SF"
+     "team": "HOU"
     },
     {
-     "id": "4035",
-     "name": "Alvin Kamara",
+     "id": "9221",
+     "name": "Jahmyr Gibbs",
      "pos": "RB",
      "season": {
       "gp": 5.0,
-      "off_snp": 103.0,
-      "pts_ppr": 52.6,
-      "rec": 15.0,
-      "rec_td": 1.0,
-      "rec_tgt": 20.0,
-      "rec_yd": 76.0,
-      "rush_att": 35.0,
-      "rush_td": 2.0,
-      "rush_yd": 120.0,
-      "snap_pct": 31,
-      "tm_off_snp": 333.0
+      "off_snp": 264.0,
+      "pts_ppr": 153.7,
+      "rec": 27.0,
+      "rec_td": 2.0,
+      "rec_tgt": 34.0,
+      "rec_yd": 243.0,
+      "rush_att": 105.0,
+      "rush_td": 7.0,
+      "rush_yd": 504.0,
+      "snap_pct": 77,
+      "tm_off_snp": 344.0
      },
      "slot": "RB",
-     "team": "NO"
+     "team": "DET"
     },
     {
      "id": "11576",
