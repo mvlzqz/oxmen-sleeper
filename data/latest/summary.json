@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-25T10:40:13+00:00",
+ "fetched_at": "2026-10-25T14:32:40+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -286,10 +286,10 @@
   "waiver_position": 14
  },
  "opponent_this_week": {
-  "my_points": 0.0,
+  "my_points": 8.0,
   "owner": "wmont",
   "roster_id": 12,
-  "their_points": 0.0
+  "their_points": 1.6
  },
  "rosters": [
   {
@@ -1203,7 +1203,6 @@
     },
     {
      "id": "7021",
-     "inj": "Questionable (Knee)",
      "name": "Rico Dowdle",
      "pos": "RB",
      "season": {
@@ -1430,6 +1429,27 @@
   {
    "bench": [
     {
+     "id": "13287",
+     "inj": "Out (Ankle)",
+     "name": "Jeremiyah Love",
+     "pos": "RB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 174.0,
+      "pts_ppr": 51.1,
+      "rec": 11.0,
+      "rec_td": 1.0,
+      "rec_tgt": 14.0,
+      "rec_yd": 36.0,
+      "rush_att": 67.0,
+      "rush_td": 1.0,
+      "rush_yd": 245.0,
+      "snap_pct": 50,
+      "tm_off_snp": 351.0
+     },
+     "team": "ARI"
+    },
+    {
      "id": "13294",
      "name": "Makai Lemon",
      "pos": "WR",
@@ -1484,48 +1504,9 @@
       "tm_off_snp": 382.0
      },
      "team": "JAX"
-    },
-    {
-     "id": "9486",
-     "inj": "Out (Ankle)",
-     "name": "Dontayvion Wicks",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 289.0,
-      "pts_ppr": 53.4,
-      "rec": 19.0,
-      "rec_td": 1.0,
-      "rec_tgt": 32.0,
-      "rec_yd": 284.0,
-      "snap_pct": 79,
-      "tm_off_snp": 368.0
-     },
-     "team": "PHI"
     }
    ],
    "ir": [
-    {
-     "id": "13287",
-     "inj": "Out (Ankle)",
-     "name": "Jeremiyah Love",
-     "pos": "RB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 174.0,
-      "pts_ppr": 51.1,
-      "rec": 11.0,
-      "rec_td": 1.0,
-      "rec_tgt": 14.0,
-      "rec_yd": 36.0,
-      "rush_att": 67.0,
-      "rush_td": 1.0,
-      "rush_yd": 245.0,
-      "snap_pct": 50,
-      "tm_off_snp": 351.0
-     },
-     "team": "ARI"
-    },
     {
      "id": "2133",
      "inj": "IR (Hamstring)",
@@ -1544,6 +1525,24 @@
      },
      "status": "Inactive",
      "team": "LAR"
+    },
+    {
+     "id": "9486",
+     "inj": "Out (Ankle)",
+     "name": "Dontayvion Wicks",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 289.0,
+      "pts_ppr": 53.4,
+      "rec": 19.0,
+      "rec_td": 1.0,
+      "rec_tgt": 32.0,
+      "rec_yd": 284.0,
+      "snap_pct": 79,
+      "tm_off_snp": 368.0
+     },
+     "team": "PHI"
     }
    ],
    "lineup": [
@@ -3488,6 +3487,26 @@
   {
    "bench": [
     {
+     "id": "11435",
+     "name": "Emanuel Wilson",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 156.0,
+      "pts_ppr": 56.3,
+      "rec": 5.0,
+      "rec_td": 1.0,
+      "rec_tgt": 8.0,
+      "rec_yd": 50.0,
+      "rush_att": 87.0,
+      "rush_td": 2.0,
+      "rush_yd": 303.0,
+      "snap_pct": 39,
+      "tm_off_snp": 395.0
+     },
+     "team": "SEA"
+    },
+    {
      "id": "11566",
      "name": "Jayden Daniels",
      "pos": "QB",
@@ -3505,26 +3524,6 @@
       "tm_off_snp": 270.0
      },
      "team": "WAS"
-    },
-    {
-     "id": "11586",
-     "name": "Blake Corum",
-     "pos": "RB",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 118.0,
-      "pts_ppr": 52.4,
-      "rec": 9.0,
-      "rec_td": 1.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 91.0,
-      "rush_att": 47.0,
-      "rush_td": 1.0,
-      "rush_yd": 223.0,
-      "snap_pct": 27,
-      "tm_off_snp": 433.0
-     },
-     "team": "LAR"
     },
     {
      "id": "2449",
@@ -3607,25 +3606,25 @@
      "team": "PHI"
     },
     {
-     "id": "11435",
-     "name": "Emanuel Wilson",
+     "id": "11586",
+     "name": "Blake Corum",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 156.0,
-      "pts_ppr": 56.3,
-      "rec": 5.0,
+      "off_snp": 118.0,
+      "pts_ppr": 52.4,
+      "rec": 9.0,
       "rec_td": 1.0,
-      "rec_tgt": 8.0,
-      "rec_yd": 50.0,
-      "rush_att": 87.0,
-      "rush_td": 2.0,
-      "rush_yd": 303.0,
-      "snap_pct": 39,
-      "tm_off_snp": 395.0
+      "rec_tgt": 13.0,
+      "rec_yd": 91.0,
+      "rush_att": 47.0,
+      "rush_td": 1.0,
+      "rush_yd": 223.0,
+      "snap_pct": 27,
+      "tm_off_snp": 433.0
      },
      "slot": "RB",
-     "team": "SEA"
+     "team": "LAR"
     },
     {
      "id": "8112",
