@@ -1,8 +1,16 @@
 {
- "baseline": "2026-10-24_1406Z",
+ "baseline": "2026-10-25_1432Z",
  "first_run": false,
- "injury_baseline": "2026-10-24_1406Z",
+ "injury_baseline": "2026-10-25_1432Z",
  "injury_changes": [
+  {
+   "body_part": "Undisclosed",
+   "from": null,
+   "mine": false,
+   "owner": "dleach16",
+   "player": "Aaron Jones Sr.",
+   "to": "Questionable"
+  },
   {
    "body_part": "Quadriceps",
    "from": "Questionable",
@@ -12,67 +20,59 @@
    "to": "Out"
   },
   {
-   "body_part": null,
-   "from": "IR",
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "Christian Kirk",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "dleach16",
-   "player": "Dallas Goedert",
-   "to": null
-  },
-  {
    "body_part": "Hamstring",
-   "from": "Questionable",
+   "from": null,
    "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "DeVonta Smith",
-   "to": "Out"
+   "owner": "nusskyle",
+   "player": "Cam Skattebo",
+   "to": "Questionable"
   },
   {
-   "body_part": "Ankle",
-   "from": "Questionable",
+   "body_part": "Calf",
+   "from": null,
    "mine": false,
    "owner": "brendonferreira",
-   "player": "Dontayvion Wicks",
-   "to": "Out"
+   "player": "Christian McCaffrey",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Head",
+   "from": null,
+   "mine": false,
+   "owner": "wmont",
+   "player": "Drake London",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Undisclosed",
+   "from": null,
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Jaylen Waddle",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Toe",
+   "from": null,
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Jaylin Noel",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Hip",
+   "from": null,
+   "mine": false,
+   "owner": "nusskyle",
+   "player": "Kenny Gainwell",
+   "to": "Questionable"
   },
   {
    "body_part": null,
-   "from": "IR",
-   "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "Jordan Mason",
-   "to": null
-  },
-  {
-   "body_part": "Ankle",
    "from": "Questionable",
    "mine": false,
-   "owner": "NikoGs",
-   "player": "Lamar Jackson",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "kitano",
-   "player": "Rico Dowdle",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "IR",
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "Tank Dell",
+   "owner": "phile2211",
+   "player": "Puka Nacua",
    "to": null
   },
   {
@@ -82,40 +82,48 @@
    "owner": "phile2211",
    "player": "Tyjae Spears",
    "to": "Out"
+  },
+  {
+   "body_part": "Hamstring",
+   "from": null,
+   "mine": false,
+   "owner": "nusskyle",
+   "player": "Tyrone Tracy Jr.",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Leg",
+   "from": null,
+   "mine": false,
+   "owner": "PawtucketPatriot",
+   "player": "Woody Marks",
+   "to": "Questionable"
   }
  ],
- "my_team_changed": true,
+ "my_team_changed": false,
  "rosters": [
   {
    "added": [],
-   "dropped": [],
-   "moved_to_ir": [
-    "Dontayvion Wicks"
+   "dropped": [
+    "Christian Kirk",
+    "Tank Dell"
    ],
-   "owner": "brendonferreira",
-   "roster_id": 5
+   "moved_to_ir": [],
+   "owner": "PawtucketPatriot",
+   "roster_id": 3
   },
   {
    "added": [
-    "Ted Hurst III"
+    "Chig Okonkwo"
    ],
    "dropped": [
-    "LAR DEF"
+    "Marvin Harrison Jr."
    ],
    "moved_to_ir": [],
-   "owner": "TheDudePlayingADude",
-   "roster_id": 6
-  },
-  {
-   "added": [
-    "Mark Andrews"
-   ],
-   "dropped": [],
-   "moved_to_ir": [],
-   "owner": "mvlzqz",
-   "roster_id": 10
+   "owner": "erictheleghel",
+   "roster_id": 11
   }
  ],
- "since": "2026-10-24T14:06:10+00:00",
+ "since": "2026-10-25T14:32:40+00:00",
  "waiver_moves": []
 }
