@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-27T10:40:14+00:00",
+ "fetched_at": "2026-10-27T15:59:11+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -614,47 +614,43 @@
      "team": "NYG"
     },
     {
-     "id": "4984",
-     "name": "Josh Allen",
+     "id": "1166",
+     "name": "Kirk Cousins",
      "pos": "QB",
      "season": {
-      "gp": 6.0,
-      "off_snp": 389.0,
-      "pass_att": 171.0,
-      "pass_int": 4.0,
-      "pass_td": 9.0,
-      "pass_yd": 1504.0,
-      "pts_ppr": 165.26,
-      "rec": 1.0,
-      "rec_tgt": 1.0,
-      "rec_yd": 1.0,
-      "rush_att": 48.0,
-      "rush_td": 8.0,
-      "rush_yd": 240.0,
-      "snap_pct": 100,
-      "tm_off_snp": 389.0
+      "gp": 7.0,
+      "off_snp": 469.0,
+      "pass_att": 257.0,
+      "pass_int": 5.0,
+      "pass_td": 16.0,
+      "pass_yd": 1877.0,
+      "pts_ppr": 136.48,
+      "rush_att": 15.0,
+      "rush_yd": 4.0,
+      "snap_pct": 98,
+      "tm_off_snp": 479.0
      },
-     "team": "BUF"
+     "team": "LV"
     },
     {
-     "id": "7567",
-     "inj": "Questionable (Hip)",
-     "name": "Kenny Gainwell",
+     "id": "12481",
+     "inj": "Questionable (Hamstring)",
+     "name": "Cam Skattebo",
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 164.0,
-      "pts_ppr": 39.0,
-      "rec": 12.0,
-      "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 61.0,
-      "rush_att": 33.0,
-      "rush_yd": 149.0,
-      "snap_pct": 35,
-      "tm_off_snp": 464.0
+      "off_snp": 267.0,
+      "pts_ppr": 70.4,
+      "rec": 11.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 76.0,
+      "rush_att": 98.0,
+      "rush_td": 2.0,
+      "rush_yd": 418.0,
+      "snap_pct": 54,
+      "tm_off_snp": 490.0
      },
-     "team": "TB"
+     "team": "NYG"
     }
    ],
    "ir": [
@@ -679,45 +675,49 @@
    ],
    "lineup": [
     {
-     "id": "1166",
-     "name": "Kirk Cousins",
+     "id": "4984",
+     "name": "Josh Allen",
      "pos": "QB",
      "season": {
-      "gp": 7.0,
-      "off_snp": 469.0,
-      "pass_att": 257.0,
-      "pass_int": 5.0,
-      "pass_td": 16.0,
-      "pass_yd": 1877.0,
-      "pts_ppr": 136.48,
-      "rush_att": 15.0,
-      "rush_yd": 4.0,
-      "snap_pct": 98,
-      "tm_off_snp": 479.0
+      "gp": 6.0,
+      "off_snp": 389.0,
+      "pass_att": 171.0,
+      "pass_int": 4.0,
+      "pass_td": 9.0,
+      "pass_yd": 1504.0,
+      "pts_ppr": 165.26,
+      "rec": 1.0,
+      "rec_tgt": 1.0,
+      "rec_yd": 1.0,
+      "rush_att": 48.0,
+      "rush_td": 8.0,
+      "rush_yd": 240.0,
+      "snap_pct": 100,
+      "tm_off_snp": 389.0
      },
      "slot": "QB",
-     "team": "LV"
+     "team": "BUF"
     },
     {
-     "id": "12481",
-     "inj": "Questionable (Hamstring)",
-     "name": "Cam Skattebo",
+     "id": "7567",
+     "inj": "Questionable (Hip)",
+     "name": "Kenny Gainwell",
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 267.0,
-      "pts_ppr": 70.4,
-      "rec": 11.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 76.0,
-      "rush_att": 98.0,
-      "rush_td": 2.0,
-      "rush_yd": 418.0,
-      "snap_pct": 54,
-      "tm_off_snp": 490.0
+      "off_snp": 164.0,
+      "pts_ppr": 39.0,
+      "rec": 12.0,
+      "rec_td": 1.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 61.0,
+      "rush_att": 33.0,
+      "rush_yd": 149.0,
+      "snap_pct": 35,
+      "tm_off_snp": 464.0
      },
      "slot": "RB",
-     "team": "NYG"
+     "team": "TB"
     },
     {
      "id": "12489",
@@ -840,7 +840,7 @@
     }
    ],
    "lineup_flags": [
-    "RB Cam Skattebo is Questionable (Hamstring)"
+    "RB Kenny Gainwell is Questionable (Hip)"
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
@@ -2754,6 +2754,7 @@
     },
     {
      "id": "8129",
+     "inj": "Questionable (Undisclosed)",
      "name": "Dameon Pierce",
      "pos": "RB",
      "season": {
@@ -2872,6 +2873,7 @@
     }
    ],
    "lineup_flags": [
+    "RB Dameon Pierce is Questionable (Undisclosed)",
     "WR Amon-Ra St. Brown is Questionable (Ankle)"
    ],
    "owner": "pauliv8811",

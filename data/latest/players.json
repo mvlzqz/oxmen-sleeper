@@ -299,14 +299,17 @@
  "10225": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "LWR",
   "first_name": "Jonathan",
   "full_name": "Jonathan Mingo",
   "last_name": "Mingo",
   "last_week": {
    "gp": 1.0,
-   "rec_tgt": 1.0
+   "off_snp": 23.0,
+   "rec_tgt": 1.0,
+   "snap_pct": 34,
+   "tm_off_snp": 68.0
   },
   "position": "WR",
   "search_rank": 673,
@@ -731,7 +734,10 @@
   "full_name": "Luke Schoonmaker",
   "last_name": "Schoonmaker",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 11.0,
+   "snap_pct": 16,
+   "tm_off_snp": 68.0
   },
   "position": "TE",
   "search_rank": 669,
@@ -1003,7 +1009,7 @@
  "11199": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 6,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Emari",
   "full_name": "Emari Demercado",
@@ -1627,7 +1633,8 @@
   "last_name": "Aubrey",
   "last_week": {
    "gp": 1.0,
-   "pts_ppr": 14.0
+   "pts_ppr": 14.0,
+   "tm_off_snp": 68.0
   },
   "position": "K",
   "search_rank": 89,
@@ -1672,7 +1679,9 @@
   "first_name": "Joe",
   "full_name": "Joe Milton",
   "last_name": "Milton",
-  "last_week": null,
+  "last_week": {
+   "tm_off_snp": 66.0
+  },
   "position": "QB",
   "search_rank": 503,
   "season": null,
@@ -2445,10 +2454,13 @@
   "last_name": "Spann-Ford",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 36.0,
    "pts_ppr": 3.1,
    "rec": 2.0,
    "rec_tgt": 2.0,
-   "rec_yd": 11.0
+   "rec_yd": 11.0,
+   "snap_pct": 53,
+   "tm_off_snp": 68.0
   },
   "position": "TE",
   "search_rank": 634,
@@ -3660,10 +3672,13 @@
   "last_name": "Flournoy",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 53.0,
    "pts_ppr": 11.0,
    "rec": 4.0,
    "rec_tgt": 4.0,
-   "rec_yd": 70.0
+   "rec_yd": 70.0,
+   "snap_pct": 78,
+   "tm_off_snp": 68.0
   },
   "position": "WR",
   "search_rank": 199,
@@ -4120,7 +4135,7 @@
  "12357": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 5,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "David",
   "full_name": "David Martin-Robinson",
@@ -7515,17 +7530,20 @@
  "13150": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 2,
+  "depth_chart_order": 4,
   "depth_chart_position": "RWR",
   "first_name": "Darius",
   "full_name": "Darius Cooper",
   "last_name": "Cooper",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 61.0,
    "pts_ppr": 2.7,
    "rec": 1.0,
    "rec_tgt": 3.0,
-   "rec_yd": 17.0
+   "rec_yd": 17.0,
+   "snap_pct": 92,
+   "tm_off_snp": 66.0
   },
   "position": "WR",
   "search_rank": 658,
@@ -8233,18 +8251,21 @@
  "13294": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 1,
+  "depth_chart_order": 3,
   "depth_chart_position": "SWR",
   "first_name": "Makai",
   "full_name": "Makai Lemon",
   "last_name": "Lemon",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 60.0,
    "pts_ppr": 19.7,
    "rec": 7.0,
    "rec_td": 1.0,
    "rec_tgt": 8.0,
-   "rec_yd": 67.0
+   "rec_yd": 67.0,
+   "snap_pct": 91,
+   "tm_off_snp": 66.0
   },
   "position": "WR",
   "search_rank": 89,
@@ -9301,7 +9322,10 @@
   "last_name": "Stowers",
   "last_week": {
    "gp": 1.0,
-   "rec_tgt": 1.0
+   "off_snp": 12.0,
+   "rec_tgt": 1.0,
+   "snap_pct": 18,
+   "tm_off_snp": 66.0
   },
   "position": "TE",
   "search_rank": 140,
@@ -10706,7 +10730,8 @@
   "full_name": "Camden Brown",
   "last_name": "Brown",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "tm_off_snp": 68.0
   },
   "position": "WR",
   "search_rank": 608,
@@ -12249,12 +12274,15 @@
   "last_name": "Prescott",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 68.0,
    "pass_att": 27.0,
    "pass_td": 3.0,
    "pass_yd": 212.0,
    "pts_ppr": 23.28,
    "rush_att": 2.0,
-   "rush_yd": 8.0
+   "rush_yd": 8.0,
+   "snap_pct": 100,
+   "tm_off_snp": 68.0
   },
   "position": "QB",
   "search_rank": 39,
@@ -12953,7 +12981,8 @@
   "last_name": "Elliott",
   "last_week": {
    "gp": 1.0,
-   "pts_ppr": 3.0
+   "pts_ppr": 3.0,
+   "tm_off_snp": 66.0
   },
   "position": "K",
   "search_rank": 214,
@@ -13198,13 +13227,16 @@
  "4314": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Johnny",
   "full_name": "Johnny Mundt",
   "last_name": "Mundt",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 16.0,
+   "snap_pct": 24,
+   "tm_off_snp": 66.0
   },
   "position": "TE",
   "search_rank": 552,
@@ -13498,13 +13530,16 @@
   "last_name": "Barkley",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 10.0,
    "pts_ppr": 15.1,
    "rec": 2.0,
    "rec_tgt": 2.0,
    "rec_yd": 9.0,
    "rush_att": 7.0,
    "rush_td": 1.0,
-   "rush_yd": 62.0
+   "rush_yd": 62.0,
+   "snap_pct": 15,
+   "tm_off_snp": 66.0
   },
   "position": "RB",
   "search_rank": 10,
@@ -14057,10 +14092,13 @@
   "last_name": "Goedert",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 48.0,
    "pts_ppr": 9.8,
    "rec": 5.0,
    "rec_tgt": 7.0,
-   "rec_yd": 48.0
+   "rec_yd": 48.0,
+   "snap_pct": 73,
+   "tm_off_snp": 66.0
   },
   "position": "TE",
   "search_rank": 94,
@@ -14188,7 +14226,7 @@
  "5121": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 6,
+  "depth_chart_order": 5,
   "first_name": "Braxton",
   "full_name": "Braxton Berrios",
   "injury_body_part": "Foot",
@@ -14532,17 +14570,20 @@
  "5848": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 3,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Marquise",
   "full_name": "Marquise Brown",
   "last_name": "Brown",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 36.0,
    "pts_ppr": 5.0,
    "rec": 2.0,
    "rec_tgt": 5.0,
-   "rec_yd": 30.0
+   "rec_yd": 30.0,
+   "snap_pct": 55,
+   "tm_off_snp": 66.0
   },
   "position": "WR",
   "search_rank": 685,
@@ -15787,7 +15828,7 @@
  "6699": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 7,
+  "depth_chart_order": 6,
   "first_name": "Gunner",
   "full_name": "Gunner Olszewski",
   "injury_body_part": "Achilles",
@@ -15913,11 +15954,14 @@
   "last_name": "Lamb",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 55.0,
    "pts_ppr": 24.4,
    "rec": 5.0,
    "rec_td": 2.0,
    "rec_tgt": 12.0,
-   "rec_yd": 74.0
+   "rec_yd": 74.0,
+   "snap_pct": 81,
+   "tm_off_snp": 68.0
   },
   "position": "WR",
   "search_rank": 10,
@@ -16773,7 +16817,7 @@
  "7075": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Charlie",
   "full_name": "Charlie Woerner",
@@ -17061,7 +17105,7 @@
  "7525": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 6,
+  "depth_chart_order": 1,
   "depth_chart_position": "LWR",
   "first_name": "DeVonta",
   "full_name": "DeVonta Smith",
@@ -17389,12 +17433,15 @@
   "last_name": "Mitchell",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 14.0,
    "pts_ppr": 6.4,
    "rec": 3.0,
    "rec_tgt": 4.0,
    "rec_yd": 23.0,
    "rush_att": 3.0,
-   "rush_yd": 11.0
+   "rush_yd": 11.0,
+   "snap_pct": 21,
+   "tm_off_snp": 66.0
   },
   "position": "RB",
   "search_rank": 532,
@@ -17689,10 +17736,13 @@
   "last_name": "Williams",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 44.0,
    "pts_ppr": 21.5,
    "rush_att": 25.0,
    "rush_td": 1.0,
-   "rush_yd": 155.0
+   "rush_yd": 155.0,
+   "snap_pct": 65,
+   "tm_off_snp": 68.0
   },
   "position": "RB",
   "search_rank": 31,
@@ -17828,17 +17878,20 @@
  "7596": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 6,
   "depth_chart_position": "LWR",
   "first_name": "Elijah",
   "full_name": "Elijah Moore",
   "last_name": "Moore",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 22.0,
    "pts_ppr": 3.6,
    "rec": 2.0,
    "rec_tgt": 2.0,
-   "rec_yd": 16.0
+   "rec_yd": 16.0,
+   "snap_pct": 33,
+   "tm_off_snp": 66.0
   },
   "position": "WR",
   "search_rank": 568,
@@ -17910,7 +17963,7 @@
  "7602": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Kylen",
   "full_name": "Kylen Granson",
@@ -18523,7 +18576,10 @@
   "last_name": "Ferguson",
   "last_week": {
    "gp": 1.0,
-   "rec_tgt": 1.0
+   "off_snp": 38.0,
+   "rec_tgt": 1.0,
+   "snap_pct": 56,
+   "tm_off_snp": 68.0
   },
   "position": "TE",
   "search_rank": 97,
@@ -18802,7 +18858,7 @@
  "8125": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 8,
+  "depth_chart_order": 7,
   "first_name": "Calvin",
   "full_name": "Calvin Austin III",
   "injury_body_part": "Knee",
@@ -18884,16 +18940,21 @@
   "depth_chart_position": "RB",
   "first_name": "Dameon",
   "full_name": "Dameon Pierce",
+  "injury_body_part": "Undisclosed",
+  "injury_status": "Questionable",
   "last_name": "Pierce",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 42.0,
    "pts_ppr": 11.8,
    "rec": 1.0,
    "rec_tgt": 1.0,
    "rec_yd": 1.0,
    "rush_att": 14.0,
    "rush_td": 1.0,
-   "rush_yd": 47.0
+   "rush_yd": 47.0,
+   "snap_pct": 64,
+   "tm_off_snp": 66.0
   },
   "position": "RB",
   "search_rank": 627,
@@ -19111,11 +19172,14 @@
   "last_name": "Pickens",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 41.0,
    "pts_ppr": 15.7,
    "rec": 4.0,
    "rec_td": 1.0,
    "rec_tgt": 6.0,
-   "rec_yd": 57.0
+   "rec_yd": 57.0,
+   "snap_pct": 60,
+   "tm_off_snp": 68.0
   },
   "position": "WR",
   "search_rank": 22,
@@ -19612,7 +19676,9 @@
   "first_name": "Sam",
   "full_name": "Sam Howell",
   "last_name": "Howell",
-  "last_week": null,
+  "last_week": {
+   "tm_off_snp": 68.0
+  },
   "position": "QB",
   "search_rank": 689,
   "season": {
@@ -19735,13 +19801,16 @@
  "8177": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Grant",
   "full_name": "Grant Calcaterra",
   "last_name": "Calcaterra",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 8.0,
+   "snap_pct": 12,
+   "tm_off_snp": 66.0
   },
   "position": "TE",
   "search_rank": 668,
@@ -20001,9 +20070,12 @@
   "last_name": "Goodson",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 14.0,
    "pts_ppr": 3.8,
    "rush_att": 10.0,
-   "rush_yd": 38.0
+   "rush_yd": 38.0,
+   "snap_pct": 21,
+   "tm_off_snp": 68.0
   },
   "position": "RB",
   "search_rank": 480,
@@ -20495,7 +20567,7 @@
  "8414": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 5,
+  "depth_chart_order": 7,
   "depth_chart_position": "SWR",
   "first_name": "Britain",
   "full_name": "Britain Covey",
@@ -20503,7 +20575,8 @@
   "injury_status": "Out",
   "last_name": "Covey",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "tm_off_snp": 66.0
   },
   "position": "WR",
   "search_rank": 596,
@@ -20610,7 +20683,7 @@
  "8523": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Nick",
   "full_name": "Nick Muse",
@@ -20810,7 +20883,7 @@
  "8800": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RB",
   "first_name": "Malik",
   "full_name": "Malik Davis",
@@ -20865,7 +20938,7 @@
  "8917": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "KaVontae",
   "full_name": "KaVontae Turpin",
@@ -21154,13 +21227,16 @@
   "last_name": "McKee",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 66.0,
    "pass_att": 35.0,
    "pass_int": 1.0,
    "pass_td": 1.0,
    "pass_yd": 211.0,
    "pts_ppr": 11.54,
    "rush_att": 1.0,
-   "rush_yd": 1.0
+   "rush_yd": 1.0,
+   "snap_pct": 100,
+   "tm_off_snp": 66.0
   },
   "position": "QB",
   "search_rank": 677,
@@ -21336,7 +21412,7 @@
  "9486": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 7,
+  "depth_chart_order": 2,
   "depth_chart_position": "RWR",
   "first_name": "Dontayvion",
   "full_name": "Dontayvion Wicks",
