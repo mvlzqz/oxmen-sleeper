@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-28T10:40:15+00:00",
+ "fetched_at": "2026-10-28T16:47:56+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -655,7 +655,7 @@
    "ir": [
     {
      "id": "5927",
-     "inj": "Out (Knee)",
+     "inj": "IR (Knee)",
      "name": "Terry McLaurin",
      "pos": "WR",
      "season": {
@@ -669,6 +669,7 @@
       "snap_pct": 61,
       "tm_off_snp": 339.0
      },
+     "status": "Inactive",
      "team": "WAS"
     }
    ],
@@ -1135,7 +1136,7 @@
    "record": "6-1",
    "roster_id": 3,
    "taxi": [],
-   "team_name": "Smitten for the Kitten",
+   "team_name": "Diana’s Husband",
    "waiver_position": 2
   },
   {
@@ -1717,6 +1718,24 @@
   {
    "bench": [
     {
+     "id": "13301",
+     "name": "Antonio Williams",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 220.0,
+      "pass_att": 1.0,
+      "pts_ppr": 44.5,
+      "rec": 18.0,
+      "rec_td": 1.0,
+      "rec_tgt": 26.0,
+      "rec_yd": 205.0,
+      "snap_pct": 55,
+      "tm_off_snp": 403.0
+     },
+     "team": "WAS"
+    },
+    {
      "id": "13414",
      "name": "Kaelon Black",
      "pos": "RB",
@@ -1753,38 +1772,9 @@
       "tm_off_snp": 505.0
      },
      "team": "LAR"
-    },
-    {
-     "id": "TB",
-     "name": "TB DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 7.0,
-      "pts_ppr": 62.0
-     },
-     "team": "TB"
     }
    ],
-   "ir": [
-    {
-     "id": "7525",
-     "inj": "Questionable (Hamstring)",
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 211.0,
-      "pts_ppr": 69.0,
-      "rec": 26.0,
-      "rec_td": 2.0,
-      "rec_tgt": 41.0,
-      "rec_yd": 310.0,
-      "snap_pct": 86,
-      "tm_off_snp": 245.0
-     },
-     "team": "PHI"
-    }
-   ],
+   "ir": [],
    "lineup": [
     {
      "id": "6804",
@@ -1849,23 +1839,23 @@
      "team": "PIT"
     },
     {
-     "id": "13301",
-     "name": "Antonio Williams",
+     "id": "7525",
+     "inj": "Questionable (Hamstring)",
+     "name": "DeVonta Smith",
      "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "off_snp": 220.0,
-      "pass_att": 1.0,
-      "pts_ppr": 44.5,
-      "rec": 18.0,
-      "rec_td": 1.0,
-      "rec_tgt": 26.0,
-      "rec_yd": 205.0,
-      "snap_pct": 55,
-      "tm_off_snp": 403.0
+      "gp": 4.0,
+      "off_snp": 211.0,
+      "pts_ppr": 69.0,
+      "rec": 26.0,
+      "rec_td": 2.0,
+      "rec_tgt": 41.0,
+      "rec_yd": 310.0,
+      "snap_pct": 86,
+      "tm_off_snp": 245.0
      },
      "slot": "WR",
-     "team": "WAS"
+     "team": "PHI"
     },
     {
      "id": "5859",
@@ -1933,12 +1923,19 @@
      "team": "CIN"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "TB",
+     "name": "TB DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 7.0,
+      "pts_ppr": 62.0
+     },
+     "slot": "DEF",
+     "team": "TB"
     }
    ],
    "lineup_flags": [
-    "DEF slot is EMPTY"
+    "WR DeVonta Smith is Questionable (Hamstring)"
    ],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
@@ -2845,15 +2842,15 @@
      "team": "IND"
     },
     {
-     "id": "NYJ",
-     "name": "NYJ DEF",
+     "id": "CHI",
+     "name": "CHI DEF",
      "pos": "DEF",
      "season": {
       "gp": 7.0,
       "pts_ppr": 51.0
      },
      "slot": "DEF",
-     "team": "NYJ"
+     "team": "CHI"
     }
    ],
    "lineup_flags": [
@@ -2879,7 +2876,7 @@
     "7588",
     "8129",
     "8142",
-    "NYJ"
+    "CHI"
    ],
    "record": "4-3",
    "roster_id": 9,
@@ -3757,23 +3754,6 @@
   {
    "bench": [
     {
-     "id": "10236",
-     "name": "Dalton Kincaid",
-     "pos": "TE",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 264.0,
-      "pts_ppr": 60.5,
-      "rec": 23.0,
-      "rec_td": 1.0,
-      "rec_tgt": 29.0,
-      "rec_yd": 315.0,
-      "snap_pct": 68,
-      "tm_off_snp": 389.0
-     },
-     "team": "BUF"
-    },
-    {
      "id": "13150",
      "name": "Darius Cooper",
      "pos": "WR",
@@ -3789,6 +3769,22 @@
       "tm_off_snp": 434.0
      },
      "team": "PHI"
+    },
+    {
+     "id": "13293",
+     "name": "Ja'Kobi Lane",
+     "pos": "WR",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 104.0,
+      "pts_ppr": 15.6,
+      "rec": 8.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 76.0,
+      "snap_pct": 54,
+      "tm_off_snp": 192.0
+     },
+     "team": "BAL"
     },
     {
      "id": "3163",
@@ -3976,21 +3972,22 @@
      "team": "LAR"
     },
     {
-     "id": "13293",
-     "name": "Ja'Kobi Lane",
-     "pos": "WR",
+     "id": "10236",
+     "name": "Dalton Kincaid",
+     "pos": "TE",
      "season": {
-      "gp": 3.0,
-      "off_snp": 104.0,
-      "pts_ppr": 15.6,
-      "rec": 8.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 76.0,
-      "snap_pct": 54,
-      "tm_off_snp": 192.0
+      "gp": 6.0,
+      "off_snp": 264.0,
+      "pts_ppr": 60.5,
+      "rec": 23.0,
+      "rec_td": 1.0,
+      "rec_tgt": 29.0,
+      "rec_yd": 315.0,
+      "snap_pct": 68,
+      "tm_off_snp": 389.0
      },
      "slot": "FLEX",
-     "team": "BAL"
+     "team": "BUF"
     },
     {
      "id": "1945",
