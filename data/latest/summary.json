@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-29T10:40:13+00:00",
+ "fetched_at": "2026-10-29T17:03:04+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -4071,23 +4071,43 @@
   {
    "bench": [
     {
-     "id": "12519",
-     "name": "Luther Burden III",
+     "id": "12518",
+     "inj": "Questionable (Groin)",
+     "name": "Tyler Warren",
+     "pos": "TE",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 298.0,
+      "pts_ppr": 69.9,
+      "rec": 30.0,
+      "rec_td": 2.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 213.0,
+      "rush_att": 3.0,
+      "rush_td": 1.0,
+      "rush_yd": 6.0,
+      "snap_pct": 91,
+      "tm_off_snp": 327.0
+     },
+     "team": "IND"
+    },
+    {
+     "id": "13279",
+     "inj": "Questionable (Shoulder)",
+     "name": "Carnell Tate",
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 318.0,
-      "pts_ppr": 97.0,
-      "rec": 35.0,
-      "rec_td": 2.0,
-      "rec_tgt": 47.0,
-      "rec_yd": 491.0,
-      "rush_att": 8.0,
-      "rush_yd": 29.0,
-      "snap_pct": 60,
-      "tm_off_snp": 529.0
+      "off_snp": 329.0,
+      "pts_ppr": 77.3,
+      "rec": 34.0,
+      "rec_td": 1.0,
+      "rec_tgt": 51.0,
+      "rec_yd": 413.0,
+      "snap_pct": 82,
+      "tm_off_snp": 399.0
      },
-     "team": "CHI"
+     "team": "TEN"
     },
     {
      "id": "7526",
@@ -4108,23 +4128,6 @@
       "tm_off_snp": 428.0
      },
      "team": "DEN"
-    },
-    {
-     "id": "7553",
-     "name": "Kyle Pitts Sr.",
-     "pos": "TE",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 259.0,
-      "pts_ppr": 63.1,
-      "rec": 20.0,
-      "rec_td": 4.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 191.0,
-      "snap_pct": 58,
-      "tm_off_snp": 445.0
-     },
-     "team": "ATL"
     },
     {
      "id": "8183",
@@ -4259,45 +4262,42 @@
      "team": "BAL"
     },
     {
-     "id": "13279",
-     "inj": "Questionable (Shoulder)",
-     "name": "Carnell Tate",
+     "id": "12519",
+     "name": "Luther Burden III",
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 329.0,
-      "pts_ppr": 77.3,
-      "rec": 34.0,
-      "rec_td": 1.0,
-      "rec_tgt": 51.0,
-      "rec_yd": 413.0,
-      "snap_pct": 82,
-      "tm_off_snp": 399.0
+      "off_snp": 318.0,
+      "pts_ppr": 97.0,
+      "rec": 35.0,
+      "rec_td": 2.0,
+      "rec_tgt": 47.0,
+      "rec_yd": 491.0,
+      "rush_att": 8.0,
+      "rush_yd": 29.0,
+      "snap_pct": 60,
+      "tm_off_snp": 529.0
      },
      "slot": "WR",
-     "team": "TEN"
+     "team": "CHI"
     },
     {
-     "id": "12518",
-     "inj": "Questionable (Groin)",
-     "name": "Tyler Warren",
+     "id": "7553",
+     "name": "Kyle Pitts Sr.",
      "pos": "TE",
      "season": {
-      "gp": 5.0,
-      "off_snp": 298.0,
-      "pts_ppr": 69.9,
-      "rec": 30.0,
-      "rec_td": 2.0,
-      "rec_tgt": 36.0,
-      "rec_yd": 213.0,
-      "rush_att": 3.0,
-      "rush_td": 1.0,
-      "rush_yd": 6.0,
-      "snap_pct": 91,
-      "tm_off_snp": 327.0
+      "gp": 7.0,
+      "off_snp": 259.0,
+      "pts_ppr": 63.1,
+      "rec": 20.0,
+      "rec_td": 4.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 191.0,
+      "snap_pct": 58,
+      "tm_off_snp": 445.0
      },
      "slot": "TE",
-     "team": "IND"
+     "team": "ATL"
     },
     {
      "id": "11646",
@@ -4343,9 +4343,7 @@
    ],
    "lineup_flags": [
     "RB Jahmyr Gibbs is Questionable (Shoulder)",
-    "RB Braelon Allen is Questionable (Ankle)",
-    "WR Carnell Tate is Questionable (Shoulder)",
-    "TE Tyler Warren is Questionable (Groin)"
+    "RB Braelon Allen is Questionable (Ankle)"
    ],
    "owner": "chopkins30",
    "owner_id": "1258779579946897408",
