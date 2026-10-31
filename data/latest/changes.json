@@ -1,7 +1,7 @@
 {
- "baseline": "2026-10-30_1040Z",
+ "baseline": "2026-10-30_1648Z",
  "first_run": false,
- "injury_baseline": "2026-10-30_1040Z",
+ "injury_baseline": "2026-10-30_1648Z",
  "injury_changes": [
   {
    "body_part": null,
@@ -49,14 +49,6 @@
    "mine": false,
    "owner": "brendonferreira",
    "player": "Dontayvion Wicks",
-   "to": "Out"
-  },
-  {
-   "body_part": "Foot",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "Emeka Egbuka",
    "to": "Out"
   },
   {
@@ -152,6 +144,17 @@
  "rosters": [
   {
    "added": [
+    "WAS DEF"
+   ],
+   "dropped": [
+    "DEN DEF"
+   ],
+   "moved_to_ir": [],
+   "owner": "nusskyle",
+   "roster_id": 2
+  },
+  {
+   "added": [
     "Kendrick Bourne"
    ],
    "dropped": [],
@@ -160,6 +163,15 @@
    ],
    "owner": "TheDudePlayingADude",
    "roster_id": 6
+  },
+  {
+   "added": [],
+   "dropped": [
+    "Roschon Johnson"
+   ],
+   "moved_to_ir": [],
+   "owner": "dleach16",
+   "roster_id": 7
   },
   {
    "added": [
@@ -182,6 +194,6 @@
    "roster_id": 14
   }
  ],
- "since": "2026-10-30T10:40:14+00:00",
+ "since": "2026-10-30T16:48:20+00:00",
  "waiver_moves": []
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-31T10:40:14+00:00",
+ "fetched_at": "2026-10-31T15:51:19+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -615,24 +615,35 @@
      "team": "NYG"
     },
     {
-     "id": "4147",
-     "name": "Samaje Perine",
+     "id": "12489",
+     "inj": "Out (Knee)",
+     "name": "RJ Harvey",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 132.0,
-      "pts_ppr": 37.7,
-      "rec": 7.0,
+      "off_snp": 142.0,
+      "pts_ppr": 67.4,
+      "rec": 25.0,
       "rec_td": 1.0,
-      "rec_tgt": 10.0,
-      "rec_yd": 61.0,
-      "rush_att": 31.0,
+      "rec_tgt": 28.0,
+      "rec_yd": 217.0,
+      "rush_att": 24.0,
       "rush_td": 1.0,
-      "rush_yd": 126.0,
-      "snap_pct": 35,
-      "tm_off_snp": 375.0
+      "rush_yd": 87.0,
+      "snap_pct": 39,
+      "tm_off_snp": 366.0
      },
-     "team": "CIN"
+     "team": "DEN"
+    },
+    {
+     "id": "WAS",
+     "name": "WAS DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 6.0,
+      "pts_ppr": 34.0
+     },
+     "team": "WAS"
     }
    ],
    "ir": [
@@ -703,26 +714,25 @@
      "team": "TB"
     },
     {
-     "id": "12489",
-     "inj": "Out (Knee)",
-     "name": "RJ Harvey",
+     "id": "4147",
+     "name": "Samaje Perine",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 142.0,
-      "pts_ppr": 67.4,
-      "rec": 25.0,
+      "off_snp": 132.0,
+      "pts_ppr": 37.7,
+      "rec": 7.0,
       "rec_td": 1.0,
-      "rec_tgt": 28.0,
-      "rec_yd": 217.0,
-      "rush_att": 24.0,
+      "rec_tgt": 10.0,
+      "rec_yd": 61.0,
+      "rush_att": 31.0,
       "rush_td": 1.0,
-      "rush_yd": 87.0,
-      "snap_pct": 39,
-      "tm_off_snp": 366.0
+      "rush_yd": 126.0,
+      "snap_pct": 35,
+      "tm_off_snp": 375.0
      },
      "slot": "RB",
-     "team": "DEN"
+     "team": "CIN"
     },
     {
      "id": "6786",
@@ -812,20 +822,13 @@
      "team": "DAL"
     },
     {
-     "id": "DEN",
-     "name": "DEN DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 7.0,
-      "pts_ppr": 61.0
-     },
-     "slot": "DEF",
-     "team": "DEN"
+     "empty": true,
+     "slot": "DEF"
     }
    ],
    "lineup_flags": [
     "RB Kenny Gainwell is Questionable (Hip)",
-    "RB RJ Harvey is Out (Knee)"
+    "DEF slot is EMPTY"
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
@@ -845,7 +848,7 @@
     "5927",
     "6786",
     "7567",
-    "DEN"
+    "WAS"
    ],
    "record": "2-5",
    "roster_id": 2,
@@ -2005,23 +2008,21 @@
      "team": "LV"
     },
     {
-     "id": "10235",
-     "name": "Roschon Johnson",
-     "pos": "RB",
+     "id": "10229",
+     "name": "Rashee Rice",
+     "pos": "WR",
      "season": {
-      "gp": 7.0,
-      "off_snp": 79.0,
-      "pts_ppr": 28.1,
-      "rec": 8.0,
-      "rec_tgt": 10.0,
-      "rec_yd": 75.0,
-      "rush_att": 24.0,
-      "rush_td": 1.0,
-      "rush_yd": 86.0,
-      "snap_pct": 15,
-      "tm_off_snp": 529.0
+      "gp": 4.0,
+      "off_snp": 166.0,
+      "pts_ppr": 38.0,
+      "rec": 13.0,
+      "rec_td": 1.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 190.0,
+      "snap_pct": 64,
+      "tm_off_snp": 261.0
      },
-     "team": "CHI"
+     "team": "KC"
     },
     {
      "id": "11647",
@@ -2062,23 +2063,6 @@
     }
    ],
    "ir": [
-    {
-     "id": "10229",
-     "name": "Rashee Rice",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 166.0,
-      "pts_ppr": 38.0,
-      "rec": 13.0,
-      "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 190.0,
-      "snap_pct": 64,
-      "tm_off_snp": 261.0
-     },
-     "team": "KC"
-    },
     {
      "id": "12534",
      "inj": "Questionable (Toe)",
@@ -2268,7 +2252,6 @@
    "player_ids": [
     "10213",
     "10229",
-    "10235",
     "11539",
     "11632",
     "11647",
