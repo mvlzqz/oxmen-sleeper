@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-30T16:48:20+00:00",
+ "fetched_at": "2026-10-31T10:40:14+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -20,25 +20,6 @@
      "tm_off_snp": 471.0
     },
     "team": "DAL"
-   },
-   {
-    "id": "5849",
-    "name": "Kyler Murray",
-    "pos": "QB",
-    "season": {
-     "gp": 5.0,
-     "off_snp": 278.0,
-     "pass_att": 125.0,
-     "pass_int": 2.0,
-     "pass_td": 3.0,
-     "pass_yd": 812.0,
-     "pts_ppr": 55.68,
-     "rush_att": 25.0,
-     "rush_yd": 132.0,
-     "snap_pct": 84,
-     "tm_off_snp": 332.0
-    },
-    "team": "MIN"
    },
    {
     "id": "7002",
@@ -74,6 +55,26 @@
      "tm_off_snp": 468.0
     },
     "team": "IND"
+   },
+   {
+    "id": "9758",
+    "name": "C.J. Stroud",
+    "pos": "QB",
+    "season": {
+     "gp": 7.0,
+     "off_snp": 458.0,
+     "pass_att": 247.0,
+     "pass_int": 1.0,
+     "pass_td": 11.0,
+     "pass_yd": 1867.0,
+     "pts_ppr": 129.68,
+     "rush_att": 18.0,
+     "rush_td": 1.0,
+     "rush_yd": 80.0,
+     "snap_pct": 100,
+     "tm_off_snp": 458.0
+    },
+    "team": "HOU"
    }
   ],
   "ir": [
@@ -178,7 +179,6 @@
    },
    {
     "id": "10232",
-    "inj": "Questionable (Ribs)",
     "name": "Michael Wilson",
     "pos": "WR",
     "season": {
@@ -261,9 +261,7 @@
     "team": "PIT"
    }
   ],
-  "lineup_flags": [
-   "WR Michael Wilson is Questionable (Ribs)"
-  ],
+  "lineup_flags": [],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
   "pa": 739.96,
@@ -276,12 +274,12 @@
    "12512",
    "2216",
    "5012",
-   "5849",
    "5967",
    "6813",
    "7002",
    "8146",
    "9500",
+   "9758",
    "PIT"
   ],
   "record": "4-3",
@@ -458,14 +456,14 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 368.0,
+      "off_snp": 402.0,
       "pts_ppr": 146.8,
       "rec": 42.0,
       "rec_td": 6.0,
       "rec_tgt": 66.0,
       "rec_yd": 708.0,
-      "snap_pct": 81,
-      "tm_off_snp": 456.0
+      "snap_pct": 77,
+      "tm_off_snp": 525.0
      },
      "slot": "WR",
      "team": "GB"
@@ -706,7 +704,7 @@
     },
     {
      "id": "12489",
-     "inj": "Questionable (Knee)",
+     "inj": "Out (Knee)",
      "name": "RJ Harvey",
      "pos": "RB",
      "season": {
@@ -827,7 +825,7 @@
    ],
    "lineup_flags": [
     "RB Kenny Gainwell is Questionable (Hip)",
-    "RB RJ Harvey is Questionable (Knee)"
+    "RB RJ Harvey is Out (Knee)"
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
@@ -859,7 +857,6 @@
    "bench": [
     {
      "id": "11610",
-     "inj": "Questionable (Knee)",
      "name": "Malik Washington",
      "pos": "WR",
      "season": {
@@ -1047,7 +1044,7 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 372.0,
+      "off_snp": 433.0,
       "pts_ppr": 88.5,
       "rec": 35.0,
       "rec_td": 3.0,
@@ -1056,14 +1053,13 @@
       "rush_att": 2.0,
       "rush_yd": 5.0,
       "snap_pct": 82,
-      "tm_off_snp": 456.0
+      "tm_off_snp": 525.0
      },
      "slot": "TE",
      "team": "GB"
     },
     {
      "id": "1466",
-     "inj": "Questionable (Ankle)",
      "name": "Travis Kelce",
      "pos": "TE",
      "season": {
@@ -1105,8 +1101,7 @@
     }
    ],
    "lineup_flags": [
-    "RB Woody Marks is Questionable (Leg)",
-    "FLEX Travis Kelce is Questionable (Ankle)"
+    "RB Woody Marks is Questionable (Leg)"
    ],
    "owner": "PawtucketPatriot",
    "owner_id": "1129839158073237504",
@@ -1452,7 +1447,7 @@
     },
     {
      "id": "9486",
-     "inj": "Questionable (Ankle)",
+     "inj": "Out (Ankle)",
      "name": "Dontayvion Wicks",
      "pos": "WR",
      "season": {
@@ -1534,7 +1529,6 @@
     },
     {
      "id": "13287",
-     "inj": "Questionable (Ankle)",
      "name": "Jeremiyah Love",
      "pos": "RB",
      "season": {
@@ -1677,7 +1671,6 @@
     }
    ],
    "lineup_flags": [
-    "RB Jeremiyah Love is Questionable (Ankle)",
     "FLEX Jakobi Meyers is Questionable (Hamstring)"
    ],
    "owner": "brendonferreira",
@@ -1727,24 +1720,6 @@
      "team": "NYJ"
     },
     {
-     "id": "13301",
-     "name": "Antonio Williams",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 220.0,
-      "pass_att": 1.0,
-      "pts_ppr": 44.5,
-      "rec": 18.0,
-      "rec_td": 1.0,
-      "rec_tgt": 26.0,
-      "rec_yd": 205.0,
-      "snap_pct": 55,
-      "tm_off_snp": 403.0
-     },
-     "team": "WAS"
-    },
-    {
      "id": "13414",
      "name": "Kaelon Black",
      "pos": "RB",
@@ -1781,9 +1756,44 @@
       "tm_off_snp": 505.0
      },
      "team": "LAR"
+    },
+    {
+     "id": "4454",
+     "name": "Kendrick Bourne",
+     "pos": "WR",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 292.0,
+      "pts_ppr": 48.4,
+      "rec": 25.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 234.0,
+      "snap_pct": 58,
+      "tm_off_snp": 504.0
+     },
+     "team": "ARI"
     }
    ],
-   "ir": [],
+   "ir": [
+    {
+     "id": "7525",
+     "inj": "Out (Hamstring)",
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "season": {
+      "gp": 4.0,
+      "off_snp": 211.0,
+      "pts_ppr": 69.0,
+      "rec": 26.0,
+      "rec_td": 2.0,
+      "rec_tgt": 41.0,
+      "rec_yd": 310.0,
+      "snap_pct": 86,
+      "tm_off_snp": 245.0
+     },
+     "team": "PHI"
+    }
+   ],
    "lineup": [
     {
      "id": "6804",
@@ -1791,7 +1801,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 454.0,
+      "off_snp": 523.0,
       "pass_att": 312.0,
       "pass_int": 6.0,
       "pass_td": 16.0,
@@ -1801,7 +1811,7 @@
       "rush_td": 1.0,
       "rush_yd": 10.0,
       "snap_pct": 100,
-      "tm_off_snp": 456.0
+      "tm_off_snp": 525.0
      },
      "slot": "QB",
      "team": "GB"
@@ -1848,23 +1858,23 @@
      "team": "PIT"
     },
     {
-     "id": "7525",
-     "inj": "Questionable (Hamstring)",
-     "name": "DeVonta Smith",
+     "id": "13301",
+     "name": "Antonio Williams",
      "pos": "WR",
      "season": {
-      "gp": 4.0,
-      "off_snp": 211.0,
-      "pts_ppr": 69.0,
-      "rec": 26.0,
-      "rec_td": 2.0,
-      "rec_tgt": 41.0,
-      "rec_yd": 310.0,
-      "snap_pct": 86,
-      "tm_off_snp": 245.0
+      "gp": 6.0,
+      "off_snp": 220.0,
+      "pass_att": 1.0,
+      "pts_ppr": 44.5,
+      "rec": 18.0,
+      "rec_td": 1.0,
+      "rec_tgt": 26.0,
+      "rec_yd": 205.0,
+      "snap_pct": 55,
+      "tm_off_snp": 403.0
      },
      "slot": "WR",
-     "team": "PHI"
+     "team": "WAS"
     },
     {
      "id": "5859",
@@ -1945,7 +1955,6 @@
     }
    ],
    "lineup_flags": [
-    "WR DeVonta Smith is Questionable (Hamstring)",
     "WR A.J. Brown is Questionable (Ankle)"
    ],
    "owner": "TheDudePlayingADude",
@@ -1958,6 +1967,7 @@
     "13301",
     "13414",
     "421",
+    "4454",
     "5859",
     "6804",
     "7525",
@@ -2054,7 +2064,6 @@
    "ir": [
     {
      "id": "10229",
-     "inj": "Questionable (Hamstring)",
      "name": "Rashee Rice",
      "pos": "WR",
      "season": {
@@ -2135,7 +2144,6 @@
     },
     {
      "id": "4199",
-     "inj": "Questionable (Undisclosed)",
      "name": "Aaron Jones Sr.",
      "pos": "RB",
      "season": {
@@ -2252,9 +2260,7 @@
      "team": "TEN"
     }
    ],
-   "lineup_flags": [
-    "RB Aaron Jones Sr. is Questionable (Undisclosed)"
-   ],
+   "lineup_flags": [],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
    "pa": 644.26,
@@ -2306,7 +2312,6 @@
     },
     {
      "id": "8132",
-     "inj": "Questionable (Toe)",
      "name": "Tyler Allgeier",
      "pos": "RB",
      "season": {
@@ -2386,7 +2391,6 @@
    "lineup": [
     {
      "id": "4881",
-     "inj": "Questionable (Ankle)",
      "name": "Lamar Jackson",
      "pos": "QB",
      "season": {
@@ -2516,7 +2520,7 @@
      "pos": "RB",
      "season": {
       "gp": 2.0,
-      "off_snp": 35.0,
+      "off_snp": 84.0,
       "pts_ppr": 43.3,
       "rec": 11.0,
       "rec_td": 2.0,
@@ -2525,8 +2529,8 @@
       "rush_att": 32.0,
       "rush_td": 1.0,
       "rush_yd": 75.0,
-      "snap_pct": 8,
-      "tm_off_snp": 456.0
+      "snap_pct": 16,
+      "tm_off_snp": 525.0
      },
      "slot": "FLEX",
      "team": "GB"
@@ -2556,7 +2560,6 @@
     }
    ],
    "lineup_flags": [
-    "QB Lamar Jackson is Questionable (Ankle)",
     "WR DJ Moore is Questionable (Shoulder - AC Joint)",
     "WR Emeka Egbuka is Out (Foot)"
    ],
@@ -2769,14 +2772,14 @@
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 347.0,
+      "off_snp": 412.0,
       "pts_ppr": 108.9,
       "rec": 42.0,
       "rec_td": 2.0,
       "rec_tgt": 65.0,
       "rec_yd": 569.0,
-      "snap_pct": 82,
-      "tm_off_snp": 421.0
+      "snap_pct": 83,
+      "tm_off_snp": 494.0
      },
      "slot": "WR",
      "team": "CAR"
@@ -2803,6 +2806,7 @@
     },
     {
      "id": "12517",
+     "inj": "Questionable (Neck)",
      "name": "Colston Loveland",
      "pos": "TE",
      "season": {
@@ -2861,7 +2865,9 @@
      "team": "CHI"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "TE Colston Loveland is Questionable (Neck)"
+   ],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
    "pa": 751.66,
@@ -2909,25 +2915,6 @@
      "team": "DAL"
     },
     {
-     "id": "5849",
-     "name": "Kyler Murray",
-     "pos": "QB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 278.0,
-      "pass_att": 125.0,
-      "pass_int": 2.0,
-      "pass_td": 3.0,
-      "pass_yd": 812.0,
-      "pts_ppr": 55.68,
-      "rush_att": 25.0,
-      "rush_yd": 132.0,
-      "snap_pct": 84,
-      "tm_off_snp": 332.0
-     },
-     "team": "MIN"
-    },
-    {
      "id": "7002",
      "name": "Juwan Johnson",
      "pos": "TE",
@@ -2961,6 +2948,26 @@
       "tm_off_snp": 468.0
      },
      "team": "IND"
+    },
+    {
+     "id": "9758",
+     "name": "C.J. Stroud",
+     "pos": "QB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 458.0,
+      "pass_att": 247.0,
+      "pass_int": 1.0,
+      "pass_td": 11.0,
+      "pass_yd": 1867.0,
+      "pts_ppr": 129.68,
+      "rush_att": 18.0,
+      "rush_td": 1.0,
+      "rush_yd": 80.0,
+      "snap_pct": 100,
+      "tm_off_snp": 458.0
+     },
+     "team": "HOU"
     }
    ],
    "ir": [
@@ -3065,7 +3072,6 @@
     },
     {
      "id": "10232",
-     "inj": "Questionable (Ribs)",
      "name": "Michael Wilson",
      "pos": "WR",
      "season": {
@@ -3148,9 +3154,7 @@
      "team": "PIT"
     }
    ],
-   "lineup_flags": [
-    "WR Michael Wilson is Questionable (Ribs)"
-   ],
+   "lineup_flags": [],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",
    "pa": 739.96,
@@ -3163,12 +3167,12 @@
     "12512",
     "2216",
     "5012",
-    "5849",
     "5967",
     "6813",
     "7002",
     "8146",
     "9500",
+    "9758",
     "PIT"
    ],
    "record": "4-3",
@@ -3268,7 +3272,6 @@
    "ir": [
     {
      "id": "11635",
-     "inj": "Questionable (Concussion)",
      "name": "Ladd McConkey",
      "pos": "WR",
      "season": {
@@ -3333,7 +3336,7 @@
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 327.0,
+      "off_snp": 394.0,
       "pts_ppr": 133.0,
       "rec": 22.0,
       "rec_td": 2.0,
@@ -3342,8 +3345,8 @@
       "rush_att": 118.0,
       "rush_td": 5.0,
       "rush_yd": 540.0,
-      "snap_pct": 78,
-      "tm_off_snp": 421.0
+      "snap_pct": 80,
+      "tm_off_snp": 494.0
      },
      "slot": "RB",
      "team": "CAR"
@@ -3572,7 +3575,7 @@
      "pos": "QB",
      "season": {
       "gp": 7.0,
-      "off_snp": 397.0,
+      "off_snp": 470.0,
       "pass_att": 269.0,
       "pass_int": 5.0,
       "pass_td": 13.0,
@@ -3581,15 +3584,14 @@
       "rush_att": 10.0,
       "rush_td": 1.0,
       "rush_yd": 34.0,
-      "snap_pct": 94,
-      "tm_off_snp": 421.0
+      "snap_pct": 95,
+      "tm_off_snp": 494.0
      },
      "slot": "QB",
      "team": "CAR"
     },
     {
      "id": "4866",
-     "inj": "Questionable (Back)",
      "name": "Saquon Barkley",
      "pos": "RB",
      "season": {
@@ -3731,9 +3733,7 @@
      "team": "MIN"
     }
    ],
-   "lineup_flags": [
-    "RB Saquon Barkley is Questionable (Back)"
-   ],
+   "lineup_flags": [],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
    "pa": 821.74,
@@ -3901,7 +3901,7 @@
     },
     {
      "id": "9508",
-     "inj": "Questionable (Knee)",
+     "inj": "Out (Knee)",
      "name": "Tyjae Spears",
      "pos": "RB",
      "season": {
@@ -3946,7 +3946,7 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 381.0,
+      "off_snp": 440.0,
       "pts_ppr": 131.5,
       "rec": 43.0,
       "rec_td": 4.0,
@@ -3955,7 +3955,7 @@
       "rush_att": 1.0,
       "rush_yd": 6.0,
       "snap_pct": 84,
-      "tm_off_snp": 456.0
+      "tm_off_snp": 525.0
      },
      "slot": "WR",
      "team": "GB"
@@ -4022,7 +4022,7 @@
     }
    ],
    "lineup_flags": [
-    "RB Tyjae Spears is Questionable (Knee)",
+    "RB Tyjae Spears is Out (Knee)",
     "FLEX Dalton Kincaid is Questionable (Chest)"
    ],
    "owner": "phile2211",
@@ -4055,7 +4055,6 @@
    "bench": [
     {
      "id": "12518",
-     "inj": "Questionable (Groin)",
      "name": "Tyler Warren",
      "pos": "TE",
      "season": {
@@ -4073,24 +4072,6 @@
       "tm_off_snp": 327.0
      },
      "team": "IND"
-    },
-    {
-     "id": "13279",
-     "inj": "Questionable (Shoulder)",
-     "name": "Carnell Tate",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 329.0,
-      "pts_ppr": 77.3,
-      "rec": 34.0,
-      "rec_td": 1.0,
-      "rec_tgt": 51.0,
-      "rec_yd": 413.0,
-      "snap_pct": 82,
-      "tm_off_snp": 399.0
-     },
-     "team": "TEN"
     },
     {
      "id": "7526",
@@ -4154,6 +4135,24 @@
      },
      "status": "Inactive",
      "team": "WAS"
+    },
+    {
+     "id": "13279",
+     "inj": "Out (Shoulder)",
+     "name": "Carnell Tate",
+     "pos": "WR",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 329.0,
+      "pts_ppr": 77.3,
+      "rec": 34.0,
+      "rec_td": 1.0,
+      "rec_tgt": 51.0,
+      "rec_yd": 413.0,
+      "snap_pct": 82,
+      "tm_off_snp": 399.0
+     },
+     "team": "TEN"
     }
    ],
    "lineup": [
@@ -4286,14 +4285,14 @@
      "pos": "WR",
      "season": {
       "gp": 6.0,
-      "off_snp": 231.0,
+      "off_snp": 294.0,
       "pts_ppr": 79.4,
       "rec": 27.0,
       "rec_td": 3.0,
       "rec_tgt": 44.0,
       "rec_yd": 364.0,
-      "snap_pct": 67,
-      "tm_off_snp": 346.0
+      "snap_pct": 70,
+      "tm_off_snp": 419.0
      },
      "slot": "FLEX",
      "team": "CAR"
