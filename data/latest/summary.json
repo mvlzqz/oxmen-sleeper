@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-01T16:53:54+00:00",
+ "fetched_at": "2026-11-01T18:27:20+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -289,10 +289,10 @@
   "waiver_position": 13
  },
  "opponent_this_week": {
-  "my_points": 0.0,
+  "my_points": 37.6,
   "owner": "TheDudePlayingADude",
   "roster_id": 6,
-  "their_points": 22.52
+  "their_points": 49.52
  },
  "rosters": [
   {
@@ -3219,6 +3219,16 @@
       "tm_off_snp": 425.0
      },
      "team": "SF"
+    },
+    {
+     "id": "HOU",
+     "name": "HOU DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 7.0,
+      "pts_ppr": 42.0
+     },
+     "team": "HOU"
     }
    ],
    "ir": [
@@ -3420,7 +3430,8 @@
     "7594",
     "8155",
     "8210",
-    "DEN"
+    "DEN",
+    "HOU"
    ],
    "record": "6-1",
    "roster_id": 11,
@@ -3839,24 +3850,24 @@
      "team": "CLE"
     },
     {
-     "id": "9508",
-     "inj": "Out (Knee)",
-     "name": "Tyjae Spears",
+     "id": "10219",
+     "name": "Chris Rodriguez Jr.",
      "pos": "RB",
      "season": {
       "gp": 6.0,
-      "off_snp": 140.0,
-      "pts_ppr": 27.1,
-      "rec": 15.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 75.0,
-      "rush_att": 18.0,
-      "rush_yd": 66.0,
-      "snap_pct": 42,
-      "tm_off_snp": 336.0
+      "off_snp": 94.0,
+      "pts_ppr": 30.4,
+      "rec": 1.0,
+      "rec_tgt": 2.0,
+      "rec_yd": 6.0,
+      "rush_att": 39.0,
+      "rush_td": 2.0,
+      "rush_yd": 168.0,
+      "snap_pct": 25,
+      "tm_off_snp": 382.0
      },
      "slot": "RB",
-     "team": "TEN"
+     "team": "JAX"
     },
     {
      "id": "9493",
@@ -3959,14 +3970,13 @@
      "team": "SEA"
     }
    ],
-   "lineup_flags": [
-    "RB Tyjae Spears is Out (Knee)"
-   ],
+   "lineup_flags": [],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
    "pa": 790.2,
    "pf": 686.58,
    "player_ids": [
+    "10219",
     "10236",
     "11439",
     "11560",
@@ -3979,7 +3989,6 @@
     "3271",
     "5892",
     "9493",
-    "9508",
     "SEA"
    ],
    "record": "2-5",
