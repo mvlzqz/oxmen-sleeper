@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-01T11:40:14+00:00",
+ "fetched_at": "2026-11-01T16:53:54+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -286,7 +286,7 @@
   "roster_id": 10,
   "taxi": [],
   "team_name": "Cockermouth Castle",
-  "waiver_position": 14
+  "waiver_position": 13
  },
  "opponent_this_week": {
   "my_points": 0.0,
@@ -615,6 +615,26 @@
      "team": "NYG"
     },
     {
+     "id": "12491",
+     "name": "Corey Kiner",
+     "pos": "RB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 55.0,
+      "pts_ppr": 16.7,
+      "rec": 2.0,
+      "rec_tgt": 2.0,
+      "rec_yd": 16.0,
+      "rush_att": 35.0,
+      "rush_yd": 151.0,
+      "snap_pct": 12,
+      "tm_off_snp": 462.0
+     },
+     "team": "NE"
+    }
+   ],
+   "ir": [
+    {
      "id": "12489",
      "inj": "IR (Knee)",
      "name": "RJ Harvey",
@@ -636,18 +656,6 @@
      "status": "Inactive",
      "team": "DEN"
     },
-    {
-     "id": "WAS",
-     "name": "WAS DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 6.0,
-      "pts_ppr": 34.0
-     },
-     "team": "WAS"
-    }
-   ],
-   "ir": [
     {
      "id": "5927",
      "inj": "IR (Knee)",
@@ -695,7 +703,6 @@
     },
     {
      "id": "7567",
-     "inj": "Questionable (Hip)",
      "name": "Kenny Gainwell",
      "pos": "RB",
      "season": {
@@ -823,14 +830,18 @@
      "team": "DAL"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "WAS",
+     "name": "WAS DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 6.0,
+      "pts_ppr": 34.0
+     },
+     "slot": "DEF",
+     "team": "WAS"
     }
    ],
-   "lineup_flags": [
-    "RB Kenny Gainwell is Questionable (Hip)",
-    "DEF slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
    "pa": 835.36,
@@ -842,6 +853,7 @@
     "1166",
     "12481",
     "12489",
+    "12491",
     "13298",
     "3214",
     "4147",
@@ -1268,7 +1280,6 @@
     },
     {
      "id": "8137",
-     "inj": "Questionable (Shoulder)",
      "name": "George Pickens",
      "pos": "WR",
      "season": {
@@ -1369,9 +1380,7 @@
      "team": "ATL"
     }
    ],
-   "lineup_flags": [
-    "WR George Pickens is Questionable (Shoulder)"
-   ],
+   "lineup_flags": [],
    "owner": "kitano",
    "owner_id": "473949092301500416",
    "pa": 761.56,
@@ -1632,7 +1641,6 @@
     },
     {
      "id": "5947",
-     "inj": "Questionable (Hamstring)",
      "name": "Jakobi Meyers",
      "pos": "WR",
      "season": {
@@ -1675,9 +1683,7 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [
-    "FLEX Jakobi Meyers is Questionable (Hamstring)"
-   ],
+   "lineup_flags": [],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
    "pa": 865.08,
@@ -1703,7 +1709,7 @@
    "roster_id": 5,
    "taxi": [],
    "team_name": "Eaton Mess",
-   "waiver_position": 13
+   "waiver_position": 12
   },
   {
    "bench": [
@@ -2274,6 +2280,27 @@
   {
    "bench": [
     {
+     "id": "12514",
+     "inj": "Out (Foot)",
+     "name": "Emeka Egbuka",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 343.0,
+      "pts_ppr": 71.1,
+      "rec": 28.0,
+      "rec_td": 2.0,
+      "rec_tgt": 49.0,
+      "rec_yd": 240.0,
+      "rush_att": 2.0,
+      "rush_td": 1.0,
+      "rush_yd": 11.0,
+      "snap_pct": 86,
+      "tm_off_snp": 401.0
+     },
+     "team": "TB"
+    },
+    {
      "id": "5872",
      "inj": "Out (Hamstring)",
      "name": "Deebo Samuel Sr.",
@@ -2311,23 +2338,6 @@
       "tm_off_snp": 504.0
      },
      "team": "ARI"
-    },
-    {
-     "id": "9501",
-     "name": "DeMario Douglas",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 254.0,
-      "pts_ppr": 64.6,
-      "rec": 23.0,
-      "rec_td": 3.0,
-      "rec_tgt": 34.0,
-      "rec_yd": 256.0,
-      "snap_pct": 55,
-      "tm_off_snp": 462.0
-     },
-     "team": "NE"
     },
     {
      "id": "96",
@@ -2436,7 +2446,6 @@
     },
     {
      "id": "4983",
-     "inj": "Questionable (Shoulder - AC Joint)",
      "name": "DJ Moore",
      "pos": "WR",
      "season": {
@@ -2456,26 +2465,22 @@
      "team": "BUF"
     },
     {
-     "id": "12514",
-     "inj": "Out (Foot)",
-     "name": "Emeka Egbuka",
+     "id": "9501",
+     "name": "DeMario Douglas",
      "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "off_snp": 343.0,
-      "pts_ppr": 71.1,
-      "rec": 28.0,
-      "rec_td": 2.0,
-      "rec_tgt": 49.0,
-      "rec_yd": 240.0,
-      "rush_att": 2.0,
-      "rush_td": 1.0,
-      "rush_yd": 11.0,
-      "snap_pct": 86,
-      "tm_off_snp": 401.0
+      "gp": 7.0,
+      "off_snp": 254.0,
+      "pts_ppr": 64.6,
+      "rec": 23.0,
+      "rec_td": 3.0,
+      "rec_tgt": 34.0,
+      "rec_yd": 256.0,
+      "snap_pct": 55,
+      "tm_off_snp": 462.0
      },
      "slot": "WR",
-     "team": "TB"
+     "team": "NE"
     },
     {
      "id": "7600",
@@ -2542,10 +2547,7 @@
      "team": "DAL"
     }
    ],
-   "lineup_flags": [
-    "WR DJ Moore is Questionable (Shoulder - AC Joint)",
-    "WR Emeka Egbuka is Out (Foot)"
-   ],
+   "lineup_flags": [],
    "owner": "NikoGs",
    "owner_id": "1130659599352180736",
    "pa": 728.2,
@@ -2629,22 +2631,24 @@
      "team": "NO"
     },
     {
-     "id": "7561",
-     "name": "Elijah Mitchell",
+     "id": "6130",
+     "name": "Devin Singletary",
      "pos": "RB",
      "season": {
-      "gp": 1.0,
-      "off_snp": 14.0,
-      "pts_ppr": 6.4,
-      "rec": 3.0,
-      "rec_tgt": 4.0,
-      "rec_yd": 23.0,
-      "rush_att": 3.0,
-      "rush_yd": 11.0,
-      "snap_pct": 21,
-      "tm_off_snp": 66.0
+      "gp": 4.0,
+      "off_snp": 90.0,
+      "pts_ppr": 33.5,
+      "rec": 8.0,
+      "rec_td": 1.0,
+      "rec_tgt": 9.0,
+      "rec_yd": 55.0,
+      "rush_att": 18.0,
+      "rush_td": 1.0,
+      "rush_yd": 80.0,
+      "snap_pct": 33,
+      "tm_off_snp": 270.0
      },
-     "team": "PHI"
+     "team": "NYG"
     }
    ],
    "ir": [
@@ -2861,10 +2865,10 @@
     "12545",
     "13424",
     "5844",
+    "6130",
     "6797",
     "7543",
     "7547",
-    "7561",
     "7588",
     "8142",
     "CHI"
@@ -3159,7 +3163,7 @@
    "roster_id": 10,
    "taxi": [],
    "team_name": "Cockermouth Castle",
-   "waiver_position": 14
+   "waiver_position": 13
   },
   {
    "bench": [
@@ -3215,10 +3219,12 @@
       "tm_off_snp": 425.0
      },
      "team": "SF"
-    },
+    }
+   ],
+   "ir": [
     {
      "id": "8155",
-     "inj": "Questionable (Quadriceps)",
+     "inj": "Out (Quadriceps)",
      "name": "Breece Hall",
      "pos": "RB",
      "season": {
@@ -3235,28 +3241,8 @@
       "tm_off_snp": 207.0
      },
      "team": "NYJ"
-    },
-    {
-     "id": "9756",
-     "name": "Jordan Addison",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 282.0,
-      "pts_ppr": 37.5,
-      "rec": 13.0,
-      "rec_td": 1.0,
-      "rec_tgt": 25.0,
-      "rec_yd": 183.0,
-      "rush_att": 2.0,
-      "rush_yd": 2.0,
-      "snap_pct": 90,
-      "tm_off_snp": 313.0
-     },
-     "team": "MIN"
     }
    ],
-   "ir": [],
    "lineup": [
     {
      "id": "4046",
@@ -3405,13 +3391,18 @@
      "team": "JAX"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "DEN",
+     "name": "DEN DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 7.0,
+      "pts_ppr": 61.0
+     },
+     "slot": "DEF",
+     "team": "DEN"
     }
    ],
-   "lineup_flags": [
-    "DEF slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "erictheleghel",
    "owner_id": "730759755336929280",
    "pa": 753.48,
@@ -3429,13 +3420,13 @@
     "7594",
     "8155",
     "8210",
-    "9756"
+    "DEN"
    ],
    "record": "6-1",
    "roster_id": 11,
    "taxi": [],
    "team_name": "Jed York ",
-   "waiver_position": 12
+   "waiver_position": 14
   },
   {
    "bench": [
@@ -3928,7 +3919,6 @@
     },
     {
      "id": "10236",
-     "inj": "Questionable (Chest)",
      "name": "Dalton Kincaid",
      "pos": "TE",
      "season": {
@@ -3970,8 +3960,7 @@
     }
    ],
    "lineup_flags": [
-    "RB Tyjae Spears is Out (Knee)",
-    "FLEX Dalton Kincaid is Questionable (Chest)"
+    "RB Tyjae Spears is Out (Knee)"
    ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
@@ -4376,19 +4365,19 @@
    "roster_id": 6
   },
   {
-   "owner": "erictheleghel",
-   "pos": 12,
-   "roster_id": 11
-  },
-  {
    "owner": "brendonferreira",
-   "pos": 13,
+   "pos": 12,
    "roster_id": 5
   },
   {
    "owner": "mvlzqz",
-   "pos": 14,
+   "pos": 13,
    "roster_id": 10
+  },
+  {
+   "owner": "erictheleghel",
+   "pos": 14,
+   "roster_id": 11
   }
  ],
  "week": 8

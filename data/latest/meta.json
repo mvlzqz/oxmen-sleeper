@@ -3,18 +3,20 @@
   "expected_rosters": 14,
   "last_week_stats": 2095,
   "players_trimmed": 901,
-  "rostered_players": 195,
+  "rostered_players": 196,
   "rosters": 14,
   "season_stats": 8199,
-  "transactions": 68
+  "transactions": 71
  },
- "fetched_at": "2026-11-01T11:40:14+00:00",
+ "fetched_at": "2026-11-01T16:53:54+00:00",
  "kind": "daily",
  "ok": true,
  "season": "2026",
  "trigger": {
-  "event": "workflow_dispatch",
-  "kind": "daily"
+  "cron_lag_min": 374,
+  "event": "schedule",
+  "kind": "daily",
+  "schedule": "40 10 * * *"
  },
  "warnings": [],
  "week": 8
