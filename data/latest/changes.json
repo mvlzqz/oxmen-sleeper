@@ -1,146 +1,58 @@
 {
- "baseline": "2026-10-30_1648Z",
+ "baseline": "2026-10-31_1040Z",
  "first_run": false,
- "injury_baseline": "2026-10-30_1648Z",
+ "injury_baseline": "2026-10-31_1040Z",
  "injury_changes": [
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Michael Wilson",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "dleach16",
-   "player": "Aaron Jones Sr.",
-   "to": null
-  },
-  {
-   "body_part": "Shoulder",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Carnell Tate",
-   "to": "Out"
-  },
-  {
-   "body_part": "Neck",
-   "from": null,
-   "mine": false,
-   "owner": "pauliv8811",
-   "player": "Colston Loveland",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "DeVonta Smith",
-   "to": "Out"
-  },
   {
    "body_part": "Ankle",
    "from": "Questionable",
    "mine": false,
-   "owner": "brendonferreira",
-   "player": "Dontayvion Wicks",
+   "owner": "TheDudePlayingADude",
+   "player": "A.J. Brown",
    "to": "Out"
   },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "brendonferreira",
-   "player": "Jeremiyah Love",
+   "owner": "pauliv8811",
+   "player": "Colston Loveland",
    "to": null
   },
   {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "erictheleghel",
-   "player": "Ladd McConkey",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "Lamar Jackson",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "Malik Washington",
-   "to": null
-  },
-  {
-   "body_part": "Knee",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "nusskyle",
-   "player": "RJ Harvey",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
+   "body_part": "Thumb",
    "from": "Questionable",
    "mine": false,
    "owner": "dleach16",
-   "player": "Rashee Rice",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "wmont",
-   "player": "Saquon Barkley",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "Travis Kelce",
-   "to": null
+   "player": "Kyle Monangai",
+   "to": "Out"
   },
   {
    "body_part": "Knee",
+   "from": "Out",
+   "mine": false,
+   "owner": "nusskyle",
+   "player": "RJ Harvey",
+   "to": "IR"
+  },
+  {
+   "body_part": "Illness",
    "from": "Questionable",
    "mine": false,
-   "owner": "phile2211",
-   "player": "Tyjae Spears",
+   "owner": "coltierney",
+   "player": "TreVeyon Henderson",
    "to": "Out"
   },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "NikoGs",
-   "player": "Tyler Allgeier",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Tyler Warren",
+   "owner": "kitano",
+   "player": "Zach Charbonnet",
    "to": null
   }
  ],
- "my_team_changed": true,
+ "my_team_changed": false,
  "rosters": [
   {
    "added": [
@@ -155,45 +67,56 @@
   },
   {
    "added": [
-    "Kendrick Bourne"
+    "Alvin Kamara"
    ],
+   "dropped": [
+    "Dontayvion Wicks"
+   ],
+   "moved_to_ir": [],
+   "owner": "brendonferreira",
+   "roster_id": 5
+  },
+  {
+   "added": [],
    "dropped": [],
    "moved_to_ir": [
-    "DeVonta Smith"
+    "A.J. Brown"
    ],
    "owner": "TheDudePlayingADude",
    "roster_id": 6
   },
   {
-   "added": [],
+   "added": [
+    "KC DEF"
+   ],
    "dropped": [
-    "Roschon Johnson"
+    "Roschon Johnson",
+    "TEN DEF"
    ],
    "moved_to_ir": [],
    "owner": "dleach16",
    "roster_id": 7
   },
   {
-   "added": [
-    "C.J. Stroud"
-   ],
+   "added": [],
    "dropped": [
-    "Kyler Murray"
+    "J.K. Dobbins",
+    "NE DEF"
    ],
    "moved_to_ir": [],
-   "owner": "mvlzqz",
-   "roster_id": 10
+   "owner": "erictheleghel",
+   "roster_id": 11
   },
   {
-   "added": [],
-   "dropped": [],
-   "moved_to_ir": [
-    "Carnell Tate"
+   "added": [
+    "Mike Washington Jr."
    ],
+   "dropped": [],
+   "moved_to_ir": [],
    "owner": "chopkins30",
    "roster_id": 14
   }
  ],
- "since": "2026-10-30T16:48:20+00:00",
+ "since": "2026-10-31T10:40:14+00:00",
  "waiver_moves": []
 }

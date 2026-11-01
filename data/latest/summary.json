@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-31T15:51:19+00:00",
+ "fetched_at": "2026-11-01T11:40:14+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -332,7 +332,7 @@
     },
     {
      "id": "12529",
-     "inj": "Questionable (Ankle)",
+     "inj": "Out (Illness)",
      "name": "TreVeyon Henderson",
      "pos": "RB",
      "season": {
@@ -616,7 +616,7 @@
     },
     {
      "id": "12489",
-     "inj": "Out (Knee)",
+     "inj": "IR (Knee)",
      "name": "RJ Harvey",
      "pos": "RB",
      "season": {
@@ -633,6 +633,7 @@
       "snap_pct": 39,
       "tm_off_snp": 366.0
      },
+     "status": "Inactive",
      "team": "DEN"
     },
     {
@@ -1187,7 +1188,6 @@
     },
     {
      "id": "9753",
-     "inj": "Questionable (Knee - ACL)",
      "name": "Zach Charbonnet",
      "pos": "RB",
      "team": "SEA"
@@ -1432,6 +1432,26 @@
      "team": "SF"
     },
     {
+     "id": "4035",
+     "name": "Alvin Kamara",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 135.0,
+      "pts_ppr": 65.8,
+      "rec": 22.0,
+      "rec_td": 1.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 133.0,
+      "rush_att": 41.0,
+      "rush_td": 2.0,
+      "rush_yd": 125.0,
+      "snap_pct": 35,
+      "tm_off_snp": 390.0
+     },
+     "team": "NO"
+    },
+    {
      "id": "8144",
      "name": "Chris Olave",
      "pos": "WR",
@@ -1447,24 +1467,6 @@
       "tm_off_snp": 480.0
      },
      "team": "NO"
-    },
-    {
-     "id": "9486",
-     "inj": "Out (Ankle)",
-     "name": "Dontayvion Wicks",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 289.0,
-      "pts_ppr": 53.4,
-      "rec": 19.0,
-      "rec_td": 1.0,
-      "rec_tgt": 32.0,
-      "rec_yd": 284.0,
-      "snap_pct": 79,
-      "tm_off_snp": 368.0
-     },
-     "team": "PHI"
     }
    ],
    "ir": [
@@ -1688,19 +1690,19 @@
     "2133",
     "3451",
     "4034",
+    "4035",
     "5947",
     "7042",
     "7523",
     "7611",
     "8130",
     "8144",
-    "9486",
     "JAX"
    ],
    "record": "5-2",
    "roster_id": 5,
    "taxi": [],
-   "team_name": "Kansas City Strangler",
+   "team_name": "Eaton Mess",
    "waiver_position": 13
   },
   {
@@ -1759,25 +1761,26 @@
       "tm_off_snp": 505.0
      },
      "team": "LAR"
-    },
-    {
-     "id": "4454",
-     "name": "Kendrick Bourne",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 292.0,
-      "pts_ppr": 48.4,
-      "rec": 25.0,
-      "rec_tgt": 36.0,
-      "rec_yd": 234.0,
-      "snap_pct": 58,
-      "tm_off_snp": 504.0
-     },
-     "team": "ARI"
     }
    ],
    "ir": [
+    {
+     "id": "5859",
+     "inj": "Out (Ankle)",
+     "name": "A.J. Brown",
+     "pos": "WR",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 132.0,
+      "pts_ppr": 19.1,
+      "rec": 9.0,
+      "rec_tgt": 20.0,
+      "rec_yd": 101.0,
+      "snap_pct": 68,
+      "tm_off_snp": 193.0
+     },
+     "team": "NE"
+    },
     {
      "id": "7525",
      "inj": "Out (Hamstring)",
@@ -1880,22 +1883,21 @@
      "team": "WAS"
     },
     {
-     "id": "5859",
-     "inj": "Questionable (Ankle)",
-     "name": "A.J. Brown",
+     "id": "4454",
+     "name": "Kendrick Bourne",
      "pos": "WR",
      "season": {
-      "gp": 3.0,
-      "off_snp": 132.0,
-      "pts_ppr": 19.1,
-      "rec": 9.0,
-      "rec_tgt": 20.0,
-      "rec_yd": 101.0,
-      "snap_pct": 68,
-      "tm_off_snp": 193.0
+      "gp": 7.0,
+      "off_snp": 292.0,
+      "pts_ppr": 48.4,
+      "rec": 25.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 234.0,
+      "snap_pct": 58,
+      "tm_off_snp": 504.0
      },
      "slot": "WR",
-     "team": "NE"
+     "team": "ARI"
     },
     {
      "id": "11604",
@@ -1957,9 +1959,7 @@
      "team": "TB"
     }
    ],
-   "lineup_flags": [
-    "WR A.J. Brown is Questionable (Ankle)"
-   ],
+   "lineup_flags": [],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 834.86,
@@ -2008,21 +2008,21 @@
      "team": "LV"
     },
     {
-     "id": "10229",
-     "name": "Rashee Rice",
+     "id": "11632",
+     "name": "Malik Nabers",
      "pos": "WR",
      "season": {
-      "gp": 4.0,
-      "off_snp": 166.0,
-      "pts_ppr": 38.0,
-      "rec": 13.0,
-      "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 190.0,
-      "snap_pct": 64,
-      "tm_off_snp": 261.0
+      "gp": 7.0,
+      "off_snp": 374.0,
+      "pts_ppr": 120.5,
+      "rec": 48.0,
+      "rec_td": 2.0,
+      "rec_tgt": 70.0,
+      "rec_yd": 605.0,
+      "snap_pct": 76,
+      "tm_off_snp": 490.0
      },
-     "team": "KC"
+     "team": "NYG"
     },
     {
      "id": "11647",
@@ -2065,7 +2065,7 @@
    "ir": [
     {
      "id": "12534",
-     "inj": "Questionable (Toe)",
+     "inj": "Out (Thumb)",
      "name": "Kyle Monangai",
      "pos": "RB",
      "season": {
@@ -2167,22 +2167,22 @@
      "team": "MIN"
     },
     {
-     "id": "11632",
-     "name": "Malik Nabers",
+     "id": "10229",
+     "name": "Rashee Rice",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
-      "off_snp": 374.0,
-      "pts_ppr": 120.5,
-      "rec": 48.0,
-      "rec_td": 2.0,
-      "rec_tgt": 70.0,
-      "rec_yd": 605.0,
-      "snap_pct": 76,
-      "tm_off_snp": 490.0
+      "gp": 4.0,
+      "off_snp": 166.0,
+      "pts_ppr": 38.0,
+      "rec": 13.0,
+      "rec_td": 1.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 190.0,
+      "snap_pct": 64,
+      "tm_off_snp": 261.0
      },
      "slot": "WR",
-     "team": "NYG"
+     "team": "KC"
     },
     {
      "id": "5022",
@@ -2233,15 +2233,15 @@
      "team": "DET"
     },
     {
-     "id": "TEN",
-     "name": "TEN DEF",
+     "id": "KC",
+     "name": "KC DEF",
      "pos": "DEF",
      "season": {
-      "gp": 7.0,
-      "pts_ppr": 47.0
+      "gp": 6.0,
+      "pts_ppr": 46.0
      },
      "slot": "DEF",
-     "team": "TEN"
+     "team": "KC"
     }
    ],
    "lineup_flags": [],
@@ -2263,7 +2263,7 @@
     "5022",
     "6794",
     "8134",
-    "TEN"
+    "KC"
    ],
    "record": "5-2",
    "roster_id": 7,
@@ -2789,7 +2789,6 @@
     },
     {
      "id": "12517",
-     "inj": "Questionable (Neck)",
      "name": "Colston Loveland",
      "pos": "TE",
      "season": {
@@ -2848,9 +2847,7 @@
      "team": "CHI"
     }
    ],
-   "lineup_flags": [
-    "TE Colston Loveland is Questionable (Neck)"
-   ],
+   "lineup_flags": [],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
    "pa": 751.66,
@@ -3167,15 +3164,21 @@
   {
    "bench": [
     {
-     "id": "11786",
-     "name": "Cam Little",
-     "pos": "K",
+     "id": "11635",
+     "name": "Ladd McConkey",
+     "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "pts_ppr": 54.0,
-      "tm_off_snp": 382.0
+      "gp": 5.0,
+      "off_snp": 151.0,
+      "pts_ppr": 39.0,
+      "rec": 13.0,
+      "rec_td": 1.0,
+      "rec_tgt": 18.0,
+      "rec_yd": 200.0,
+      "snap_pct": 38,
+      "tm_off_snp": 398.0
      },
-     "team": "JAX"
+     "team": "LAC"
     },
     {
      "id": "13345",
@@ -3214,23 +3217,24 @@
      "team": "SF"
     },
     {
-     "id": "6806",
-     "name": "J.K. Dobbins",
+     "id": "8155",
+     "inj": "Questionable (Quadriceps)",
+     "name": "Breece Hall",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
-      "off_snp": 174.0,
-      "pts_ppr": 58.0,
-      "rec": 8.0,
-      "rec_tgt": 9.0,
-      "rec_yd": 27.0,
-      "rush_att": 87.0,
-      "rush_td": 3.0,
-      "rush_yd": 293.0,
-      "snap_pct": 41,
-      "tm_off_snp": 428.0
+      "gp": 3.0,
+      "off_snp": 119.0,
+      "pts_ppr": 42.5,
+      "rec": 10.0,
+      "rec_tgt": 10.0,
+      "rec_yd": 102.0,
+      "rush_att": 51.0,
+      "rush_td": 1.0,
+      "rush_yd": 163.0,
+      "snap_pct": 57,
+      "tm_off_snp": 207.0
      },
-     "team": "DEN"
+     "team": "NYJ"
     },
     {
      "id": "9756",
@@ -3252,45 +3256,7 @@
      "team": "MIN"
     }
    ],
-   "ir": [
-    {
-     "id": "11635",
-     "name": "Ladd McConkey",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 151.0,
-      "pts_ppr": 39.0,
-      "rec": 13.0,
-      "rec_td": 1.0,
-      "rec_tgt": 18.0,
-      "rec_yd": 200.0,
-      "snap_pct": 38,
-      "tm_off_snp": 398.0
-     },
-     "team": "LAC"
-    },
-    {
-     "id": "8155",
-     "inj": "Questionable (Quadriceps)",
-     "name": "Breece Hall",
-     "pos": "RB",
-     "season": {
-      "gp": 3.0,
-      "off_snp": 119.0,
-      "pts_ppr": 42.5,
-      "rec": 10.0,
-      "rec_tgt": 10.0,
-      "rec_yd": 102.0,
-      "rush_att": 51.0,
-      "rush_td": 1.0,
-      "rush_yd": 163.0,
-      "snap_pct": 57,
-      "tm_off_snp": 207.0
-     },
-     "team": "NYJ"
-    }
-   ],
+   "ir": [],
    "lineup": [
     {
      "id": "4046",
@@ -3427,23 +3393,24 @@
      "team": "IND"
     },
     {
-     "empty": true,
-     "slot": "K"
+     "id": "11786",
+     "name": "Cam Little",
+     "pos": "K",
+     "season": {
+      "gp": 6.0,
+      "pts_ppr": 54.0,
+      "tm_off_snp": 382.0
+     },
+     "slot": "K",
+     "team": "JAX"
     },
     {
-     "id": "NE",
-     "name": "NE DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 7.0,
-      "pts_ppr": 50.0
-     },
-     "slot": "DEF",
-     "team": "NE"
+     "empty": true,
+     "slot": "DEF"
     }
    ],
    "lineup_flags": [
-    "K slot is EMPTY"
+    "DEF slot is EMPTY"
    ],
    "owner": "erictheleghel",
    "owner_id": "730759755336929280",
@@ -3458,13 +3425,11 @@
     "4046",
     "4217",
     "6801",
-    "6806",
     "7564",
     "7594",
     "8155",
     "8210",
-    "9756",
-    "NE"
+    "9756"
    ],
    "record": "6-1",
    "roster_id": 11,
@@ -4057,6 +4022,25 @@
      "team": "IND"
     },
     {
+     "id": "13305",
+     "name": "Mike Washington Jr.",
+     "pos": "RB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 100.0,
+      "pts_ppr": 29.6,
+      "rec": 3.0,
+      "rec_tgt": 6.0,
+      "rec_yd": 11.0,
+      "rush_att": 40.0,
+      "rush_td": 1.0,
+      "rush_yd": 195.0,
+      "snap_pct": 21,
+      "tm_off_snp": 479.0
+     },
+     "team": "LV"
+    },
+    {
      "id": "7526",
      "inj": "Questionable (Undisclosed)",
      "name": "Jaylen Waddle",
@@ -4316,6 +4300,7 @@
     "12519",
     "12533",
     "13279",
+    "13305",
     "3257",
     "6650",
     "7526",
