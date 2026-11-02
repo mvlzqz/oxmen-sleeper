@@ -8,13 +8,15 @@
   "season_stats": 8207,
   "transactions": 73
  },
- "fetched_at": "2026-11-02T11:40:16+00:00",
+ "fetched_at": "2026-11-02T20:29:01+00:00",
  "kind": "daily",
  "ok": true,
  "season": "2026",
  "trigger": {
-  "event": "workflow_dispatch",
-  "kind": "daily"
+  "cron_lag_min": 589,
+  "event": "schedule",
+  "kind": "daily",
+  "schedule": "40 10 * * *"
  },
  "warnings": [],
  "week": 8
