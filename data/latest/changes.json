@@ -1,15 +1,23 @@
 {
- "baseline": "2026-10-31_1551Z",
+ "baseline": "2026-11-01_1140Z",
  "first_run": false,
- "injury_baseline": "2026-10-31_1551Z",
+ "injury_baseline": "2026-11-01_1140Z",
  "injury_changes": [
   {
-   "body_part": "Ankle",
-   "from": "Questionable",
+   "body_part": "Ribs",
+   "from": null,
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Michael Wilson",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Undisclosed",
+   "from": null,
    "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "A.J. Brown",
-   "to": "Out"
+   "owner": "pauliv8811",
+   "player": "Amon-Ra St. Brown",
+   "to": "Questionable"
   },
   {
    "body_part": "Quadriceps",
@@ -23,25 +31,17 @@
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "pauliv8811",
-   "player": "Colston Loveland",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "DJ Moore",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
    "owner": "phile2211",
    "player": "Dalton Kincaid",
    "to": null
+  },
+  {
+   "body_part": "Head",
+   "from": null,
+   "mine": false,
+   "owner": "wmont",
+   "player": "Drake London",
+   "to": "Questionable"
   },
   {
    "body_part": null,
@@ -52,12 +52,52 @@
    "to": null
   },
   {
+   "body_part": "Foot",
+   "from": null,
+   "mine": false,
+   "owner": "nusskyle",
+   "player": "Hunter Henry",
+   "to": "Out"
+  },
+  {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
    "owner": "brendonferreira",
    "player": "Jakobi Meyers",
    "to": null
+  },
+  {
+   "body_part": "Undisclosed",
+   "from": null,
+   "mine": false,
+   "owner": "PawtucketPatriot",
+   "player": "James Cook III",
+   "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Jaylen Waddle",
+   "to": null
+  },
+  {
+   "body_part": "Ankle",
+   "from": null,
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Jeremiyah Love",
+   "to": "Out"
+  },
+  {
+   "body_part": "Ankle",
+   "from": null,
+   "mine": false,
+   "owner": "TheDudePlayingADude",
+   "player": "Kendrick Bourne",
+   "to": "Out"
   },
   {
    "body_part": null,
@@ -69,35 +109,11 @@
   },
   {
    "body_part": "Thumb",
-   "from": "Questionable",
+   "from": null,
    "mine": false,
-   "owner": "dleach16",
-   "player": "Kyle Monangai",
+   "owner": "NikoGs",
+   "player": "Lamar Jackson",
    "to": "Out"
-  },
-  {
-   "body_part": "Knee",
-   "from": "Out",
-   "mine": false,
-   "owner": "nusskyle",
-   "player": "RJ Harvey",
-   "to": "IR"
-  },
-  {
-   "body_part": "Illness",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "coltierney",
-   "player": "TreVeyon Henderson",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "kitano",
-   "player": "Zach Charbonnet",
-   "to": null
   }
  ],
  "my_team_changed": true,
@@ -112,37 +128,6 @@
    ],
    "owner": "nusskyle",
    "roster_id": 2
-  },
-  {
-   "added": [
-    "Alvin Kamara"
-   ],
-   "dropped": [
-    "Dontayvion Wicks"
-   ],
-   "moved_to_ir": [],
-   "owner": "brendonferreira",
-   "roster_id": 5
-  },
-  {
-   "added": [],
-   "dropped": [],
-   "moved_to_ir": [
-    "A.J. Brown"
-   ],
-   "owner": "TheDudePlayingADude",
-   "roster_id": 6
-  },
-  {
-   "added": [
-    "KC DEF"
-   ],
-   "dropped": [
-    "TEN DEF"
-   ],
-   "moved_to_ir": [],
-   "owner": "dleach16",
-   "roster_id": 7
   },
   {
    "added": [
@@ -161,11 +146,11 @@
     "HOU DEF"
    ],
    "dropped": [
-    "J.K. Dobbins",
-    "Jordan Addison",
-    "NE DEF"
+    "Jordan Addison"
    ],
-   "moved_to_ir": [],
+   "moved_to_ir": [
+    "Breece Hall"
+   ],
    "owner": "erictheleghel",
    "roster_id": 11
   },
@@ -179,18 +164,9 @@
    "moved_to_ir": [],
    "owner": "phile2211",
    "roster_id": 13
-  },
-  {
-   "added": [
-    "Mike Washington Jr."
-   ],
-   "dropped": [],
-   "moved_to_ir": [],
-   "owner": "chopkins30",
-   "roster_id": 14
   }
  ],
- "since": "2026-10-31T15:51:19+00:00",
+ "since": "2026-11-01T11:40:14+00:00",
  "waiver_moves": [
   {
    "from": 13,
