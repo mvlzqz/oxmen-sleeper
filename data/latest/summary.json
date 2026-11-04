@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-03T17:59:40+00:00",
+ "fetched_at": "2026-11-04T11:40:17+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -83,7 +83,7 @@
   "ir": [
    {
     "id": "2216",
-    "inj": "Out (Achilles)",
+    "inj": "Questionable (Achilles)",
     "name": "Mike Evans",
     "pos": "WR",
     "season": {
@@ -292,7 +292,7 @@
   "roster_id": 10,
   "taxi": [],
   "team_name": "Cockermouth Castle",
-  "waiver_position": 13
+  "waiver_position": 10
  },
  "opponent_this_week": {
   "my_points": 0.0,
@@ -309,13 +309,13 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 449.0,
+      "off_snp": 512.0,
       "pts_ppr": 72.8,
       "rec": 28.0,
       "rec_tgt": 44.0,
       "rec_yd": 468.0,
       "snap_pct": 85,
-      "tm_off_snp": 529.0
+      "tm_off_snp": 599.0
      },
      "team": "CHI"
     },
@@ -338,7 +338,7 @@
     },
     {
      "id": "12529",
-     "inj": "Out (Illness)",
+     "inj": "Questionable (Illness)",
      "name": "TreVeyon Henderson",
      "pos": "RB",
      "season": {
@@ -519,7 +519,7 @@
      "season": {
       "gp": 8.0,
       "pts_ppr": 67.0,
-      "tm_off_snp": 464.0
+      "tm_off_snp": 527.0
      },
      "slot": "K",
      "team": "SEA"
@@ -562,27 +562,10 @@
    "roster_id": 1,
    "taxi": [],
    "team_name": "Chug Gawd",
-   "waiver_position": 10
+   "waiver_position": 8
   },
   {
    "bench": [
-    {
-     "id": "11624",
-     "name": "Xavier Worthy",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 372.0,
-      "pts_ppr": 56.0,
-      "rec": 27.0,
-      "rec_td": 1.0,
-      "rec_tgt": 41.0,
-      "rec_yd": 230.0,
-      "snap_pct": 84,
-      "tm_off_snp": 444.0
-     },
-     "team": "KC"
-    },
     {
      "id": "1166",
      "name": "Kirk Cousins",
@@ -604,42 +587,71 @@
      "team": "LV"
     },
     {
-     "id": "12481",
-     "inj": "Questionable (Hamstring)",
-     "name": "Cam Skattebo",
-     "pos": "RB",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 267.0,
-      "pts_ppr": 70.4,
-      "rec": 11.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 76.0,
-      "rush_att": 98.0,
-      "rush_td": 2.0,
-      "rush_yd": 418.0,
-      "snap_pct": 54,
-      "tm_off_snp": 490.0
-     },
-     "team": "NYG"
-    },
-    {
-     "id": "12491",
-     "name": "Corey Kiner",
-     "pos": "RB",
+     "id": "3214",
+     "inj": "Questionable (Foot)",
+     "name": "Hunter Henry",
+     "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 66.0,
-      "pts_ppr": 20.5,
-      "rec": 2.0,
-      "rec_tgt": 2.0,
-      "rec_yd": 16.0,
-      "rush_att": 42.0,
-      "rush_yd": 189.0,
-      "snap_pct": 13,
+      "off_snp": 346.0,
+      "pts_ppr": 73.6,
+      "rec": 29.0,
+      "rec_td": 2.0,
+      "rec_tgt": 34.0,
+      "rec_yd": 326.0,
+      "snap_pct": 66,
       "tm_off_snp": 522.0
      },
      "team": "NE"
+    },
+    {
+     "id": "4147",
+     "name": "Samaje Perine",
+     "pos": "RB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 158.0,
+      "pts_ppr": 40.6,
+      "rec": 8.0,
+      "rec_td": 1.0,
+      "rec_tgt": 11.0,
+      "rec_yd": 70.0,
+      "rush_att": 35.0,
+      "rush_td": 1.0,
+      "rush_yd": 136.0,
+      "snap_pct": 35,
+      "tm_off_snp": 449.0
+     },
+     "team": "CIN"
+    },
+    {
+     "id": "9757",
+     "name": "Kendre Miller",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 127.0,
+      "pts_ppr": 38.6,
+      "rec": 9.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 37.0,
+      "rush_att": 57.0,
+      "rush_td": 2.0,
+      "rush_yd": 159.0,
+      "snap_pct": 31,
+      "tm_off_snp": 412.0
+     },
+     "team": "NO"
+    },
+    {
+     "id": "SF",
+     "name": "SF DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 7.0,
+      "pts_ppr": 50.0
+     },
+     "team": "SF"
     }
    ],
    "ir": [
@@ -731,25 +743,25 @@
      "team": "TB"
     },
     {
-     "id": "4147",
-     "name": "Samaje Perine",
+     "id": "12481",
+     "inj": "Questionable (Hamstring)",
+     "name": "Cam Skattebo",
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 158.0,
-      "pts_ppr": 40.6,
-      "rec": 8.0,
-      "rec_td": 1.0,
-      "rec_tgt": 11.0,
-      "rec_yd": 70.0,
-      "rush_att": 35.0,
-      "rush_td": 1.0,
-      "rush_yd": 136.0,
-      "snap_pct": 35,
-      "tm_off_snp": 449.0
+      "off_snp": 267.0,
+      "pts_ppr": 70.4,
+      "rec": 11.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 76.0,
+      "rush_att": 98.0,
+      "rush_td": 2.0,
+      "rush_yd": 418.0,
+      "snap_pct": 54,
+      "tm_off_snp": 490.0
      },
      "slot": "RB",
-     "team": "CIN"
+     "team": "NYG"
     },
     {
      "id": "6786",
@@ -772,23 +784,22 @@
      "team": "DAL"
     },
     {
-     "id": "13298",
-     "name": "KC Concepcion Jr.",
+     "id": "11624",
+     "name": "Xavier Worthy",
      "pos": "WR",
      "season": {
-      "gp": 8.0,
-      "off_snp": 367.0,
-      "pts_ppr": 69.6,
-      "rec": 33.0,
-      "rec_tgt": 49.0,
-      "rec_yd": 352.0,
-      "rush_att": 9.0,
-      "rush_yd": 34.0,
-      "snap_pct": 72,
-      "tm_off_snp": 513.0
+      "gp": 7.0,
+      "off_snp": 372.0,
+      "pts_ppr": 56.0,
+      "rec": 27.0,
+      "rec_td": 1.0,
+      "rec_tgt": 41.0,
+      "rec_yd": 230.0,
+      "snap_pct": 84,
+      "tm_off_snp": 444.0
      },
      "slot": "WR",
-     "team": "CLE"
+     "team": "KC"
     },
     {
      "id": "10859",
@@ -811,23 +822,23 @@
      "team": "DET"
     },
     {
-     "id": "3214",
-     "inj": "Out (Foot)",
-     "name": "Hunter Henry",
-     "pos": "TE",
+     "id": "13298",
+     "name": "KC Concepcion Jr.",
+     "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 346.0,
-      "pts_ppr": 73.6,
-      "rec": 29.0,
-      "rec_td": 2.0,
-      "rec_tgt": 34.0,
-      "rec_yd": 326.0,
-      "snap_pct": 66,
-      "tm_off_snp": 522.0
+      "off_snp": 367.0,
+      "pts_ppr": 69.6,
+      "rec": 33.0,
+      "rec_tgt": 49.0,
+      "rec_yd": 352.0,
+      "rush_att": 9.0,
+      "rush_yd": 34.0,
+      "snap_pct": 72,
+      "tm_off_snp": 513.0
      },
      "slot": "FLEX",
-     "team": "NE"
+     "team": "CLE"
     },
     {
      "id": "11533",
@@ -842,19 +853,13 @@
      "team": "DAL"
     },
     {
-     "id": "WAS",
-     "name": "WAS DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 7.0,
-      "pts_ppr": 48.0
-     },
-     "slot": "DEF",
-     "team": "WAS"
+     "empty": true,
+     "slot": "DEF"
     }
    ],
    "lineup_flags": [
-    "FLEX Hunter Henry is Out (Foot)"
+    "RB Cam Skattebo is Questionable (Hamstring)",
+    "DEF slot is EMPTY"
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
@@ -867,7 +872,6 @@
     "1166",
     "12481",
     "12489",
-    "12491",
     "13298",
     "3214",
     "4147",
@@ -875,13 +879,14 @@
     "5927",
     "6786",
     "7567",
-    "WAS"
+    "9757",
+    "SF"
    ],
    "record": "2-6",
    "roster_id": 2,
    "taxi": [],
    "team_name": "Tears and Beers",
-   "waiver_position": 9
+   "waiver_position": 13
   },
   {
    "bench": [
@@ -964,27 +969,6 @@
      "team": "CIN"
     },
     {
-     "id": "8138",
-     "inj": "Questionable (Undisclosed)",
-     "name": "James Cook III",
-     "pos": "RB",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 305.0,
-      "pts_ppr": 131.7,
-      "rec": 12.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 110.0,
-      "rush_att": 138.0,
-      "rush_td": 7.0,
-      "rush_yd": 707.0,
-      "snap_pct": 65,
-      "tm_off_snp": 471.0
-     },
-     "slot": "RB",
-     "team": "BUF"
-    },
-    {
      "id": "8150",
      "name": "Kyren Williams",
      "pos": "RB",
@@ -1006,12 +990,32 @@
      "team": "LAR"
     },
     {
+     "id": "8138",
+     "name": "James Cook III",
+     "pos": "RB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 305.0,
+      "pts_ppr": 131.7,
+      "rec": 12.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 110.0,
+      "rush_att": 138.0,
+      "rush_td": 7.0,
+      "rush_yd": 707.0,
+      "snap_pct": 65,
+      "tm_off_snp": 471.0
+     },
+     "slot": "RB",
+     "team": "BUF"
+    },
+    {
      "id": "9488",
      "name": "Jaxon Smith-Njigba",
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 387.0,
+      "off_snp": 448.0,
       "pass_att": 1.0,
       "pass_yd": 14.0,
       "pts_ppr": 219.96,
@@ -1021,8 +1025,8 @@
       "rec_yd": 985.0,
       "rush_att": 3.0,
       "rush_yd": 29.0,
-      "snap_pct": 83,
-      "tm_off_snp": 464.0
+      "snap_pct": 85,
+      "tm_off_snp": 527.0
      },
      "slot": "WR",
      "team": "SEA"
@@ -1114,7 +1118,6 @@
     }
    ],
    "lineup_flags": [
-    "RB James Cook III is Questionable (Undisclosed)",
     "FLEX Bhayshul Tuten is Questionable (Ankle)"
    ],
    "owner": "PawtucketPatriot",
@@ -1203,12 +1206,15 @@
      "pos": "RB",
      "season": {
       "gp": 1.0,
+      "off_snp": 23.0,
       "pts_ppr": 5.9,
       "rec": 3.0,
       "rec_tgt": 4.0,
       "rec_yd": 6.0,
       "rush_att": 6.0,
-      "rush_yd": 23.0
+      "rush_yd": 23.0,
+      "snap_pct": 37,
+      "tm_off_snp": 63.0
      },
      "team": "SEA"
     }
@@ -1330,7 +1336,7 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 409.0,
+      "off_snp": 469.0,
       "pts_ppr": 47.8,
       "rec": 21.0,
       "rec_tgt": 34.0,
@@ -1338,8 +1344,8 @@
       "rush_att": 4.0,
       "rush_td": 1.0,
       "rush_yd": 5.0,
-      "snap_pct": 88,
-      "tm_off_snp": 464.0
+      "snap_pct": 89,
+      "tm_off_snp": 527.0
      },
      "slot": "TE",
      "team": "SEA"
@@ -1419,7 +1425,7 @@
    "bench": [
     {
      "id": "13287",
-     "inj": "Out (Ankle)",
+     "inj": "IR (Ankle)",
      "name": "Jeremiyah Love",
      "pos": "RB",
      "season": {
@@ -1436,6 +1442,7 @@
       "snap_pct": 44,
       "tm_off_snp": 432.0
      },
+     "status": "Inactive",
      "team": "ARI"
     },
     {
@@ -1721,10 +1728,27 @@
    "roster_id": 5,
    "taxi": [],
    "team_name": "Eaton Mess",
-   "waiver_position": 12
+   "waiver_position": 9
   },
   {
    "bench": [
+    {
+     "id": "11625",
+     "name": "Adonai Mitchell",
+     "pos": "WR",
+     "season": {
+      "gp": 4.0,
+      "off_snp": 172.0,
+      "pts_ppr": 48.5,
+      "rec": 16.0,
+      "rec_td": 1.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 265.0,
+      "snap_pct": 65,
+      "tm_off_snp": 264.0
+     },
+     "team": "NYJ"
+    },
     {
      "id": "13414",
      "name": "Kaelon Black",
@@ -1745,24 +1769,24 @@
      "team": "SF"
     },
     {
-     "id": "421",
-     "inj": "Questionable (Arm)",
-     "name": "Matthew Stafford",
+     "id": "6804",
+     "name": "Jordan Love",
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 549.0,
-      "pass_att": 303.0,
-      "pass_int": 8.0,
-      "pass_td": 15.0,
-      "pass_yd": 2146.0,
-      "pts_ppr": 139.64,
-      "rush_att": 14.0,
-      "rush_yd": 18.0,
-      "snap_pct": 98,
-      "tm_off_snp": 559.0
+      "off_snp": 523.0,
+      "pass_att": 312.0,
+      "pass_int": 6.0,
+      "pass_td": 16.0,
+      "pass_yd": 2246.0,
+      "pts_ppr": 154.84,
+      "rush_att": 11.0,
+      "rush_td": 1.0,
+      "rush_yd": 10.0,
+      "snap_pct": 100,
+      "tm_off_snp": 525.0
      },
-     "team": "LAR"
+     "team": "GB"
     },
     {
      "id": "8228",
@@ -1783,12 +1807,39 @@
       "tm_off_snp": 533.0
      },
      "team": "PIT"
+    },
+    {
+     "id": "DET",
+     "name": "DET DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 7.0,
+      "pts_ppr": 40.0
+     },
+     "team": "DET"
     }
    ],
    "ir": [
     {
+     "id": "5859",
+     "inj": "Questionable (Ankle)",
+     "name": "A.J. Brown",
+     "pos": "WR",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 132.0,
+      "pts_ppr": 19.1,
+      "rec": 9.0,
+      "rec_tgt": 20.0,
+      "rec_yd": 101.0,
+      "snap_pct": 68,
+      "tm_off_snp": 193.0
+     },
+     "team": "NE"
+    },
+    {
      "id": "7525",
-     "inj": "Out (Hamstring)",
+     "inj": "Questionable (Hamstring)",
      "name": "DeVonta Smith",
      "pos": "WR",
      "season": {
@@ -1807,25 +1858,25 @@
    ],
    "lineup": [
     {
-     "id": "6804",
-     "name": "Jordan Love",
+     "id": "421",
+     "inj": "Questionable (Arm)",
+     "name": "Matthew Stafford",
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 523.0,
-      "pass_att": 312.0,
-      "pass_int": 6.0,
-      "pass_td": 16.0,
-      "pass_yd": 2246.0,
-      "pts_ppr": 154.84,
-      "rush_att": 11.0,
-      "rush_td": 1.0,
-      "rush_yd": 10.0,
-      "snap_pct": 100,
-      "tm_off_snp": 525.0
+      "off_snp": 549.0,
+      "pass_att": 303.0,
+      "pass_int": 8.0,
+      "pass_td": 15.0,
+      "pass_yd": 2146.0,
+      "pts_ppr": 139.64,
+      "rush_att": 14.0,
+      "rush_yd": 18.0,
+      "snap_pct": 98,
+      "tm_off_snp": 559.0
      },
      "slot": "QB",
-     "team": "GB"
+     "team": "LAR"
     },
     {
      "id": "9224",
@@ -1866,22 +1917,8 @@
      "team": "MIN"
     },
     {
-     "id": "5859",
-     "inj": "Out (Ankle)",
-     "name": "A.J. Brown",
-     "pos": "WR",
-     "season": {
-      "gp": 3.0,
-      "off_snp": 132.0,
-      "pts_ppr": 19.1,
-      "rec": 9.0,
-      "rec_tgt": 20.0,
-      "rec_yd": 101.0,
-      "snap_pct": 68,
-      "tm_off_snp": 193.0
-     },
-     "slot": "WR",
-     "team": "NE"
+     "empty": true,
+     "slot": "WR"
     },
     {
      "id": "13301",
@@ -1963,7 +2000,8 @@
     }
    ],
    "lineup_flags": [
-    "WR A.J. Brown is Out (Ankle)"
+    "QB Matthew Stafford is Questionable (Arm)",
+    "WR slot is EMPTY"
    ],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
@@ -1971,6 +2009,7 @@
    "pf": 795.84,
    "player_ids": [
     "11604",
+    "11625",
     "12498",
     "13301",
     "13414",
@@ -1982,13 +2021,14 @@
     "8228",
     "8408",
     "9224",
+    "DET",
     "TB"
    ],
    "record": "1-7",
    "roster_id": 6,
    "taxi": [],
    "team_name": "Weak Side",
-   "waiver_position": 11
+   "waiver_position": 14
   },
   {
    "bench": [
@@ -2069,7 +2109,7 @@
    "ir": [
     {
      "id": "12534",
-     "inj": "Out (Thumb)",
+     "inj": "Questionable (Toe)",
      "name": "Kyle Monangai",
      "pos": "RB",
      "season": {
@@ -2275,13 +2315,13 @@
    "roster_id": 7,
    "taxi": [],
    "team_name": "Philly Special",
-   "waiver_position": 8
+   "waiver_position": 7
   },
   {
    "bench": [
     {
      "id": "12514",
-     "inj": "Out (Foot)",
+     "inj": "Questionable (Foot)",
      "name": "Emeka Egbuka",
      "pos": "WR",
      "season": {
@@ -2301,8 +2341,27 @@
      "team": "TB"
     },
     {
+     "id": "4943",
+     "name": "Sam Darnold",
+     "pos": "QB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 412.0,
+      "pass_att": 211.0,
+      "pass_int": 9.0,
+      "pass_td": 10.0,
+      "pass_yd": 1478.0,
+      "pts_ppr": 101.32,
+      "rush_att": 11.0,
+      "rush_yd": 72.0,
+      "snap_pct": 90,
+      "tm_off_snp": 457.0
+     },
+     "team": "SEA"
+    },
+    {
      "id": "5872",
-     "inj": "Out (Hamstring)",
+     "inj": "Questionable (Hamstring)",
      "name": "Deebo Samuel Sr.",
      "pos": "WR",
      "season": {
@@ -2380,9 +2439,7 @@
      },
      "status": "Inactive",
      "team": "NYG"
-    }
-   ],
-   "lineup": [
+    },
     {
      "id": "4881",
      "inj": "Out (Thumb)",
@@ -2402,9 +2459,14 @@
       "snap_pct": 73,
       "tm_off_snp": 305.0
      },
-     "slot": "QB",
      "status": "Inactive",
      "team": "BAL"
+    }
+   ],
+   "lineup": [
+    {
+     "empty": true,
+     "slot": "QB"
     },
     {
      "id": "9509",
@@ -2433,7 +2495,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 320.0,
+      "off_snp": 374.0,
       "pts_ppr": 150.7,
       "rec": 24.0,
       "rec_tgt": 29.0,
@@ -2441,8 +2503,8 @@
       "rush_att": 143.0,
       "rush_td": 10.0,
       "rush_yd": 545.0,
-      "snap_pct": 60,
-      "tm_off_snp": 529.0
+      "snap_pct": 62,
+      "tm_off_snp": 599.0
      },
      "slot": "RB",
      "team": "CHI"
@@ -2553,7 +2615,7 @@
     }
    ],
    "lineup_flags": [
-    "QB Lamar Jackson is Out (Thumb)",
+    "QB slot is EMPTY",
     "WR DJ Moore is Questionable (Undisclosed)"
    ],
    "owner": "NikoGs",
@@ -2565,6 +2627,7 @@
     "12514",
     "4227",
     "4881",
+    "4943",
     "4983",
     "5850",
     "5872",
@@ -2602,21 +2665,22 @@
      "team": "JAX"
     },
     {
-     "id": "11637",
-     "name": "Keon Coleman",
-     "pos": "WR",
+     "id": "12469",
+     "name": "Dylan Sampson",
+     "pos": "RB",
      "season": {
-      "gp": 7.0,
-      "off_snp": 328.0,
-      "pts_ppr": 66.7,
-      "rec": 20.0,
-      "rec_td": 3.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 287.0,
-      "snap_pct": 70,
-      "tm_off_snp": 471.0
+      "gp": 3.0,
+      "off_snp": 71.0,
+      "pts_ppr": 23.6,
+      "rec": 9.0,
+      "rec_tgt": 11.0,
+      "rec_yd": 94.0,
+      "rush_att": 7.0,
+      "rush_yd": 52.0,
+      "snap_pct": 37,
+      "tm_off_snp": 191.0
      },
-     "team": "BUF"
+     "team": "CLE"
     },
     {
      "id": "13424",
@@ -2635,6 +2699,23 @@
       "tm_off_snp": 529.0
      },
      "team": "IND"
+    },
+    {
+     "id": "8135",
+     "name": "Treylon Burks",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 206.0,
+      "pts_ppr": 47.3,
+      "rec": 12.0,
+      "rec_td": 2.0,
+      "rec_tgt": 22.0,
+      "rec_yd": 233.0,
+      "snap_pct": 52,
+      "tm_off_snp": 393.0
+     },
+     "team": "WAS"
     }
    ],
    "ir": [
@@ -2761,7 +2842,6 @@
     },
     {
      "id": "7547",
-     "inj": "Questionable (Undisclosed)",
      "name": "Amon-Ra St. Brown",
      "pos": "WR",
      "season": {
@@ -2786,14 +2866,14 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 453.0,
+      "off_snp": 518.0,
       "pts_ppr": 73.9,
       "rec": 33.0,
       "rec_td": 2.0,
       "rec_tgt": 51.0,
       "rec_yd": 309.0,
       "snap_pct": 86,
-      "tm_off_snp": 529.0
+      "tm_off_snp": 599.0
      },
      "slot": "TE",
      "team": "CHI"
@@ -2840,17 +2920,15 @@
      "team": "CHI"
     }
    ],
-   "lineup_flags": [
-    "WR Amon-Ra St. Brown is Questionable (Undisclosed)"
-   ],
+   "lineup_flags": [],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
    "pa": 835.52,
    "pf": 845.58,
    "player_ids": [
     "11631",
-    "11637",
     "12185",
+    "12469",
     "12517",
     "12526",
     "12545",
@@ -2860,6 +2938,7 @@
     "7543",
     "7547",
     "7588",
+    "8135",
     "8142",
     "CHI"
    ],
@@ -2867,7 +2946,7 @@
    "roster_id": 9,
    "taxi": [],
    "team_name": "Man of Michigan",
-   "waiver_position": 6
+   "waiver_position": 12
   },
   {
    "bench": [
@@ -2950,7 +3029,7 @@
    "ir": [
     {
      "id": "2216",
-     "inj": "Out (Achilles)",
+     "inj": "Questionable (Achilles)",
      "name": "Mike Evans",
      "pos": "WR",
      "season": {
@@ -3159,7 +3238,7 @@
    "roster_id": 10,
    "taxi": [],
    "team_name": "Cockermouth Castle",
-   "waiver_position": 13
+   "waiver_position": 10
   },
   {
    "bench": [
@@ -3230,7 +3309,7 @@
    "ir": [
     {
      "id": "8155",
-     "inj": "Out (Quadriceps)",
+     "inj": "Questionable (Quadriceps)",
      "name": "Breece Hall",
      "pos": "RB",
      "season": {
@@ -3350,21 +3429,8 @@
      "team": "CIN"
     },
     {
-     "id": "8210",
-     "name": "Chig Okonkwo",
-     "pos": "TE",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 217.0,
-      "pts_ppr": 33.2,
-      "rec": 17.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 182.0,
-      "snap_pct": 67,
-      "tm_off_snp": 323.0
-     },
-     "slot": "TE",
-     "team": "WAS"
+     "empty": true,
+     "slot": "TE"
     },
     {
      "id": "1479",
@@ -3408,7 +3474,9 @@
      "team": "DEN"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "TE slot is EMPTY"
+   ],
    "owner": "erictheleghel",
    "owner_id": "730759755336929280",
    "pa": 859.84,
@@ -3425,7 +3493,6 @@
     "7564",
     "7594",
     "8155",
-    "8210",
     "DEN",
     "HOU"
    ],
@@ -3433,7 +3500,7 @@
    "roster_id": 11,
    "taxi": [],
    "team_name": "Jed York ",
-   "waiver_position": 14
+   "waiver_position": 11
   },
   {
    "bench": [
@@ -3452,8 +3519,8 @@
       "rush_att": 111.0,
       "rush_td": 3.0,
       "rush_yd": 403.0,
-      "snap_pct": 41,
-      "tm_off_snp": 464.0
+      "snap_pct": 36,
+      "tm_off_snp": 527.0
      },
      "team": "SEA"
     },
@@ -3579,7 +3646,6 @@
     },
     {
      "id": "8112",
-     "inj": "Questionable (Head)",
      "name": "Drake London",
      "pos": "WR",
      "season": {
@@ -3680,9 +3746,7 @@
      "team": "MIN"
     }
    ],
-   "lineup_flags": [
-    "WR Drake London is Questionable (Head)"
-   ],
+   "lineup_flags": [],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
    "pa": 940.24,
@@ -3706,13 +3770,12 @@
    "roster_id": 12,
    "taxi": [],
    "team_name": "Kneecap Biters",
-   "waiver_position": 7
+   "waiver_position": 6
   },
   {
    "bench": [
     {
      "id": "12474",
-     "inj": "Questionable (Leg)",
      "name": "Woody Marks",
      "pos": "RB",
      "season": {
@@ -3804,7 +3867,7 @@
     },
     {
      "id": "5892",
-     "inj": "Out (Groin)",
+     "inj": "Questionable (Groin)",
      "name": "David Montgomery",
      "pos": "RB",
      "season": {
@@ -3831,15 +3894,15 @@
      "pos": "RB",
      "season": {
       "gp": 4.0,
-      "off_snp": 67.0,
+      "off_snp": 97.0,
       "pts_ppr": 19.7,
       "rec": 6.0,
       "rec_tgt": 11.0,
       "rec_yd": 29.0,
       "rush_att": 38.0,
       "rush_yd": 148.0,
-      "snap_pct": 36,
-      "tm_off_snp": 187.0
+      "snap_pct": 39,
+      "tm_off_snp": 250.0
      },
      "team": "SEA"
     }
@@ -3851,7 +3914,7 @@
      "pos": "QB",
      "season": {
       "gp": 5.0,
-      "off_snp": 285.0,
+      "off_snp": 355.0,
       "pass_att": 158.0,
       "pass_int": 1.0,
       "pass_td": 6.0,
@@ -3861,7 +3924,7 @@
       "rush_td": 2.0,
       "rush_yd": 129.0,
       "snap_pct": 97,
-      "tm_off_snp": 295.0
+      "tm_off_snp": 365.0
      },
      "slot": "QB",
      "team": "CHI"
@@ -4065,6 +4128,25 @@
      "team": "LV"
     },
     {
+     "id": "6806",
+     "name": "J.K. Dobbins",
+     "pos": "RB",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 187.0,
+      "pts_ppr": 59.3,
+      "rec": 8.0,
+      "rec_tgt": 9.0,
+      "rec_yd": 27.0,
+      "rush_att": 94.0,
+      "rush_td": 3.0,
+      "rush_yd": 306.0,
+      "snap_pct": 38,
+      "tm_off_snp": 490.0
+     },
+     "team": "DEN"
+    },
+    {
      "id": "7526",
      "name": "Jaylen Waddle",
      "pos": "WR",
@@ -4217,7 +4299,7 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 318.0,
+      "off_snp": 358.0,
       "pts_ppr": 115.6,
       "rec": 42.0,
       "rec_td": 3.0,
@@ -4226,7 +4308,7 @@
       "rush_att": 8.0,
       "rush_yd": 29.0,
       "snap_pct": 60,
-      "tm_off_snp": 529.0
+      "tm_off_snp": 599.0
      },
      "slot": "WR",
      "team": "CHI"
@@ -4307,6 +4389,7 @@
     "13279",
     "13305",
     "6650",
+    "6806",
     "7526",
     "7553",
     "8183",
@@ -4350,49 +4433,49 @@
    "roster_id": 8
   },
   {
-   "owner": "pauliv8811",
-   "pos": 6,
-   "roster_id": 9
-  },
-  {
    "owner": "wmont",
-   "pos": 7,
+   "pos": 6,
    "roster_id": 12
   },
   {
    "owner": "dleach16",
-   "pos": 8,
+   "pos": 7,
    "roster_id": 7
   },
   {
-   "owner": "nusskyle",
-   "pos": 9,
-   "roster_id": 2
-  },
-  {
    "owner": "coltierney",
-   "pos": 10,
+   "pos": 8,
    "roster_id": 1
   },
   {
-   "owner": "TheDudePlayingADude",
-   "pos": 11,
-   "roster_id": 6
-  },
-  {
    "owner": "brendonferreira",
-   "pos": 12,
+   "pos": 9,
    "roster_id": 5
   },
   {
    "owner": "mvlzqz",
-   "pos": 13,
+   "pos": 10,
    "roster_id": 10
   },
   {
    "owner": "erictheleghel",
-   "pos": 14,
+   "pos": 11,
    "roster_id": 11
+  },
+  {
+   "owner": "pauliv8811",
+   "pos": 12,
+   "roster_id": 9
+  },
+  {
+   "owner": "nusskyle",
+   "pos": 13,
+   "roster_id": 2
+  },
+  {
+   "owner": "TheDudePlayingADude",
+   "pos": 14,
+   "roster_id": 6
   }
  ],
  "week": 9
