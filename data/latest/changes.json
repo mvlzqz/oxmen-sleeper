@@ -1,8 +1,16 @@
 {
- "baseline": "2026-11-03_1140Z",
+ "baseline": "2026-11-03_1759Z",
  "first_run": false,
- "injury_baseline": "2026-11-03_1140Z",
+ "injury_baseline": "2026-11-03_1759Z",
  "injury_changes": [
+  {
+   "body_part": "Concussion",
+   "from": null,
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Garrett Wilson",
+   "to": "Questionable"
+  },
   {
    "body_part": "Achilles",
    "from": "Out",
@@ -141,23 +149,36 @@
   },
   {
    "added": [
+    "Cairo Santos",
+    "GB DEF"
+   ],
+   "dropped": [
+    "Andre Szmyt"
+   ],
+   "moved_to_ir": [],
+   "owner": "PawtucketPatriot",
+   "roster_id": 3
+  },
+  {
+   "added": [
     "Adonai Mitchell",
     "DET DEF"
    ],
    "dropped": [
-    "Kendrick Bourne"
+    "Mason Taylor"
    ],
-   "moved_to_ir": [
-    "A.J. Brown"
-   ],
+   "moved_to_ir": [],
    "owner": "TheDudePlayingADude",
    "roster_id": 6
   },
   {
    "added": [
-    "Sam Darnold"
+    "Sam Darnold",
+    "Mike Gesicki"
    ],
-   "dropped": [],
+   "dropped": [
+    "Pat Freiermuth"
+   ],
    "moved_to_ir": [
     "Lamar Jackson"
    ],
@@ -170,8 +191,7 @@
     "Treylon Burks"
    ],
    "dropped": [
-    "Keon Coleman",
-    "Justin Herbert"
+    "Keon Coleman"
    ],
    "moved_to_ir": [],
    "owner": "pauliv8811",
@@ -188,17 +208,28 @@
   },
   {
    "added": [
-    "J.K. Dobbins"
+    "Eddy Pineiro"
    ],
    "dropped": [
-    "Jacoby Brissett"
+    "Chris Rodriguez Jr.",
+    "Jaleel McLaughlin",
+    "Chris Boswell"
    ],
+   "moved_to_ir": [],
+   "owner": "phile2211",
+   "roster_id": 13
+  },
+  {
+   "added": [
+    "J.K. Dobbins"
+   ],
+   "dropped": [],
    "moved_to_ir": [],
    "owner": "chopkins30",
    "roster_id": 14
   }
  ],
- "since": "2026-11-03T11:40:14+00:00",
+ "since": "2026-11-03T17:59:40+00:00",
  "waiver_moves": [
   {
    "from": 10,
