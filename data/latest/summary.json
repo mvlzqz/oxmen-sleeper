@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T11:40:13+00:00",
+ "fetched_at": "2026-11-05T18:14:52+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -3511,6 +3511,25 @@
      "team": "WAS"
     },
     {
+     "id": "13274",
+     "name": "Germie Bernard",
+     "pos": "WR",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 341.0,
+      "pts_ppr": 66.8,
+      "rec": 32.0,
+      "rec_td": 1.0,
+      "rec_tgt": 42.0,
+      "rec_yd": 284.0,
+      "rush_att": 1.0,
+      "rush_yd": 4.0,
+      "snap_pct": 64,
+      "tm_off_snp": 533.0
+     },
+     "team": "PIT"
+    },
+    {
      "id": "2449",
      "name": "Stefon Diggs",
      "pos": "WR",
@@ -3526,25 +3545,6 @@
       "tm_off_snp": 401.0
      },
      "team": "WAS"
-    },
-    {
-     "id": "9487",
-     "name": "Parker Washington",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 329.0,
-      "pts_ppr": 95.5,
-      "rec": 27.0,
-      "rec_td": 4.0,
-      "rec_tgt": 48.0,
-      "rec_yd": 432.0,
-      "rush_att": 2.0,
-      "rush_yd": 13.0,
-      "snap_pct": 75,
-      "tm_off_snp": 436.0
-     },
-     "team": "JAX"
     }
    ],
    "ir": [],
@@ -3633,24 +3633,24 @@
      "team": "ATL"
     },
     {
-     "id": "7569",
-     "name": "Nico Collins",
+     "id": "9487",
+     "name": "Parker Washington",
      "pos": "WR",
      "season": {
-      "gp": 5.0,
-      "off_snp": 229.0,
-      "pts_ppr": 76.1,
-      "rec": 24.0,
-      "rec_td": 3.0,
-      "rec_tgt": 35.0,
-      "rec_yd": 329.0,
+      "gp": 7.0,
+      "off_snp": 329.0,
+      "pts_ppr": 95.5,
+      "rec": 27.0,
+      "rec_td": 4.0,
+      "rec_tgt": 48.0,
+      "rec_yd": 432.0,
       "rush_att": 2.0,
-      "rush_yd": 12.0,
-      "snap_pct": 71,
-      "tm_off_snp": 324.0
+      "rush_yd": 13.0,
+      "snap_pct": 75,
+      "tm_off_snp": 436.0
      },
      "slot": "WR",
-     "team": "HOU"
+     "team": "JAX"
     },
     {
      "id": "12506",
@@ -3671,24 +3671,24 @@
      "team": "CLE"
     },
     {
-     "id": "13274",
-     "name": "Germie Bernard",
+     "id": "7569",
+     "name": "Nico Collins",
      "pos": "WR",
      "season": {
-      "gp": 8.0,
-      "off_snp": 341.0,
-      "pts_ppr": 66.8,
-      "rec": 32.0,
-      "rec_td": 1.0,
-      "rec_tgt": 42.0,
-      "rec_yd": 284.0,
-      "rush_att": 1.0,
-      "rush_yd": 4.0,
-      "snap_pct": 64,
-      "tm_off_snp": 533.0
+      "gp": 5.0,
+      "off_snp": 229.0,
+      "pts_ppr": 76.1,
+      "rec": 24.0,
+      "rec_td": 3.0,
+      "rec_tgt": 35.0,
+      "rec_yd": 329.0,
+      "rush_att": 2.0,
+      "rush_yd": 12.0,
+      "snap_pct": 71,
+      "tm_off_snp": 324.0
      },
      "slot": "FLEX",
-     "team": "PIT"
+     "team": "HOU"
     },
     {
      "id": "6083",
@@ -3745,6 +3745,26 @@
   {
    "bench": [
     {
+     "id": "11560",
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 355.0,
+      "pass_att": 158.0,
+      "pass_int": 1.0,
+      "pass_td": 6.0,
+      "pass_yd": 1267.0,
+      "pts_ppr": 98.58,
+      "rush_att": 26.0,
+      "rush_td": 2.0,
+      "rush_yd": 129.0,
+      "snap_pct": 97,
+      "tm_off_snp": 365.0
+     },
+     "team": "CHI"
+    },
+    {
      "id": "13150",
      "name": "Darius Cooper",
      "pos": "WR",
@@ -3760,26 +3780,6 @@
       "tm_off_snp": 503.0
      },
      "team": "PHI"
-    },
-    {
-     "id": "3163",
-     "name": "Jared Goff",
-     "pos": "QB",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 481.0,
-      "pass_att": 248.0,
-      "pass_int": 1.0,
-      "pass_td": 15.0,
-      "pass_yd": 1964.0,
-      "pts_ppr": 143.06,
-      "rush_att": 15.0,
-      "rush_td": 1.0,
-      "rush_yd": 15.0,
-      "snap_pct": 99,
-      "tm_off_snp": 484.0
-     },
-     "team": "DET"
     },
     {
      "id": "5846",
@@ -3825,25 +3825,25 @@
    "ir": [],
    "lineup": [
     {
-     "id": "11560",
-     "name": "Caleb Williams",
+     "id": "3163",
+     "name": "Jared Goff",
      "pos": "QB",
      "season": {
-      "gp": 5.0,
-      "off_snp": 355.0,
-      "pass_att": 158.0,
+      "gp": 7.0,
+      "off_snp": 481.0,
+      "pass_att": 248.0,
       "pass_int": 1.0,
-      "pass_td": 6.0,
-      "pass_yd": 1267.0,
-      "pts_ppr": 98.58,
-      "rush_att": 26.0,
-      "rush_td": 2.0,
-      "rush_yd": 129.0,
-      "snap_pct": 97,
-      "tm_off_snp": 365.0
+      "pass_td": 15.0,
+      "pass_yd": 1964.0,
+      "pts_ppr": 143.06,
+      "rush_att": 15.0,
+      "rush_td": 1.0,
+      "rush_yd": 15.0,
+      "snap_pct": 99,
+      "tm_off_snp": 484.0
      },
      "slot": "QB",
-     "team": "CHI"
+     "team": "DET"
     },
     {
      "id": "13286",
