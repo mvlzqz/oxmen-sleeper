@@ -32,6 +32,8 @@
   "depth_chart_position": "TE",
   "first_name": "Josh",
   "full_name": "Josh Whyle",
+  "injury_body_part": "Concussion",
+  "injury_status": "Questionable",
   "last_name": "Whyle",
   "last_week": {
    "gp": 1.0,
@@ -172,8 +174,6 @@
   "depth_chart_position": "RB",
   "first_name": "Chris",
   "full_name": "Chris Rodriguez Jr.",
-  "injury_body_part": "Hand",
-  "injury_status": "Questionable",
   "last_name": "Rodriguez Jr.",
   "last_week": {
    "gp": 1.0,
@@ -392,6 +392,8 @@
   "depth_chart_position": "LWR",
   "first_name": "Charlie",
   "full_name": "Charlie Jones",
+  "injury_body_part": "Head",
+  "injury_status": "Questionable",
   "last_name": "Jones",
   "position": "WR",
   "search_rank": 660,
@@ -416,6 +418,8 @@
   "depth_chart_position": "SWR",
   "first_name": "Rashee",
   "full_name": "Rashee Rice",
+  "injury_body_part": "Hamstring",
+  "injury_status": "Questionable",
   "last_name": "Rice",
   "last_week": {
    "gp": 1.0,
@@ -725,7 +729,7 @@
   "full_name": "Aidan O'Connell",
   "last_name": "O'Connell",
   "position": "QB",
-  "search_rank": 597,
+  "search_rank": 596,
   "season": null,
   "status": "Active",
   "team": "LV",
@@ -820,7 +824,7 @@
   "last_name": "Clifford",
   "last_week": null,
   "position": "QB",
-  "search_rank": 590,
+  "search_rank": 589,
   "season": null,
   "status": "Active",
   "team": "CIN",
@@ -829,7 +833,7 @@
  "11034": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 7,
+  "depth_chart_order": 8,
   "first_name": "Jalen",
   "full_name": "Jalen Brooks",
   "injury_body_part": "Wrist",
@@ -874,7 +878,7 @@
  },
  "11058": {
   "active": true,
-  "age": 27,
+  "age": 28,
   "depth_chart_order": 2,
   "depth_chart_position": "K",
   "first_name": "Blake",
@@ -892,6 +896,19 @@
   },
   "status": "Inactive",
   "team": "LAR",
+  "years_exp": 3
+ },
+ "11065": {
+  "active": true,
+  "age": 26,
+  "first_name": "Adrian",
+  "full_name": "Adrian Martinez",
+  "last_name": "Martinez",
+  "position": "QB",
+  "search_rank": 635,
+  "season": null,
+  "status": "Active",
+  "team": "SEA",
   "years_exp": 3
  },
  "11068": {
@@ -1267,6 +1284,8 @@
   "depth_chart_position": "RB",
   "first_name": "Zavier",
   "full_name": "Zavier Scott",
+  "injury_body_part": "Wrist",
+  "injury_status": "Questionable",
   "last_name": "Scott",
   "last_week": {
    "gp": 1.0,
@@ -1323,6 +1342,8 @@
   "depth_chart_position": "SWR",
   "first_name": "Nikko",
   "full_name": "Nikko Remigio",
+  "injury_body_part": "Hip",
+  "injury_status": "Questionable",
   "last_name": "Remigio",
   "last_week": {
    "gp": 1.0,
@@ -1428,7 +1449,7 @@
   "last_name": "Wright",
   "last_week": null,
   "position": "RB",
-  "search_rank": 604,
+  "search_rank": 603,
   "season": null,
   "status": "Active",
   "team": "LV",
@@ -1447,7 +1468,7 @@
    "tm_off_snp": 60.0
   },
   "position": "WR",
-  "search_rank": 613,
+  "search_rank": 612,
   "season": {
    "gp": 6.0,
    "off_snp": 32.0,
@@ -1548,7 +1569,7 @@
    "tm_off_snp": 70.0
   },
   "position": "RB",
-  "search_rank": 694,
+  "search_rank": 692,
   "season": {
    "gp": 7.0,
    "off_snp": 68.0,
@@ -1643,7 +1664,7 @@
    "tm_off_snp": 74.0
   },
   "position": "K",
-  "search_rank": 89,
+  "search_rank": 91,
   "season": {
    "gp": 8.0,
    "pts_ppr": 69.0,
@@ -1680,7 +1701,7 @@
  "11557": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 3,
+  "depth_chart_order": 1,
   "depth_chart_position": "QB",
   "first_name": "Joe",
   "full_name": "Joe Milton",
@@ -1771,7 +1792,7 @@
    "tm_off_snp": 70.0
   },
   "position": "QB",
-  "search_rank": 22,
+  "search_rank": 20,
   "season": {
    "gp": 5.0,
    "off_snp": 355.0,
@@ -1831,7 +1852,7 @@
    "tm_off_snp": 62.0
   },
   "position": "QB",
-  "search_rank": 45,
+  "search_rank": 46,
   "season": {
    "gp": 8.0,
    "off_snp": 490.0,
@@ -2400,7 +2421,7 @@
  "11589": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 6,
+  "depth_chart_order": 7,
   "depth_chart_position": "RB",
   "first_name": "Trey",
   "full_name": "Trey Benson",
@@ -2538,8 +2559,6 @@
   "depth_chart_position": "TE",
   "first_name": "Theo",
   "full_name": "Theo Johnson",
-  "injury_body_part": "Neck",
-  "injury_status": "Questionable",
   "last_name": "Johnson",
   "position": "TE",
   "search_rank": 144,
@@ -2656,7 +2675,7 @@
    "tm_off_snp": 63.0
   },
   "position": "TE",
-  "search_rank": 21,
+  "search_rank": 20,
   "season": {
    "gp": 6.0,
    "off_snp": 342.0,
@@ -2751,7 +2770,7 @@
  "11616": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "RWR",
   "first_name": "Jacob",
   "full_name": "Jacob Cowing",
@@ -2867,6 +2886,8 @@
   "depth_chart_position": "SWR",
   "first_name": "Jordan",
   "full_name": "Jordan Whittington",
+  "injury_body_part": "Back",
+  "injury_status": "Questionable",
   "last_name": "Whittington",
   "last_week": {
    "gp": 1.0,
@@ -2929,7 +2950,7 @@
  "11625": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RWR",
   "first_name": "Adonai",
   "full_name": "Adonai Mitchell",
@@ -3216,7 +3237,7 @@
   "last_name": "Wilson",
   "last_week": null,
   "position": "WR",
-  "search_rank": 555,
+  "search_rank": 554,
   "season": null,
   "status": "Inactive",
   "team": "PHI",
@@ -3280,6 +3301,8 @@
   "depth_chart_position": "RB",
   "first_name": "Jaylen",
   "full_name": "Jaylen Wright",
+  "injury_body_part": "Quadriceps",
+  "injury_status": "Questionable",
   "last_name": "Wright",
   "last_week": {
    "gp": 1.0,
@@ -3434,7 +3457,9 @@
   },
   "position": "RB",
   "search_rank": 657,
-  "season": null,
+  "season": {
+   "gp": 1.0
+  },
   "status": "Active",
   "team": "CIN",
   "years_exp": 2
@@ -3550,7 +3575,7 @@
    "tm_off_snp": 63.0
   },
   "position": "QB",
-  "search_rank": 263,
+  "search_rank": 262,
   "season": {
    "gp": 8.0,
    "off_snp": 532.0,
@@ -3701,7 +3726,7 @@
    "tm_off_snp": 54.0
   },
   "position": "K",
-  "search_rank": 131,
+  "search_rank": 133,
   "season": {
    "gp": 7.0,
    "pts_ppr": 60.0,
@@ -4000,7 +4025,7 @@
    "tm_off_snp": 63.0
   },
   "position": "RB",
-  "search_rank": 457,
+  "search_rank": 454,
   "season": {
    "gp": 8.0,
    "off_snp": 198.0,
@@ -4372,7 +4397,7 @@
    "off_snp": 39.0,
    "pts_ppr": 12.9,
    "rec": 6.0,
-   "rec_tgt": 8.0,
+   "rec_tgt": 7.0,
    "rec_yd": 62.0,
    "rush_att": 1.0,
    "rush_yd": 7.0,
@@ -4386,7 +4411,7 @@
    "off_snp": 71.0,
    "pts_ppr": 23.6,
    "rec": 9.0,
-   "rec_tgt": 11.0,
+   "rec_tgt": 10.0,
    "rec_yd": 94.0,
    "rush_att": 7.0,
    "rush_yd": 52.0,
@@ -4447,7 +4472,7 @@
  "12472": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "RB",
   "first_name": "Raheim",
   "full_name": "Raheim Sanders",
@@ -4512,7 +4537,7 @@
  "12474": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "RB",
   "first_name": "Woody",
   "full_name": "Woody Marks",
@@ -4590,7 +4615,7 @@
   "injury_status": "IR",
   "last_name": "Matavao",
   "position": "TE",
-  "search_rank": 502,
+  "search_rank": 501,
   "season": null,
   "status": "Inactive",
   "team": "NO",
@@ -4747,7 +4772,7 @@
  "12486": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "QB",
   "first_name": "Dillon",
   "full_name": "Dillon Gabriel",
@@ -5095,6 +5120,8 @@
   "depth_chart_position": "TE",
   "first_name": "Mason",
   "full_name": "Mason Taylor",
+  "injury_body_part": "Back",
+  "injury_status": "Questionable",
   "last_name": "Taylor",
   "last_week": {
    "gp": 1.0,
@@ -5494,7 +5521,7 @@
  "12510": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "QB",
   "first_name": "Jalen",
   "full_name": "Jalen Milroe",
@@ -5522,7 +5549,7 @@
   "injury_status": "Out",
   "last_name": "Howard",
   "position": "QB",
-  "search_rank": 500,
+  "search_rank": 499,
   "season": null,
   "status": "Active",
   "team": "PIT",
@@ -5638,7 +5665,7 @@
    "tm_off_snp": 70.0
   },
   "position": "TE",
-  "search_rank": 35,
+  "search_rank": 37,
   "season": {
    "gp": 8.0,
    "off_snp": 518.0,
@@ -5839,7 +5866,7 @@
  "12524": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 1,
   "depth_chart_position": "QB",
   "first_name": "Shedeur",
   "full_name": "Shedeur Sanders",
@@ -6202,7 +6229,7 @@
  "12541": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 10,
+  "depth_chart_order": 9,
   "depth_chart_position": "LWR",
   "first_name": "Dont'e",
   "full_name": "Dont'e Thornton Jr.",
@@ -6322,7 +6349,7 @@
   "full_name": "Tyler Shough",
   "last_name": "Shough",
   "position": "QB",
-  "search_rank": 87,
+  "search_rank": 88,
   "season": {
    "gp": 7.0,
    "off_snp": 478.0,
@@ -6394,7 +6421,7 @@
  "12634": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RWR",
   "first_name": "Jordan",
   "full_name": "Jordan Watkins",
@@ -6423,7 +6450,7 @@
   "last_name": "Tucker",
   "last_week": null,
   "position": "K",
-  "search_rank": 659,
+  "search_rank": 658,
   "season": null,
   "status": "Active",
   "team": "KC",
@@ -6623,7 +6650,7 @@
   "injury_status": "IR",
   "last_name": "Mertz",
   "position": "QB",
-  "search_rank": 498,
+  "search_rank": 496,
   "season": null,
   "status": "Inactive",
   "team": "HOU",
@@ -7046,7 +7073,7 @@
  "12860": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 7,
+  "depth_chart_order": 6,
   "depth_chart_position": "RWR",
   "first_name": "Theo",
   "full_name": "Theo Wease Jr.",
@@ -7347,7 +7374,7 @@
  "12969": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 6,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Lan",
   "full_name": "Lan Larison",
@@ -7659,14 +7686,12 @@
   "depth_chart_position": "TE",
   "first_name": "Carter",
   "full_name": "Carter Runyon",
-  "injury_body_part": "Undisclosed",
-  "injury_status": "IR",
   "last_name": "Runyon",
   "last_week": null,
   "position": "TE",
-  "search_rank": 353,
+  "search_rank": 354,
   "season": null,
-  "status": "Inactive",
+  "status": "Active",
   "team": "LV",
   "years_exp": 1
  },
@@ -7940,7 +7965,7 @@
   "full_name": "Carson Beck",
   "last_name": "Beck",
   "position": "QB",
-  "search_rank": 288,
+  "search_rank": 289,
   "season": null,
   "status": "Active",
   "team": "ARI",
@@ -8038,7 +8063,7 @@
  "13276": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "SWR",
   "first_name": "Omar",
   "full_name": "Omar Cooper Jr.",
@@ -8267,7 +8292,7 @@
  "13287": {
   "active": true,
   "age": 21,
-  "depth_chart_order": 7,
+  "depth_chart_order": 8,
   "depth_chart_position": "RB",
   "first_name": "Jeremiyah",
   "full_name": "Jeremiyah Love",
@@ -8415,7 +8440,7 @@
    "tm_off_snp": 69.0
   },
   "position": "WR",
-  "search_rank": 89,
+  "search_rank": 91,
   "season": {
    "gp": 8.0,
    "off_snp": 390.0,
@@ -8467,7 +8492,7 @@
    "tm_off_snp": 65.0
   },
   "position": "WR",
-  "search_rank": 197,
+  "search_rank": 199,
   "season": {
    "gp": 4.0,
    "off_snp": 202.0,
@@ -8794,7 +8819,7 @@
    "off_snp": 45.0,
    "pts_ppr": 6.9,
    "rec": 4.0,
-   "rec_tgt": 5.0,
+   "rec_tgt": 6.0,
    "rec_yd": 31.0,
    "rush_att": 1.0,
    "rush_yd": -2.0,
@@ -8808,7 +8833,7 @@
    "off_snp": 260.0,
    "pts_ppr": 29.2,
    "rec": 12.0,
-   "rec_tgt": 25.0,
+   "rec_tgt": 26.0,
    "rec_yd": 148.0,
    "rush_att": 2.0,
    "rush_yd": 24.0,
@@ -8943,7 +8968,7 @@
   "last_name": "Thomas",
   "last_week": null,
   "position": "WR",
-  "search_rank": 612,
+  "search_rank": 611,
   "season": null,
   "status": "Active",
   "team": "CIN",
@@ -9100,7 +9125,7 @@
  "13329": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Malik",
   "full_name": "Malik Benson",
@@ -9401,13 +9426,15 @@
   "depth_chart_position": "LWR",
   "first_name": "Denzel",
   "full_name": "Denzel Boston",
+  "injury_body_part": "Calf",
+  "injury_status": "Questionable",
   "last_name": "Boston",
   "last_week": {
    "gp": 1.0,
    "off_snp": 58.0,
    "pts_ppr": 9.7,
    "rec": 6.0,
-   "rec_tgt": 11.0,
+   "rec_tgt": 12.0,
    "rec_yd": 37.0,
    "snap_pct": 83,
    "tm_off_snp": 70.0
@@ -9420,7 +9447,7 @@
    "pts_ppr": 86.9,
    "rec": 26.0,
    "rec_td": 3.0,
-   "rec_tgt": 53.0,
+   "rec_tgt": 54.0,
    "rec_yd": 409.0,
    "snap_pct": 90,
    "tm_off_snp": 513.0
@@ -9432,7 +9459,7 @@
  "13347": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Demond",
   "full_name": "Demond Claiborne",
@@ -9575,12 +9602,12 @@
  "13380": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 6,
+  "depth_chart_order": 10,
   "depth_chart_position": "SWR",
   "first_name": "Brenen",
   "full_name": "Brenen Thompson",
   "injury_body_part": "Quadriceps",
-  "injury_status": "Questionable",
+  "injury_status": "Doubtful",
   "last_name": "Thompson",
   "position": "WR",
   "search_rank": 509,
@@ -9682,7 +9709,7 @@
   "full_name": "Justin Joly",
   "last_name": "Joly",
   "position": "TE",
-  "search_rank": 484,
+  "search_rank": 482,
   "season": {
    "gp": 1.0,
    "tm_off_snp": 138.0
@@ -9761,6 +9788,8 @@
   "depth_chart_position": "RB",
   "first_name": "Kaytron",
   "full_name": "Kaytron Allen",
+  "injury_body_part": "Quadriceps",
+  "injury_status": "Questionable",
   "last_name": "Allen",
   "last_week": {
    "gp": 1.0,
@@ -9852,7 +9881,7 @@
    "tm_off_snp": 70.0
   },
   "position": "WR",
-  "search_rank": 366,
+  "search_rank": 367,
   "season": {
    "gp": 8.0,
    "off_snp": 62.0,
@@ -9905,7 +9934,7 @@
    "tm_off_snp": 69.0
   },
   "position": "WR",
-  "search_rank": 179,
+  "search_rank": 181,
   "season": {
    "gp": 7.0,
    "off_snp": 66.0,
@@ -9929,7 +9958,7 @@
   "full_name": "Kaelon Black",
   "last_name": "Black",
   "position": "RB",
-  "search_rank": 162,
+  "search_rank": 161,
   "season": {
    "gp": 7.0,
    "off_snp": 126.0,
@@ -10081,7 +10110,7 @@
    "tm_off_snp": 60.0
   },
   "position": "TE",
-  "search_rank": 364,
+  "search_rank": 363,
   "season": {
    "gp": 7.0,
    "off_snp": 259.0,
@@ -10155,7 +10184,7 @@
    "tm_off_snp": 61.0
   },
   "position": "RB",
-  "search_rank": 380,
+  "search_rank": 377,
   "season": {
    "gp": 8.0,
    "off_snp": 113.0,
@@ -10254,7 +10283,7 @@
   "last_name": "Kitselman",
   "last_week": null,
   "position": "TE",
-  "search_rank": 418,
+  "search_rank": 417,
   "season": null,
   "status": "Active",
   "team": "DET",
@@ -10267,7 +10296,7 @@
   "full_name": "Khalil Dinkins",
   "last_name": "Dinkins",
   "position": "TE",
-  "search_rank": 358,
+  "search_rank": 356,
   "season": null,
   "status": "Active",
   "team": "SF",
@@ -10308,6 +10337,8 @@
   "depth_chart_position": "TE",
   "first_name": "Will",
   "full_name": "Will Kacmarek",
+  "injury_body_part": "Hamstring",
+  "injury_status": "Questionable",
   "last_name": "Kacmarek",
   "last_week": {
    "gp": 1.0,
@@ -10335,7 +10366,7 @@
  "13435": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Joe",
   "full_name": "Joe Royer",
@@ -10457,7 +10488,7 @@
  "13516": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RB",
   "first_name": "Max",
   "full_name": "Max Bredeson",
@@ -10490,7 +10521,7 @@
   "full_name": "Barion Brown",
   "last_name": "Brown",
   "position": "WR",
-  "search_rank": 462,
+  "search_rank": 461,
   "season": {
    "gp": 6.0,
    "off_snp": 43.0,
@@ -10615,7 +10646,7 @@
  "13580": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "TE",
   "first_name": "Carsen",
   "full_name": "Carsen Ryan",
@@ -10801,7 +10832,7 @@
  "13670": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 9,
+  "depth_chart_order": 10,
   "depth_chart_position": "LWR",
   "first_name": "Harrison",
   "full_name": "Harrison Wallace III",
@@ -11033,7 +11064,7 @@
  "13825": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 9,
+  "depth_chart_order": 10,
   "depth_chart_position": "RWR",
   "first_name": "Malik",
   "full_name": "Malik McClain",
@@ -11154,6 +11185,18 @@
   "season": null,
   "status": "Active",
   "team": "MIN",
+  "years_exp": 0
+ },
+ "13904": {
+  "active": true,
+  "first_name": "Jacob",
+  "full_name": "Jacob De Jesus",
+  "last_name": "De Jesus",
+  "position": "WR",
+  "search_rank": 672,
+  "season": null,
+  "status": "Active",
+  "team": "KC",
   "years_exp": 0
  },
  "13905": {
@@ -11370,6 +11413,8 @@
   "depth_chart_position": "TE",
   "first_name": "Travis",
   "full_name": "Travis Kelce",
+  "injury_body_part": "Ankle",
+  "injury_status": "Questionable",
   "last_name": "Kelce",
   "last_week": {
    "gp": 1.0,
@@ -11494,7 +11539,7 @@
   "full_name": "Case Keenum",
   "last_name": "Keenum",
   "position": "QB",
-  "search_rank": 557,
+  "search_rank": 556,
   "season": {
    "gp": 3.0,
    "off_snp": 96.0,
@@ -11612,7 +11657,7 @@
  },
  "2078": {
   "active": true,
-  "age": 33,
+  "age": 34,
   "first_name": "Odell",
   "full_name": "Odell Beckham Jr.",
   "last_name": "Beckham Jr.",
@@ -11675,13 +11720,13 @@
  "2197": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "LWR",
   "first_name": "Brandin",
   "full_name": "Brandin Cooks",
   "last_name": "Cooks",
   "position": "WR",
-  "search_rank": 587,
+  "search_rank": 588,
   "season": {
    "gp": 4.0,
    "off_snp": 109.0,
@@ -11734,7 +11779,7 @@
   "full_name": "Jameis Winston",
   "last_name": "Winston",
   "position": "QB",
-  "search_rank": 469,
+  "search_rank": 468,
   "season": {
    "gp": 6.0,
    "off_snp": 317.0,
@@ -12392,7 +12437,7 @@
  "3286": {
   "active": true,
   "age": 32,
-  "depth_chart_order": 6,
+  "depth_chart_order": 7,
   "depth_chart_position": "LWR",
   "first_name": "Demarcus",
   "full_name": "Demarcus Robinson",
@@ -12626,7 +12671,7 @@
  "4017": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "QB",
   "first_name": "Deshaun",
   "full_name": "Deshaun Watson",
@@ -12727,6 +12772,8 @@
   "depth_chart_position": "RB",
   "first_name": "Alvin",
   "full_name": "Alvin Kamara",
+  "injury_body_part": "Back",
+  "injury_status": "Questionable",
   "last_name": "Kamara",
   "position": "RB",
   "search_rank": 119,
@@ -12784,7 +12831,7 @@
  "4039": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "SWR",
   "first_name": "Cooper",
   "full_name": "Cooper Kupp",
@@ -13104,6 +13151,8 @@
   "depth_chart_position": "K",
   "first_name": "Jake",
   "full_name": "Jake Elliott",
+  "injury_body_part": "Ankle",
+  "injury_status": "Questionable",
   "last_name": "Elliott",
   "last_week": {
    "gp": 1.0,
@@ -13167,8 +13216,6 @@
   "depth_chart_position": "QB",
   "first_name": "Matthew",
   "full_name": "Matthew Stafford",
-  "injury_body_part": "Arm",
-  "injury_status": "Questionable",
   "last_name": "Stafford",
   "last_week": {
    "gp": 1.0,
@@ -13367,7 +13414,7 @@
    "tm_off_snp": 69.0
   },
   "position": "TE",
-  "search_rank": 552,
+  "search_rank": 551,
   "season": {
    "gp": 8.0,
    "off_snp": 212.0,
@@ -13610,13 +13657,13 @@
  "4718": {
   "active": true,
   "age": 32,
-  "depth_chart_order": 4,
+  "depth_chart_order": 2,
   "depth_chart_position": "RB",
   "first_name": "Dare",
   "full_name": "Dare Ogunbowale",
   "last_name": "Ogunbowale",
   "position": "RB",
-  "search_rank": 661,
+  "search_rank": 660,
   "season": {
    "gp": 4.0,
    "off_snp": 8.0,
@@ -13647,6 +13694,8 @@
   "depth_chart_position": "RB",
   "first_name": "Saquon",
   "full_name": "Saquon Barkley",
+  "injury_body_part": "Hamstring",
+  "injury_status": "Questionable",
   "last_name": "Barkley",
   "last_week": {
    "gp": 1.0,
@@ -13698,7 +13747,7 @@
    "tm_off_snp": 51.0
   },
   "position": "QB",
-  "search_rank": 9,
+  "search_rank": 10,
   "season": {
    "gp": 5.0,
    "off_snp": 224.0,
@@ -13736,7 +13785,7 @@
    "tm_off_snp": 60.0
   },
   "position": "QB",
-  "search_rank": 75,
+  "search_rank": 76,
   "season": {
    "gp": 5.0,
    "off_snp": 304.0,
@@ -13846,10 +13895,12 @@
  "4943": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "QB",
   "first_name": "Sam",
   "full_name": "Sam Darnold",
+  "injury_body_part": "Quadriceps",
+  "injury_status": "Out",
   "last_name": "Darnold",
   "last_week": {
    "gp": 1.0,
@@ -13865,7 +13916,7 @@
    "tm_off_snp": 63.0
   },
   "position": "QB",
-  "search_rank": 92,
+  "search_rank": 93,
   "season": {
    "gp": 7.0,
    "off_snp": 412.0,
@@ -13886,10 +13937,12 @@
  "4950": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "SWR",
   "first_name": "Christian",
   "full_name": "Christian Kirk",
+  "injury_body_part": "Knee",
+  "injury_status": "Questionable",
   "last_name": "Kirk",
   "position": "WR",
   "search_rank": 210,
@@ -13991,7 +14044,7 @@
    "tm_off_snp": 82.0
   },
   "position": "WR",
-  "search_rank": 50,
+  "search_rank": 48,
   "season": {
    "gp": 5.0,
    "off_snp": 186.0,
@@ -14074,7 +14127,7 @@
    "tm_off_snp": 74.0
   },
   "position": "TE",
-  "search_rank": 448,
+  "search_rank": 447,
   "season": {
    "gp": 7.0,
    "off_snp": 217.0,
@@ -14097,6 +14150,8 @@
   "depth_chart_position": "TE",
   "first_name": "Ian",
   "full_name": "Ian Thomas",
+  "injury_body_part": "Ankle",
+  "injury_status": "Questionable",
   "last_name": "Thomas",
   "last_week": {
    "gp": 1.0,
@@ -14750,7 +14805,7 @@
    "tm_off_snp": 53.0
   },
   "position": "QB",
-  "search_rank": 88,
+  "search_rank": 89,
   "season": {
    "gp": 6.0,
    "off_snp": 331.0,
@@ -14813,7 +14868,7 @@
  "5854": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "QB",
   "first_name": "Drew",
   "full_name": "Drew Lock",
@@ -14933,7 +14988,7 @@
  "5872": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 8,
+  "depth_chart_order": 2,
   "depth_chart_position": "SWR",
   "first_name": "Deebo",
   "full_name": "Deebo Samuel Sr.",
@@ -14962,15 +15017,15 @@
  "5892": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 1,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "David",
   "full_name": "David Montgomery",
   "injury_body_part": "Groin",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Montgomery",
   "position": "RB",
-  "search_rank": 41,
+  "search_rank": 42,
   "season": {
    "gp": 5.0,
    "off_snp": 155.0,
@@ -15108,8 +15163,6 @@
   "depth_chart_position": "RWR",
   "first_name": "Jakobi",
   "full_name": "Jakobi Meyers",
-  "injury_body_part": "Hamstring",
-  "injury_status": "Questionable",
   "last_name": "Meyers",
   "last_week": {
    "gp": 1.0,
@@ -15711,6 +15764,28 @@
   "team": "NYJ",
   "years_exp": 7
  },
+ "6386": {
+  "active": true,
+  "age": 30,
+  "first_name": "Alex",
+  "full_name": "Alex Bachman",
+  "last_name": "Bachman",
+  "last_week": {
+   "gp": 1.0,
+   "tm_off_snp": 54.0
+  },
+  "position": "WR",
+  "search_rank": 429,
+  "season": {
+   "gp": 5.0,
+   "off_snp": 3.0,
+   "snap_pct": 1,
+   "tm_off_snp": 350.0
+  },
+  "status": "Active",
+  "team": "LAR",
+  "years_exp": 7
+ },
  "6427": {
   "active": true,
   "age": 29,
@@ -15749,6 +15824,8 @@
  "6451": {
   "active": true,
   "age": 29,
+  "depth_chart_order": 3,
+  "depth_chart_position": "TE",
   "first_name": "Stephen",
   "full_name": "Stephen Carlson",
   "last_name": "Carlson",
@@ -15802,7 +15879,7 @@
  },
  "650": {
   "active": true,
-  "age": 41,
+  "age": 42,
   "depth_chart_order": 1,
   "depth_chart_position": "K",
   "first_name": "Nick",
@@ -16159,7 +16236,7 @@
    "tm_off_snp": 53.0
   },
   "position": "WR",
-  "search_rank": 11,
+  "search_rank": 12,
   "season": {
    "gp": 6.0,
    "off_snp": 288.0,
@@ -16621,7 +16698,7 @@
  "6904": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "QB",
   "first_name": "Jalen",
   "full_name": "Jalen Hurts",
@@ -16694,6 +16771,8 @@
  "6931": {
   "active": true,
   "age": 28,
+  "depth_chart_order": 3,
+  "depth_chart_position": "RB",
   "first_name": "DeeJay",
   "full_name": "DeeJay Dallas",
   "last_name": "Dallas",
@@ -16722,6 +16801,19 @@
   },
   "status": "Active",
   "team": "MIN",
+  "years_exp": 6
+ },
+ "6957": {
+  "active": true,
+  "age": 30,
+  "first_name": "James",
+  "full_name": "James Proche II",
+  "last_name": "Proche II",
+  "position": "WR",
+  "search_rank": 472,
+  "season": null,
+  "status": "Active",
+  "team": "ARI",
   "years_exp": 6
  },
  "6992": {
@@ -16802,29 +16894,24 @@
  "7039": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
-  "depth_chart_position": "SWR",
   "first_name": "Cody",
   "full_name": "Cody White",
   "last_name": "White",
   "last_week": {
-   "gp": 1.0,
-   "off_snp": 2.0,
-   "snap_pct": 3,
-   "tm_off_snp": 63.0
+   "gp": 1.0
   },
   "position": "WR",
   "search_rank": 529,
   "season": {
    "gp": 8.0,
-   "off_snp": 155.0,
+   "off_snp": 153.0,
    "pts_ppr": 39.2,
    "rec": 8.0,
    "rec_td": 3.0,
    "rec_tgt": 19.0,
    "rec_yd": 112.0,
-   "snap_pct": 29,
-   "tm_off_snp": 542.0
+   "snap_pct": 32,
+   "tm_off_snp": 479.0
   },
   "status": "Active",
   "team": "LV",
@@ -17058,7 +17145,7 @@
  "7204": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RB",
   "first_name": "Reggie",
   "full_name": "Reggie Gilliam",
@@ -17417,6 +17504,8 @@
   "depth_chart_position": "SWR",
   "first_name": "Amon-Ra",
   "full_name": "Amon-Ra St. Brown",
+  "injury_body_part": "Ribs",
+  "injury_status": "Questionable",
   "last_name": "St. Brown",
   "last_week": {
    "gp": 1.0,
@@ -17492,7 +17581,7 @@
   "last_name": "Smith-Marsette",
   "last_week": null,
   "position": "WR",
-  "search_rank": 500,
+  "search_rank": 499,
   "season": null,
   "status": "Active",
   "team": "CAR",
@@ -17611,6 +17700,8 @@
   "depth_chart_position": "RB",
   "first_name": "Kenny",
   "full_name": "Kenny Gainwell",
+  "injury_body_part": "Hip",
+  "injury_status": "Questionable",
   "last_name": "Gainwell",
   "last_week": {
    "gp": 1.0,
@@ -17648,9 +17739,11 @@
   "depth_chart_position": "TE",
   "first_name": "Brevin",
   "full_name": "Brevin Jordan",
+  "injury_body_part": "Finger",
+  "injury_status": "Questionable",
   "last_name": "Jordan",
   "position": "TE",
-  "search_rank": 455,
+  "search_rank": 454,
   "season": {
    "gp": 4.0,
    "off_snp": 21.0,
@@ -17811,7 +17904,7 @@
    "tm_off_snp": 74.0
   },
   "position": "RB",
-  "search_rank": 30,
+  "search_rank": 31,
   "season": {
    "gp": 8.0,
    "off_snp": 406.0,
@@ -17996,6 +18089,19 @@
    "gp": 1.0,
    "tm_off_snp": 81.0
   },
+  "status": "Active",
+  "team": "ARI",
+  "years_exp": 5
+ },
+ "7599": {
+  "active": true,
+  "age": 26,
+  "first_name": "Jermar",
+  "full_name": "Jermar Jefferson",
+  "last_name": "Jefferson",
+  "position": "RB",
+  "search_rank": 283,
+  "season": null,
   "status": "Active",
   "team": "ARI",
   "years_exp": 5
@@ -18293,6 +18399,8 @@
   "depth_chart_position": "TE",
   "first_name": "John",
   "full_name": "John Bates",
+  "injury_body_part": "Shoulder",
+  "injury_status": "Questionable",
   "last_name": "Bates",
   "last_week": {
    "gp": 1.0,
@@ -18381,7 +18489,7 @@
  },
  "7812": {
   "active": true,
-  "age": 28,
+  "age": 29,
   "depth_chart_order": 3,
   "depth_chart_position": "SWR",
   "first_name": "Simi",
@@ -18463,7 +18571,7 @@
    "tm_off_snp": 74.0
   },
   "position": "K",
-  "search_rank": 155,
+  "search_rank": 153,
   "season": {
    "gp": 7.0,
    "pts_ppr": 64.0,
@@ -19135,7 +19243,7 @@
   "full_name": "Isaiah Likely",
   "last_name": "Likely",
   "position": "TE",
-  "search_rank": 106,
+  "search_rank": 105,
   "season": {
    "gp": 7.0,
    "off_snp": 370.0,
@@ -19235,6 +19343,8 @@
   "depth_chart_position": "RWR",
   "first_name": "Treylon",
   "full_name": "Treylon Burks",
+  "injury_body_part": "Foot",
+  "injury_status": "Questionable",
   "last_name": "Burks",
   "last_week": {
    "gp": 1.0,
@@ -19311,6 +19421,8 @@
   "depth_chart_position": "RWR",
   "first_name": "George",
   "full_name": "George Pickens",
+  "injury_body_part": "Hamstring",
+  "injury_status": "Questionable",
   "last_name": "Pickens",
   "last_week": {
    "gp": 1.0,
@@ -19659,7 +19771,7 @@
    "tm_off_snp": 69.0
   },
   "position": "RB",
-  "search_rank": 17,
+  "search_rank": 19,
   "season": {
    "gp": 7.0,
    "off_snp": 336.0,
@@ -19786,7 +19898,7 @@
    "tm_off_snp": 65.0
   },
   "position": "QB",
-  "search_rank": 121,
+  "search_rank": 122,
   "season": {
    "gp": 7.0,
    "off_snp": 423.0,
@@ -19903,7 +20015,7 @@
    "tm_off_snp": 74.0
   },
   "position": "TE",
-  "search_rank": 579,
+  "search_rank": 578,
   "season": {
    "gp": 1.0,
    "off_snp": 31.0,
@@ -20101,6 +20213,19 @@
   "team": "KC",
   "years_exp": 4
  },
+ "8194": {
+  "active": true,
+  "age": 26,
+  "first_name": "Jashaun",
+  "full_name": "Jashaun Corbin",
+  "last_name": "Corbin",
+  "position": "RB",
+  "search_rank": 672,
+  "season": null,
+  "status": "Active",
+  "team": "DAL",
+  "years_exp": 4
+ },
  "8195": {
   "active": true,
   "age": 27,
@@ -20145,7 +20270,7 @@
    "tm_off_snp": 69.0
   },
   "position": "WR",
-  "search_rank": 655,
+  "search_rank": 654,
   "season": {
    "gp": 8.0,
    "off_snp": 135.0,
@@ -20774,6 +20899,8 @@
   "depth_chart_position": "TE",
   "first_name": "Drew",
   "full_name": "Drew Ogletree",
+  "injury_body_part": "Knee",
+  "injury_status": "Questionable",
   "last_name": "Ogletree",
   "last_week": {
    "gp": 1.0,
@@ -20805,7 +20932,7 @@
   "last_name": "FitzPatrick",
   "last_week": null,
   "position": "TE",
-  "search_rank": 393,
+  "search_rank": 392,
   "season": null,
   "status": "Active",
   "team": "CLE",
@@ -20845,7 +20972,7 @@
  "8527": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 6,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Dareke",
   "full_name": "Dareke Young",
@@ -20857,7 +20984,7 @@
    "tm_off_snp": 63.0
   },
   "position": "WR",
-  "search_rank": 671,
+  "search_rank": 670,
   "season": {
    "gp": 8.0,
    "off_snp": 71.0,
@@ -20888,7 +21015,7 @@
  "8676": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RWR",
   "first_name": "Rashid",
   "full_name": "Rashid Shaheed",
@@ -20991,7 +21118,7 @@
  "8800": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RB",
   "first_name": "Malik",
   "full_name": "Malik Davis",
@@ -21054,7 +21181,7 @@
   "injury_status": "Questionable",
   "last_name": "Turpin",
   "position": "WR",
-  "search_rank": 447,
+  "search_rank": 446,
   "season": {
    "gp": 6.0,
    "off_snp": 57.0,
@@ -21089,7 +21216,7 @@
  "9220": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 5,
+  "depth_chart_order": 6,
   "depth_chart_position": "RB",
   "first_name": "Evan",
   "full_name": "Evan Hull",
@@ -21284,7 +21411,7 @@
    "tm_off_snp": 73.0
   },
   "position": "QB",
-  "search_rank": 134,
+  "search_rank": 133,
   "season": {
    "gp": 7.0,
    "off_snp": 470.0,
@@ -21342,7 +21469,7 @@
  "9230": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "QB",
   "first_name": "Tanner",
   "full_name": "Tanner McKee",
@@ -21625,7 +21752,7 @@
    "tm_off_snp": 63.0
   },
   "position": "WR",
-  "search_rank": 5,
+  "search_rank": 7,
   "season": {
    "gp": 8.0,
    "off_snp": 448.0,
@@ -21688,7 +21815,7 @@
   "active": true,
   "age": 24,
   "depth_chart_order": 3,
-  "depth_chart_position": "RWR",
+  "depth_chart_position": "SWR",
   "first_name": "Marvin",
   "full_name": "Marvin Mims Jr.",
   "last_name": "Mims Jr.",
@@ -21798,7 +21925,7 @@
    "tm_off_snp": 60.0
   },
   "position": "WR",
-  "search_rank": 488,
+  "search_rank": 489,
   "season": {
    "gp": 8.0,
    "off_snp": 293.0,
