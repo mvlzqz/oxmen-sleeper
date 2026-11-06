@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T18:14:52+00:00",
+ "fetched_at": "2026-11-06T11:40:13+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -24,6 +24,24 @@
     "team": "DAL"
    },
    {
+    "id": "2216",
+    "inj": "Questionable (Achilles)",
+    "name": "Mike Evans",
+    "pos": "WR",
+    "season": {
+     "gp": 6.0,
+     "off_snp": 197.0,
+     "pts_ppr": 89.0,
+     "rec": 27.0,
+     "rec_td": 3.0,
+     "rec_tgt": 39.0,
+     "rec_yd": 420.0,
+     "snap_pct": 55,
+     "tm_off_snp": 359.0
+    },
+    "team": "SF"
+   },
+   {
     "id": "5967",
     "name": "Tony Pollard",
     "pos": "RB",
@@ -41,25 +59,6 @@
      "tm_off_snp": 476.0
     },
     "team": "TEN"
-   },
-   {
-    "id": "9500",
-    "name": "Josh Downs",
-    "pos": "WR",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 430.0,
-     "pts_ppr": 69.7,
-     "rec": 30.0,
-     "rec_td": 1.0,
-     "rec_tgt": 51.0,
-     "rec_yd": 330.0,
-     "rush_att": 1.0,
-     "rush_yd": 7.0,
-     "snap_pct": 81,
-     "tm_off_snp": 529.0
-    },
-    "team": "IND"
    },
    {
     "id": "9758",
@@ -165,23 +164,24 @@
     "team": "NYJ"
    },
    {
-    "id": "2216",
-    "inj": "Questionable (Achilles)",
-    "name": "Mike Evans",
+    "id": "9500",
+    "name": "Josh Downs",
     "pos": "WR",
     "season": {
-     "gp": 6.0,
-     "off_snp": 197.0,
-     "pts_ppr": 89.0,
-     "rec": 27.0,
-     "rec_td": 3.0,
-     "rec_tgt": 39.0,
-     "rec_yd": 420.0,
-     "snap_pct": 55,
-     "tm_off_snp": 359.0
+     "gp": 8.0,
+     "off_snp": 430.0,
+     "pts_ppr": 69.7,
+     "rec": 30.0,
+     "rec_td": 1.0,
+     "rec_tgt": 51.0,
+     "rec_yd": 330.0,
+     "rush_att": 1.0,
+     "rush_yd": 7.0,
+     "snap_pct": 81,
+     "tm_off_snp": 529.0
     },
     "slot": "WR",
-    "team": "SF"
+    "team": "IND"
    },
    {
     "id": "7002",
@@ -250,7 +250,6 @@
   ],
   "lineup_flags": [
    "WR Garrett Wilson is Questionable (Concussion)",
-   "WR Mike Evans is Questionable (Achilles)",
    "FLEX Michael Wilson is Questionable (Ribs)"
   ],
   "owner": "mvlzqz",
@@ -282,7 +281,7 @@
   "my_points": 0.0,
   "owner": "PawtucketPatriot",
   "roster_id": 3,
-  "their_points": 0.0
+  "their_points": 8.9
  },
  "rosters": [
   {
@@ -483,13 +482,13 @@
      "name": "Brenton Strange",
      "pos": "TE",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 329.0,
-      "pts_ppr": 67.4,
-      "rec": 28.0,
+      "pts_ppr": 71.6,
+      "rec": 30.0,
       "rec_td": 1.0,
-      "rec_tgt": 35.0,
-      "rec_yd": 334.0,
+      "rec_tgt": 37.0,
+      "rec_yd": 356.0,
       "snap_pct": 75,
       "tm_off_snp": 436.0
      },
@@ -609,33 +608,23 @@
      "team": "CIN"
     },
     {
-     "id": "9757",
-     "name": "Kendre Miller",
+     "id": "7567",
+     "name": "Kenny Gainwell",
      "pos": "RB",
      "season": {
-      "gp": 6.0,
-      "off_snp": 127.0,
-      "pts_ppr": 38.6,
-      "rec": 9.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 37.0,
-      "rush_att": 57.0,
-      "rush_td": 2.0,
-      "rush_yd": 159.0,
-      "snap_pct": 31,
-      "tm_off_snp": 412.0
+      "gp": 8.0,
+      "off_snp": 194.0,
+      "pts_ppr": 53.0,
+      "rec": 12.0,
+      "rec_td": 1.0,
+      "rec_tgt": 18.0,
+      "rec_yd": 61.0,
+      "rush_att": 58.0,
+      "rush_yd": 289.0,
+      "snap_pct": 37,
+      "tm_off_snp": 524.0
      },
-     "team": "NO"
-    },
-    {
-     "id": "SF",
-     "name": "SF DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 7.0,
-      "pts_ppr": 50.0
-     },
-     "team": "SF"
+     "team": "TB"
     }
    ],
    "ir": [
@@ -707,25 +696,24 @@
      "team": "BUF"
     },
     {
-     "id": "7567",
-     "inj": "Questionable (Hip)",
-     "name": "Kenny Gainwell",
+     "id": "9757",
+     "name": "Kendre Miller",
      "pos": "RB",
      "season": {
-      "gp": 8.0,
-      "off_snp": 194.0,
-      "pts_ppr": 53.0,
-      "rec": 12.0,
-      "rec_td": 1.0,
-      "rec_tgt": 18.0,
-      "rec_yd": 61.0,
-      "rush_att": 58.0,
-      "rush_yd": 289.0,
-      "snap_pct": 37,
-      "tm_off_snp": 524.0
+      "gp": 6.0,
+      "off_snp": 127.0,
+      "pts_ppr": 38.6,
+      "rec": 9.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 37.0,
+      "rush_att": 57.0,
+      "rush_td": 2.0,
+      "rush_yd": 159.0,
+      "snap_pct": 31,
+      "tm_off_snp": 412.0
      },
      "slot": "RB",
-     "team": "TB"
+     "team": "NO"
     },
     {
      "id": "12481",
@@ -838,14 +826,19 @@
      "team": "DAL"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "SF",
+     "name": "SF DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 7.0,
+      "pts_ppr": 50.0
+     },
+     "slot": "DEF",
+     "team": "SF"
     }
    ],
    "lineup_flags": [
-    "RB Kenny Gainwell is Questionable (Hip)",
-    "RB Cam Skattebo is Questionable (Hamstring)",
-    "DEF slot is EMPTY"
+    "RB Cam Skattebo is Questionable (Hamstring)"
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
@@ -897,7 +890,6 @@
     },
     {
      "id": "1466",
-     "inj": "Questionable (Ankle)",
      "name": "Travis Kelce",
      "pos": "TE",
      "season": {
@@ -1070,20 +1062,19 @@
     },
     {
      "id": "12490",
-     "inj": "Questionable (Ankle)",
      "name": "Bhayshul Tuten",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 241.0,
-      "pts_ppr": 118.3,
+      "pts_ppr": 127.2,
       "rec": 15.0,
       "rec_td": 3.0,
       "rec_tgt": 16.0,
       "rec_yd": 181.0,
-      "rush_att": 110.0,
-      "rush_td": 3.0,
-      "rush_yd": 492.0,
+      "rush_att": 122.0,
+      "rush_td": 4.0,
+      "rush_yd": 521.0,
       "snap_pct": 55,
       "tm_off_snp": 436.0
      },
@@ -1114,9 +1105,7 @@
      "team": "CLE"
     }
    ],
-   "lineup_flags": [
-    "FLEX Bhayshul Tuten is Questionable (Ankle)"
-   ],
+   "lineup_flags": [],
    "owner": "PawtucketPatriot",
    "owner_id": "1129839158073237504",
    "pa": 904.9,
@@ -1258,16 +1247,18 @@
      "name": "Derrick Henry",
      "pos": "RB",
      "season": {
-      "gp": 8.0,
+      "gp": 9.0,
       "off_snp": 283.0,
-      "pts_ppr": 136.7,
+      "pass_att": 1.0,
+      "pass_yd": -3.0,
+      "pts_ppr": 142.28,
       "rec": 12.0,
       "rec_td": 1.0,
       "rec_tgt": 14.0,
       "rec_yd": 75.0,
-      "rush_att": 158.0,
+      "rush_att": 175.0,
       "rush_td": 8.0,
-      "rush_yd": 632.0,
+      "rush_yd": 689.0,
       "snap_pct": 56,
       "tm_off_snp": 505.0
      },
@@ -1470,13 +1461,13 @@
      "name": "Jakobi Meyers",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 333.0,
-      "pts_ppr": 65.1,
-      "rec": 22.0,
+      "pts_ppr": 75.6,
+      "rec": 26.0,
       "rec_td": 2.0,
-      "rec_tgt": 31.0,
-      "rec_yd": 309.0,
+      "rec_tgt": 37.0,
+      "rec_yd": 374.0,
       "rush_att": 1.0,
       "rush_yd": 2.0,
       "snap_pct": 76,
@@ -1544,15 +1535,15 @@
      "name": "Trevor Lawrence",
      "pos": "QB",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 416.0,
-      "pass_att": 198.0,
+      "pass_att": 224.0,
       "pass_int": 4.0,
-      "pass_td": 17.0,
-      "pass_yd": 1690.0,
-      "pts_ppr": 137.6,
-      "rush_att": 20.0,
-      "rush_yd": 80.0,
+      "pass_td": 18.0,
+      "pass_yd": 1932.0,
+      "pts_ppr": 151.18,
+      "rush_att": 21.0,
+      "rush_yd": 79.0,
       "snap_pct": 95,
       "tm_off_snp": 436.0
      },
@@ -1692,8 +1683,8 @@
      "name": "JAX DEF",
      "pos": "DEF",
      "season": {
-      "gp": 7.0,
-      "pts_ppr": 66.0
+      "gp": 8.0,
+      "pts_ppr": 77.0
      },
      "slot": "DEF",
      "team": "JAX"
@@ -2195,7 +2186,6 @@
     },
     {
      "id": "10229",
-     "inj": "Questionable (Hamstring)",
      "name": "Rashee Rice",
      "pos": "WR",
      "season": {
@@ -2234,6 +2224,7 @@
     },
     {
      "id": "11632",
+     "inj": "Questionable (Undisclosed)",
      "name": "Malik Nabers",
      "pos": "WR",
      "season": {
@@ -2275,7 +2266,7 @@
     }
    ],
    "lineup_flags": [
-    "WR Rashee Rice is Questionable (Hamstring)"
+    "FLEX Malik Nabers is Questionable (Undisclosed)"
    ],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
@@ -2307,7 +2298,6 @@
    "bench": [
     {
      "id": "12514",
-     "inj": "Questionable (Foot)",
      "name": "Emeka Egbuka",
      "pos": "WR",
      "season": {
@@ -2426,7 +2416,7 @@
     },
     {
      "id": "4881",
-     "inj": "Out (Thumb)",
+     "inj": "IR (Thumb)",
      "name": "Lamar Jackson",
      "pos": "QB",
      "season": {
@@ -2637,7 +2627,7 @@
      "name": "Brian Thomas Jr.",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 193.0,
       "pts_ppr": 33.7,
       "rec": 10.0,
@@ -2959,6 +2949,24 @@
      "team": "DAL"
     },
     {
+     "id": "2216",
+     "inj": "Questionable (Achilles)",
+     "name": "Mike Evans",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 197.0,
+      "pts_ppr": 89.0,
+      "rec": 27.0,
+      "rec_td": 3.0,
+      "rec_tgt": 39.0,
+      "rec_yd": 420.0,
+      "snap_pct": 55,
+      "tm_off_snp": 359.0
+     },
+     "team": "SF"
+    },
+    {
      "id": "5967",
      "name": "Tony Pollard",
      "pos": "RB",
@@ -2976,25 +2984,6 @@
       "tm_off_snp": 476.0
      },
      "team": "TEN"
-    },
-    {
-     "id": "9500",
-     "name": "Josh Downs",
-     "pos": "WR",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 430.0,
-      "pts_ppr": 69.7,
-      "rec": 30.0,
-      "rec_td": 1.0,
-      "rec_tgt": 51.0,
-      "rec_yd": 330.0,
-      "rush_att": 1.0,
-      "rush_yd": 7.0,
-      "snap_pct": 81,
-      "tm_off_snp": 529.0
-     },
-     "team": "IND"
     },
     {
      "id": "9758",
@@ -3100,23 +3089,24 @@
      "team": "NYJ"
     },
     {
-     "id": "2216",
-     "inj": "Questionable (Achilles)",
-     "name": "Mike Evans",
+     "id": "9500",
+     "name": "Josh Downs",
      "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "off_snp": 197.0,
-      "pts_ppr": 89.0,
-      "rec": 27.0,
-      "rec_td": 3.0,
-      "rec_tgt": 39.0,
-      "rec_yd": 420.0,
-      "snap_pct": 55,
-      "tm_off_snp": 359.0
+      "gp": 8.0,
+      "off_snp": 430.0,
+      "pts_ppr": 69.7,
+      "rec": 30.0,
+      "rec_td": 1.0,
+      "rec_tgt": 51.0,
+      "rec_yd": 330.0,
+      "rush_att": 1.0,
+      "rush_yd": 7.0,
+      "snap_pct": 81,
+      "tm_off_snp": 529.0
      },
      "slot": "WR",
-     "team": "SF"
+     "team": "IND"
     },
     {
      "id": "7002",
@@ -3185,7 +3175,6 @@
    ],
    "lineup_flags": [
     "WR Garrett Wilson is Questionable (Concussion)",
-    "WR Mike Evans is Questionable (Achilles)",
     "FLEX Michael Wilson is Questionable (Ribs)"
    ],
    "owner": "mvlzqz",
@@ -3251,7 +3240,6 @@
     },
     {
      "id": "8155",
-     "inj": "Questionable (Quadriceps)",
      "name": "Breece Hall",
      "pos": "RB",
      "season": {
@@ -3424,8 +3412,8 @@
      "name": "Cam Little",
      "pos": "K",
      "season": {
-      "gp": 7.0,
-      "pts_ppr": 60.0,
+      "gp": 8.0,
+      "pts_ppr": 77.0,
       "tm_off_snp": 436.0
      },
      "slot": "K",
@@ -3637,13 +3625,13 @@
      "name": "Parker Washington",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 329.0,
-      "pts_ppr": 95.5,
-      "rec": 27.0,
-      "rec_td": 4.0,
-      "rec_tgt": 48.0,
-      "rec_yd": 432.0,
+      "pts_ppr": 109.6,
+      "rec": 29.0,
+      "rec_td": 5.0,
+      "rec_tgt": 55.0,
+      "rec_yd": 493.0,
       "rush_att": 2.0,
       "rush_yd": 13.0,
       "snap_pct": 75,
@@ -3654,6 +3642,7 @@
     },
     {
      "id": "12506",
+     "inj": "Questionable (Groin)",
      "name": "Harold Fannin Jr.",
      "pos": "TE",
      "season": {
@@ -3715,7 +3704,8 @@
     }
    ],
    "lineup_flags": [
-    "RB Saquon Barkley is Questionable (Hamstring)"
+    "RB Saquon Barkley is Questionable (Hamstring)",
+    "TE Harold Fannin Jr. is Questionable (Groin)"
    ],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
@@ -3910,7 +3900,7 @@
      "name": "Ja'Kobi Lane",
      "pos": "WR",
      "season": {
-      "gp": 4.0,
+      "gp": 5.0,
       "off_snp": 137.0,
       "pts_ppr": 17.9,
       "rec": 9.0,
@@ -3942,6 +3932,7 @@
     },
     {
      "id": "10236",
+     "inj": "Questionable (Chest)",
      "name": "Dalton Kincaid",
      "pos": "TE",
      "season": {
@@ -3982,7 +3973,9 @@
      "team": "SEA"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "FLEX Dalton Kincaid is Questionable (Chest)"
+   ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
    "pa": 896.2,
@@ -4200,15 +4193,15 @@
      "name": "Zay Flowers",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 299.0,
-      "pts_ppr": 122.2,
-      "rec": 40.0,
+      "pts_ppr": 127.5,
+      "rec": 43.0,
       "rec_td": 3.0,
-      "rec_tgt": 58.0,
-      "rec_yd": 608.0,
-      "rush_att": 3.0,
-      "rush_yd": 34.0,
+      "rec_tgt": 64.0,
+      "rec_yd": 614.0,
+      "rush_att": 6.0,
+      "rush_yd": 51.0,
       "snap_pct": 67,
       "tm_off_snp": 447.0
      },
