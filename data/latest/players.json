@@ -123,21 +123,6 @@
   "team": "LAR",
   "years_exp": 3
  },
- "10215": {
-  "active": true,
-  "age": 27,
-  "first_name": "Jake",
-  "full_name": "Jake Haener",
-  "last_name": "Haener",
-  "position": "QB",
-  "search_rank": 655,
-  "season": {
-   "tm_off_snp": 131.0
-  },
-  "status": "Active",
-  "team": "NYG",
-  "years_exp": 3
- },
  "10218": {
   "active": true,
   "age": 26,
@@ -779,8 +764,6 @@
  "10937": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 1,
-  "depth_chart_position": "K",
   "first_name": "Jake",
   "full_name": "Jake Moody",
   "last_name": "Moody",
@@ -5622,6 +5605,8 @@
   "depth_chart_position": "LWR",
   "first_name": "Emeka",
   "full_name": "Emeka Egbuka",
+  "injury_body_part": "Foot",
+  "injury_status": "Questionable",
   "last_name": "Egbuka",
   "position": "WR",
   "search_rank": 39,
@@ -7698,20 +7683,6 @@
   },
   "status": "Active",
   "team": "MIN",
-  "years_exp": 1
- },
- "13122": {
-  "active": true,
-  "age": 25,
-  "first_name": "Carter",
-  "full_name": "Carter Runyon",
-  "last_name": "Runyon",
-  "last_week": null,
-  "position": "TE",
-  "search_rank": 354,
-  "season": null,
-  "status": "Active",
-  "team": "LV",
   "years_exp": 1
  },
  "13150": {
@@ -10666,28 +10637,6 @@
   "season": null,
   "status": "Active",
   "team": "DEN",
-  "years_exp": 0
- },
- "13580": {
-  "active": true,
-  "age": 23,
-  "first_name": "Carsen",
-  "full_name": "Carsen Ryan",
-  "last_name": "Ryan",
-  "last_week": {
-   "gp": 1.0,
-   "tm_off_snp": 70.0
-  },
-  "position": "TE",
-  "search_rank": 600,
-  "season": {
-   "gp": 7.0,
-   "off_snp": 2.0,
-   "snap_pct": 0,
-   "tm_off_snp": 445.0
-  },
-  "status": "Active",
-  "team": "CLE",
   "years_exp": 0
  },
  "13582": {
@@ -17963,7 +17912,7 @@
  "7593": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RB",
   "first_name": "Trey",
   "full_name": "Trey Sermon",
@@ -19623,7 +19572,7 @@
   "first_name": "Garrett",
   "full_name": "Garrett Wilson",
   "injury_body_part": "Concussion",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Wilson",
   "last_week": {
    "gp": 1.0,
@@ -19807,12 +19756,12 @@
  "8154": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 2,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Brian",
   "full_name": "Brian Robinson Jr.",
   "injury_body_part": "Hamstring",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Robinson Jr.",
   "position": "RB",
   "search_rank": 80,

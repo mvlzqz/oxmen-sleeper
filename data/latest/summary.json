@@ -1,28 +1,9 @@
 {
- "fetched_at": "2026-11-06T11:40:13+00:00",
+ "fetched_at": "2026-11-06T17:39:33+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
   "bench": [
-   {
-    "id": "11783",
-    "name": "Ryan Flournoy",
-    "pos": "WR",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 402.0,
-     "pts_ppr": 76.5,
-     "rec": 30.0,
-     "rec_td": 2.0,
-     "rec_tgt": 44.0,
-     "rec_yd": 342.0,
-     "rush_att": 1.0,
-     "rush_yd": 3.0,
-     "snap_pct": 74,
-     "tm_off_snp": 545.0
-    },
-    "team": "DAL"
-   },
    {
     "id": "2216",
     "inj": "Questionable (Achilles)",
@@ -81,7 +62,26 @@
     "team": "HOU"
    }
   ],
-  "ir": [],
+  "ir": [
+   {
+    "id": "8146",
+    "inj": "Out (Concussion)",
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 437.0,
+     "pts_ppr": 113.7,
+     "rec": 43.0,
+     "rec_td": 3.0,
+     "rec_tgt": 63.0,
+     "rec_yd": 527.0,
+     "snap_pct": 88,
+     "tm_off_snp": 494.0
+    },
+    "team": "NYJ"
+   }
+  ],
   "lineup": [
    {
     "id": "11563",
@@ -145,23 +145,27 @@
     "team": "CLE"
    },
    {
-    "id": "8146",
-    "inj": "Questionable (Concussion)",
-    "name": "Garrett Wilson",
+    "id": "10232",
+    "inj": "Questionable (Ribs)",
+    "name": "Michael Wilson",
     "pos": "WR",
     "season": {
      "gp": 8.0,
-     "off_snp": 437.0,
-     "pts_ppr": 113.7,
-     "rec": 43.0,
-     "rec_td": 3.0,
-     "rec_tgt": 63.0,
-     "rec_yd": 527.0,
-     "snap_pct": 88,
-     "tm_off_snp": 494.0
+     "off_snp": 518.0,
+     "pass_att": 1.0,
+     "pass_yd": 7.0,
+     "pts_ppr": 108.68,
+     "rec": 45.0,
+     "rec_td": 2.0,
+     "rec_tgt": 81.0,
+     "rec_yd": 486.0,
+     "rush_att": 3.0,
+     "rush_yd": 28.0,
+     "snap_pct": 89,
+     "tm_off_snp": 585.0
     },
     "slot": "WR",
-    "team": "NYJ"
+    "team": "ARI"
    },
    {
     "id": "9500",
@@ -202,27 +206,24 @@
     "team": "NO"
    },
    {
-    "id": "10232",
-    "inj": "Questionable (Ribs)",
-    "name": "Michael Wilson",
+    "id": "11783",
+    "name": "Ryan Flournoy",
     "pos": "WR",
     "season": {
      "gp": 8.0,
-     "off_snp": 518.0,
-     "pass_att": 1.0,
-     "pass_yd": 7.0,
-     "pts_ppr": 108.68,
-     "rec": 45.0,
+     "off_snp": 402.0,
+     "pts_ppr": 76.5,
+     "rec": 30.0,
      "rec_td": 2.0,
-     "rec_tgt": 81.0,
-     "rec_yd": 486.0,
-     "rush_att": 3.0,
-     "rush_yd": 28.0,
-     "snap_pct": 89,
-     "tm_off_snp": 585.0
+     "rec_tgt": 44.0,
+     "rec_yd": 342.0,
+     "rush_att": 1.0,
+     "rush_yd": 3.0,
+     "snap_pct": 74,
+     "tm_off_snp": 545.0
     },
     "slot": "FLEX",
-    "team": "ARI"
+    "team": "DAL"
    },
    {
     "id": "11792",
@@ -249,8 +250,7 @@
    }
   ],
   "lineup_flags": [
-   "WR Garrett Wilson is Questionable (Concussion)",
-   "FLEX Michael Wilson is Questionable (Ribs)"
+   "WR Michael Wilson is Questionable (Ribs)"
   ],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
@@ -2298,6 +2298,7 @@
    "bench": [
     {
      "id": "12514",
+     "inj": "Questionable (Foot)",
      "name": "Emeka Egbuka",
      "pos": "WR",
      "season": {
@@ -2930,25 +2931,6 @@
   {
    "bench": [
     {
-     "id": "11783",
-     "name": "Ryan Flournoy",
-     "pos": "WR",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 402.0,
-      "pts_ppr": 76.5,
-      "rec": 30.0,
-      "rec_td": 2.0,
-      "rec_tgt": 44.0,
-      "rec_yd": 342.0,
-      "rush_att": 1.0,
-      "rush_yd": 3.0,
-      "snap_pct": 74,
-      "tm_off_snp": 545.0
-     },
-     "team": "DAL"
-    },
-    {
      "id": "2216",
      "inj": "Questionable (Achilles)",
      "name": "Mike Evans",
@@ -3006,7 +2988,26 @@
      "team": "HOU"
     }
    ],
-   "ir": [],
+   "ir": [
+    {
+     "id": "8146",
+     "inj": "Out (Concussion)",
+     "name": "Garrett Wilson",
+     "pos": "WR",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 437.0,
+      "pts_ppr": 113.7,
+      "rec": 43.0,
+      "rec_td": 3.0,
+      "rec_tgt": 63.0,
+      "rec_yd": 527.0,
+      "snap_pct": 88,
+      "tm_off_snp": 494.0
+     },
+     "team": "NYJ"
+    }
+   ],
    "lineup": [
     {
      "id": "11563",
@@ -3070,23 +3071,27 @@
      "team": "CLE"
     },
     {
-     "id": "8146",
-     "inj": "Questionable (Concussion)",
-     "name": "Garrett Wilson",
+     "id": "10232",
+     "inj": "Questionable (Ribs)",
+     "name": "Michael Wilson",
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 437.0,
-      "pts_ppr": 113.7,
-      "rec": 43.0,
-      "rec_td": 3.0,
-      "rec_tgt": 63.0,
-      "rec_yd": 527.0,
-      "snap_pct": 88,
-      "tm_off_snp": 494.0
+      "off_snp": 518.0,
+      "pass_att": 1.0,
+      "pass_yd": 7.0,
+      "pts_ppr": 108.68,
+      "rec": 45.0,
+      "rec_td": 2.0,
+      "rec_tgt": 81.0,
+      "rec_yd": 486.0,
+      "rush_att": 3.0,
+      "rush_yd": 28.0,
+      "snap_pct": 89,
+      "tm_off_snp": 585.0
      },
      "slot": "WR",
-     "team": "NYJ"
+     "team": "ARI"
     },
     {
      "id": "9500",
@@ -3127,27 +3132,24 @@
      "team": "NO"
     },
     {
-     "id": "10232",
-     "inj": "Questionable (Ribs)",
-     "name": "Michael Wilson",
+     "id": "11783",
+     "name": "Ryan Flournoy",
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 518.0,
-      "pass_att": 1.0,
-      "pass_yd": 7.0,
-      "pts_ppr": 108.68,
-      "rec": 45.0,
+      "off_snp": 402.0,
+      "pts_ppr": 76.5,
+      "rec": 30.0,
       "rec_td": 2.0,
-      "rec_tgt": 81.0,
-      "rec_yd": 486.0,
-      "rush_att": 3.0,
-      "rush_yd": 28.0,
-      "snap_pct": 89,
-      "tm_off_snp": 585.0
+      "rec_tgt": 44.0,
+      "rec_yd": 342.0,
+      "rush_att": 1.0,
+      "rush_yd": 3.0,
+      "snap_pct": 74,
+      "tm_off_snp": 545.0
      },
      "slot": "FLEX",
-     "team": "ARI"
+     "team": "DAL"
     },
     {
      "id": "11792",
@@ -3174,8 +3176,7 @@
     }
    ],
    "lineup_flags": [
-    "WR Garrett Wilson is Questionable (Concussion)",
-    "FLEX Michael Wilson is Questionable (Ribs)"
+    "WR Michael Wilson is Questionable (Ribs)"
    ],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",

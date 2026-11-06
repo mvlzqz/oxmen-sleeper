@@ -1,8 +1,16 @@
 {
- "baseline": "2026-11-05_1140Z",
+ "baseline": "2026-11-05_1814Z",
  "first_run": false,
- "injury_baseline": "2026-11-05_1140Z",
+ "injury_baseline": "2026-11-05_1814Z",
  "injury_changes": [
+  {
+   "body_part": "Concussion",
+   "from": "Questionable",
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Garrett Wilson",
+   "to": "Out"
+  },
   {
    "body_part": null,
    "from": "Questionable",
@@ -26,14 +34,6 @@
    "owner": "phile2211",
    "player": "Dalton Kincaid",
    "to": "Questionable"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "Emeka Egbuka",
-   "to": null
   },
   {
    "body_part": "Groin",
@@ -84,8 +84,18 @@
    "to": null
   }
  ],
- "my_team_changed": false,
- "rosters": [],
- "since": "2026-11-05T11:40:13+00:00",
+ "my_team_changed": true,
+ "rosters": [
+  {
+   "added": [],
+   "dropped": [],
+   "moved_to_ir": [
+    "Garrett Wilson"
+   ],
+   "owner": "mvlzqz",
+   "roster_id": 10
+  }
+ ],
+ "since": "2026-11-05T18:14:52+00:00",
  "waiver_moves": []
 }
