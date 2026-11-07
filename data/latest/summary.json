@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-07T11:40:13+00:00",
+ "fetched_at": "2026-11-07T16:36:09+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1711,6 +1711,25 @@
   {
    "bench": [
     {
+     "id": "13414",
+     "name": "Kaelon Black",
+     "pos": "RB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 126.0,
+      "pts_ppr": 30.7,
+      "rec": 3.0,
+      "rec_tgt": 6.0,
+      "rec_yd": 4.0,
+      "rush_att": 57.0,
+      "rush_td": 1.0,
+      "rush_yd": 233.0,
+      "snap_pct": 30,
+      "tm_off_snp": 425.0
+     },
+     "team": "SF"
+    },
+    {
      "id": "6804",
      "name": "Jordan Love",
      "pos": "QB",
@@ -1749,23 +1768,6 @@
       "tm_off_snp": 533.0
      },
      "team": "PIT"
-    },
-    {
-     "id": "9482",
-     "name": "Michael Mayer",
-     "pos": "TE",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 440.0,
-      "pts_ppr": 77.1,
-      "rec": 36.0,
-      "rec_td": 1.0,
-      "rec_tgt": 43.0,
-      "rec_yd": 351.0,
-      "snap_pct": 81,
-      "tm_off_snp": 542.0
-     },
-     "team": "LV"
     },
     {
      "id": "TB",
@@ -1930,24 +1932,22 @@
      "team": "LV"
     },
     {
-     "id": "13414",
-     "name": "Kaelon Black",
-     "pos": "RB",
+     "id": "9482",
+     "name": "Michael Mayer",
+     "pos": "TE",
      "season": {
-      "gp": 7.0,
-      "off_snp": 126.0,
-      "pts_ppr": 30.7,
-      "rec": 3.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 4.0,
-      "rush_att": 57.0,
-      "rush_td": 1.0,
-      "rush_yd": 233.0,
-      "snap_pct": 30,
-      "tm_off_snp": 425.0
+      "gp": 8.0,
+      "off_snp": 440.0,
+      "pts_ppr": 77.1,
+      "rec": 36.0,
+      "rec_td": 1.0,
+      "rec_tgt": 43.0,
+      "rec_yd": 351.0,
+      "snap_pct": 81,
+      "tm_off_snp": 542.0
      },
      "slot": "FLEX",
-     "team": "SF"
+     "team": "LV"
     },
     {
      "id": "7839",
