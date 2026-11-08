@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-07T16:36:09+00:00",
+ "fetched_at": "2026-11-08T11:40:14+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1205,10 +1205,9 @@
    "ir": [
     {
      "id": "13281",
-     "inj": "IR (Hamstring)",
+     "inj": "Questionable (Hamstring)",
      "name": "Jordyn Tyson",
      "pos": "WR",
-     "status": "Inactive",
      "team": "NO"
     }
    ],
@@ -1428,24 +1427,23 @@
      "team": "ARI"
     },
     {
-     "id": "4035",
-     "name": "Alvin Kamara",
-     "pos": "RB",
+     "id": "13294",
+     "name": "Makai Lemon",
+     "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "off_snp": 135.0,
-      "pts_ppr": 65.8,
-      "rec": 22.0,
+      "gp": 8.0,
+      "off_snp": 390.0,
+      "pts_ppr": 61.6,
+      "rec": 31.0,
       "rec_td": 1.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 133.0,
-      "rush_att": 41.0,
-      "rush_td": 2.0,
-      "rush_yd": 125.0,
-      "snap_pct": 35,
-      "tm_off_snp": 390.0
+      "rec_tgt": 45.0,
+      "rec_yd": 251.0,
+      "rush_att": 1.0,
+      "rush_yd": -5.0,
+      "snap_pct": 78,
+      "tm_off_snp": 503.0
      },
-     "team": "NO"
+     "team": "PHI"
     },
     {
      "id": "5947",
@@ -1542,24 +1540,25 @@
      "team": "JAX"
     },
     {
-     "id": "4034",
-     "name": "Christian McCaffrey",
+     "id": "4035",
+     "name": "Alvin Kamara",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
-      "off_snp": 293.0,
-      "pts_ppr": 144.0,
-      "rec": 34.0,
-      "rec_tgt": 42.0,
-      "rec_yd": 251.0,
-      "rush_att": 84.0,
-      "rush_td": 8.0,
-      "rush_yd": 389.0,
-      "snap_pct": 69,
-      "tm_off_snp": 425.0
+      "gp": 6.0,
+      "off_snp": 135.0,
+      "pts_ppr": 65.8,
+      "rec": 22.0,
+      "rec_td": 1.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 133.0,
+      "rush_att": 41.0,
+      "rush_td": 2.0,
+      "rush_yd": 125.0,
+      "snap_pct": 35,
+      "tm_off_snp": 390.0
      },
      "slot": "RB",
-     "team": "SF"
+     "team": "NO"
     },
     {
      "id": "7611",
@@ -1637,24 +1636,24 @@
      "team": "ARI"
     },
     {
-     "id": "13294",
-     "name": "Makai Lemon",
-     "pos": "WR",
+     "id": "4034",
+     "name": "Christian McCaffrey",
+     "pos": "RB",
      "season": {
-      "gp": 8.0,
-      "off_snp": 390.0,
-      "pts_ppr": 61.6,
-      "rec": 31.0,
-      "rec_td": 1.0,
-      "rec_tgt": 45.0,
+      "gp": 7.0,
+      "off_snp": 293.0,
+      "pts_ppr": 144.0,
+      "rec": 34.0,
+      "rec_tgt": 42.0,
       "rec_yd": 251.0,
-      "rush_att": 1.0,
-      "rush_yd": -5.0,
-      "snap_pct": 78,
-      "tm_off_snp": 503.0
+      "rush_att": 84.0,
+      "rush_td": 8.0,
+      "rush_yd": 389.0,
+      "snap_pct": 69,
+      "tm_off_snp": 425.0
      },
      "slot": "FLEX",
-     "team": "PHI"
+     "team": "SF"
     },
     {
      "id": "3451",
@@ -1705,7 +1704,7 @@
    "record": "6-2",
    "roster_id": 5,
    "taxi": [],
-   "team_name": "Eaton Mess",
+   "team_name": "Glizzy man",
    "waiver_position": 9
   },
   {
@@ -2480,7 +2479,6 @@
     },
     {
      "id": "4983",
-     "inj": "Questionable (Undisclosed)",
      "name": "DJ Moore",
      "pos": "WR",
      "season": {
@@ -2585,7 +2583,6 @@
    ],
    "lineup_flags": [
     "QB slot is EMPTY",
-    "WR DJ Moore is Questionable (Undisclosed)",
     "WR Deebo Samuel Sr. is Out (Hamstring)"
    ],
    "owner": "NikoGs",
@@ -3472,25 +3469,6 @@
      "team": "SEA"
     },
     {
-     "id": "11566",
-     "name": "Jayden Daniels",
-     "pos": "QB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 298.0,
-      "pass_att": 145.0,
-      "pass_td": 6.0,
-      "pass_yd": 976.0,
-      "pts_ppr": 100.64,
-      "rush_att": 27.0,
-      "rush_td": 2.0,
-      "rush_yd": 236.0,
-      "snap_pct": 90,
-      "tm_off_snp": 330.0
-     },
-     "team": "WAS"
-    },
-    {
      "id": "13274",
      "name": "Germie Bernard",
      "pos": "WR",
@@ -3525,10 +3503,7 @@
       "tm_off_snp": 401.0
      },
      "team": "WAS"
-    }
-   ],
-   "ir": [],
-   "lineup": [
+    },
     {
      "id": "9228",
      "name": "Bryce Young",
@@ -3547,8 +3522,30 @@
       "snap_pct": 95,
       "tm_off_snp": 494.0
      },
-     "slot": "QB",
      "team": "CAR"
+    }
+   ],
+   "ir": [],
+   "lineup": [
+    {
+     "id": "11566",
+     "name": "Jayden Daniels",
+     "pos": "QB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 298.0,
+      "pass_att": 145.0,
+      "pass_td": 6.0,
+      "pass_yd": 976.0,
+      "pts_ppr": 100.64,
+      "rush_att": 27.0,
+      "rush_td": 2.0,
+      "rush_yd": 236.0,
+      "snap_pct": 90,
+      "tm_off_snp": 330.0
+     },
+     "slot": "QB",
+     "team": "WAS"
     },
     {
      "id": "4866",
@@ -3592,24 +3589,24 @@
      "team": "LAR"
     },
     {
-     "id": "8112",
-     "name": "Drake London",
+     "id": "7569",
+     "name": "Nico Collins",
      "pos": "WR",
      "season": {
-      "gp": 8.0,
-      "off_snp": 443.0,
-      "pts_ppr": 109.8,
-      "rec": 39.0,
-      "rec_td": 1.0,
-      "rec_tgt": 63.0,
-      "rec_yd": 624.0,
+      "gp": 5.0,
+      "off_snp": 229.0,
+      "pts_ppr": 76.1,
+      "rec": 24.0,
+      "rec_td": 3.0,
+      "rec_tgt": 35.0,
+      "rec_yd": 329.0,
       "rush_att": 2.0,
-      "rush_yd": 4.0,
-      "snap_pct": 89,
-      "tm_off_snp": 498.0
+      "rush_yd": 12.0,
+      "snap_pct": 71,
+      "tm_off_snp": 324.0
      },
      "slot": "WR",
-     "team": "ATL"
+     "team": "HOU"
     },
     {
      "id": "9487",
@@ -3650,24 +3647,24 @@
      "team": "CLE"
     },
     {
-     "id": "7569",
-     "name": "Nico Collins",
+     "id": "8112",
+     "name": "Drake London",
      "pos": "WR",
      "season": {
-      "gp": 5.0,
-      "off_snp": 229.0,
-      "pts_ppr": 76.1,
-      "rec": 24.0,
-      "rec_td": 3.0,
-      "rec_tgt": 35.0,
-      "rec_yd": 329.0,
+      "gp": 8.0,
+      "off_snp": 443.0,
+      "pts_ppr": 109.8,
+      "rec": 39.0,
+      "rec_td": 1.0,
+      "rec_tgt": 63.0,
+      "rec_yd": 624.0,
       "rush_att": 2.0,
-      "rush_yd": 12.0,
-      "snap_pct": 71,
-      "tm_off_snp": 324.0
+      "rush_yd": 4.0,
+      "snap_pct": 89,
+      "tm_off_snp": 498.0
      },
      "slot": "FLEX",
-     "team": "HOU"
+     "team": "ATL"
     },
     {
      "id": "6083",
@@ -3722,6 +3719,23 @@
   {
    "bench": [
     {
+     "id": "10236",
+     "name": "Dalton Kincaid",
+     "pos": "TE",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 311.0,
+      "pts_ppr": 79.1,
+      "rec": 27.0,
+      "rec_td": 2.0,
+      "rec_tgt": 35.0,
+      "rec_yd": 401.0,
+      "snap_pct": 66,
+      "tm_off_snp": 471.0
+     },
+     "team": "BUF"
+    },
+    {
      "id": "11560",
      "name": "Caleb Williams",
      "pos": "QB",
@@ -3740,23 +3754,6 @@
       "tm_off_snp": 365.0
      },
      "team": "CHI"
-    },
-    {
-     "id": "13150",
-     "name": "Darius Cooper",
-     "pos": "WR",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 318.0,
-      "pts_ppr": 52.5,
-      "rec": 11.0,
-      "rec_td": 4.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 175.0,
-      "snap_pct": 63,
-      "tm_off_snp": 503.0
-     },
-     "team": "PHI"
     },
     {
      "id": "5846",
@@ -3918,22 +3915,22 @@
      "team": "LAR"
     },
     {
-     "id": "10236",
-     "name": "Dalton Kincaid",
-     "pos": "TE",
+     "id": "13150",
+     "name": "Darius Cooper",
+     "pos": "WR",
      "season": {
-      "gp": 7.0,
-      "off_snp": 311.0,
-      "pts_ppr": 79.1,
-      "rec": 27.0,
-      "rec_td": 2.0,
-      "rec_tgt": 35.0,
-      "rec_yd": 401.0,
-      "snap_pct": 66,
-      "tm_off_snp": 471.0
+      "gp": 8.0,
+      "off_snp": 318.0,
+      "pts_ppr": 52.5,
+      "rec": 11.0,
+      "rec_td": 4.0,
+      "rec_tgt": 24.0,
+      "rec_yd": 175.0,
+      "snap_pct": 63,
+      "tm_off_snp": 503.0
      },
      "slot": "FLEX",
-     "team": "BUF"
+     "team": "PHI"
     },
     {
      "id": "5189",
