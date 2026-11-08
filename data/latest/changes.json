@@ -1,8 +1,24 @@
 {
- "baseline": "2026-11-07_1140Z",
+ "baseline": "2026-11-07_1636Z",
  "first_run": false,
- "injury_baseline": "2026-11-07_1140Z",
+ "injury_baseline": "2026-11-07_1636Z",
  "injury_changes": [
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "pauliv8811",
+   "player": "Amon-Ra St. Brown",
+   "to": null
+  },
+  {
+   "body_part": "Hamstring",
+   "from": "Doubtful",
+   "mine": false,
+   "owner": "nusskyle",
+   "player": "Cam Skattebo",
+   "to": "Out"
+  },
   {
    "body_part": null,
    "from": "Questionable",
@@ -13,15 +29,35 @@
   },
   {
    "body_part": "Hamstring",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "kitano",
+   "player": "George Pickens",
+   "to": "Out"
+  },
+  {
+   "body_part": null,
    "from": "IR",
    "mine": false,
    "owner": "kitano",
    "player": "Jordyn Tyson",
-   "to": "Questionable"
+   "to": null
   }
  ],
  "my_team_changed": false,
- "rosters": [],
- "since": "2026-11-07T11:40:13+00:00",
+ "rosters": [
+  {
+   "added": [
+    "Austin Ekeler"
+   ],
+   "dropped": [
+    "Kendre Miller"
+   ],
+   "moved_to_ir": [],
+   "owner": "nusskyle",
+   "roster_id": 2
+  }
+ ],
+ "since": "2026-11-07T16:36:09+00:00",
  "waiver_moves": []
 }

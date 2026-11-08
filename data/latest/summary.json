@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-08T11:40:14+00:00",
+ "fetched_at": "2026-11-08T16:46:29+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -278,7 +278,7 @@
   "my_points": 0.0,
   "owner": "PawtucketPatriot",
   "roster_id": 3,
-  "their_points": 8.9
+  "their_points": 37.32
  },
  "rosters": [
   {
@@ -564,6 +564,26 @@
      "team": "LV"
     },
     {
+     "id": "12481",
+     "inj": "Out (Hamstring)",
+     "name": "Cam Skattebo",
+     "pos": "RB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 267.0,
+      "pts_ppr": 70.4,
+      "rec": 11.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 76.0,
+      "rush_att": 98.0,
+      "rush_td": 2.0,
+      "rush_yd": 418.0,
+      "snap_pct": 54,
+      "tm_off_snp": 490.0
+     },
+     "team": "NYG"
+    },
+    {
      "id": "3214",
      "inj": "Questionable (Foot)",
      "name": "Hunter Henry",
@@ -600,25 +620,6 @@
       "tm_off_snp": 449.0
      },
      "team": "CIN"
-    },
-    {
-     "id": "7567",
-     "name": "Kenny Gainwell",
-     "pos": "RB",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 194.0,
-      "pts_ppr": 53.0,
-      "rec": 12.0,
-      "rec_td": 1.0,
-      "rec_tgt": 18.0,
-      "rec_yd": 61.0,
-      "rush_att": 58.0,
-      "rush_yd": 289.0,
-      "snap_pct": 37,
-      "tm_off_snp": 524.0
-     },
-     "team": "TB"
     }
    ],
    "ir": [
@@ -690,45 +691,43 @@
      "team": "BUF"
     },
     {
-     "id": "9757",
-     "name": "Kendre Miller",
+     "id": "7567",
+     "name": "Kenny Gainwell",
      "pos": "RB",
      "season": {
-      "gp": 6.0,
-      "off_snp": 127.0,
-      "pts_ppr": 38.6,
-      "rec": 9.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 37.0,
-      "rush_att": 57.0,
-      "rush_td": 2.0,
-      "rush_yd": 159.0,
-      "snap_pct": 31,
-      "tm_off_snp": 412.0
+      "gp": 8.0,
+      "off_snp": 194.0,
+      "pts_ppr": 53.0,
+      "rec": 12.0,
+      "rec_td": 1.0,
+      "rec_tgt": 18.0,
+      "rec_yd": 61.0,
+      "rush_att": 58.0,
+      "rush_yd": 289.0,
+      "snap_pct": 37,
+      "tm_off_snp": 524.0
      },
      "slot": "RB",
-     "team": "NO"
+     "team": "TB"
     },
     {
-     "id": "12481",
-     "inj": "Doubtful (Hamstring)",
-     "name": "Cam Skattebo",
+     "id": "4663",
+     "name": "Austin Ekeler",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
-      "off_snp": 267.0,
-      "pts_ppr": 70.4,
-      "rec": 11.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 76.0,
-      "rush_att": 98.0,
-      "rush_td": 2.0,
-      "rush_yd": 418.0,
-      "snap_pct": 54,
-      "tm_off_snp": 490.0
+      "gp": 4.0,
+      "off_snp": 50.0,
+      "pts_ppr": 15.7,
+      "rec": 4.0,
+      "rec_tgt": 5.0,
+      "rec_yd": 30.0,
+      "rush_att": 16.0,
+      "rush_yd": 67.0,
+      "snap_pct": 20,
+      "tm_off_snp": 253.0
      },
      "slot": "RB",
-     "team": "NYG"
+     "team": "WAS"
     },
     {
      "id": "6786",
@@ -831,9 +830,7 @@
      "team": "SF"
     }
    ],
-   "lineup_flags": [
-    "RB Cam Skattebo is Doubtful (Hamstring)"
-   ],
+   "lineup_flags": [],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
    "pa": 939.66,
@@ -848,11 +845,11 @@
     "13298",
     "3214",
     "4147",
+    "4663",
     "4984",
     "5927",
     "6786",
     "7567",
-    "9757",
     "SF"
    ],
    "record": "2-6",
@@ -1205,7 +1202,6 @@
    "ir": [
     {
      "id": "13281",
-     "inj": "Questionable (Hamstring)",
      "name": "Jordyn Tyson",
      "pos": "WR",
      "team": "NO"
@@ -1278,7 +1274,7 @@
     },
     {
      "id": "8137",
-     "inj": "Questionable (Hamstring)",
+     "inj": "Out (Hamstring)",
      "name": "George Pickens",
      "pos": "WR",
      "season": {
@@ -1374,7 +1370,7 @@
     }
    ],
    "lineup_flags": [
-    "WR George Pickens is Questionable (Hamstring)"
+    "WR George Pickens is Out (Hamstring)"
    ],
    "owner": "kitano",
    "owner_id": "473949092301500416",
@@ -2290,25 +2286,24 @@
   {
    "bench": [
     {
-     "id": "12514",
-     "inj": "Questionable (Foot)",
-     "name": "Emeka Egbuka",
+     "id": "5872",
+     "inj": "Out (Hamstring)",
+     "name": "Deebo Samuel Sr.",
      "pos": "WR",
      "season": {
-      "gp": 6.0,
-      "off_snp": 343.0,
-      "pts_ppr": 71.1,
-      "rec": 28.0,
-      "rec_td": 2.0,
-      "rec_tgt": 49.0,
-      "rec_yd": 240.0,
-      "rush_att": 2.0,
-      "rush_td": 1.0,
-      "rush_yd": 11.0,
-      "snap_pct": 86,
-      "tm_off_snp": 401.0
+      "gp": 5.0,
+      "off_snp": 169.0,
+      "pts_ppr": 60.4,
+      "rec": 16.0,
+      "rec_td": 3.0,
+      "rec_tgt": 20.0,
+      "rec_yd": 206.0,
+      "rush_att": 9.0,
+      "rush_yd": 78.0,
+      "snap_pct": 57,
+      "tm_off_snp": 297.0
      },
-     "team": "TB"
+     "team": "SF"
     },
     {
      "id": "8132",
@@ -2329,26 +2324,6 @@
       "tm_off_snp": 585.0
      },
      "team": "ARI"
-    },
-    {
-     "id": "8161",
-     "name": "Malik Willis",
-     "pos": "QB",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 423.0,
-      "pass_att": 183.0,
-      "pass_int": 5.0,
-      "pass_td": 6.0,
-      "pass_yd": 1268.0,
-      "pts_ppr": 106.22,
-      "rush_att": 36.0,
-      "rush_td": 3.0,
-      "rush_yd": 225.0,
-      "snap_pct": 100,
-      "tm_off_snp": 423.0
-     },
-     "team": "MIA"
     },
     {
      "id": "9501",
@@ -2433,8 +2408,25 @@
    ],
    "lineup": [
     {
-     "empty": true,
-     "slot": "QB"
+     "id": "8161",
+     "name": "Malik Willis",
+     "pos": "QB",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 423.0,
+      "pass_att": 183.0,
+      "pass_int": 5.0,
+      "pass_td": 6.0,
+      "pass_yd": 1268.0,
+      "pts_ppr": 106.22,
+      "rush_att": 36.0,
+      "rush_td": 3.0,
+      "rush_yd": 225.0,
+      "snap_pct": 100,
+      "tm_off_snp": 423.0
+     },
+     "slot": "QB",
+     "team": "MIA"
     },
     {
      "id": "9509",
@@ -2498,25 +2490,26 @@
      "team": "BUF"
     },
     {
-     "id": "5872",
-     "inj": "Out (Hamstring)",
-     "name": "Deebo Samuel Sr.",
+     "id": "12514",
+     "inj": "Questionable (Foot)",
+     "name": "Emeka Egbuka",
      "pos": "WR",
      "season": {
-      "gp": 5.0,
-      "off_snp": 169.0,
-      "pts_ppr": 60.4,
-      "rec": 16.0,
-      "rec_td": 3.0,
-      "rec_tgt": 20.0,
-      "rec_yd": 206.0,
-      "rush_att": 9.0,
-      "rush_yd": 78.0,
-      "snap_pct": 57,
-      "tm_off_snp": 297.0
+      "gp": 6.0,
+      "off_snp": 343.0,
+      "pts_ppr": 71.1,
+      "rec": 28.0,
+      "rec_td": 2.0,
+      "rec_tgt": 49.0,
+      "rec_yd": 240.0,
+      "rush_att": 2.0,
+      "rush_td": 1.0,
+      "rush_yd": 11.0,
+      "snap_pct": 86,
+      "tm_off_snp": 401.0
      },
      "slot": "WR",
-     "team": "SF"
+     "team": "TB"
     },
     {
      "id": "4993",
@@ -2582,8 +2575,7 @@
     }
    ],
    "lineup_flags": [
-    "QB slot is EMPTY",
-    "WR Deebo Samuel Sr. is Out (Hamstring)"
+    "WR Emeka Egbuka is Questionable (Foot)"
    ],
    "owner": "NikoGs",
    "owner_id": "1130659599352180736",
@@ -2810,7 +2802,6 @@
     },
     {
      "id": "7547",
-     "inj": "Questionable (Ribs)",
      "name": "Amon-Ra St. Brown",
      "pos": "WR",
      "season": {
@@ -2889,9 +2880,7 @@
      "team": "CHI"
     }
    ],
-   "lineup_flags": [
-    "WR Amon-Ra St. Brown is Questionable (Ribs)"
-   ],
+   "lineup_flags": [],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
    "pa": 835.52,
