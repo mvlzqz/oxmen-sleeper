@@ -1,24 +1,8 @@
 {
- "baseline": "2026-11-08_1140Z",
+ "baseline": "2026-11-08_1823Z",
  "first_run": false,
- "injury_baseline": "2026-11-08_1140Z",
+ "injury_baseline": "2026-11-08_1823Z",
  "injury_changes": [
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "pauliv8811",
-   "player": "Amon-Ra St. Brown",
-   "to": null
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Doubtful",
-   "mine": false,
-   "owner": "nusskyle",
-   "player": "Cam Skattebo",
-   "to": "Out"
-  },
   {
    "body_part": null,
    "from": "Questionable",
@@ -26,14 +10,6 @@
    "owner": "NikoGs",
    "player": "Emeka Egbuka",
    "to": null
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "kitano",
-   "player": "George Pickens",
-   "to": "Out"
   },
   {
    "body_part": null,
@@ -50,14 +26,6 @@
    "owner": "chopkins30",
    "player": "Jaylen Waddle",
    "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "kitano",
-   "player": "Jordyn Tyson",
-   "to": null
   },
   {
    "body_part": "Hand",
@@ -100,6 +68,14 @@
    "to": "Questionable"
   },
   {
+   "body_part": "Groin",
+   "from": null,
+   "mine": false,
+   "owner": "NikoGs",
+   "player": "Malik Willis",
+   "to": "Questionable"
+  },
+  {
    "body_part": "Elbow",
    "from": null,
    "mine": false,
@@ -134,17 +110,6 @@
  ],
  "my_team_changed": false,
  "rosters": [
-  {
-   "added": [
-    "Austin Ekeler"
-   ],
-   "dropped": [
-    "Kendre Miller"
-   ],
-   "moved_to_ir": [],
-   "owner": "nusskyle",
-   "roster_id": 2
-  },
   {
    "added": [
     "Brock Bowers",
@@ -203,6 +168,6 @@
    "roster_id": 12
   }
  ],
- "since": "2026-11-08T11:40:14+00:00",
+ "since": "2026-11-08T18:23:51+00:00",
  "waiver_moves": []
 }
