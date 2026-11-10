@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-09T21:01:08+00:00",
+ "fetched_at": "2026-11-10T11:40:15+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -47,7 +47,7 @@
     "pos": "QB",
     "season": {
      "gp": 8.0,
-     "off_snp": 458.0,
+     "off_snp": 520.0,
      "pass_att": 282.0,
      "pass_int": 2.0,
      "pass_td": 16.0,
@@ -56,8 +56,8 @@
      "rush_att": 20.0,
      "rush_td": 1.0,
      "rush_yd": 100.0,
-     "snap_pct": 100,
-     "tm_off_snp": 458.0
+     "snap_pct": 98,
+     "tm_off_snp": 528.0
     },
     "team": "HOU"
    }
@@ -89,7 +89,7 @@
     "pos": "QB",
     "season": {
      "gp": 9.0,
-     "off_snp": 490.0,
+     "off_snp": 565.0,
      "pass_att": 287.0,
      "pass_int": 4.0,
      "pass_td": 11.0,
@@ -99,7 +99,7 @@
      "rush_td": 2.0,
      "rush_yd": 116.0,
      "snap_pct": 100,
-     "tm_off_snp": 490.0
+     "tm_off_snp": 565.0
     },
     "slot": "QB",
     "team": "DEN"
@@ -110,7 +110,7 @@
     "pos": "RB",
     "season": {
      "gp": 9.0,
-     "off_snp": 412.0,
+     "off_snp": 456.0,
      "pts_ppr": 153.6,
      "rec": 26.0,
      "rec_tgt": 36.0,
@@ -118,8 +118,8 @@
      "rush_att": 161.0,
      "rush_td": 8.0,
      "rush_yd": 656.0,
-     "snap_pct": 78,
-     "tm_off_snp": 529.0
+     "snap_pct": 77,
+     "tm_off_snp": 593.0
     },
     "slot": "RB",
     "team": "IND"
@@ -130,7 +130,7 @@
     "pos": "RB",
     "season": {
      "gp": 8.0,
-     "off_snp": 250.0,
+     "off_snp": 275.0,
      "pts_ppr": 92.1,
      "rec": 22.0,
      "rec_tgt": 24.0,
@@ -138,19 +138,20 @@
      "rush_att": 116.0,
      "rush_td": 3.0,
      "rush_yd": 385.0,
-     "snap_pct": 55,
-     "tm_off_snp": 451.0
+     "snap_pct": 52,
+     "tm_off_snp": 524.0
     },
     "slot": "RB",
     "team": "CLE"
    },
    {
     "id": "10232",
+    "inj": "Out (Neck)",
     "name": "Michael Wilson",
     "pos": "WR",
     "season": {
      "gp": 9.0,
-     "off_snp": 518.0,
+     "off_snp": 562.0,
      "pass_att": 1.0,
      "pass_yd": 7.0,
      "pts_ppr": 120.68,
@@ -160,8 +161,8 @@
      "rec_yd": 546.0,
      "rush_att": 3.0,
      "rush_yd": 28.0,
-     "snap_pct": 89,
-     "tm_off_snp": 585.0
+     "snap_pct": 88,
+     "tm_off_snp": 638.0
     },
     "slot": "WR",
     "team": "ARI"
@@ -172,7 +173,7 @@
     "pos": "WR",
     "season": {
      "gp": 9.0,
-     "off_snp": 430.0,
+     "off_snp": 479.0,
      "pts_ppr": 75.1,
      "rec": 33.0,
      "rec_td": 1.0,
@@ -181,7 +182,7 @@
      "rush_att": 1.0,
      "rush_yd": 7.0,
      "snap_pct": 81,
-     "tm_off_snp": 529.0
+     "tm_off_snp": 593.0
     },
     "slot": "WR",
     "team": "IND"
@@ -192,14 +193,14 @@
     "pos": "TE",
     "season": {
      "gp": 8.0,
-     "off_snp": 319.0,
+     "off_snp": 359.0,
      "pts_ppr": 78.9,
      "rec": 28.0,
      "rec_td": 4.0,
      "rec_tgt": 39.0,
      "rec_yd": 289.0,
-     "snap_pct": 66,
-     "tm_off_snp": 480.0
+     "snap_pct": 65,
+     "tm_off_snp": 555.0
     },
     "slot": "TE",
     "team": "NO"
@@ -210,7 +211,7 @@
     "pos": "WR",
     "season": {
      "gp": 9.0,
-     "off_snp": 402.0,
+     "off_snp": 479.0,
      "pts_ppr": 83.8,
      "rec": 32.0,
      "rec_td": 2.0,
@@ -218,8 +219,8 @@
      "rec_yd": 395.0,
      "rush_att": 1.0,
      "rush_yd": 3.0,
-     "snap_pct": 74,
-     "tm_off_snp": 545.0
+     "snap_pct": 77,
+     "tm_off_snp": 624.0
     },
     "slot": "FLEX",
     "team": "DAL"
@@ -229,8 +230,8 @@
     "name": "Will Reichard",
     "pos": "K",
     "season": {
-     "gp": 7.0,
-     "pts_ppr": 80.0,
+     "gp": 8.0,
+     "pts_ppr": 89.0,
      "tm_off_snp": 437.0
     },
     "slot": "K",
@@ -248,11 +249,13 @@
     "team": "NO"
    }
   ],
-  "lineup_flags": [],
+  "lineup_flags": [
+   "WR Michael Wilson is Out (Neck)"
+  ],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
-  "pa": 867.38,
-  "pf": 876.4,
+  "pa": 997.02,
+  "pf": 958.08,
   "player_ids": [
    "10232",
    "11563",
@@ -268,17 +271,17 @@
    "9758",
    "NO"
   ],
-  "record": "5-3",
+  "record": "5-4",
   "roster_id": 10,
   "taxi": [],
   "team_name": "Cockermouth Castle",
   "waiver_position": 10
  },
  "opponent_this_week": {
-  "my_points": 72.68,
-  "owner": "PawtucketPatriot",
-  "roster_id": 3,
-  "their_points": 112.94
+  "my_points": 0.0,
+  "owner": "erictheleghel",
+  "roster_id": 11,
+  "their_points": 0.0
  },
  "rosters": [
   {
@@ -289,14 +292,14 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 512.0,
+      "off_snp": 563.0,
       "pts_ppr": 88.8,
       "rec": 32.0,
       "rec_td": 1.0,
       "rec_tgt": 51.0,
       "rec_yd": 528.0,
       "snap_pct": 85,
-      "tm_off_snp": 599.0
+      "tm_off_snp": 660.0
      },
      "team": "CHI"
     },
@@ -306,17 +309,36 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 438.0,
+      "off_snp": 508.0,
       "pts_ppr": 89.5,
       "rec": 35.0,
       "rec_td": 3.0,
       "rec_tgt": 52.0,
       "rec_yd": 365.0,
-      "snap_pct": 91,
-      "tm_off_snp": 480.0
+      "snap_pct": 92,
+      "tm_off_snp": 555.0
      },
      "team": "NO"
     },
+    {
+     "id": "9480",
+     "name": "Brenton Strange",
+     "pos": "TE",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 373.0,
+      "pts_ppr": 71.6,
+      "rec": 30.0,
+      "rec_td": 1.0,
+      "rec_tgt": 37.0,
+      "rec_yd": 356.0,
+      "snap_pct": 76,
+      "tm_off_snp": 492.0
+     },
+     "team": "JAX"
+    }
+   ],
+   "ir": [
     {
      "id": "12529",
      "inj": "Out (Illness)",
@@ -336,26 +358,8 @@
       "tm_off_snp": 391.0
      },
      "team": "NE"
-    },
-    {
-     "id": "13296",
-     "name": "Caleb Douglas",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 202.0,
-      "pts_ppr": 60.6,
-      "rec": 19.0,
-      "rec_td": 2.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 296.0,
-      "snap_pct": 82,
-      "tm_off_snp": 245.0
-     },
-     "team": "MIA"
     }
    ],
-   "ir": [],
    "lineup": [
     {
      "id": "3294",
@@ -363,7 +367,7 @@
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 545.0,
+      "off_snp": 624.0,
       "pass_att": 336.0,
       "pass_int": 5.0,
       "pass_td": 16.0,
@@ -373,7 +377,7 @@
       "rush_td": 1.0,
       "rush_yd": 102.0,
       "snap_pct": 100,
-      "tm_off_snp": 545.0
+      "tm_off_snp": 624.0
      },
      "slot": "QB",
      "team": "DAL"
@@ -384,7 +388,7 @@
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 207.0,
+      "off_snp": 242.0,
       "pts_ppr": 69.7,
       "rec": 18.0,
       "rec_td": 2.0,
@@ -394,7 +398,7 @@
       "rush_td": 1.0,
       "rush_yd": 228.0,
       "snap_pct": 52,
-      "tm_off_snp": 399.0
+      "tm_off_snp": 461.0
      },
      "slot": "RB",
      "team": "WAS"
@@ -405,7 +409,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 336.0,
+      "off_snp": 379.0,
       "pts_ppr": 196.4,
       "rec": 26.0,
       "rec_td": 4.0,
@@ -414,8 +418,8 @@
       "rush_att": 159.0,
       "rush_td": 7.0,
       "rush_yd": 872.0,
-      "snap_pct": 76,
-      "tm_off_snp": 444.0
+      "snap_pct": 74,
+      "tm_off_snp": 510.0
      },
      "slot": "RB",
      "team": "KC"
@@ -426,7 +430,7 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 427.0,
+      "off_snp": 476.0,
       "pts_ppr": 105.7,
       "rec": 28.0,
       "rec_td": 5.0,
@@ -435,7 +439,7 @@
       "rush_att": 1.0,
       "rush_yd": 9.0,
       "snap_pct": 88,
-      "tm_off_snp": 484.0
+      "tm_off_snp": 543.0
      },
      "slot": "WR",
      "team": "DET"
@@ -446,14 +450,14 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 402.0,
+      "off_snp": 453.0,
       "pts_ppr": 176.9,
       "rec": 49.0,
       "rec_td": 7.0,
       "rec_tgt": 74.0,
       "rec_yd": 879.0,
       "snap_pct": 77,
-      "tm_off_snp": 525.0
+      "tm_off_snp": 591.0
      },
      "slot": "WR",
      "team": "GB"
@@ -464,35 +468,35 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 370.0,
+      "off_snp": 420.0,
       "pts_ppr": 128.8,
       "rec": 46.0,
       "rec_td": 6.0,
       "rec_tgt": 69.0,
       "rec_yd": 448.0,
-      "snap_pct": 76,
-      "tm_off_snp": 490.0
+      "snap_pct": 75,
+      "tm_off_snp": 557.0
      },
      "slot": "TE",
      "team": "NYG"
     },
     {
-     "id": "9480",
-     "name": "Brenton Strange",
-     "pos": "TE",
+     "id": "13296",
+     "name": "Caleb Douglas",
+     "pos": "WR",
      "season": {
-      "gp": 8.0,
-      "off_snp": 373.0,
-      "pts_ppr": 71.6,
-      "rec": 30.0,
-      "rec_td": 1.0,
-      "rec_tgt": 37.0,
-      "rec_yd": 356.0,
-      "snap_pct": 76,
-      "tm_off_snp": 492.0
+      "gp": 5.0,
+      "off_snp": 244.0,
+      "pts_ppr": 60.6,
+      "rec": 19.0,
+      "rec_td": 2.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 296.0,
+      "snap_pct": 81,
+      "tm_off_snp": 302.0
      },
      "slot": "FLEX",
-     "team": "JAX"
+     "team": "MIA"
     },
     {
      "id": "2747",
@@ -501,7 +505,7 @@
      "season": {
       "gp": 9.0,
       "pts_ppr": 73.0,
-      "tm_off_snp": 527.0
+      "tm_off_snp": 594.0
      },
      "slot": "K",
      "team": "SEA"
@@ -521,8 +525,8 @@
    "lineup_flags": [],
    "owner": "coltierney",
    "owner_id": "1028748479369187328",
-   "pa": 924.02,
-   "pf": 925.74,
+   "pa": 1012.32,
+   "pf": 1054.04,
    "player_ids": [
     "11620",
     "11834",
@@ -538,7 +542,7 @@
     "9480",
     "CIN"
    ],
-   "record": "5-3",
+   "record": "6-3",
    "roster_id": 1,
    "taxi": [],
    "team_name": "JetFuel Doesnt Melt Beers",
@@ -552,7 +556,7 @@
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 532.0,
+      "off_snp": 582.0,
       "pass_att": 315.0,
       "pass_int": 8.0,
       "pass_td": 20.0,
@@ -562,7 +566,7 @@
       "rush_td": 2.0,
       "rush_yd": 7.0,
       "snap_pct": 98,
-      "tm_off_snp": 542.0
+      "tm_off_snp": 592.0
      },
      "team": "LV"
     },
@@ -592,14 +596,14 @@
      "pos": "TE",
      "season": {
       "gp": 9.0,
-      "off_snp": 346.0,
+      "off_snp": 377.0,
       "pts_ppr": 80.1,
       "rec": 32.0,
       "rec_td": 2.0,
       "rec_tgt": 37.0,
       "rec_yd": 361.0,
-      "snap_pct": 66,
-      "tm_off_snp": 522.0
+      "snap_pct": 64,
+      "tm_off_snp": 585.0
      },
      "team": "NE"
     },
@@ -609,7 +613,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 158.0,
+      "off_snp": 181.0,
       "pts_ppr": 44.9,
       "rec": 8.0,
       "rec_td": 1.0,
@@ -618,8 +622,8 @@
       "rush_att": 46.0,
       "rush_td": 1.0,
       "rush_yd": 179.0,
-      "snap_pct": 35,
-      "tm_off_snp": 449.0
+      "snap_pct": 36,
+      "tm_off_snp": 506.0
      },
      "team": "CIN"
     }
@@ -673,19 +677,19 @@
      "name": "Josh Allen",
      "pos": "QB",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 467.0,
-      "pass_att": 205.0,
-      "pass_int": 5.0,
-      "pass_td": 11.0,
-      "pass_yd": 1793.0,
-      "pts_ppr": 192.82,
+      "pass_att": 236.0,
+      "pass_int": 6.0,
+      "pass_td": 12.0,
+      "pass_yd": 2027.0,
+      "pts_ppr": 206.68,
       "rec": 1.0,
       "rec_tgt": 1.0,
       "rec_yd": 1.0,
-      "rush_att": 55.0,
+      "rush_att": 61.0,
       "rush_td": 9.0,
-      "rush_yd": 270.0,
+      "rush_yd": 285.0,
       "snap_pct": 99,
       "tm_off_snp": 471.0
      },
@@ -698,7 +702,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 194.0,
+      "off_snp": 220.0,
       "pts_ppr": 63.6,
       "rec": 15.0,
       "rec_td": 1.0,
@@ -707,7 +711,7 @@
       "rush_att": 63.0,
       "rush_yd": 305.0,
       "snap_pct": 37,
-      "tm_off_snp": 524.0
+      "tm_off_snp": 592.0
      },
      "slot": "RB",
      "team": "TB"
@@ -718,15 +722,15 @@
      "pos": "RB",
      "season": {
       "gp": 5.0,
-      "off_snp": 50.0,
+      "off_snp": 78.0,
       "pts_ppr": 21.1,
       "rec": 6.0,
       "rec_tgt": 8.0,
       "rec_yd": 48.0,
       "rush_att": 24.0,
       "rush_yd": 83.0,
-      "snap_pct": 20,
-      "tm_off_snp": 253.0
+      "snap_pct": 25,
+      "tm_off_snp": 315.0
      },
      "slot": "RB",
      "team": "WAS"
@@ -737,7 +741,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 430.0,
+      "off_snp": 504.0,
       "pts_ppr": 201.8,
       "rec": 70.0,
       "rec_td": 7.0,
@@ -745,8 +749,8 @@
       "rec_yd": 904.0,
       "rush_att": 2.0,
       "rush_yd": -6.0,
-      "snap_pct": 79,
-      "tm_off_snp": 545.0
+      "snap_pct": 81,
+      "tm_off_snp": 624.0
      },
      "slot": "WR",
      "team": "DAL"
@@ -758,14 +762,14 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 372.0,
+      "off_snp": 421.0,
       "pts_ppr": 66.8,
       "rec": 33.0,
       "rec_td": 1.0,
       "rec_tgt": 47.0,
       "rec_yd": 278.0,
-      "snap_pct": 84,
-      "tm_off_snp": 444.0
+      "snap_pct": 83,
+      "tm_off_snp": 510.0
      },
      "slot": "WR",
      "team": "KC"
@@ -776,7 +780,7 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 434.0,
+      "off_snp": 487.0,
       "pts_ppr": 93.1,
       "rec": 35.0,
       "rec_td": 3.0,
@@ -785,7 +789,7 @@
       "rush_att": 1.0,
       "rush_yd": 2.0,
       "snap_pct": 90,
-      "tm_off_snp": 484.0
+      "tm_off_snp": 543.0
      },
      "slot": "TE",
      "team": "DET"
@@ -797,7 +801,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 367.0,
+      "off_snp": 435.0,
       "pts_ppr": 88.4,
       "rec": 37.0,
       "rec_td": 1.0,
@@ -805,8 +809,8 @@
       "rec_yd": 437.0,
       "rush_att": 10.0,
       "rush_yd": 37.0,
-      "snap_pct": 72,
-      "tm_off_snp": 513.0
+      "snap_pct": 74,
+      "tm_off_snp": 586.0
      },
      "slot": "FLEX",
      "team": "CLE"
@@ -818,7 +822,7 @@
      "season": {
       "gp": 9.0,
       "pts_ppr": 78.0,
-      "tm_off_snp": 545.0
+      "tm_off_snp": 624.0
      },
      "slot": "K",
      "team": "DAL"
@@ -841,8 +845,8 @@
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
-   "pa": 939.66,
-   "pf": 912.82,
+   "pa": 1027.2,
+   "pf": 1040.98,
    "player_ids": [
     "10859",
     "11533",
@@ -860,7 +864,7 @@
     "7567",
     "SF"
    ],
-   "record": "2-6",
+   "record": "3-6",
    "roster_id": 2,
    "taxi": [],
    "team_name": "Tears and Beers",
@@ -874,7 +878,7 @@
      "pos": "TE",
      "season": {
       "gp": 7.0,
-      "off_snp": 342.0,
+      "off_snp": 392.0,
       "pts_ppr": 146.0,
       "rec": 48.0,
       "rec_td": 6.0,
@@ -882,8 +886,8 @@
       "rec_yd": 658.0,
       "rush_att": 1.0,
       "rush_yd": 2.0,
-      "snap_pct": 83,
-      "tm_off_snp": 411.0
+      "snap_pct": 85,
+      "tm_off_snp": 461.0
      },
      "team": "LV"
     },
@@ -893,7 +897,7 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 348.0,
+      "off_snp": 392.0,
       "pts_ppr": 75.8,
       "rec": 33.0,
       "rec_td": 1.0,
@@ -902,7 +906,7 @@
       "rush_att": 9.0,
       "rush_yd": 38.0,
       "snap_pct": 82,
-      "tm_off_snp": 423.0
+      "tm_off_snp": 480.0
      },
      "team": "MIA"
     },
@@ -912,15 +916,15 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 430.0,
+      "off_snp": 492.0,
       "pts_ppr": 57.9,
       "rec": 29.0,
       "rec_tgt": 38.0,
       "rec_yd": 259.0,
       "rush_att": 4.0,
       "rush_yd": 30.0,
-      "snap_pct": 82,
-      "tm_off_snp": 524.0
+      "snap_pct": 83,
+      "tm_off_snp": 592.0
      },
      "team": "TB"
     },
@@ -930,26 +934,16 @@
      "pos": "TE",
      "season": {
       "gp": 9.0,
-      "off_snp": 440.0,
+      "off_snp": 478.0,
       "pts_ppr": 81.8,
       "rec": 39.0,
       "rec_td": 1.0,
       "rec_tgt": 46.0,
       "rec_yd": 388.0,
       "snap_pct": 81,
-      "tm_off_snp": 542.0
+      "tm_off_snp": 592.0
      },
      "team": "LV"
-    },
-    {
-     "id": "GB",
-     "name": "GB DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 9.0,
-      "pts_ppr": 74.0
-     },
-     "team": "GB"
     }
    ],
    "ir": [],
@@ -960,7 +954,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 446.0,
+      "off_snp": 503.0,
       "pass_att": 296.0,
       "pass_int": 6.0,
       "pass_td": 23.0,
@@ -970,7 +964,7 @@
       "rush_td": 3.0,
       "rush_yd": 77.0,
       "snap_pct": 99,
-      "tm_off_snp": 449.0
+      "tm_off_snp": 506.0
      },
      "slot": "QB",
      "team": "CIN"
@@ -981,7 +975,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 380.0,
+      "off_snp": 428.0,
       "pts_ppr": 159.1,
       "rec": 36.0,
       "rec_td": 1.0,
@@ -991,7 +985,7 @@
       "rush_td": 6.0,
       "rush_yd": 593.0,
       "snap_pct": 68,
-      "tm_off_snp": 559.0
+      "tm_off_snp": 634.0
      },
      "slot": "RB",
      "team": "LAR"
@@ -1001,15 +995,15 @@
      "name": "James Cook III",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 305.0,
-      "pts_ppr": 131.7,
+      "pts_ppr": 148.4,
       "rec": 12.0,
-      "rec_tgt": 17.0,
+      "rec_tgt": 18.0,
       "rec_yd": 110.0,
-      "rush_att": 138.0,
-      "rush_td": 7.0,
-      "rush_yd": 707.0,
+      "rush_att": 169.0,
+      "rush_td": 8.0,
+      "rush_yd": 814.0,
       "snap_pct": 65,
       "tm_off_snp": 471.0
      },
@@ -1022,7 +1016,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 448.0,
+      "off_snp": 499.0,
       "pass_att": 1.0,
       "pass_yd": 14.0,
       "pts_ppr": 232.06,
@@ -1032,8 +1026,8 @@
       "rec_yd": 1036.0,
       "rush_att": 3.0,
       "rush_yd": 29.0,
-      "snap_pct": 85,
-      "tm_off_snp": 527.0
+      "snap_pct": 84,
+      "tm_off_snp": 594.0
      },
      "slot": "WR",
      "team": "SEA"
@@ -1044,7 +1038,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 440.0,
+      "off_snp": 489.0,
       "pts_ppr": 163.9,
       "rec": 53.0,
       "rec_td": 5.0,
@@ -1052,8 +1046,8 @@
       "rec_yd": 783.0,
       "rush_att": 1.0,
       "rush_yd": 6.0,
-      "snap_pct": 84,
-      "tm_off_snp": 525.0
+      "snap_pct": 83,
+      "tm_off_snp": 591.0
      },
      "slot": "WR",
      "team": "GB"
@@ -1090,7 +1084,7 @@
      "season": {
       "gp": 9.0,
       "pts_ppr": 79.0,
-      "tm_off_snp": 599.0
+      "tm_off_snp": 660.0
      },
      "slot": "K",
      "team": "CHI"
@@ -1112,8 +1106,8 @@
    ],
    "owner": "PawtucketPatriot",
    "owner_id": "1129839158073237504",
-   "pa": 904.9,
-   "pf": 1130.04,
+   "pa": 986.58,
+   "pf": 1259.68,
    "player_ids": [
     "11604",
     "11610",
@@ -1126,10 +1120,9 @@
     "8150",
     "9482",
     "9488",
-    "CLE",
-    "GB"
+    "CLE"
    ],
-   "record": "7-1",
+   "record": "8-1",
    "roster_id": 3,
    "taxi": [],
    "team_name": "Trader Joe",
@@ -1143,7 +1136,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 201.0,
+      "off_snp": 230.0,
       "pts_ppr": 68.2,
       "rec": 11.0,
       "rec_tgt": 13.0,
@@ -1151,8 +1144,8 @@
       "rush_att": 102.0,
       "rush_td": 3.0,
       "rush_yd": 369.0,
-      "snap_pct": 44,
-      "tm_off_snp": 459.0
+      "snap_pct": 43,
+      "tm_off_snp": 531.0
      },
      "team": "LAC"
     },
@@ -1162,10 +1155,13 @@
      "pos": "WR",
      "season": {
       "gp": 1.0,
+      "off_snp": 18.0,
       "pts_ppr": 5.0,
       "rec": 4.0,
       "rec_tgt": 5.0,
-      "rec_yd": 30.0
+      "rec_yd": 30.0,
+      "snap_pct": 24,
+      "tm_off_snp": 75.0
      },
      "team": "NO"
     },
@@ -1175,7 +1171,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 114.0,
+      "off_snp": 134.0,
       "pts_ppr": 60.8,
       "rec": 14.0,
       "rec_td": 1.0,
@@ -1185,7 +1181,7 @@
       "rush_td": 1.0,
       "rush_yd": 111.0,
       "snap_pct": 26,
-      "tm_off_snp": 444.0
+      "tm_off_snp": 510.0
      },
      "team": "KC"
     },
@@ -1217,7 +1213,7 @@
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 510.0,
+      "off_snp": 561.0,
       "pass_att": 272.0,
       "pass_int": 11.0,
       "pass_td": 18.0,
@@ -1226,8 +1222,8 @@
       "rush_att": 47.0,
       "rush_td": 3.0,
       "rush_yd": 219.0,
-      "snap_pct": 98,
-      "tm_off_snp": 522.0
+      "snap_pct": 96,
+      "tm_off_snp": 585.0
      },
      "slot": "QB",
      "team": "NE"
@@ -1261,7 +1257,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 248.0,
+      "off_snp": 289.0,
       "pts_ppr": 79.6,
       "rec": 7.0,
       "rec_tgt": 10.0,
@@ -1269,8 +1265,8 @@
       "rush_att": 107.0,
       "rush_td": 4.0,
       "rush_yd": 463.0,
-      "snap_pct": 59,
-      "tm_off_snp": 423.0
+      "snap_pct": 60,
+      "tm_off_snp": 480.0
      },
      "slot": "RB",
      "team": "MIA"
@@ -1300,14 +1296,14 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 379.0,
+      "off_snp": 443.0,
       "pts_ppr": 63.6,
       "rec": 25.0,
       "rec_td": 2.0,
       "rec_tgt": 46.0,
       "rec_yd": 266.0,
-      "snap_pct": 77,
-      "tm_off_snp": 490.0
+      "snap_pct": 78,
+      "tm_off_snp": 565.0
      },
      "slot": "WR",
      "team": "DEN"
@@ -1318,13 +1314,13 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 264.0,
+      "off_snp": 295.0,
       "pts_ppr": 71.4,
       "rec": 35.0,
       "rec_tgt": 47.0,
       "rec_yd": 364.0,
-      "snap_pct": 58,
-      "tm_off_snp": 458.0
+      "snap_pct": 56,
+      "tm_off_snp": 528.0
      },
      "slot": "TE",
      "team": "HOU"
@@ -1335,15 +1331,15 @@
      "pos": "RB",
      "season": {
       "gp": 2.0,
-      "off_snp": 23.0,
+      "off_snp": 61.0,
       "pts_ppr": 15.5,
       "rec": 4.0,
       "rec_tgt": 6.0,
       "rec_yd": 15.0,
       "rush_att": 22.0,
       "rush_yd": 100.0,
-      "snap_pct": 37,
-      "tm_off_snp": 63.0
+      "snap_pct": 47,
+      "tm_off_snp": 130.0
      },
      "slot": "FLEX",
      "team": "SEA"
@@ -1355,7 +1351,7 @@
      "season": {
       "gp": 3.0,
       "pts_ppr": 19.0,
-      "tm_off_snp": 126.0
+      "tm_off_snp": 201.0
      },
      "slot": "K",
      "team": "LAR"
@@ -1377,8 +1373,8 @@
    ],
    "owner": "kitano",
    "owner_id": "473949092301500416",
-   "pa": 841.64,
-   "pf": 733.98,
+   "pa": 969.8,
+   "pf": 821.52,
    "player_ids": [
     "11564",
     "12495",
@@ -1394,7 +1390,7 @@
     "9753",
     "NYG"
    ],
-   "record": "2-6",
+   "record": "2-7",
    "roster_id": 4,
    "taxi": [],
    "team_name": "Chug Jesus Heals All ⭐️⭐️",
@@ -1402,6 +1398,59 @@
   },
   {
    "bench": [
+    {
+     "id": "13294",
+     "name": "Makai Lemon",
+     "pos": "WR",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 455.0,
+      "pts_ppr": 73.7,
+      "rec": 37.0,
+      "rec_td": 1.0,
+      "rec_tgt": 54.0,
+      "rec_yd": 312.0,
+      "rush_att": 1.0,
+      "rush_yd": -5.0,
+      "snap_pct": 79,
+      "tm_off_snp": 573.0
+     },
+     "team": "PHI"
+    },
+    {
+     "id": "7042",
+     "name": "Tyler Bass",
+     "pos": "K",
+     "season": {
+      "gp": 8.0,
+      "pts_ppr": 89.0,
+      "tm_off_snp": 471.0
+     },
+     "team": "BUF"
+    },
+    {
+     "id": "7611",
+     "inj": "Out (Knee)",
+     "name": "Rhamondre Stevenson",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 378.0,
+      "pts_ppr": 113.7,
+      "rec": 26.0,
+      "rec_td": 2.0,
+      "rec_tgt": 31.0,
+      "rec_yd": 258.0,
+      "rush_att": 102.0,
+      "rush_td": 2.0,
+      "rush_yd": 399.0,
+      "snap_pct": 65,
+      "tm_off_snp": 585.0
+     },
+     "team": "NE"
+    }
+   ],
+   "ir": [
     {
      "id": "13287",
      "inj": "IR (Ankle)",
@@ -1423,78 +1472,6 @@
      },
      "status": "Inactive",
      "team": "ARI"
-    },
-    {
-     "id": "13294",
-     "name": "Makai Lemon",
-     "pos": "WR",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 390.0,
-      "pts_ppr": 73.7,
-      "rec": 37.0,
-      "rec_td": 1.0,
-      "rec_tgt": 54.0,
-      "rec_yd": 312.0,
-      "rush_att": 1.0,
-      "rush_yd": -5.0,
-      "snap_pct": 78,
-      "tm_off_snp": 503.0
-     },
-     "team": "PHI"
-    },
-    {
-     "id": "5947",
-     "name": "Jakobi Meyers",
-     "pos": "WR",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 371.0,
-      "pts_ppr": 75.6,
-      "rec": 26.0,
-      "rec_td": 2.0,
-      "rec_tgt": 37.0,
-      "rec_yd": 374.0,
-      "rush_att": 1.0,
-      "rush_yd": 2.0,
-      "snap_pct": 75,
-      "tm_off_snp": 492.0
-     },
-     "team": "JAX"
-    },
-    {
-     "id": "7042",
-     "name": "Tyler Bass",
-     "pos": "K",
-     "season": {
-      "gp": 7.0,
-      "pts_ppr": 76.0,
-      "tm_off_snp": 471.0
-     },
-     "team": "BUF"
-    }
-   ],
-   "ir": [
-    {
-     "id": "12536",
-     "inj": "IR (Toe)",
-     "name": "Jaylin Noel",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 200.0,
-      "pts_ppr": 66.7,
-      "rec": 19.0,
-      "rec_td": 2.0,
-      "rec_tgt": 23.0,
-      "rec_yd": 331.0,
-      "rush_att": 4.0,
-      "rush_yd": 26.0,
-      "snap_pct": 44,
-      "tm_off_snp": 458.0
-     },
-     "status": "Inactive",
-     "team": "HOU"
     },
     {
      "id": "2133",
@@ -1543,7 +1520,7 @@
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 135.0,
+      "off_snp": 172.0,
       "pts_ppr": 73.7,
       "rec": 25.0,
       "rec_td": 1.0,
@@ -1552,33 +1529,32 @@
       "rush_att": 47.0,
       "rush_td": 2.0,
       "rush_yd": 157.0,
-      "snap_pct": 35,
-      "tm_off_snp": 390.0
+      "snap_pct": 37,
+      "tm_off_snp": 465.0
      },
      "slot": "RB",
      "team": "NO"
     },
     {
-     "id": "7611",
-     "inj": "Out (Knee)",
-     "name": "Rhamondre Stevenson",
+     "id": "4034",
+     "name": "Christian McCaffrey",
      "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 340.0,
-      "pts_ppr": 113.7,
-      "rec": 26.0,
-      "rec_td": 2.0,
-      "rec_tgt": 31.0,
-      "rec_yd": 258.0,
+      "gp": 8.0,
+      "off_snp": 343.0,
+      "pts_ppr": 166.7,
+      "rec": 36.0,
+      "rec_td": 1.0,
+      "rec_tgt": 45.0,
+      "rec_yd": 270.0,
       "rush_att": 102.0,
-      "rush_td": 2.0,
-      "rush_yd": 399.0,
-      "snap_pct": 65,
-      "tm_off_snp": 522.0
+      "rush_td": 9.0,
+      "rush_yd": 457.0,
+      "snap_pct": 69,
+      "tm_off_snp": 498.0
      },
      "slot": "RB",
-     "team": "NE"
+     "team": "SF"
     },
     {
      "id": "8144",
@@ -1586,14 +1562,14 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 387.0,
+      "off_snp": 451.0,
       "pts_ppr": 141.4,
       "rec": 56.0,
       "rec_td": 2.0,
       "rec_tgt": 83.0,
       "rec_yd": 734.0,
       "snap_pct": 81,
-      "tm_off_snp": 480.0
+      "tm_off_snp": 555.0
      },
      "slot": "WR",
      "team": "NO"
@@ -1604,14 +1580,14 @@
      "pos": "WR",
      "season": {
       "gp": 5.0,
-      "off_snp": 144.0,
+      "off_snp": 198.0,
       "pts_ppr": 62.6,
       "rec": 20.0,
       "rec_td": 2.0,
       "rec_tgt": 24.0,
       "rec_yd": 306.0,
-      "snap_pct": 57,
-      "tm_off_snp": 252.0
+      "snap_pct": 63,
+      "tm_off_snp": 315.0
      },
      "slot": "WR",
      "team": "NYJ"
@@ -1622,38 +1598,37 @@
      "pos": "TE",
      "season": {
       "gp": 9.0,
-      "off_snp": 535.0,
+      "off_snp": 579.0,
       "pts_ppr": 162.8,
       "rec": 73.0,
       "rec_td": 5.0,
       "rec_tgt": 94.0,
       "rec_yd": 598.0,
       "snap_pct": 91,
-      "tm_off_snp": 585.0
+      "tm_off_snp": 638.0
      },
      "slot": "TE",
      "team": "ARI"
     },
     {
-     "id": "4034",
-     "name": "Christian McCaffrey",
-     "pos": "RB",
+     "id": "5947",
+     "name": "Jakobi Meyers",
+     "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 293.0,
-      "pts_ppr": 166.7,
-      "rec": 36.0,
-      "rec_td": 1.0,
-      "rec_tgt": 45.0,
-      "rec_yd": 270.0,
-      "rush_att": 102.0,
-      "rush_td": 9.0,
-      "rush_yd": 457.0,
-      "snap_pct": 69,
-      "tm_off_snp": 425.0
+      "off_snp": 371.0,
+      "pts_ppr": 75.6,
+      "rec": 26.0,
+      "rec_td": 2.0,
+      "rec_tgt": 37.0,
+      "rec_yd": 374.0,
+      "rush_att": 1.0,
+      "rush_yd": 2.0,
+      "snap_pct": 75,
+      "tm_off_snp": 492.0
      },
      "slot": "FLEX",
-     "team": "SF"
+     "team": "JAX"
     },
     {
      "id": "3451",
@@ -1662,7 +1637,7 @@
      "season": {
       "gp": 8.0,
       "pts_ppr": 92.0,
-      "tm_off_snp": 458.0
+      "tm_off_snp": 528.0
      },
      "slot": "K",
      "team": "HOU"
@@ -1679,15 +1654,12 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [
-    "RB Rhamondre Stevenson is Out (Knee)"
-   ],
+   "lineup_flags": [],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
-   "pa": 969.76,
-   "pf": 1031.52,
+   "pa": 1078.44,
+   "pf": 1161.5,
    "player_ids": [
-    "12536",
     "13276",
     "13287",
     "13294",
@@ -1703,7 +1675,7 @@
     "8144",
     "JAX"
    ],
-   "record": "6-2",
+   "record": "7-2",
    "roster_id": 5,
    "taxi": [],
    "team_name": "Glizzy man",
@@ -1717,7 +1689,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 126.0,
+      "off_snp": 144.0,
       "pts_ppr": 37.7,
       "rec": 3.0,
       "rec_tgt": 6.0,
@@ -1725,8 +1697,8 @@
       "rush_att": 68.0,
       "rush_td": 1.0,
       "rush_yd": 303.0,
-      "snap_pct": 30,
-      "tm_off_snp": 425.0
+      "snap_pct": 29,
+      "tm_off_snp": 498.0
      },
      "team": "SF"
     },
@@ -1736,7 +1708,7 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 346.0,
+      "off_snp": 392.0,
       "pts_ppr": 99.3,
       "rec": 33.0,
       "rec_td": 2.0,
@@ -1745,8 +1717,8 @@
       "rush_att": 1.0,
       "rush_td": 1.0,
       "rush_yd": 1.0,
-      "snap_pct": 78,
-      "tm_off_snp": 444.0
+      "snap_pct": 77,
+      "tm_off_snp": 510.0
      },
      "team": "KC"
     },
@@ -1756,7 +1728,7 @@
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 523.0,
+      "off_snp": 581.0,
       "pass_att": 341.0,
       "pass_int": 6.0,
       "pass_td": 19.0,
@@ -1765,8 +1737,8 @@
       "rush_att": 12.0,
       "rush_td": 2.0,
       "rush_yd": 23.0,
-      "snap_pct": 100,
-      "tm_off_snp": 525.0
+      "snap_pct": 98,
+      "tm_off_snp": 591.0
      },
      "team": "GB"
     },
@@ -1796,7 +1768,7 @@
      "pos": "TE",
      "season": {
       "gp": 9.0,
-      "off_snp": 433.0,
+      "off_snp": 487.0,
       "pts_ppr": 90.4,
       "rec": 36.0,
       "rec_td": 3.0,
@@ -1805,7 +1777,7 @@
       "rush_att": 4.0,
       "rush_yd": 13.0,
       "snap_pct": 82,
-      "tm_off_snp": 525.0
+      "tm_off_snp": 591.0
      },
      "team": "GB"
     },
@@ -1864,7 +1836,7 @@
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 549.0,
+      "off_snp": 624.0,
       "pass_att": 346.0,
       "pass_int": 9.0,
       "pass_td": 16.0,
@@ -1873,7 +1845,7 @@
       "rush_att": 15.0,
       "rush_yd": 19.0,
       "snap_pct": 98,
-      "tm_off_snp": 559.0
+      "tm_off_snp": 634.0
      },
      "slot": "QB",
      "team": "LAR"
@@ -1884,7 +1856,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 318.0,
+      "off_snp": 354.0,
       "pts_ppr": 101.4,
       "rec": 39.0,
       "rec_tgt": 45.0,
@@ -1892,8 +1864,8 @@
       "rush_att": 103.0,
       "rush_td": 1.0,
       "rush_yd": 397.0,
-      "snap_pct": 71,
-      "tm_off_snp": 449.0
+      "snap_pct": 70,
+      "tm_off_snp": 506.0
      },
      "slot": "RB",
      "team": "CIN"
@@ -1903,13 +1875,15 @@
      "name": "Jordan Mason",
      "pos": "RB",
      "season": {
-      "gp": 3.0,
+      "gp": 4.0,
       "off_snp": 82.0,
-      "pts_ppr": 20.7,
-      "rec_tgt": 2.0,
-      "rush_att": 38.0,
+      "pts_ppr": 26.9,
+      "rec": 2.0,
+      "rec_tgt": 5.0,
+      "rec_yd": 7.0,
+      "rush_att": 44.0,
       "rush_td": 1.0,
-      "rush_yd": 147.0,
+      "rush_yd": 182.0,
       "snap_pct": 46,
       "tm_off_snp": 177.0
      },
@@ -1922,14 +1896,14 @@
      "pos": "WR",
      "season": {
       "gp": 5.0,
-      "off_snp": 172.0,
+      "off_snp": 228.0,
       "pts_ppr": 48.5,
       "rec": 16.0,
       "rec_td": 1.0,
       "rec_tgt": 34.0,
       "rec_yd": 265.0,
-      "snap_pct": 65,
-      "tm_off_snp": 264.0
+      "snap_pct": 70,
+      "tm_off_snp": 327.0
      },
      "slot": "WR",
      "team": "NYJ"
@@ -1940,15 +1914,15 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 270.0,
+      "off_snp": 322.0,
       "pass_att": 1.0,
       "pts_ppr": 60.4,
       "rec": 26.0,
       "rec_td": 1.0,
       "rec_tgt": 39.0,
       "rec_yd": 284.0,
-      "snap_pct": 58,
-      "tm_off_snp": 463.0
+      "snap_pct": 61,
+      "tm_off_snp": 525.0
      },
      "slot": "WR",
      "team": "WAS"
@@ -1968,7 +1942,7 @@
      "season": {
       "gp": 8.0,
       "pts_ppr": 77.0,
-      "tm_off_snp": 449.0
+      "tm_off_snp": 506.0
      },
      "slot": "K",
      "team": "CIN"
@@ -1991,8 +1965,8 @@
    ],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
-   "pa": 962.94,
-   "pf": 795.84,
+   "pa": 1025.66,
+   "pf": 879.26,
    "player_ids": [
     "11625",
     "13301",
@@ -2010,7 +1984,7 @@
     "DET",
     "TB"
    ],
-   "record": "1-7",
+   "record": "2-7",
    "roster_id": 6,
    "taxi": [],
    "team_name": "Weak Side",
@@ -2024,7 +1998,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 362.0,
+      "off_snp": 394.0,
       "pts_ppr": 109.3,
       "rec": 33.0,
       "rec_td": 4.0,
@@ -2033,7 +2007,7 @@
       "rush_att": 2.0,
       "rush_yd": -6.0,
       "snap_pct": 67,
-      "tm_off_snp": 542.0
+      "tm_off_snp": 592.0
      },
      "team": "LV"
     },
@@ -2043,7 +2017,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 134.0,
+      "off_snp": 162.0,
       "pts_ppr": 43.8,
       "rec": 10.0,
       "rec_td": 1.0,
@@ -2052,8 +2026,8 @@
       "rush_att": 36.0,
       "rush_td": 1.0,
       "rush_yd": 162.0,
-      "snap_pct": 29,
-      "tm_off_snp": 459.0
+      "snap_pct": 31,
+      "tm_off_snp": 531.0
      },
      "team": "LAC"
     },
@@ -2063,14 +2037,14 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 463.0,
+      "off_snp": 531.0,
       "pts_ppr": 102.7,
       "rec": 32.0,
       "rec_td": 3.0,
       "rec_tgt": 61.0,
       "rec_yd": 507.0,
-      "snap_pct": 90,
-      "tm_off_snp": 513.0
+      "snap_pct": 91,
+      "tm_off_snp": 586.0
      },
      "team": "CLE"
     },
@@ -2079,13 +2053,13 @@
      "name": "Khalil Shakir",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 300.0,
-      "pts_ppr": 66.4,
-      "rec": 27.0,
+      "pts_ppr": 76.2,
+      "rec": 31.0,
       "rec_td": 1.0,
-      "rec_tgt": 38.0,
-      "rec_yd": 354.0,
+      "rec_tgt": 42.0,
+      "rec_yd": 412.0,
       "snap_pct": 64,
       "tm_off_snp": 471.0
      },
@@ -2121,7 +2095,7 @@
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 494.0,
+      "off_snp": 557.0,
       "pass_att": 271.0,
       "pass_int": 3.0,
       "pass_td": 12.0,
@@ -2130,7 +2104,7 @@
       "rush_att": 24.0,
       "rush_yd": 54.0,
       "snap_pct": 100,
-      "tm_off_snp": 494.0
+      "tm_off_snp": 557.0
      },
      "slot": "QB",
      "team": "NYJ"
@@ -2141,7 +2115,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 360.0,
+      "off_snp": 392.0,
       "pts_ppr": 139.3,
       "rec": 42.0,
       "rec_td": 3.0,
@@ -2151,7 +2125,7 @@
       "rush_td": 1.0,
       "rush_yd": 362.0,
       "snap_pct": 66,
-      "tm_off_snp": 542.0
+      "tm_off_snp": 592.0
      },
      "slot": "RB",
      "team": "LV"
@@ -2161,15 +2135,15 @@
      "name": "Aaron Jones Sr.",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 274.0,
-      "pts_ppr": 79.8,
-      "rec": 15.0,
-      "rec_tgt": 21.0,
-      "rec_yd": 90.0,
-      "rush_att": 110.0,
+      "pts_ppr": 82.9,
+      "rec": 16.0,
+      "rec_tgt": 22.0,
+      "rec_yd": 95.0,
+      "rush_att": 115.0,
       "rush_td": 2.0,
-      "rush_yd": 458.0,
+      "rush_yd": 474.0,
       "snap_pct": 63,
       "tm_off_snp": 437.0
      },
@@ -2181,13 +2155,13 @@
      "name": "Justin Jefferson",
      "pos": "WR",
      "season": {
-      "gp": 6.0,
+      "gp": 7.0,
       "off_snp": 288.0,
-      "pts_ppr": 86.4,
-      "rec": 28.0,
+      "pts_ppr": 95.2,
+      "rec": 31.0,
       "rec_td": 4.0,
-      "rec_tgt": 40.0,
-      "rec_yd": 335.0,
+      "rec_tgt": 51.0,
+      "rec_yd": 393.0,
       "rush_att": 1.0,
       "rush_yd": -11.0,
       "snap_pct": 66,
@@ -2202,14 +2176,14 @@
      "pos": "WR",
      "season": {
       "gp": 6.0,
-      "off_snp": 205.0,
+      "off_snp": 243.0,
       "pts_ppr": 66.2,
       "rec": 25.0,
       "rec_td": 2.0,
       "rec_tgt": 32.0,
       "rec_yd": 292.0,
-      "snap_pct": 62,
-      "tm_off_snp": 330.0
+      "snap_pct": 61,
+      "tm_off_snp": 396.0
      },
      "slot": "WR",
      "team": "KC"
@@ -2220,7 +2194,7 @@
      "pos": "TE",
      "season": {
       "gp": 7.0,
-      "off_snp": 269.0,
+      "off_snp": 326.0,
       "pts_ppr": 74.0,
       "rec": 31.0,
       "rec_td": 2.0,
@@ -2228,8 +2202,8 @@
       "rec_yd": 308.0,
       "rush_att": 1.0,
       "rush_yd": 2.0,
-      "snap_pct": 69,
-      "tm_off_snp": 392.0
+      "snap_pct": 71,
+      "tm_off_snp": 462.0
      },
      "slot": "TE",
      "team": "PHI"
@@ -2240,14 +2214,14 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 374.0,
+      "off_snp": 427.0,
       "pts_ppr": 129.8,
       "rec": 53.0,
       "rec_td": 2.0,
       "rec_tgt": 78.0,
       "rec_yd": 648.0,
-      "snap_pct": 76,
-      "tm_off_snp": 490.0
+      "snap_pct": 77,
+      "tm_off_snp": 557.0
      },
      "slot": "FLEX",
      "team": "NYG"
@@ -2259,7 +2233,7 @@
      "season": {
       "gp": 8.0,
       "pts_ppr": 79.0,
-      "tm_off_snp": 484.0
+      "tm_off_snp": 543.0
      },
      "slot": "K",
      "team": "DET"
@@ -2279,8 +2253,8 @@
    "lineup_flags": [],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
-   "pa": 802.14,
-   "pf": 894.42,
+   "pa": 971.02,
+   "pf": 976.92,
    "player_ids": [
     "10213",
     "10229",
@@ -2297,7 +2271,7 @@
     "8134",
     "KC"
    ],
-   "record": "5-3",
+   "record": "5-4",
    "roster_id": 7,
    "taxi": [],
    "team_name": "Philly Special",
@@ -2331,7 +2305,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 301.0,
+      "off_snp": 352.0,
       "pts_ppr": 90.7,
       "rec": 23.0,
       "rec_td": 1.0,
@@ -2340,8 +2314,8 @@
       "rush_att": 89.0,
       "rush_td": 2.0,
       "rush_yd": 369.0,
-      "snap_pct": 51,
-      "tm_off_snp": 585.0
+      "snap_pct": 55,
+      "tm_off_snp": 638.0
      },
      "team": "ARI"
     },
@@ -2351,14 +2325,14 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 293.0,
+      "off_snp": 336.0,
       "pts_ppr": 96.4,
       "rec": 31.0,
       "rec_td": 4.0,
       "rec_tgt": 46.0,
       "rec_yd": 434.0,
-      "snap_pct": 56,
-      "tm_off_snp": 522.0
+      "snap_pct": 57,
+      "tm_off_snp": 585.0
      },
      "team": "NE"
     },
@@ -2434,7 +2408,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 423.0,
+      "off_snp": 480.0,
       "pass_att": 208.0,
       "pass_int": 6.0,
       "pass_td": 6.0,
@@ -2444,7 +2418,7 @@
       "rush_td": 3.0,
       "rush_yd": 232.0,
       "snap_pct": 100,
-      "tm_off_snp": 423.0
+      "tm_off_snp": 480.0
      },
      "slot": "QB",
      "team": "MIA"
@@ -2455,7 +2429,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 359.0,
+      "off_snp": 410.0,
       "pts_ppr": 180.0,
       "rec": 31.0,
       "rec_td": 1.0,
@@ -2464,8 +2438,8 @@
       "rush_att": 169.0,
       "rush_td": 5.0,
       "rush_yd": 880.0,
-      "snap_pct": 72,
-      "tm_off_snp": 498.0
+      "snap_pct": 73,
+      "tm_off_snp": 560.0
      },
      "slot": "RB",
      "team": "ATL"
@@ -2476,7 +2450,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 374.0,
+      "off_snp": 418.0,
       "pts_ppr": 153.8,
       "rec": 24.0,
       "rec_tgt": 30.0,
@@ -2484,8 +2458,8 @@
       "rush_att": 155.0,
       "rush_td": 10.0,
       "rush_yd": 576.0,
-      "snap_pct": 62,
-      "tm_off_snp": 599.0
+      "snap_pct": 63,
+      "tm_off_snp": 660.0
      },
      "slot": "RB",
      "team": "CHI"
@@ -2495,15 +2469,15 @@
      "name": "DJ Moore",
      "pos": "WR",
      "season": {
-      "gp": 5.0,
+      "gp": 6.0,
       "off_snp": 186.0,
-      "pts_ppr": 52.9,
-      "rec": 16.0,
+      "pts_ppr": 59.5,
+      "rec": 19.0,
       "rec_td": 2.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 260.0,
-      "rush_att": 3.0,
-      "rush_yd": 9.0,
+      "rec_tgt": 32.0,
+      "rec_yd": 285.0,
+      "rush_att": 4.0,
+      "rush_yd": 20.0,
       "snap_pct": 55,
       "tm_off_snp": 339.0
      },
@@ -2516,7 +2490,7 @@
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 343.0,
+      "off_snp": 395.0,
       "pts_ppr": 78.0,
       "rec": 31.0,
       "rec_td": 2.0,
@@ -2525,8 +2499,8 @@
       "rush_att": 3.0,
       "rush_td": 1.0,
       "rush_yd": 12.0,
-      "snap_pct": 86,
-      "tm_off_snp": 401.0
+      "snap_pct": 84,
+      "tm_off_snp": 469.0
      },
      "slot": "WR",
      "team": "TB"
@@ -2537,26 +2511,26 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 217.0,
+      "off_snp": 244.0,
       "pts_ppr": 80.2,
       "rec": 19.0,
       "rec_td": 6.0,
       "rec_tgt": 26.0,
       "rec_yd": 252.0,
       "snap_pct": 48,
-      "tm_off_snp": 449.0
+      "tm_off_snp": 506.0
      },
      "slot": "TE",
      "team": "CIN"
     },
     {
      "id": "5850",
-     "inj": "Questionable (Hand)",
+     "inj": "Out (Finger)",
      "name": "Josh Jacobs",
      "pos": "RB",
      "season": {
       "gp": 3.0,
-      "off_snp": 84.0,
+      "off_snp": 94.0,
       "pts_ppr": 43.8,
       "rec": 11.0,
       "rec_td": 2.0,
@@ -2566,7 +2540,7 @@
       "rush_td": 1.0,
       "rush_yd": 80.0,
       "snap_pct": 16,
-      "tm_off_snp": 525.0
+      "tm_off_snp": 591.0
      },
      "slot": "FLEX",
      "team": "GB"
@@ -2578,7 +2552,7 @@
      "season": {
       "gp": 8.0,
       "pts_ppr": 58.0,
-      "tm_off_snp": 444.0
+      "tm_off_snp": 510.0
      },
      "slot": "K",
      "team": "KC"
@@ -2597,12 +2571,12 @@
    ],
    "lineup_flags": [
     "QB Malik Willis is Questionable (Groin)",
-    "FLEX Josh Jacobs is Questionable (Hand)"
+    "FLEX Josh Jacobs is Out (Finger)"
    ],
    "owner": "NikoGs",
    "owner_id": "1130659599352180736",
-   "pa": 827.48,
-   "pf": 855.48,
+   "pa": 910.9,
+   "pf": 918.2,
    "player_ids": [
     "12508",
     "12514",
@@ -2620,7 +2594,7 @@
     "96",
     "DAL"
    ],
-   "record": "5-3",
+   "record": "5-4",
    "roster_id": 8,
    "taxi": [],
    "team_name": "💩🏟Escape Artists",
@@ -2651,15 +2625,15 @@
      "pos": "RB",
      "season": {
       "gp": 4.0,
-      "off_snp": 71.0,
+      "off_snp": 118.0,
       "pts_ppr": 31.4,
       "rec": 12.0,
       "rec_tgt": 16.0,
       "rec_yd": 121.0,
       "rush_att": 15.0,
       "rush_yd": 73.0,
-      "snap_pct": 37,
-      "tm_off_snp": 191.0
+      "snap_pct": 45,
+      "tm_off_snp": 264.0
      },
      "team": "CLE"
     },
@@ -2669,7 +2643,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 113.0,
+      "off_snp": 133.0,
       "pts_ppr": 32.7,
       "rec": 5.0,
       "rec_tgt": 6.0,
@@ -2677,8 +2651,8 @@
       "rush_att": 43.0,
       "rush_td": 1.0,
       "rush_yd": 208.0,
-      "snap_pct": 21,
-      "tm_off_snp": 529.0
+      "snap_pct": 22,
+      "tm_off_snp": 593.0
      },
      "team": "IND"
     },
@@ -2748,7 +2722,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 478.0,
+      "off_snp": 553.0,
       "pass_att": 308.0,
       "pass_int": 6.0,
       "pass_td": 14.0,
@@ -2758,7 +2732,7 @@
       "rush_td": 2.0,
       "rush_yd": 162.0,
       "snap_pct": 100,
-      "tm_off_snp": 480.0
+      "tm_off_snp": 555.0
      },
      "slot": "QB",
      "team": "NO"
@@ -2769,7 +2743,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 406.0,
+      "off_snp": 463.0,
       "pts_ppr": 159.6,
       "rec": 24.0,
       "rec_td": 1.0,
@@ -2779,7 +2753,7 @@
       "rush_td": 9.0,
       "rush_yd": 629.0,
       "snap_pct": 74,
-      "tm_off_snp": 545.0
+      "tm_off_snp": 624.0
      },
      "slot": "RB",
      "team": "DAL"
@@ -2790,7 +2764,7 @@
      "pos": "RB",
      "season": {
       "gp": 5.0,
-      "off_snp": 90.0,
+      "off_snp": 152.0,
       "pts_ppr": 39.4,
       "rec": 10.0,
       "rec_td": 1.0,
@@ -2799,8 +2773,8 @@
       "rush_att": 39.0,
       "rush_td": 1.0,
       "rush_yd": 111.0,
-      "snap_pct": 33,
-      "tm_off_snp": 270.0
+      "snap_pct": 45,
+      "tm_off_snp": 337.0
      },
      "slot": "RB",
      "team": "NYG"
@@ -2811,14 +2785,14 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 412.0,
+      "off_snp": 465.0,
       "pts_ppr": 124.5,
       "rec": 46.0,
       "rec_td": 3.0,
       "rec_tgt": 71.0,
       "rec_yd": 625.0,
       "snap_pct": 83,
-      "tm_off_snp": 494.0
+      "tm_off_snp": 560.0
      },
      "slot": "WR",
      "team": "CAR"
@@ -2829,7 +2803,7 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 409.0,
+      "off_snp": 453.0,
       "pts_ppr": 157.6,
       "rec": 61.0,
       "rec_td": 5.0,
@@ -2837,8 +2811,8 @@
       "rec_yd": 657.0,
       "rush_att": 2.0,
       "rush_yd": 9.0,
-      "snap_pct": 85,
-      "tm_off_snp": 484.0
+      "snap_pct": 83,
+      "tm_off_snp": 543.0
      },
      "slot": "WR",
      "team": "DET"
@@ -2849,14 +2823,14 @@
      "pos": "TE",
      "season": {
       "gp": 9.0,
-      "off_snp": 518.0,
+      "off_snp": 571.0,
       "pts_ppr": 83.3,
       "rec": 37.0,
       "rec_td": 2.0,
       "rec_tgt": 57.0,
       "rec_yd": 363.0,
-      "snap_pct": 86,
-      "tm_off_snp": 599.0
+      "snap_pct": 87,
+      "tm_off_snp": 660.0
      },
      "slot": "TE",
      "team": "CHI"
@@ -2866,13 +2840,13 @@
      "name": "T.J. Hockenson",
      "pos": "TE",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 285.0,
-      "pts_ppr": 78.5,
-      "rec": 31.0,
+      "pts_ppr": 85.8,
+      "rec": 35.0,
       "rec_td": 3.0,
-      "rec_tgt": 37.0,
-      "rec_yd": 295.0,
+      "rec_tgt": 44.0,
+      "rec_yd": 328.0,
       "snap_pct": 65,
       "tm_off_snp": 437.0
      },
@@ -2886,7 +2860,7 @@
      "season": {
       "gp": 9.0,
       "pts_ppr": 103.0,
-      "tm_off_snp": 529.0
+      "tm_off_snp": 593.0
      },
      "slot": "K",
      "team": "IND"
@@ -2906,8 +2880,8 @@
    "lineup_flags": [],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
-   "pa": 835.52,
-   "pf": 845.58,
+   "pa": 936.68,
+   "pf": 973.48,
    "player_ids": [
     "11631",
     "12185",
@@ -2925,7 +2899,7 @@
     "8142",
     "CHI"
    ],
-   "record": "4-4",
+   "record": "5-4",
    "roster_id": 9,
    "taxi": [],
    "team_name": "Man of Michigan",
@@ -2976,7 +2950,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 458.0,
+      "off_snp": 520.0,
       "pass_att": 282.0,
       "pass_int": 2.0,
       "pass_td": 16.0,
@@ -2985,8 +2959,8 @@
       "rush_att": 20.0,
       "rush_td": 1.0,
       "rush_yd": 100.0,
-      "snap_pct": 100,
-      "tm_off_snp": 458.0
+      "snap_pct": 98,
+      "tm_off_snp": 528.0
      },
      "team": "HOU"
     }
@@ -3018,7 +2992,7 @@
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 490.0,
+      "off_snp": 565.0,
       "pass_att": 287.0,
       "pass_int": 4.0,
       "pass_td": 11.0,
@@ -3028,7 +3002,7 @@
       "rush_td": 2.0,
       "rush_yd": 116.0,
       "snap_pct": 100,
-      "tm_off_snp": 490.0
+      "tm_off_snp": 565.0
      },
      "slot": "QB",
      "team": "DEN"
@@ -3039,7 +3013,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 412.0,
+      "off_snp": 456.0,
       "pts_ppr": 153.6,
       "rec": 26.0,
       "rec_tgt": 36.0,
@@ -3047,8 +3021,8 @@
       "rush_att": 161.0,
       "rush_td": 8.0,
       "rush_yd": 656.0,
-      "snap_pct": 78,
-      "tm_off_snp": 529.0
+      "snap_pct": 77,
+      "tm_off_snp": 593.0
      },
      "slot": "RB",
      "team": "IND"
@@ -3059,7 +3033,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 250.0,
+      "off_snp": 275.0,
       "pts_ppr": 92.1,
       "rec": 22.0,
       "rec_tgt": 24.0,
@@ -3067,19 +3041,20 @@
       "rush_att": 116.0,
       "rush_td": 3.0,
       "rush_yd": 385.0,
-      "snap_pct": 55,
-      "tm_off_snp": 451.0
+      "snap_pct": 52,
+      "tm_off_snp": 524.0
      },
      "slot": "RB",
      "team": "CLE"
     },
     {
      "id": "10232",
+     "inj": "Out (Neck)",
      "name": "Michael Wilson",
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 518.0,
+      "off_snp": 562.0,
       "pass_att": 1.0,
       "pass_yd": 7.0,
       "pts_ppr": 120.68,
@@ -3089,8 +3064,8 @@
       "rec_yd": 546.0,
       "rush_att": 3.0,
       "rush_yd": 28.0,
-      "snap_pct": 89,
-      "tm_off_snp": 585.0
+      "snap_pct": 88,
+      "tm_off_snp": 638.0
      },
      "slot": "WR",
      "team": "ARI"
@@ -3101,7 +3076,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 430.0,
+      "off_snp": 479.0,
       "pts_ppr": 75.1,
       "rec": 33.0,
       "rec_td": 1.0,
@@ -3110,7 +3085,7 @@
       "rush_att": 1.0,
       "rush_yd": 7.0,
       "snap_pct": 81,
-      "tm_off_snp": 529.0
+      "tm_off_snp": 593.0
      },
      "slot": "WR",
      "team": "IND"
@@ -3121,14 +3096,14 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 319.0,
+      "off_snp": 359.0,
       "pts_ppr": 78.9,
       "rec": 28.0,
       "rec_td": 4.0,
       "rec_tgt": 39.0,
       "rec_yd": 289.0,
-      "snap_pct": 66,
-      "tm_off_snp": 480.0
+      "snap_pct": 65,
+      "tm_off_snp": 555.0
      },
      "slot": "TE",
      "team": "NO"
@@ -3139,7 +3114,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 402.0,
+      "off_snp": 479.0,
       "pts_ppr": 83.8,
       "rec": 32.0,
       "rec_td": 2.0,
@@ -3147,8 +3122,8 @@
       "rec_yd": 395.0,
       "rush_att": 1.0,
       "rush_yd": 3.0,
-      "snap_pct": 74,
-      "tm_off_snp": 545.0
+      "snap_pct": 77,
+      "tm_off_snp": 624.0
      },
      "slot": "FLEX",
      "team": "DAL"
@@ -3158,8 +3133,8 @@
      "name": "Will Reichard",
      "pos": "K",
      "season": {
-      "gp": 7.0,
-      "pts_ppr": 80.0,
+      "gp": 8.0,
+      "pts_ppr": 89.0,
       "tm_off_snp": 437.0
      },
      "slot": "K",
@@ -3177,11 +3152,13 @@
      "team": "NO"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "WR Michael Wilson is Out (Neck)"
+   ],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",
-   "pa": 867.38,
-   "pf": 876.4,
+   "pa": 997.02,
+   "pf": 958.08,
    "player_ids": [
     "10232",
     "11563",
@@ -3197,7 +3174,7 @@
     "9758",
     "NO"
    ],
-   "record": "5-3",
+   "record": "5-4",
    "roster_id": 10,
    "taxi": [],
    "team_name": "Cockermouth Castle",
@@ -3218,8 +3195,8 @@
       "rec_td": 1.0,
       "rec_tgt": 24.0,
       "rec_yd": 286.0,
-      "snap_pct": 45,
-      "tm_off_snp": 459.0
+      "snap_pct": 39,
+      "tm_off_snp": 531.0
      },
      "team": "LAC"
     },
@@ -3229,7 +3206,7 @@
      "pos": "RB",
      "season": {
       "gp": 4.0,
-      "off_snp": 119.0,
+      "off_snp": 146.0,
       "pts_ppr": 54.2,
       "rec": 13.0,
       "rec_tgt": 14.0,
@@ -3237,8 +3214,8 @@
       "rush_att": 66.0,
       "rush_td": 1.0,
       "rush_yd": 224.0,
-      "snap_pct": 57,
-      "tm_off_snp": 207.0
+      "snap_pct": 54,
+      "tm_off_snp": 270.0
      },
      "team": "NYJ"
     },
@@ -3247,13 +3224,13 @@
      "name": "Jordan Addison",
      "pos": "WR",
      "season": {
-      "gp": 6.0,
+      "gp": 7.0,
       "off_snp": 334.0,
-      "pts_ppr": 49.1,
-      "rec": 16.0,
+      "pts_ppr": 53.9,
+      "rec": 18.0,
       "rec_td": 1.0,
-      "rec_tgt": 33.0,
-      "rec_yd": 249.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 277.0,
       "rush_att": 2.0,
       "rush_yd": 2.0,
       "snap_pct": 91,
@@ -3281,7 +3258,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 444.0,
+      "off_snp": 506.0,
       "pass_att": 263.0,
       "pass_int": 4.0,
       "pass_td": 14.0,
@@ -3290,8 +3267,8 @@
       "rush_att": 23.0,
       "rush_td": 1.0,
       "rush_yd": 85.0,
-      "snap_pct": 100,
-      "tm_off_snp": 444.0
+      "snap_pct": 99,
+      "tm_off_snp": 510.0
      },
      "slot": "QB",
      "team": "KC"
@@ -3302,7 +3279,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 394.0,
+      "off_snp": 453.0,
       "pts_ppr": 146.6,
       "rec": 26.0,
       "rec_td": 2.0,
@@ -3311,8 +3288,8 @@
       "rush_att": 134.0,
       "rush_td": 5.0,
       "rush_yd": 619.0,
-      "snap_pct": 80,
-      "tm_off_snp": 494.0
+      "snap_pct": 81,
+      "tm_off_snp": 560.0
      },
      "slot": "RB",
      "team": "CAR"
@@ -3323,7 +3300,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 328.0,
+      "off_snp": 375.0,
       "pts_ppr": 159.1,
       "rec": 22.0,
       "rec_td": 1.0,
@@ -3333,7 +3310,7 @@
       "rush_td": 7.0,
       "rush_yd": 825.0,
       "snap_pct": 63,
-      "tm_off_snp": 524.0
+      "tm_off_snp": 592.0
      },
      "slot": "RB",
      "team": "TB"
@@ -3344,14 +3321,14 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 360.0,
+      "off_snp": 408.0,
       "pts_ppr": 159.7,
       "rec": 53.0,
       "rec_td": 7.0,
       "rec_tgt": 73.0,
       "rec_yd": 647.0,
-      "snap_pct": 80,
-      "tm_off_snp": 449.0
+      "snap_pct": 81,
+      "tm_off_snp": 506.0
      },
      "slot": "WR",
      "team": "CIN"
@@ -3362,14 +3339,14 @@
      "pos": "WR",
      "season": {
       "gp": 8.0,
-      "off_snp": 358.0,
+      "off_snp": 397.0,
       "pts_ppr": 159.8,
       "rec": 48.0,
       "rec_td": 6.0,
       "rec_tgt": 67.0,
       "rec_yd": 758.0,
-      "snap_pct": 80,
-      "tm_off_snp": 449.0
+      "snap_pct": 78,
+      "tm_off_snp": 506.0
      },
      "slot": "WR",
      "team": "CIN"
@@ -3380,14 +3357,14 @@
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 331.0,
+      "off_snp": 388.0,
       "pts_ppr": 114.3,
       "rec": 38.0,
       "rec_td": 5.0,
       "rec_tgt": 53.0,
       "rec_yd": 483.0,
       "snap_pct": 78,
-      "tm_off_snp": 425.0
+      "tm_off_snp": 498.0
      },
      "slot": "TE",
      "team": "SF"
@@ -3398,7 +3375,7 @@
      "pos": "RB",
      "season": {
       "gp": 5.0,
-      "off_snp": 99.0,
+      "off_snp": 157.0,
       "pts_ppr": 62.9,
       "rec": 13.0,
       "rec_tgt": 14.0,
@@ -3406,8 +3383,8 @@
       "rush_att": 47.0,
       "rush_td": 3.0,
       "rush_yd": 191.0,
-      "snap_pct": 42,
-      "tm_off_snp": 236.0
+      "snap_pct": 50,
+      "tm_off_snp": 311.0
      },
      "slot": "FLEX",
      "team": "DEN"
@@ -3441,8 +3418,8 @@
    ],
    "owner": "erictheleghel",
    "owner_id": "730759755336929280",
-   "pa": 859.84,
-   "pf": 1000.28,
+   "pa": 942.34,
+   "pf": 1169.16,
    "player_ids": [
     "11584",
     "11635",
@@ -3458,7 +3435,7 @@
     "HOU",
     "PIT"
    ],
-   "record": "7-1",
+   "record": "8-1",
    "roster_id": 11,
    "taxi": [],
    "team_name": "Jed York ",
@@ -3491,14 +3468,14 @@
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 243.0,
+      "off_snp": 281.0,
       "pts_ppr": 90.3,
       "rec": 30.0,
       "rec_td": 5.0,
       "rec_tgt": 49.0,
       "rec_yd": 303.0,
       "snap_pct": 61,
-      "tm_off_snp": 401.0
+      "tm_off_snp": 463.0
      },
      "team": "WAS"
     },
@@ -3508,14 +3485,14 @@
      "pos": "WR",
      "season": {
       "gp": 3.0,
-      "off_snp": 57.0,
+      "off_snp": 94.0,
       "pts_ppr": 24.6,
       "rec": 8.0,
       "rec_td": 1.0,
       "rec_tgt": 10.0,
       "rec_yd": 106.0,
       "snap_pct": 49,
-      "tm_off_snp": 117.0
+      "tm_off_snp": 190.0
      },
      "team": "SF"
     },
@@ -3525,7 +3502,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 470.0,
+      "off_snp": 536.0,
       "pass_att": 308.0,
       "pass_int": 6.0,
       "pass_td": 16.0,
@@ -3534,8 +3511,8 @@
       "rush_att": 11.0,
       "rush_td": 1.0,
       "rush_yd": 47.0,
-      "snap_pct": 95,
-      "tm_off_snp": 494.0
+      "snap_pct": 96,
+      "tm_off_snp": 560.0
      },
      "team": "CAR"
     }
@@ -3548,7 +3525,7 @@
      "pos": "QB",
      "season": {
       "gp": 6.0,
-      "off_snp": 298.0,
+      "off_snp": 360.0,
       "pass_att": 180.0,
       "pass_td": 7.0,
       "pass_yd": 1250.0,
@@ -3556,8 +3533,8 @@
       "rush_att": 31.0,
       "rush_td": 2.0,
       "rush_yd": 252.0,
-      "snap_pct": 90,
-      "tm_off_snp": 330.0
+      "snap_pct": 92,
+      "tm_off_snp": 392.0
      },
      "slot": "QB",
      "team": "WAS"
@@ -3568,7 +3545,7 @@
      "pos": "RB",
      "season": {
       "gp": 7.0,
-      "off_snp": 123.0,
+      "off_snp": 164.0,
       "pts_ppr": 58.7,
       "rec": 7.0,
       "rec_tgt": 11.0,
@@ -3576,8 +3553,8 @@
       "rush_att": 69.0,
       "rush_td": 3.0,
       "rush_yd": 296.0,
-      "snap_pct": 33,
-      "tm_off_snp": 377.0
+      "snap_pct": 37,
+      "tm_off_snp": 447.0
      },
      "slot": "RB",
      "team": "PHI"
@@ -3588,7 +3565,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 167.0,
+      "off_snp": 194.0,
       "pts_ppr": 94.6,
       "rec": 10.0,
       "rec_td": 1.0,
@@ -3597,8 +3574,8 @@
       "rush_att": 86.0,
       "rush_td": 4.0,
       "rush_yd": 447.0,
-      "snap_pct": 30,
-      "tm_off_snp": 559.0
+      "snap_pct": 31,
+      "tm_off_snp": 634.0
      },
      "slot": "RB",
      "team": "LAR"
@@ -3609,7 +3586,7 @@
      "pos": "WR",
      "season": {
       "gp": 6.0,
-      "off_snp": 229.0,
+      "off_snp": 280.0,
       "pts_ppr": 91.6,
       "rec": 28.0,
       "rec_td": 4.0,
@@ -3618,7 +3595,7 @@
       "rush_att": 2.0,
       "rush_yd": 12.0,
       "snap_pct": 71,
-      "tm_off_snp": 324.0
+      "tm_off_snp": 394.0
      },
      "slot": "WR",
      "team": "HOU"
@@ -3649,14 +3626,14 @@
      "pos": "TE",
      "season": {
       "gp": 9.0,
-      "off_snp": 446.0,
+      "off_snp": 507.0,
       "pts_ppr": 102.3,
       "rec": 37.0,
       "rec_td": 4.0,
       "rec_tgt": 53.0,
       "rec_yd": 453.0,
       "snap_pct": 87,
-      "tm_off_snp": 513.0
+      "tm_off_snp": 586.0
      },
      "slot": "TE",
      "team": "CLE"
@@ -3667,7 +3644,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 443.0,
+      "off_snp": 503.0,
       "pts_ppr": 121.6,
       "rec": 44.0,
       "rec_td": 1.0,
@@ -3675,8 +3652,8 @@
       "rec_yd": 692.0,
       "rush_att": 2.0,
       "rush_yd": 4.0,
-      "snap_pct": 89,
-      "tm_off_snp": 498.0
+      "snap_pct": 90,
+      "tm_off_snp": 560.0
      },
      "slot": "FLEX",
      "team": "ATL"
@@ -3688,7 +3665,7 @@
      "season": {
       "gp": 9.0,
       "pts_ppr": 88.0,
-      "tm_off_snp": 542.0
+      "tm_off_snp": 592.0
      },
      "slot": "K",
      "team": "LV"
@@ -3698,8 +3675,8 @@
      "name": "MIN DEF",
      "pos": "DEF",
      "season": {
-      "gp": 7.0,
-      "pts_ppr": 82.0
+      "gp": 8.0,
+      "pts_ppr": 88.0
      },
      "slot": "DEF",
      "team": "MIN"
@@ -3708,8 +3685,8 @@
    "lineup_flags": [],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
-   "pa": 940.24,
-   "pf": 871.66,
+   "pa": 1068.14,
+   "pf": 972.82,
    "player_ids": [
     "11566",
     "11586",
@@ -3725,7 +3702,7 @@
     "9487",
     "MIN"
    ],
-   "record": "2-6",
+   "record": "2-7",
    "roster_id": 12,
    "taxi": [],
    "team_name": "Kneecap Biters",
@@ -3738,13 +3715,13 @@
      "name": "Dalton Kincaid",
      "pos": "TE",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 311.0,
-      "pts_ppr": 79.1,
-      "rec": 27.0,
+      "pts_ppr": 84.9,
+      "rec": 30.0,
       "rec_td": 2.0,
-      "rec_tgt": 35.0,
-      "rec_yd": 401.0,
+      "rec_tgt": 38.0,
+      "rec_yd": 429.0,
       "snap_pct": 66,
       "tm_off_snp": 471.0
      },
@@ -3756,7 +3733,7 @@
      "pos": "QB",
      "season": {
       "gp": 6.0,
-      "off_snp": 355.0,
+      "off_snp": 416.0,
       "pass_att": 195.0,
       "pass_int": 5.0,
       "pass_td": 8.0,
@@ -3765,8 +3742,8 @@
       "rush_att": 31.0,
       "rush_td": 2.0,
       "rush_yd": 145.0,
-      "snap_pct": 97,
-      "tm_off_snp": 365.0
+      "snap_pct": 98,
+      "tm_off_snp": 426.0
      },
      "team": "CHI"
     },
@@ -3819,7 +3796,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 481.0,
+      "off_snp": 540.0,
       "pass_att": 273.0,
       "pass_int": 2.0,
       "pass_td": 15.0,
@@ -3829,7 +3806,7 @@
       "rush_td": 1.0,
       "rush_yd": 20.0,
       "snap_pct": 99,
-      "tm_off_snp": 484.0
+      "tm_off_snp": 543.0
      },
      "slot": "QB",
      "team": "DET"
@@ -3840,15 +3817,15 @@
      "pos": "RB",
      "season": {
       "gp": 5.0,
-      "off_snp": 97.0,
+      "off_snp": 121.0,
       "pts_ppr": 31.5,
       "rec": 10.0,
       "rec_tgt": 15.0,
       "rec_yd": 83.0,
       "rush_att": 47.0,
       "rush_yd": 172.0,
-      "snap_pct": 39,
-      "tm_off_snp": 250.0
+      "snap_pct": 38,
+      "tm_off_snp": 317.0
      },
      "slot": "RB",
      "team": "SEA"
@@ -3859,7 +3836,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 281.0,
+      "off_snp": 327.0,
       "pts_ppr": 70.9,
       "rec": 15.0,
       "rec_tgt": 21.0,
@@ -3867,8 +3844,8 @@
       "rush_att": 95.0,
       "rush_td": 2.0,
       "rush_yd": 341.0,
-      "snap_pct": 61,
-      "tm_off_snp": 458.0
+      "snap_pct": 62,
+      "tm_off_snp": 528.0
      },
      "slot": "RB",
      "team": "HOU"
@@ -3880,7 +3857,7 @@
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 354.0,
+      "off_snp": 424.0,
       "pts_ppr": 173.6,
       "rec": 70.0,
       "rec_td": 4.0,
@@ -3889,10 +3866,11 @@
       "rush_att": 7.0,
       "rush_td": 1.0,
       "rush_yd": 41.0,
-      "snap_pct": 86,
-      "tm_off_snp": 411.0
+      "snap_pct": 87,
+      "tm_off_snp": 486.0
      },
      "slot": "WR",
+     "status": "Inactive",
      "team": "LAR"
     },
     {
@@ -3918,14 +3896,14 @@
      "pos": "TE",
      "season": {
       "gp": 9.0,
-      "off_snp": 345.0,
+      "off_snp": 405.0,
       "pts_ppr": 58.7,
       "rec": 28.0,
       "rec_td": 1.0,
       "rec_tgt": 39.0,
       "rec_yd": 287.0,
-      "snap_pct": 62,
-      "tm_off_snp": 559.0
+      "snap_pct": 64,
+      "tm_off_snp": 634.0
      },
      "slot": "TE",
      "team": "LAR"
@@ -3936,14 +3914,14 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 318.0,
+      "off_snp": 383.0,
       "pts_ppr": 57.0,
       "rec": 13.0,
       "rec_td": 4.0,
       "rec_tgt": 32.0,
       "rec_yd": 200.0,
-      "snap_pct": 63,
-      "tm_off_snp": 503.0
+      "snap_pct": 67,
+      "tm_off_snp": 573.0
      },
      "slot": "FLEX",
      "team": "PHI"
@@ -3955,7 +3933,7 @@
      "season": {
       "gp": 8.0,
       "pts_ppr": 45.0,
-      "tm_off_snp": 425.0
+      "tm_off_snp": 498.0
      },
      "slot": "K",
      "team": "SF"
@@ -3977,8 +3955,8 @@
    ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
-   "pa": 896.2,
-   "pf": 791.26,
+   "pa": 1024.5,
+   "pf": 879.56,
    "player_ids": [
     "10236",
     "11560",
@@ -3994,7 +3972,7 @@
     "9493",
     "SEA"
    ],
-   "record": "2-6",
+   "record": "2-7",
    "roster_id": 13,
    "taxi": [],
    "team_name": "Kittle’s Kill Squad",
@@ -4008,7 +3986,7 @@
      "pos": "TE",
      "season": {
       "gp": 7.0,
-      "off_snp": 342.0,
+      "off_snp": 395.0,
       "pts_ppr": 84.1,
       "rec": 38.0,
       "rec_td": 2.0,
@@ -4017,8 +3995,8 @@
       "rush_att": 3.0,
       "rush_td": 1.0,
       "rush_yd": 6.0,
-      "snap_pct": 88,
-      "tm_off_snp": 388.0
+      "snap_pct": 87,
+      "tm_off_snp": 452.0
      },
      "team": "IND"
     },
@@ -4028,7 +4006,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 138.0,
+      "off_snp": 155.0,
       "pts_ppr": 37.6,
       "rec": 3.0,
       "rec_tgt": 6.0,
@@ -4036,8 +4014,8 @@
       "rush_att": 71.0,
       "rush_td": 1.0,
       "rush_yd": 275.0,
-      "snap_pct": 25,
-      "tm_off_snp": 542.0
+      "snap_pct": 26,
+      "tm_off_snp": 592.0
      },
      "team": "LV"
     },
@@ -4047,7 +4025,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 187.0,
+      "off_snp": 198.0,
       "pts_ppr": 62.5,
       "rec": 9.0,
       "rec_tgt": 10.0,
@@ -4055,8 +4033,8 @@
       "rush_att": 98.0,
       "rush_td": 3.0,
       "rush_yd": 324.0,
-      "snap_pct": 38,
-      "tm_off_snp": 490.0
+      "snap_pct": 35,
+      "tm_off_snp": 565.0
      },
      "team": "DEN"
     },
@@ -4067,7 +4045,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 311.0,
+      "off_snp": 325.0,
       "pts_ppr": 82.0,
       "rec": 30.0,
       "rec_td": 2.0,
@@ -4075,8 +4053,8 @@
       "rec_yd": 337.0,
       "rush_att": 2.0,
       "rush_yd": 23.0,
-      "snap_pct": 63,
-      "tm_off_snp": 490.0
+      "snap_pct": 58,
+      "tm_off_snp": 565.0
      },
      "team": "DEN"
     },
@@ -4086,7 +4064,7 @@
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 417.0,
+      "off_snp": 484.0,
       "pass_att": 236.0,
       "pass_int": 5.0,
       "pass_td": 17.0,
@@ -4095,8 +4073,8 @@
       "rush_att": 39.0,
       "rush_td": 2.0,
       "rush_yd": 201.0,
-      "snap_pct": 98,
-      "tm_off_snp": 425.0
+      "snap_pct": 97,
+      "tm_off_snp": 498.0
      },
      "team": "SF"
     }
@@ -4153,7 +4131,7 @@
      "pos": "RB",
      "season": {
       "gp": 8.0,
-      "off_snp": 380.0,
+      "off_snp": 420.0,
       "pts_ppr": 209.2,
       "rec": 34.0,
       "rec_td": 2.0,
@@ -4162,8 +4140,8 @@
       "rush_att": 177.0,
       "rush_td": 9.0,
       "rush_yd": 847.0,
-      "snap_pct": 79,
-      "tm_off_snp": 484.0
+      "snap_pct": 77,
+      "tm_off_snp": 543.0
      },
      "slot": "RB",
      "team": "DET"
@@ -4174,7 +4152,7 @@
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 327.0,
+      "off_snp": 364.0,
       "pts_ppr": 105.0,
       "rec": 19.0,
       "rec_tgt": 24.0,
@@ -4182,8 +4160,8 @@
       "rush_att": 120.0,
       "rush_td": 3.0,
       "rush_yd": 598.0,
-      "snap_pct": 66,
-      "tm_off_snp": 494.0
+      "snap_pct": 65,
+      "tm_off_snp": 557.0
      },
      "slot": "RB",
      "team": "NYJ"
@@ -4215,7 +4193,7 @@
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 358.0,
+      "off_snp": 392.0,
       "pts_ppr": 136.3,
       "rec": 49.0,
       "rec_td": 4.0,
@@ -4223,8 +4201,8 @@
       "rec_yd": 644.0,
       "rush_att": 8.0,
       "rush_yd": 29.0,
-      "snap_pct": 60,
-      "tm_off_snp": 599.0
+      "snap_pct": 59,
+      "tm_off_snp": 660.0
      },
      "slot": "WR",
      "team": "CHI"
@@ -4235,14 +4213,14 @@
      "pos": "TE",
      "season": {
       "gp": 9.0,
-      "off_snp": 288.0,
+      "off_snp": 330.0,
       "pts_ppr": 71.0,
       "rec": 25.0,
       "rec_td": 4.0,
       "rec_tgt": 37.0,
       "rec_yd": 220.0,
-      "snap_pct": 58,
-      "tm_off_snp": 498.0
+      "snap_pct": 59,
+      "tm_off_snp": 560.0
      },
      "slot": "TE",
      "team": "ATL"
@@ -4253,7 +4231,7 @@
      "pos": "WR",
      "season": {
       "gp": 7.0,
-      "off_snp": 294.0,
+      "off_snp": 348.0,
       "pts_ppr": 86.0,
       "rec": 31.0,
       "rec_td": 3.0,
@@ -4261,8 +4239,8 @@
       "rec_yd": 393.0,
       "rush_att": 1.0,
       "rush_yd": -3.0,
-      "snap_pct": 70,
-      "tm_off_snp": 419.0
+      "snap_pct": 72,
+      "tm_off_snp": 485.0
      },
      "slot": "FLEX",
      "team": "CAR"
@@ -4274,7 +4252,7 @@
      "season": {
       "gp": 9.0,
       "pts_ppr": 99.0,
-      "tm_off_snp": 524.0
+      "tm_off_snp": 592.0
      },
      "slot": "K",
      "team": "TB"
@@ -4297,8 +4275,8 @@
    ],
    "owner": "chopkins30",
    "owner_id": "1258779579946897408",
-   "pa": 1088.58,
-   "pf": 995.28,
+   "pa": 1218.56,
+   "pf": 1103.96,
    "player_ids": [
     "11576",
     "11646",
@@ -4316,7 +4294,7 @@
     "9997",
     "LAR"
    ],
-   "record": "3-5",
+   "record": "3-6",
    "roster_id": 14,
    "taxi": [],
    "team_name": " Kitty? Please?",
@@ -4397,5 +4375,5 @@
    "roster_id": 6
   }
  ],
- "week": 9
+ "week": 10
 }

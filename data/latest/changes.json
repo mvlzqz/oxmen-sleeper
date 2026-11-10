@@ -1,71 +1,23 @@
 {
- "baseline": "2026-11-08_1823Z",
+ "baseline": "2026-11-09_1140Z",
  "first_run": false,
- "injury_baseline": "2026-11-08_1823Z",
+ "injury_baseline": "2026-11-09_1140Z",
  "injury_changes": [
   {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "Emeka Egbuka",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "nusskyle",
-   "player": "Hunter Henry",
-   "to": null
-  },
-  {
-   "body_part": "Head",
+   "body_part": "Neck",
    "from": null,
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Jaylen Waddle",
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Michael Wilson",
    "to": "Out"
   },
   {
-   "body_part": "Hand",
-   "from": null,
+   "body_part": "Finger",
+   "from": "Questionable",
    "mine": false,
    "owner": "NikoGs",
    "player": "Josh Jacobs",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Leg",
-   "from": null,
-   "mine": false,
-   "owner": "nusskyle",
-   "player": "KC Concepcion Jr.",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Toe",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "dleach16",
-   "player": "Kyle Monangai",
    "to": "Out"
-  },
-  {
-   "body_part": "Back",
-   "from": null,
-   "mine": false,
-   "owner": "erictheleghel",
-   "player": "Ladd McConkey",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Undisclosed",
-   "from": null,
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Luther Burden III",
-   "to": "Questionable"
   },
   {
    "body_part": "Groin",
@@ -74,50 +26,23 @@
    "owner": "NikoGs",
    "player": "Malik Willis",
    "to": "Questionable"
-  },
-  {
-   "body_part": "Elbow",
-   "from": null,
-   "mine": false,
-   "owner": "erictheleghel",
-   "player": "Patrick Mahomes",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Knee",
-   "from": null,
-   "mine": false,
-   "owner": "phile2211",
-   "player": "Puka Nacua",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Knee",
-   "from": null,
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Rhamondre Stevenson",
-   "to": "Out"
-  },
-  {
-   "body_part": "Hamstring",
-   "from": null,
-   "mine": false,
-   "owner": "nusskyle",
-   "player": "Xavier Worthy",
-   "to": "Out"
   }
  ],
- "my_team_changed": false,
+ "my_team_changed": true,
  "rosters": [
   {
-   "added": [
-    "Brock Bowers",
-    "Michael Mayer"
+   "added": [],
+   "dropped": [],
+   "moved_to_ir": [
+    "TreVeyon Henderson"
    ],
+   "owner": "coltierney",
+   "roster_id": 1
+  },
+  {
+   "added": [],
    "dropped": [
-    "Travis Kelce",
-    "Tucker Kraft"
+    "GB DEF"
    ],
    "moved_to_ir": [],
    "owner": "PawtucketPatriot",
@@ -126,48 +51,15 @@
   {
    "added": [],
    "dropped": [
-    "Jahan Dotson"
+    "Jaylin Noel"
    ],
-   "moved_to_ir": [],
-   "owner": "kitano",
-   "roster_id": 4
-  },
-  {
-   "added": [
-    "Travis Kelce",
-    "Tucker Kraft"
+   "moved_to_ir": [
+    "Jeremiyah Love"
    ],
-   "dropped": [
-    "Brock Bowers",
-    "Michael Mayer"
-   ],
-   "moved_to_ir": [],
-   "owner": "TheDudePlayingADude",
-   "roster_id": 6
-  },
-  {
-   "added": [
-    "Jordan Addison"
-   ],
-   "dropped": [
-    "Keenan Allen"
-   ],
-   "moved_to_ir": [],
-   "owner": "erictheleghel",
-   "roster_id": 11
-  },
-  {
-   "added": [
-    "Demarcus Robinson"
-   ],
-   "dropped": [
-    "Emanuel Wilson"
-   ],
-   "moved_to_ir": [],
-   "owner": "wmont",
-   "roster_id": 12
+   "owner": "brendonferreira",
+   "roster_id": 5
   }
  ],
- "since": "2026-11-08T18:23:51+00:00",
+ "since": "2026-11-09T11:40:14+00:00",
  "waiver_moves": []
 }
