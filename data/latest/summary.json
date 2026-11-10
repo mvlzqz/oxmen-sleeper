@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T11:40:15+00:00",
+ "fetched_at": "2026-11-10T18:10:21+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -571,26 +571,6 @@
      "team": "LV"
     },
     {
-     "id": "12481",
-     "inj": "Out (Hamstring)",
-     "name": "Cam Skattebo",
-     "pos": "RB",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 267.0,
-      "pts_ppr": 70.4,
-      "rec": 11.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 76.0,
-      "rush_att": 98.0,
-      "rush_td": 2.0,
-      "rush_yd": 418.0,
-      "snap_pct": 54,
-      "tm_off_snp": 490.0
-     },
-     "team": "NYG"
-    },
-    {
      "id": "3214",
      "name": "Hunter Henry",
      "pos": "TE",
@@ -626,6 +606,25 @@
       "tm_off_snp": 506.0
      },
      "team": "CIN"
+    },
+    {
+     "id": "7567",
+     "name": "Kenny Gainwell",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 220.0,
+      "pts_ppr": 63.6,
+      "rec": 15.0,
+      "rec_td": 1.0,
+      "rec_tgt": 21.0,
+      "rec_yd": 121.0,
+      "rush_att": 63.0,
+      "rush_yd": 305.0,
+      "snap_pct": 37,
+      "tm_off_snp": 592.0
+     },
+     "team": "TB"
     }
    ],
    "ir": [
@@ -697,24 +696,25 @@
      "team": "BUF"
     },
     {
-     "id": "7567",
-     "name": "Kenny Gainwell",
+     "id": "12481",
+     "inj": "Out (Hamstring)",
+     "name": "Cam Skattebo",
      "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 220.0,
-      "pts_ppr": 63.6,
-      "rec": 15.0,
-      "rec_td": 1.0,
-      "rec_tgt": 21.0,
-      "rec_yd": 121.0,
-      "rush_att": 63.0,
-      "rush_yd": 305.0,
-      "snap_pct": 37,
-      "tm_off_snp": 592.0
+      "gp": 7.0,
+      "off_snp": 267.0,
+      "pts_ppr": 70.4,
+      "rec": 11.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 76.0,
+      "rush_att": 98.0,
+      "rush_td": 2.0,
+      "rush_yd": 418.0,
+      "snap_pct": 54,
+      "tm_off_snp": 490.0
      },
      "slot": "RB",
-     "team": "TB"
+     "team": "NYG"
     },
     {
      "id": "4663",
@@ -756,23 +756,25 @@
      "team": "DAL"
     },
     {
-     "id": "11624",
-     "inj": "Out (Hamstring)",
-     "name": "Xavier Worthy",
+     "id": "13298",
+     "inj": "Questionable (Leg)",
+     "name": "KC Concepcion Jr.",
      "pos": "WR",
      "season": {
-      "gp": 8.0,
-      "off_snp": 421.0,
-      "pts_ppr": 66.8,
-      "rec": 33.0,
+      "gp": 9.0,
+      "off_snp": 435.0,
+      "pts_ppr": 88.4,
+      "rec": 37.0,
       "rec_td": 1.0,
-      "rec_tgt": 47.0,
-      "rec_yd": 278.0,
-      "snap_pct": 83,
-      "tm_off_snp": 510.0
+      "rec_tgt": 55.0,
+      "rec_yd": 437.0,
+      "rush_att": 10.0,
+      "rush_yd": 37.0,
+      "snap_pct": 74,
+      "tm_off_snp": 586.0
      },
      "slot": "WR",
-     "team": "KC"
+     "team": "CLE"
     },
     {
      "id": "10859",
@@ -795,25 +797,23 @@
      "team": "DET"
     },
     {
-     "id": "13298",
-     "inj": "Questionable (Leg)",
-     "name": "KC Concepcion Jr.",
+     "id": "11624",
+     "inj": "Out (Hamstring)",
+     "name": "Xavier Worthy",
      "pos": "WR",
      "season": {
-      "gp": 9.0,
-      "off_snp": 435.0,
-      "pts_ppr": 88.4,
-      "rec": 37.0,
+      "gp": 8.0,
+      "off_snp": 421.0,
+      "pts_ppr": 66.8,
+      "rec": 33.0,
       "rec_td": 1.0,
-      "rec_tgt": 55.0,
-      "rec_yd": 437.0,
-      "rush_att": 10.0,
-      "rush_yd": 37.0,
-      "snap_pct": 74,
-      "tm_off_snp": 586.0
+      "rec_tgt": 47.0,
+      "rec_yd": 278.0,
+      "snap_pct": 83,
+      "tm_off_snp": 510.0
      },
      "slot": "FLEX",
-     "team": "CLE"
+     "team": "KC"
     },
     {
      "id": "11533",
@@ -840,8 +840,9 @@
     }
    ],
    "lineup_flags": [
-    "WR Xavier Worthy is Out (Hamstring)",
-    "FLEX KC Concepcion Jr. is Questionable (Leg)"
+    "RB Cam Skattebo is Out (Hamstring)",
+    "WR KC Concepcion Jr. is Questionable (Leg)",
+    "FLEX Xavier Worthy is Out (Hamstring)"
    ],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
@@ -1703,83 +1704,42 @@
      "team": "SF"
     },
     {
-     "id": "1466",
-     "name": "Travis Kelce",
-     "pos": "TE",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 392.0,
-      "pts_ppr": 99.3,
-      "rec": 33.0,
-      "rec_td": 2.0,
-      "rec_tgt": 48.0,
-      "rec_yd": 482.0,
-      "rush_att": 1.0,
-      "rush_td": 1.0,
-      "rush_yd": 1.0,
-      "snap_pct": 77,
-      "tm_off_snp": 510.0
-     },
-     "team": "KC"
-    },
-    {
-     "id": "6804",
-     "name": "Jordan Love",
+     "id": "421",
+     "name": "Matthew Stafford",
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 581.0,
-      "pass_att": 341.0,
-      "pass_int": 6.0,
-      "pass_td": 19.0,
-      "pass_yd": 2618.0,
-      "pts_ppr": 191.02,
-      "rush_att": 12.0,
-      "rush_td": 2.0,
-      "rush_yd": 23.0,
+      "off_snp": 624.0,
+      "pass_att": 346.0,
+      "pass_int": 9.0,
+      "pass_td": 16.0,
+      "pass_yd": 2374.0,
+      "pts_ppr": 151.86,
+      "rush_att": 15.0,
+      "rush_yd": 19.0,
       "snap_pct": 98,
-      "tm_off_snp": 591.0
+      "tm_off_snp": 634.0
      },
-     "team": "GB"
+     "team": "LAR"
     },
     {
-     "id": "8228",
-     "name": "Jaylen Warren",
+     "id": "8408",
+     "name": "Jordan Mason",
      "pos": "RB",
      "season": {
-      "gp": 8.0,
-      "off_snp": 386.0,
-      "pts_ppr": 140.8,
-      "rec": 25.0,
-      "rec_td": 1.0,
-      "rec_tgt": 36.0,
-      "rec_yd": 294.0,
-      "rush_att": 119.0,
-      "rush_td": 2.0,
-      "rush_yd": 704.0,
-      "snap_pct": 72,
-      "tm_off_snp": 533.0
+      "gp": 4.0,
+      "off_snp": 82.0,
+      "pts_ppr": 26.9,
+      "rec": 2.0,
+      "rec_tgt": 5.0,
+      "rec_yd": 7.0,
+      "rush_att": 44.0,
+      "rush_td": 1.0,
+      "rush_yd": 182.0,
+      "snap_pct": 46,
+      "tm_off_snp": 177.0
      },
-     "team": "PIT"
-    },
-    {
-     "id": "9484",
-     "name": "Tucker Kraft",
-     "pos": "TE",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 487.0,
-      "pts_ppr": 90.4,
-      "rec": 36.0,
-      "rec_td": 3.0,
-      "rec_tgt": 52.0,
-      "rec_yd": 351.0,
-      "rush_att": 4.0,
-      "rush_yd": 13.0,
-      "snap_pct": 82,
-      "tm_off_snp": 591.0
-     },
-     "team": "GB"
+     "team": "MIN"
     },
     {
      "id": "TB",
@@ -1831,24 +1791,46 @@
    ],
    "lineup": [
     {
-     "id": "421",
-     "name": "Matthew Stafford",
+     "id": "6804",
+     "name": "Jordan Love",
      "pos": "QB",
      "season": {
       "gp": 9.0,
-      "off_snp": 624.0,
-      "pass_att": 346.0,
-      "pass_int": 9.0,
-      "pass_td": 16.0,
-      "pass_yd": 2374.0,
-      "pts_ppr": 151.86,
-      "rush_att": 15.0,
-      "rush_yd": 19.0,
+      "off_snp": 581.0,
+      "pass_att": 341.0,
+      "pass_int": 6.0,
+      "pass_td": 19.0,
+      "pass_yd": 2618.0,
+      "pts_ppr": 191.02,
+      "rush_att": 12.0,
+      "rush_td": 2.0,
+      "rush_yd": 23.0,
       "snap_pct": 98,
-      "tm_off_snp": 634.0
+      "tm_off_snp": 591.0
      },
      "slot": "QB",
-     "team": "LAR"
+     "team": "GB"
+    },
+    {
+     "id": "8228",
+     "name": "Jaylen Warren",
+     "pos": "RB",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 386.0,
+      "pts_ppr": 140.8,
+      "rec": 25.0,
+      "rec_td": 1.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 294.0,
+      "rush_att": 119.0,
+      "rush_td": 2.0,
+      "rush_yd": 704.0,
+      "snap_pct": 72,
+      "tm_off_snp": 533.0
+     },
+     "slot": "RB",
+     "team": "PIT"
     },
     {
      "id": "9224",
@@ -1869,26 +1851,6 @@
      },
      "slot": "RB",
      "team": "CIN"
-    },
-    {
-     "id": "8408",
-     "name": "Jordan Mason",
-     "pos": "RB",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 82.0,
-      "pts_ppr": 26.9,
-      "rec": 2.0,
-      "rec_tgt": 5.0,
-      "rec_yd": 7.0,
-      "rush_att": 44.0,
-      "rush_td": 1.0,
-      "rush_yd": 182.0,
-      "snap_pct": 46,
-      "tm_off_snp": 177.0
-     },
-     "slot": "RB",
-     "team": "MIN"
     },
     {
      "id": "11625",
@@ -1928,12 +1890,45 @@
      "team": "WAS"
     },
     {
-     "empty": true,
-     "slot": "TE"
+     "id": "1466",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 392.0,
+      "pts_ppr": 99.3,
+      "rec": 33.0,
+      "rec_td": 2.0,
+      "rec_tgt": 48.0,
+      "rec_yd": 482.0,
+      "rush_att": 1.0,
+      "rush_td": 1.0,
+      "rush_yd": 1.0,
+      "snap_pct": 77,
+      "tm_off_snp": 510.0
+     },
+     "slot": "TE",
+     "team": "KC"
     },
     {
-     "empty": true,
-     "slot": "FLEX"
+     "id": "9484",
+     "name": "Tucker Kraft",
+     "pos": "TE",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 487.0,
+      "pts_ppr": 90.4,
+      "rec": 36.0,
+      "rec_td": 3.0,
+      "rec_tgt": 52.0,
+      "rec_yd": 351.0,
+      "rush_att": 4.0,
+      "rush_yd": 13.0,
+      "snap_pct": 82,
+      "tm_off_snp": 591.0
+     },
+     "slot": "FLEX",
+     "team": "GB"
     },
     {
      "id": "7839",
@@ -1959,10 +1954,7 @@
      "team": "DET"
     }
    ],
-   "lineup_flags": [
-    "TE slot is EMPTY",
-    "FLEX slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 1025.66,
@@ -3183,41 +3175,43 @@
   {
    "bench": [
     {
-     "id": "11635",
-     "inj": "Questionable (Back)",
-     "name": "Ladd McConkey",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 206.0,
-      "pts_ppr": 51.6,
-      "rec": 17.0,
-      "rec_td": 1.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 286.0,
-      "snap_pct": 39,
-      "tm_off_snp": 531.0
-     },
-     "team": "LAC"
-    },
-    {
-     "id": "8155",
-     "name": "Breece Hall",
+     "id": "11584",
+     "name": "Bucky Irving",
      "pos": "RB",
      "season": {
-      "gp": 4.0,
-      "off_snp": 146.0,
-      "pts_ppr": 54.2,
+      "gp": 9.0,
+      "off_snp": 375.0,
+      "pts_ppr": 159.1,
+      "rec": 22.0,
+      "rec_td": 1.0,
+      "rec_tgt": 28.0,
+      "rec_yd": 106.0,
+      "rush_att": 167.0,
+      "rush_td": 7.0,
+      "rush_yd": 825.0,
+      "snap_pct": 63,
+      "tm_off_snp": 592.0
+     },
+     "team": "TB"
+    },
+    {
+     "id": "13345",
+     "name": "Jonah Coleman",
+     "pos": "RB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 157.0,
+      "pts_ppr": 62.9,
       "rec": 13.0,
       "rec_tgt": 14.0,
       "rec_yd": 128.0,
-      "rush_att": 66.0,
-      "rush_td": 1.0,
-      "rush_yd": 224.0,
-      "snap_pct": 54,
-      "tm_off_snp": 270.0
+      "rush_att": 47.0,
+      "rush_td": 3.0,
+      "rush_yd": 191.0,
+      "snap_pct": 50,
+      "tm_off_snp": 311.0
      },
-     "team": "NYJ"
+     "team": "DEN"
     },
     {
      "id": "9756",
@@ -3295,25 +3289,24 @@
      "team": "CAR"
     },
     {
-     "id": "11584",
-     "name": "Bucky Irving",
+     "id": "8155",
+     "name": "Breece Hall",
      "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 375.0,
-      "pts_ppr": 159.1,
-      "rec": 22.0,
-      "rec_td": 1.0,
-      "rec_tgt": 28.0,
-      "rec_yd": 106.0,
-      "rush_att": 167.0,
-      "rush_td": 7.0,
-      "rush_yd": 825.0,
-      "snap_pct": 63,
-      "tm_off_snp": 592.0
+      "gp": 4.0,
+      "off_snp": 146.0,
+      "pts_ppr": 54.2,
+      "rec": 13.0,
+      "rec_tgt": 14.0,
+      "rec_yd": 128.0,
+      "rush_att": 66.0,
+      "rush_td": 1.0,
+      "rush_yd": 224.0,
+      "snap_pct": 54,
+      "tm_off_snp": 270.0
      },
      "slot": "RB",
-     "team": "TB"
+     "team": "NYJ"
     },
     {
      "id": "7564",
@@ -3370,24 +3363,23 @@
      "team": "SF"
     },
     {
-     "id": "13345",
-     "name": "Jonah Coleman",
-     "pos": "RB",
+     "id": "11635",
+     "inj": "Questionable (Back)",
+     "name": "Ladd McConkey",
+     "pos": "WR",
      "season": {
-      "gp": 5.0,
-      "off_snp": 157.0,
-      "pts_ppr": 62.9,
-      "rec": 13.0,
-      "rec_tgt": 14.0,
-      "rec_yd": 128.0,
-      "rush_att": 47.0,
-      "rush_td": 3.0,
-      "rush_yd": 191.0,
-      "snap_pct": 50,
-      "tm_off_snp": 311.0
+      "gp": 6.0,
+      "off_snp": 206.0,
+      "pts_ppr": 51.6,
+      "rec": 17.0,
+      "rec_td": 1.0,
+      "rec_tgt": 24.0,
+      "rec_yd": 286.0,
+      "snap_pct": 39,
+      "tm_off_snp": 531.0
      },
      "slot": "FLEX",
-     "team": "DEN"
+     "team": "LAC"
     },
     {
      "id": "11786",
@@ -3414,7 +3406,8 @@
     }
    ],
    "lineup_flags": [
-    "QB Patrick Mahomes is Questionable (Elbow)"
+    "QB Patrick Mahomes is Questionable (Elbow)",
+    "FLEX Ladd McConkey is Questionable (Back)"
    ],
    "owner": "erictheleghel",
    "owner_id": "730759755336929280",

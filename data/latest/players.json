@@ -617,10 +617,13 @@
   "last_name": "Kincaid",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 40.0,
    "pts_ppr": 5.8,
    "rec": 3.0,
    "rec_tgt": 3.0,
-   "rec_yd": 28.0
+   "rec_yd": 28.0,
+   "snap_pct": 50,
+   "tm_off_snp": 80.0
   },
   "position": "TE",
   "search_rank": 81,
@@ -802,7 +805,7 @@
    "tm_off_snp": 56.0
   },
   "status": "Active",
-  "team": "BAL",
+  "team": "ATL",
   "years_exp": 3
  },
  "10955": {
@@ -2184,10 +2187,13 @@
   "last_name": "Davis",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 11.0,
    "pts_ppr": 0.2,
    "rec_tgt": 1.0,
    "rush_att": 2.0,
-   "rush_yd": 2.0
+   "rush_yd": 2.0,
+   "snap_pct": 14,
+   "tm_off_snp": 80.0
   },
   "position": "RB",
   "search_rank": 167,
@@ -2993,6 +2999,8 @@
   "depth_chart_position": "SWR",
   "first_name": "Jordan",
   "full_name": "Jordan Whittington",
+  "injury_body_part": "Back",
+  "injury_status": "Questionable",
   "last_name": "Whittington",
   "last_week": {
    "gp": 1.0,
@@ -3364,10 +3372,13 @@
   "last_name": "Coleman",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 49.0,
    "pts_ppr": 4.7,
    "rec": 3.0,
    "rec_tgt": 6.0,
-   "rec_yd": 17.0
+   "rec_yd": 17.0,
+   "snap_pct": 61,
+   "tm_off_snp": 80.0
   },
   "position": "WR",
   "search_rank": 206,
@@ -3906,7 +3917,8 @@
   "last_name": "Reichard",
   "last_week": {
    "gp": 1.0,
-   "pts_ppr": 9.0
+   "pts_ppr": 9.0,
+   "tm_off_snp": 48.0
   },
   "position": "K",
   "search_rank": 170,
@@ -5219,7 +5231,10 @@
   "full_name": "Tai Felton",
   "last_name": "Felton",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 6.0,
+   "snap_pct": 12,
+   "tm_off_snp": 48.0
   },
   "position": "WR",
   "search_rank": 693,
@@ -6669,10 +6684,13 @@
   "last_name": "Hawes",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 46.0,
    "pts_ppr": 1.8,
    "rec": 1.0,
    "rec_tgt": 1.0,
-   "rec_yd": 8.0
+   "rec_yd": 8.0,
+   "snap_pct": 58,
+   "tm_off_snp": 80.0
   },
   "position": "TE",
   "search_rank": 614,
@@ -6781,7 +6799,10 @@
   "full_name": "Gavin Bartholomew",
   "last_name": "Bartholomew",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 6.0,
+   "snap_pct": 12,
+   "tm_off_snp": 48.0
   },
   "position": "TE",
   "search_rank": 667,
@@ -7032,11 +7053,14 @@
   "last_name": "Latu",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 21.0,
    "pts_ppr": 9.5,
    "rec": 1.0,
    "rec_td": 1.0,
    "rec_tgt": 1.0,
-   "rec_yd": 25.0
+   "rec_yd": 25.0,
+   "snap_pct": 26,
+   "tm_off_snp": 80.0
   },
   "position": "TE",
   "search_rank": 627,
@@ -7099,9 +7123,12 @@
   "last_name": "Brosmer",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 8.0,
    "pass_att": 7.0,
    "pass_yd": 58.0,
-   "pts_ppr": 2.32
+   "pts_ppr": 2.32,
+   "snap_pct": 17,
+   "tm_off_snp": 48.0
   },
   "position": "QB",
   "search_rank": 503,
@@ -7498,30 +7525,6 @@
   "team": "CIN",
   "years_exp": 1
  },
- "12938": {
-  "active": true,
-  "age": 23,
-  "first_name": "Jackson",
-  "full_name": "Jackson Meeks",
-  "injury_body_part": "Coach's Decision",
-  "injury_status": "Out",
-  "last_name": "Meeks",
-  "position": "TE",
-  "search_rank": 678,
-  "season": {
-   "gp": 4.0,
-   "off_snp": 11.0,
-   "pts_ppr": 1.8,
-   "rec": 1.0,
-   "rec_tgt": 1.0,
-   "rec_yd": 8.0,
-   "snap_pct": 4,
-   "tm_off_snp": 278.0
-  },
-  "status": "Active",
-  "team": "DET",
-  "years_exp": 1
- },
  "12939": {
   "active": true,
   "age": 23,
@@ -7785,10 +7788,13 @@
   "last_name": "Price",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 29.0,
    "pts_ppr": 1.6,
    "rec": 1.0,
    "rec_tgt": 4.0,
-   "rec_yd": 6.0
+   "rec_yd": 6.0,
+   "snap_pct": 60,
+   "tm_off_snp": 48.0
   },
   "position": "WR",
   "search_rank": 700,
@@ -7876,7 +7882,10 @@
   "full_name": "Ben Yurosek",
   "last_name": "Yurosek",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 10.0,
+   "snap_pct": 21,
+   "tm_off_snp": 48.0
   },
   "position": "TE",
   "search_rank": 641,
@@ -8186,7 +8195,7 @@
  "13272": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "QB",
   "first_name": "Carson",
   "full_name": "Carson Beck",
@@ -10553,7 +10562,7 @@
   "search_rank": 577,
   "season": null,
   "status": "Active",
-  "team": "JAX",
+  "team": "ARI",
   "years_exp": 0
  },
  "13429": {
@@ -10796,7 +10805,10 @@
   "full_name": "Max Bredeson",
   "last_name": "Bredeson",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 7.0,
+   "snap_pct": 15,
+   "tm_off_snp": 48.0
   },
   "position": "RB",
   "search_rank": 549,
@@ -11444,27 +11456,6 @@
   "team": "NYJ",
   "years_exp": 0
  },
- "13827": {
-  "active": true,
-  "age": 23,
-  "first_name": "Tanner",
-  "full_name": "Tanner Arkin",
-  "last_name": "Arkin",
-  "last_week": {
-   "gp": 1.0
-  },
-  "position": "TE",
-  "search_rank": 596,
-  "season": {
-   "gp": 5.0,
-   "off_snp": 46.0,
-   "snap_pct": 14,
-   "tm_off_snp": 323.0
-  },
-  "status": "Active",
-  "team": "NE",
-  "years_exp": 0
- },
  "13830": {
   "active": true,
   "age": 26,
@@ -12013,7 +12004,10 @@
   "full_name": "Odell Beckham Jr.",
   "last_name": "Beckham Jr.",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 2.0,
+   "snap_pct": 4,
+   "tm_off_snp": 48.0
   },
   "position": "WR",
   "search_rank": 443,
@@ -12476,11 +12470,14 @@
   "last_name": "Wentz",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 40.0,
    "pass_att": 25.0,
    "pass_int": 2.0,
    "pass_yd": 81.0,
    "pts_ppr": -0.76,
-   "rush_att": 1.0
+   "rush_att": 1.0,
+   "snap_pct": 83,
+   "tm_off_snp": 48.0
   },
   "position": "QB",
   "search_rank": 633,
@@ -13587,12 +13584,15 @@
   "last_name": "Jones Sr.",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 17.0,
    "pts_ppr": 3.1,
    "rec": 1.0,
    "rec_tgt": 1.0,
    "rec_yd": 5.0,
    "rush_att": 5.0,
-   "rush_yd": 16.0
+   "rush_yd": 16.0,
+   "snap_pct": 35,
+   "tm_off_snp": 48.0
   },
   "position": "RB",
   "search_rank": 85,
@@ -14405,12 +14405,15 @@
   "last_name": "Moore",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 47.0,
    "pts_ppr": 6.6,
    "rec": 3.0,
    "rec_tgt": 5.0,
    "rec_yd": 25.0,
    "rush_att": 1.0,
-   "rush_yd": 11.0
+   "rush_yd": 11.0,
+   "snap_pct": 59,
+   "tm_off_snp": 80.0
   },
   "position": "WR",
   "search_rank": 49,
@@ -14441,13 +14444,16 @@
   "last_name": "Allen",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 77.0,
    "pass_att": 31.0,
    "pass_int": 1.0,
    "pass_td": 1.0,
    "pass_yd": 234.0,
    "pts_ppr": 13.86,
    "rush_att": 6.0,
-   "rush_yd": 15.0
+   "rush_yd": 15.0,
+   "snap_pct": 96,
+   "tm_off_snp": 80.0
   },
   "position": "QB",
   "search_rank": 3,
@@ -14803,9 +14809,12 @@
   "last_name": "Allen",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 3.0,
    "pts_ppr": -0.2,
    "rush_att": 3.0,
-   "rush_yd": -2.0
+   "rush_yd": -2.0,
+   "snap_pct": 4,
+   "tm_off_snp": 80.0
   },
   "position": "QB",
   "search_rank": 666,
@@ -14856,13 +14865,14 @@
  "5154": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 5,
-  "depth_chart_position": "SWR",
   "first_name": "Trent",
   "full_name": "Trent Sherfield",
   "last_name": "Sherfield",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 10.0,
+   "snap_pct": 12,
+   "tm_off_snp": 80.0
   },
   "position": "WR",
   "search_rank": 600,
@@ -15056,10 +15066,13 @@
   "last_name": "Hockenson",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 39.0,
    "pts_ppr": 7.3,
    "rec": 4.0,
    "rec_tgt": 7.0,
-   "rec_yd": 33.0
+   "rec_yd": 33.0,
+   "snap_pct": 81,
+   "tm_off_snp": 48.0
   },
   "position": "TE",
   "search_rank": 128,
@@ -15434,10 +15447,13 @@
   "last_name": "Knox",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 58.0,
    "pts_ppr": 7.7,
    "rec": 4.0,
    "rec_tgt": 5.0,
-   "rec_yd": 37.0
+   "rec_yd": 37.0,
+   "snap_pct": 72,
+   "tm_off_snp": 80.0
   },
   "position": "TE",
   "search_rank": 684,
@@ -15611,7 +15627,10 @@
   "full_name": "Greg Dortch",
   "last_name": "Dortch",
   "last_week": {
-   "gp": 1.0
+   "gp": 1.0,
+   "off_snp": 8.0,
+   "snap_pct": 10,
+   "tm_off_snp": 80.0
   },
   "position": "WR",
   "search_rank": 585,
@@ -15840,12 +15859,15 @@
   "last_name": "Johnson",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 17.0,
    "pts_ppr": 5.7,
    "rec": 2.0,
    "rec_tgt": 2.0,
    "rec_yd": 36.0,
    "rush_att": 1.0,
-   "rush_yd": 1.0
+   "rush_yd": 1.0,
+   "snap_pct": 21,
+   "tm_off_snp": 80.0
   },
   "position": "RB",
   "search_rank": 534,
@@ -16254,30 +16276,6 @@
   "team": "CHI",
   "years_exp": 3
  },
- "650": {
-  "active": true,
-  "age": 42,
-  "depth_chart_order": 1,
-  "depth_chart_position": "K",
-  "first_name": "Nick",
-  "full_name": "Nick Folk",
-  "last_name": "Folk",
-  "last_week": {
-   "gp": 1.0,
-   "pts_ppr": 4.0,
-   "tm_off_snp": 62.0
-  },
-  "position": "K",
-  "search_rank": 249,
-  "season": {
-   "gp": 9.0,
-   "pts_ppr": 56.0,
-   "tm_off_snp": 560.0
-  },
-  "status": "Active",
-  "team": "ATL",
-  "years_exp": 19
- },
  "6528": {
   "active": true,
   "age": 30,
@@ -16599,10 +16597,13 @@
   "last_name": "Jefferson",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 47.0,
    "pts_ppr": 8.8,
    "rec": 3.0,
    "rec_tgt": 11.0,
-   "rec_yd": 58.0
+   "rec_yd": 58.0,
+   "snap_pct": 98,
+   "tm_off_snp": 48.0
   },
   "position": "WR",
   "search_rank": 12,
@@ -17190,10 +17191,13 @@
   "last_name": "Dallas",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 8.0,
    "pts_ppr": 1.2,
    "rec": 1.0,
    "rec_tgt": 1.0,
-   "rec_yd": 2.0
+   "rec_yd": 2.0,
+   "snap_pct": 17,
+   "tm_off_snp": 48.0
   },
   "position": "RB",
   "search_rank": 677,
@@ -17344,7 +17348,8 @@
   "last_name": "Bass",
   "last_week": {
    "gp": 1.0,
-   "pts_ppr": 13.0
+   "pts_ppr": 13.0,
+   "tm_off_snp": 80.0
   },
   "position": "K",
   "search_rank": 288,
@@ -19728,10 +19733,13 @@
   "last_name": "Shakir",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 42.0,
    "pts_ppr": 9.8,
    "rec": 4.0,
    "rec_tgt": 4.0,
-   "rec_yd": 58.0
+   "rec_yd": 58.0,
+   "snap_pct": 52,
+   "tm_off_snp": 80.0
   },
   "position": "WR",
   "search_rank": 120,
@@ -19854,11 +19862,14 @@
   "last_name": "Cook III",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 51.0,
    "pts_ppr": 16.7,
    "rec_tgt": 1.0,
    "rush_att": 31.0,
    "rush_td": 1.0,
-   "rush_yd": 107.0
+   "rush_yd": 107.0,
+   "snap_pct": 64,
+   "tm_off_snp": 80.0
   },
   "position": "RB",
   "search_rank": 5,
@@ -21237,12 +21248,15 @@
   "last_name": "Mason",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 23.0,
    "pts_ppr": 6.2,
    "rec": 2.0,
    "rec_tgt": 3.0,
    "rec_yd": 7.0,
    "rush_att": 6.0,
-   "rush_yd": 35.0
+   "rush_yd": 35.0,
+   "snap_pct": 48,
+   "tm_off_snp": 48.0
   },
   "position": "RB",
   "search_rank": 91,
@@ -21539,6 +21553,19 @@
   },
   "status": "Active",
   "team": "PIT",
+  "years_exp": 4
+ },
+ "8799": {
+  "active": true,
+  "age": 27,
+  "first_name": "Zaire",
+  "full_name": "Zaire Mitchell-Paden",
+  "last_name": "Mitchell-Paden",
+  "position": "TE",
+  "search_rank": 999,
+  "season": null,
+  "status": "Active",
+  "team": "CLE",
   "years_exp": 4
  },
  "8800": {
@@ -22705,10 +22732,13 @@
   "last_name": "Addison",
   "last_week": {
    "gp": 1.0,
+   "off_snp": 46.0,
    "pts_ppr": 4.8,
    "rec": 2.0,
    "rec_tgt": 3.0,
-   "rec_yd": 28.0
+   "rec_yd": 28.0,
+   "snap_pct": 96,
+   "tm_off_snp": 48.0
   },
   "position": "WR",
   "search_rank": 99,
