@@ -18,22 +18,6 @@
    },
    {
     "depth": null,
-    "id": "BAL",
-    "last_week": {
-     "gp": 1.0,
-     "pts_ppr": 2.0
-    },
-    "name": "BAL DEF",
-    "pos": "DEF",
-    "rank": null,
-    "season": {
-     "gp": 9.0,
-     "pts_ppr": 41.0
-    },
-    "team": "BAL"
-   },
-   {
-    "depth": null,
     "id": "IND",
     "last_week": {
      "gp": 1.0,
@@ -162,35 +146,51 @@
    },
    {
     "depth": null,
-    "id": "GB",
+    "id": "DET",
     "last_week": {
      "gp": 1.0,
-     "pts_ppr": 13.0
+     "pts_ppr": 9.0
     },
-    "name": "GB DEF",
-    "pos": "DEF",
-    "rank": null,
-    "season": {
-     "gp": 9.0,
-     "pts_ppr": 74.0
-    },
-    "team": "GB"
-   },
-   {
-    "depth": null,
-    "id": "MIA",
-    "last_week": {
-     "gp": 1.0,
-     "pts_ppr": 6.0
-    },
-    "name": "MIA DEF",
+    "name": "DET DEF",
     "pos": "DEF",
     "rank": null,
     "season": {
      "gp": 8.0,
-     "pts_ppr": 27.0
+     "pts_ppr": 49.0
     },
-    "team": "MIA"
+    "team": "DET"
+   },
+   {
+    "depth": null,
+    "id": "BUF",
+    "last_week": {
+     "gp": 1.0,
+     "pts_ppr": 16.0
+    },
+    "name": "BUF DEF",
+    "pos": "DEF",
+    "rank": null,
+    "season": {
+     "gp": 8.0,
+     "pts_ppr": 56.0
+    },
+    "team": "BUF"
+   },
+   {
+    "depth": null,
+    "id": "PHI",
+    "last_week": {
+     "gp": 1.0,
+     "pts_ppr": 10.0
+    },
+    "name": "PHI DEF",
+    "pos": "DEF",
+    "rank": null,
+    "season": {
+     "gp": 9.0,
+     "pts_ppr": 35.0
+    },
+    "team": "PHI"
    }
   ],
   "K": [
@@ -211,6 +211,24 @@
      "tm_off_snp": 531.0
     },
     "team": "LAC"
+   },
+   {
+    "depth": "K1",
+    "id": "2747",
+    "last_week": {
+     "gp": 1.0,
+     "pts_ppr": 6.0,
+     "tm_off_snp": 67.0
+    },
+    "name": "Jason Myers",
+    "pos": "K",
+    "rank": 125,
+    "season": {
+     "gp": 9.0,
+     "pts_ppr": 73.0,
+     "tm_off_snp": 594.0
+    },
+    "team": "SEA"
    },
    {
     "depth": "K1",
@@ -261,6 +279,24 @@
      "tm_off_snp": 565.0
     },
     "team": "DEN"
+   },
+   {
+    "depth": "K1",
+    "id": "2020",
+    "last_week": {
+     "gp": 1.0,
+     "pts_ppr": 9.0,
+     "tm_off_snp": 61.0
+    },
+    "name": "Cairo Santos",
+    "pos": "K",
+    "rank": 190,
+    "season": {
+     "gp": 9.0,
+     "pts_ppr": 79.0,
+     "tm_off_snp": 660.0
+    },
+    "team": "CHI"
    },
    {
     "depth": "K1",
@@ -326,7 +362,7 @@
     "team": "CAR"
    },
    {
-    "depth": null,
+    "depth": "K1",
     "id": "10937",
     "last_week": {
      "gp": 1.0,
@@ -345,24 +381,6 @@
    },
    {
     "depth": "K1",
-    "id": "11261",
-    "last_week": {
-     "gp": 1.0,
-     "pts_ppr": 13.0,
-     "tm_off_snp": 73.0
-    },
-    "name": "Andre Szmyt",
-    "pos": "K",
-    "rank": 319,
-    "season": {
-     "gp": 9.0,
-     "pts_ppr": 79.0,
-     "tm_off_snp": 586.0
-    },
-    "team": "CLE"
-   },
-   {
-    "depth": "K1",
     "id": "10955",
     "last_week": {
      "gp": 1.0,
@@ -378,20 +396,6 @@
      "tm_off_snp": 638.0
     },
     "team": "ARI"
-   },
-   {
-    "depth": "K1",
-    "id": "6528",
-    "last_week": null,
-    "name": "Joey Slye",
-    "pos": "K",
-    "rank": 325,
-    "season": {
-     "gp": 8.0,
-     "pts_ppr": 53.0,
-     "tm_off_snp": 476.0
-    },
-    "team": "TEN"
    }
   ],
   "QB": [
@@ -414,7 +418,7 @@
     },
     "name": "Justin Herbert",
     "pos": "QB",
-    "rank": 34,
+    "rank": 33,
     "season": {
      "gp": 8.0,
      "off_snp": 516.0,
@@ -447,7 +451,7 @@
     },
     "name": "Baker Mayfield",
     "pos": "QB",
-    "rank": 76,
+    "rank": 75,
     "season": {
      "gp": 6.0,
      "off_snp": 372.0,
@@ -465,7 +469,7 @@
     "team": "TB"
    },
    {
-    "depth": "QB3",
+    "depth": "QB1",
     "id": "13269",
     "last_week": {
      "tm_off_snp": 50.0
@@ -580,9 +584,8 @@
     "team": "BAL"
    },
    {
-    "depth": "QB1",
+    "depth": "QB2",
     "id": "11565",
-    "inj": "Questionable (Undisclosed)",
     "last_week": {
      "gp": 1.0,
      "off_snp": 51.0,
@@ -679,7 +682,7 @@
     "team": "ATL"
    },
    {
-    "depth": "QB3",
+    "depth": "QB2",
     "id": "6768",
     "last_week": {
      "tm_off_snp": 62.0
@@ -700,6 +703,18 @@
     "team": "ATL"
    },
    {
+    "depth": "QB3",
+    "id": "13275",
+    "last_week": null,
+    "name": "Ty Simpson",
+    "pos": "QB",
+    "rank": 242,
+    "season": {
+     "tm_off_snp": 86.0
+    },
+    "team": "LAR"
+   },
+   {
     "depth": null,
     "id": "12688",
     "last_week": null,
@@ -709,18 +724,42 @@
     "team": "GB"
    },
    {
-    "depth": "QB3",
+    "depth": "QB1",
     "id": "13272",
     "last_week": {
      "tm_off_snp": 53.0
     },
     "name": "Carson Beck",
     "pos": "QB",
-    "rank": 288,
+    "rank": 287,
     "season": {
      "tm_off_snp": 53.0
     },
     "team": "ARI"
+   },
+   {
+    "depth": "QB2",
+    "id": "4017",
+    "inj": "Questionable (Concussion)",
+    "last_week": null,
+    "name": "Deshaun Watson",
+    "pos": "QB",
+    "rank": 291,
+    "season": {
+     "gp": 8.0,
+     "off_snp": 509.0,
+     "pass_att": 249.0,
+     "pass_int": 3.0,
+     "pass_td": 7.0,
+     "pass_yd": 1806.0,
+     "pts_ppr": 120.94,
+     "rush_att": 51.0,
+     "rush_td": 1.0,
+     "rush_yd": 217.0,
+     "snap_pct": 99,
+     "tm_off_snp": 513.0
+    },
+    "team": "CLE"
    },
    {
     "depth": null,
@@ -746,14 +785,23 @@
     "team": "DEN"
    },
    {
-    "depth": "QB3",
+    "depth": "QB4",
+    "id": "13289",
+    "last_week": null,
+    "name": "Drew Allar",
+    "pos": "QB",
+    "rank": 360,
+    "team": "PIT"
+   },
+   {
+    "depth": "QB2",
     "id": "13303",
     "last_week": {
      "tm_off_snp": 63.0
     },
     "name": "Cade Klubnik",
     "pos": "QB",
-    "rank": 395,
+    "rank": 394,
     "season": {
      "tm_off_snp": 557.0
     },
@@ -784,146 +832,117 @@
      "tm_off_snp": 498.0
     },
     "team": "SF"
-   },
-   {
-    "depth": "QB2",
-    "id": "7591",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 5.0,
-     "pts_ppr": -2.1,
-     "rush_att": 2.0,
-     "rush_yd": -1.0,
-     "snap_pct": 8,
-     "tm_off_snp": 66.0
-    },
-    "name": "Justin Fields",
-    "pos": "QB",
-    "rank": 429,
-    "season": {
-     "gp": 2.0,
-     "off_snp": 6.0,
-     "pts_ppr": -2.1,
-     "rush_att": 2.0,
-     "rush_yd": -1.0,
-     "snap_pct": 1,
-     "tm_off_snp": 510.0
-    },
-    "team": "KC"
-   },
-   {
-    "depth": "QB2",
-    "id": "2306",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 16.0,
-     "pass_att": 8.0,
-     "pass_td": 1.0,
-     "pass_yd": 71.0,
-     "pts_ppr": 7.94,
-     "rush_att": 2.0,
-     "rush_yd": 11.0,
-     "snap_pct": 24,
-     "tm_off_snp": 67.0
-    },
-    "name": "Jameis Winston",
-    "pos": "QB",
-    "rank": 469,
-    "season": {
-     "gp": 7.0,
-     "off_snp": 333.0,
-     "pass_att": 166.0,
-     "pass_int": 5.0,
-     "pass_td": 8.0,
-     "pass_yd": 1028.0,
-     "pts_ppr": 78.22,
-     "rush_att": 18.0,
-     "rush_td": 1.0,
-     "rush_yd": 61.0,
-     "snap_pct": 60,
-     "tm_off_snp": 557.0
-    },
-    "team": "NYG"
-   },
-   {
-    "depth": "QB2",
-    "id": "9229",
-    "last_week": {
-     "tm_off_snp": 64.0
-    },
-    "name": "Anthony Richardson Sr.",
-    "pos": "QB",
-    "rank": 475,
-    "season": {
-     "gp": 1.0,
-     "off_snp": 13.0,
-     "pass_att": 2.0,
-     "pass_yd": 8.0,
-     "pts_ppr": 0.72,
-     "rush_att": 2.0,
-     "rush_yd": 4.0,
-     "snap_pct": 2,
-     "tm_off_snp": 593.0
-    },
-    "team": "IND"
    }
   ],
   "RB": [
    {
     "depth": "RB2",
-    "id": "7021",
-    "last_week": null,
-    "name": "Rico Dowdle",
-    "pos": "RB",
-    "rank": 65,
-    "season": {
-     "gp": 5.0,
-     "off_snp": 134.0,
-     "pts_ppr": 44.6,
-     "rec": 13.0,
-     "rec_tgt": 17.0,
-     "rec_yd": 82.0,
-     "rush_att": 46.0,
-     "rush_td": 1.0,
-     "rush_yd": 174.0,
-     "snap_pct": 40,
-     "tm_off_snp": 339.0
+    "id": "6806",
+    "last_week": {
+     "gp": 1.0,
+     "off_snp": 11.0,
+     "pts_ppr": 3.2,
+     "rec": 1.0,
+     "rec_tgt": 1.0,
+     "rec_yd": 4.0,
+     "rush_att": 4.0,
+     "rush_yd": 18.0,
+     "snap_pct": 15,
+     "tm_off_snp": 75.0
     },
-    "team": "PIT"
+    "name": "J.K. Dobbins",
+    "pos": "RB",
+    "rank": 68,
+    "season": {
+     "gp": 9.0,
+     "off_snp": 198.0,
+     "pts_ppr": 62.5,
+     "rec": 9.0,
+     "rec_tgt": 10.0,
+     "rec_yd": 31.0,
+     "rush_att": 98.0,
+     "rush_td": 3.0,
+     "rush_yd": 324.0,
+     "snap_pct": 35,
+     "tm_off_snp": 565.0
+    },
+    "team": "DEN"
+   },
+   {
+    "depth": "RB4",
+    "id": "11581",
+    "inj": "Questionable (Knee)",
+    "last_week": null,
+    "name": "MarShawn Lloyd",
+    "pos": "RB",
+    "rank": 98,
+    "season": {
+     "gp": 8.0,
+     "off_snp": 186.0,
+     "pts_ppr": 51.8,
+     "rec": 13.0,
+     "rec_td": 1.0,
+     "rec_tgt": 17.0,
+     "rec_yd": 79.0,
+     "rush_att": 57.0,
+     "rush_td": 2.0,
+     "rush_yd": 149.0,
+     "snap_pct": 35,
+     "tm_off_snp": 525.0
+    },
+    "team": "GB"
+   },
+   {
+    "depth": "RB5",
+    "id": "9508",
+    "inj": "Questionable (Knee)",
+    "last_week": null,
+    "name": "Tyjae Spears",
+    "pos": "RB",
+    "rank": 122,
+    "season": {
+     "gp": 6.0,
+     "off_snp": 140.0,
+     "pts_ppr": 27.1,
+     "rec": 15.0,
+     "rec_tgt": 17.0,
+     "rec_yd": 75.0,
+     "rush_att": 18.0,
+     "rush_yd": 66.0,
+     "snap_pct": 42,
+     "tm_off_snp": 336.0
+    },
+    "team": "TEN"
    },
    {
     "depth": "RB2",
-    "id": "10219",
+    "id": "13305",
     "last_week": {
      "gp": 1.0,
-     "off_snp": 25.0,
-     "pts_ppr": 11.2,
-     "rec": 2.0,
-     "rec_tgt": 2.0,
-     "rec_yd": 13.0,
-     "rush_att": 10.0,
-     "rush_td": 1.0,
-     "rush_yd": 19.0,
-     "snap_pct": 45,
-     "tm_off_snp": 56.0
+     "off_snp": 17.0,
+     "pts_ppr": -0.3,
+     "rush_att": 6.0,
+     "rush_yd": -3.0,
+     "snap_pct": 34,
+     "tm_off_snp": 50.0
     },
-    "name": "Chris Rodriguez Jr.",
+    "name": "Mike Washington Jr.",
     "pos": "RB",
-    "rank": 127,
+    "rank": 123,
     "season": {
-     "gp": 8.0,
-     "off_snp": 131.0,
-     "pts_ppr": 54.4,
-     "rec": 4.0,
-     "rec_tgt": 5.0,
-     "rec_yd": 36.0,
-     "rush_att": 55.0,
-     "rush_td": 4.0,
-     "rush_yd": 228.0,
-     "snap_pct": 27,
-     "tm_off_snp": 492.0
+     "gp": 9.0,
+     "off_snp": 155.0,
+     "pts_ppr": 37.6,
+     "rec": 3.0,
+     "rec_tgt": 6.0,
+     "rec_yd": 11.0,
+     "rush_att": 71.0,
+     "rush_td": 1.0,
+     "rush_yd": 275.0,
+     "snap_pct": 26,
+     "tm_off_snp": 592.0
     },
-    "team": "JAX"
+    "team": "LV"
    },
    {
     "depth": "RB3",
@@ -1073,7 +1092,7 @@
     "rank": 167,
     "season": {
      "gp": 8.0,
-     "off_snp": 60.0,
+     "off_snp": 71.0,
      "pts_ppr": 11.4,
      "rec": 3.0,
      "rec_tgt": 4.0,
@@ -1081,7 +1100,7 @@
      "rush_att": 13.0,
      "rush_yd": 44.0,
      "snap_pct": 13,
-     "tm_off_snp": 471.0
+     "tm_off_snp": 551.0
     },
     "team": "BUF"
    },
@@ -1095,42 +1114,52 @@
     "team": "WAS"
    },
    {
-    "depth": "RB2",
-    "id": "12504",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 26.0,
-     "pts_ppr": 12.8,
-     "rush_att": 14.0,
-     "rush_td": 1.0,
-     "rush_yd": 68.0,
-     "snap_pct": 39,
-     "tm_off_snp": 66.0
-    },
-    "name": "Kaleb Johnson",
+    "depth": "RB5",
+    "id": "11643",
+    "inj": "Questionable (Quadriceps)",
+    "last_week": null,
+    "name": "Jaylen Wright",
     "pos": "RB",
-    "rank": 173,
+    "rank": 174,
     "season": {
-     "gp": 7.0,
-     "off_snp": 96.0,
-     "pts_ppr": 23.2,
-     "rec": 1.0,
-     "rec_tgt": 3.0,
-     "rec_yd": 10.0,
-     "rush_att": 42.0,
-     "rush_td": 1.0,
-     "rush_yd": 172.0,
-     "snap_pct": 21,
-     "tm_off_snp": 455.0
+     "gp": 6.0,
+     "off_snp": 44.0,
+     "pts_ppr": 4.1,
+     "rec_tgt": 2.0,
+     "rush_att": 22.0,
+     "rush_yd": 41.0,
+     "snap_pct": 13,
+     "tm_off_snp": 350.0
     },
-    "team": "GB"
+    "team": "MIA"
    },
    {
-    "depth": "RB3",
+    "depth": null,
+    "id": "9757",
+    "last_week": null,
+    "name": "Kendre Miller",
+    "pos": "RB",
+    "rank": 180,
+    "season": {
+     "gp": 6.0,
+     "off_snp": 127.0,
+     "pts_ppr": 38.6,
+     "rec": 9.0,
+     "rec_tgt": 13.0,
+     "rec_yd": 37.0,
+     "rush_att": 57.0,
+     "rush_td": 2.0,
+     "rush_yd": 159.0,
+     "snap_pct": 31,
+     "tm_off_snp": 412.0
+    },
+    "team": "DAL"
+   },
+   {
+    "depth": null,
     "id": "12457",
     "last_week": {
-     "gp": 1.0,
-     "tm_off_snp": 70.0
+     "gp": 1.0
     },
     "name": "Jaydon Blue",
     "pos": "RB",
@@ -1142,44 +1171,10 @@
      "rec": 1.0,
      "rec_tgt": 1.0,
      "rec_yd": 9.0,
-     "snap_pct": 6,
-     "tm_off_snp": 139.0
+     "snap_pct": 12,
+     "tm_off_snp": 69.0
     },
     "team": "PHI"
-   },
-   {
-    "depth": "RB2",
-    "id": "11579",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 35.0,
-     "pts_ppr": 14.7,
-     "rec": 1.0,
-     "rec_tgt": 1.0,
-     "rec_yd": 5.0,
-     "rush_att": 15.0,
-     "rush_td": 1.0,
-     "rush_yd": 72.0,
-     "snap_pct": 47,
-     "tm_off_snp": 75.0
-    },
-    "name": "Audric Estime",
-    "pos": "RB",
-    "rank": 190,
-    "season": {
-     "gp": 2.0,
-     "off_snp": 35.0,
-     "pts_ppr": 22.6,
-     "rec": 1.0,
-     "rec_tgt": 1.0,
-     "rec_yd": 5.0,
-     "rush_att": 24.0,
-     "rush_td": 2.0,
-     "rush_yd": 91.0,
-     "snap_pct": 15,
-     "tm_off_snp": 227.0
-    },
-    "team": "NO"
    },
    {
     "depth": null,
@@ -1252,6 +1247,21 @@
      "tm_off_snp": 367.0
     },
     "team": "SF"
+   },
+   {
+    "depth": "RB4",
+    "id": "11273",
+    "last_week": null,
+    "name": "Ben VanSumeren",
+    "pos": "RB",
+    "rank": 228,
+    "season": {
+     "gp": 5.0,
+     "off_snp": 4.0,
+     "snap_pct": 1,
+     "tm_off_snp": 322.0
+    },
+    "team": "KC"
    },
    {
     "depth": null,
@@ -1382,35 +1392,41 @@
     "team": "NE"
    },
    {
-    "depth": "RB2",
-    "id": "12491",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 11.0,
-     "pts_ppr": 11.5,
-     "rush_att": 8.0,
-     "rush_td": 1.0,
-     "rush_yd": 55.0,
-     "snap_pct": 17,
-     "tm_off_snp": 63.0
-    },
-    "name": "Corey Kiner",
+    "depth": "RB6",
+    "id": "13277",
+    "inj": "Questionable (Shoulder)",
+    "last_week": null,
+    "name": "CJ Donaldson",
     "pos": "RB",
-    "rank": 487,
+    "rank": 466,
     "season": {
-     "gp": 9.0,
-     "off_snp": 77.0,
-     "pts_ppr": 32.0,
-     "rec": 2.0,
-     "rec_tgt": 2.0,
-     "rec_yd": 16.0,
-     "rush_att": 50.0,
-     "rush_td": 1.0,
-     "rush_yd": 244.0,
-     "snap_pct": 13,
-     "tm_off_snp": 585.0
+     "gp": 7.0,
+     "off_snp": 122.0,
+     "pts_ppr": 11.1,
+     "rec": 4.0,
+     "rec_tgt": 6.0,
+     "rec_yd": 10.0,
+     "rush_att": 17.0,
+     "rush_yd": 81.0,
+     "snap_pct": 25,
+     "tm_off_snp": 480.0
     },
-    "team": "NE"
+    "team": "NO"
+   },
+   {
+    "depth": "RB6",
+    "id": "13423",
+    "last_week": null,
+    "name": "Eli Heidenreich",
+    "pos": "RB",
+    "rank": 489,
+    "season": {
+     "gp": 2.0,
+     "off_snp": 3.0,
+     "snap_pct": 1,
+     "tm_off_snp": 209.0
+    },
+    "team": "PIT"
    },
    {
     "depth": null,
@@ -1494,7 +1510,7 @@
     "team": "IND"
    },
    {
-    "depth": "RB3",
+    "depth": "RB2",
     "id": "12969",
     "last_week": {
      "gp": 1.0,
@@ -1691,7 +1707,7 @@
     "team": "PHI"
    },
    {
-    "depth": "RB7",
+    "depth": "RB6",
     "id": "13418",
     "last_week": {
      "tm_off_snp": 62.0
@@ -1724,15 +1740,15 @@
     "rank": 534,
     "season": {
      "gp": 6.0,
-     "off_snp": 80.0,
+     "off_snp": 97.0,
      "pts_ppr": 39.1,
      "rec": 17.0,
      "rec_tgt": 17.0,
      "rec_yd": 210.0,
      "rush_att": 7.0,
      "rush_yd": 11.0,
-     "snap_pct": 24,
-     "tm_off_snp": 339.0
+     "snap_pct": 23,
+     "tm_off_snp": 419.0
     },
     "team": "BUF"
    },
@@ -1761,7 +1777,7 @@
     "team": "SEA"
    },
    {
-    "depth": "RB4",
+    "depth": "RB3",
     "id": "13516",
     "last_week": {
      "gp": 1.0,
@@ -1774,10 +1790,10 @@
     "rank": 549,
     "season": {
      "gp": 8.0,
-     "off_snp": 103.0,
+     "off_snp": 110.0,
      "rec_tgt": 1.0,
-     "snap_pct": 24,
-     "tm_off_snp": 437.0
+     "snap_pct": 23,
+     "tm_off_snp": 485.0
     },
     "team": "MIN"
    },
@@ -1789,73 +1805,6 @@
     "pos": "RB",
     "rank": 559,
     "team": "LAR"
-   },
-   {
-    "depth": "RB6",
-    "id": "13438",
-    "last_week": null,
-    "name": "DeaMonte Trayanum",
-    "pos": "RB",
-    "rank": 569,
-    "status": "Inactive",
-    "team": "NYJ"
-   },
-   {
-    "depth": null,
-    "id": "10223",
-    "last_week": null,
-    "name": "Eric Gray",
-    "pos": "RB",
-    "rank": 569,
-    "team": "NYG"
-   },
-   {
-    "depth": "RB2",
-    "id": "13603",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 5.0,
-     "pts_ppr": 2.0,
-     "rush_att": 3.0,
-     "rush_yd": 20.0,
-     "snap_pct": 7,
-     "tm_off_snp": 67.0
-    },
-    "name": "Gregory Desrosiers",
-    "pos": "RB",
-    "rank": 570,
-    "season": {
-     "gp": 1.0,
-     "off_snp": 5.0,
-     "pts_ppr": 2.0,
-     "rush_att": 3.0,
-     "rush_yd": 20.0,
-     "snap_pct": 7,
-     "tm_off_snp": 67.0
-    },
-    "team": "NYG"
-   },
-   {
-    "depth": "RB3",
-    "id": "12939",
-    "last_week": {
-     "gp": 1.0,
-     "tm_off_snp": 66.0
-    },
-    "name": "Anthony Tyus III",
-    "pos": "RB",
-    "rank": 572,
-    "season": {
-     "gp": 6.0,
-     "off_snp": 7.0,
-     "pts_ppr": 8.3,
-     "rush_att": 3.0,
-     "rush_td": 1.0,
-     "rush_yd": 23.0,
-     "snap_pct": 2,
-     "tm_off_snp": 351.0
-    },
-    "team": "CAR"
    }
   ],
   "TE": [
@@ -2021,7 +1970,6 @@
    {
     "depth": "TE1",
     "id": "8210",
-    "inj": "Questionable (Hip)",
     "last_week": {
      "gp": 1.0,
      "off_snp": 46.0,
@@ -2316,7 +2264,7 @@
     },
     "name": "Mark Redman",
     "pos": "TE",
-    "rank": 307,
+    "rank": 306,
     "season": {
      "gp": 9.0,
      "off_snp": 191.0,
@@ -2386,15 +2334,6 @@
     "team": "LV"
    },
    {
-    "depth": null,
-    "id": "13432",
-    "last_week": null,
-    "name": "Khalil Dinkins",
-    "pos": "TE",
-    "rank": 357,
-    "team": "SF"
-   },
-   {
     "depth": "TE1",
     "id": "2505",
     "last_week": {
@@ -2410,7 +2349,7 @@
     },
     "name": "Darren Waller",
     "pos": "TE",
-    "rank": 357,
+    "rank": 356,
     "season": {
      "gp": 8.0,
      "off_snp": 273.0,
@@ -2423,9 +2362,48 @@
      "tm_off_snp": 560.0
     },
     "team": "CAR"
+   },
+   {
+    "depth": null,
+    "id": "13432",
+    "last_week": null,
+    "name": "Khalil Dinkins",
+    "pos": "TE",
+    "rank": 357,
+    "team": "SF"
    }
   ],
   "WR": [
+   {
+    "depth": "LWR2",
+    "id": "5045",
+    "last_week": {
+     "gp": 1.0,
+     "off_snp": 64.0,
+     "pts_ppr": 15.5,
+     "rec": 5.0,
+     "rec_td": 1.0,
+     "rec_tgt": 9.0,
+     "rec_yd": 45.0,
+     "snap_pct": 85,
+     "tm_off_snp": 75.0
+    },
+    "name": "Courtland Sutton",
+    "pos": "WR",
+    "rank": 72,
+    "season": {
+     "gp": 9.0,
+     "off_snp": 443.0,
+     "pts_ppr": 63.6,
+     "rec": 25.0,
+     "rec_td": 2.0,
+     "rec_tgt": 46.0,
+     "rec_yd": 266.0,
+     "snap_pct": 78,
+     "tm_off_snp": 565.0
+    },
+    "team": "DEN"
+   },
    {
     "depth": "RWR2",
     "id": "11628",
@@ -2454,6 +2432,31 @@
      "tm_off_snp": 472.0
     },
     "team": "HOU"
+   },
+   {
+    "depth": "LWR3",
+    "id": "11631",
+    "last_week": {
+     "gp": 1.0,
+     "off_snp": 19.0,
+     "snap_pct": 34,
+     "tm_off_snp": 56.0
+    },
+    "name": "Brian Thomas Jr.",
+    "pos": "WR",
+    "rank": 75,
+    "season": {
+     "gp": 8.0,
+     "off_snp": 212.0,
+     "pts_ppr": 33.7,
+     "rec": 10.0,
+     "rec_td": 2.0,
+     "rec_tgt": 22.0,
+     "rec_yd": 117.0,
+     "snap_pct": 43,
+     "tm_off_snp": 492.0
+    },
+    "team": "JAX"
    },
    {
     "depth": "LWR2",
@@ -2490,6 +2493,49 @@
     "team": "LAC"
    },
    {
+    "depth": "SWR5",
+    "id": "7049",
+    "inj": "Questionable (Calf)",
+    "last_week": null,
+    "name": "Jauan Jennings",
+    "pos": "WR",
+    "rank": 123,
+    "season": {
+     "gp": 6.0,
+     "off_snp": 263.0,
+     "pts_ppr": 11.4,
+     "rec": 6.0,
+     "rec_tgt": 10.0,
+     "rec_yd": 54.0,
+     "snap_pct": 68,
+     "tm_off_snp": 385.0
+    },
+    "team": "MIN"
+   },
+   {
+    "depth": "RWR5",
+    "id": "8676",
+    "inj": "Questionable (Knee)",
+    "last_week": null,
+    "name": "Rashid Shaheed",
+    "pos": "WR",
+    "rank": 150,
+    "season": {
+     "gp": 7.0,
+     "off_snp": 229.0,
+     "pts_ppr": 42.2,
+     "rec": 16.0,
+     "rec_tgt": 30.0,
+     "rec_yd": 163.0,
+     "rush_att": 4.0,
+     "rush_td": 1.0,
+     "rush_yd": 39.0,
+     "snap_pct": 49,
+     "tm_off_snp": 464.0
+    },
+    "team": "SEA"
+   },
+   {
     "depth": "RWR3",
     "id": "6783",
     "last_week": {
@@ -2516,6 +2562,32 @@
      "tm_off_snp": 586.0
     },
     "team": "CLE"
+   },
+   {
+    "depth": "RWR1",
+    "id": "11625",
+    "last_week": {
+     "gp": 1.0,
+     "off_snp": 56.0,
+     "rec_tgt": 7.0,
+     "snap_pct": 89,
+     "tm_off_snp": 63.0
+    },
+    "name": "Adonai Mitchell",
+    "pos": "WR",
+    "rank": 162,
+    "season": {
+     "gp": 5.0,
+     "off_snp": 228.0,
+     "pts_ppr": 48.5,
+     "rec": 16.0,
+     "rec_td": 1.0,
+     "rec_tgt": 34.0,
+     "rec_yd": 265.0,
+     "snap_pct": 70,
+     "tm_off_snp": 327.0
+    },
+    "team": "NYJ"
    },
    {
     "depth": "RWR4",
@@ -2688,6 +2760,31 @@
     "team": "LAC"
    },
    {
+    "depth": "SWR3",
+    "id": "13413",
+    "last_week": {
+     "gp": 1.0,
+     "off_snp": 19.0,
+     "rec_tgt": 1.0,
+     "snap_pct": 29,
+     "tm_off_snp": 66.0
+    },
+    "name": "Cyrus Allen",
+    "pos": "WR",
+    "rank": 179,
+    "season": {
+     "gp": 8.0,
+     "off_snp": 85.0,
+     "pts_ppr": 11.5,
+     "rec": 5.0,
+     "rec_tgt": 10.0,
+     "rec_yd": 65.0,
+     "snap_pct": 17,
+     "tm_off_snp": 510.0
+    },
+    "team": "KC"
+   },
+   {
     "depth": "LWR3",
     "id": "4981",
     "last_week": null,
@@ -2705,60 +2802,6 @@
      "tm_off_snp": 413.0
     },
     "team": "TEN"
-   },
-   {
-    "depth": "RWR2",
-    "id": "1479",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 36.0,
-     "pts_ppr": 6.6,
-     "rec": 4.0,
-     "rec_tgt": 8.0,
-     "rec_yd": 26.0,
-     "snap_pct": 56,
-     "tm_off_snp": 64.0
-    },
-    "name": "Keenan Allen",
-    "pos": "WR",
-    "rank": 180,
-    "season": {
-     "gp": 8.0,
-     "off_snp": 310.0,
-     "pts_ppr": 81.1,
-     "rec": 40.0,
-     "rec_td": 1.0,
-     "rec_tgt": 58.0,
-     "rec_yd": 351.0,
-     "snap_pct": 59,
-     "tm_off_snp": 527.0
-    },
-    "team": "IND"
-   },
-   {
-    "depth": "SWR3",
-    "id": "13413",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 19.0,
-     "rec_tgt": 1.0,
-     "snap_pct": 29,
-     "tm_off_snp": 66.0
-    },
-    "name": "Cyrus Allen",
-    "pos": "WR",
-    "rank": 181,
-    "season": {
-     "gp": 8.0,
-     "off_snp": 85.0,
-     "pts_ppr": 11.5,
-     "rec": 5.0,
-     "rec_tgt": 10.0,
-     "rec_yd": 65.0,
-     "snap_pct": 17,
-     "tm_off_snp": 510.0
-    },
-    "team": "KC"
    },
    {
     "depth": "LWR3",
@@ -2809,38 +2852,6 @@
     "team": "TEN"
    },
    {
-    "depth": "SWR5",
-    "id": "9502",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 33.0,
-     "pts_ppr": 20.5,
-     "rec": 4.0,
-     "rec_td": 1.0,
-     "rec_tgt": 9.0,
-     "rec_yd": 105.0,
-     "snap_pct": 47,
-     "tm_off_snp": 70.0
-    },
-    "name": "Tank Dell",
-    "pos": "WR",
-    "rank": 187,
-    "season": {
-     "gp": 2.0,
-     "off_snp": 47.0,
-     "pts_ppr": 26.0,
-     "rec": 5.0,
-     "rec_td": 1.0,
-     "rec_tgt": 10.0,
-     "rec_yd": 148.0,
-     "rush_att": 1.0,
-     "rush_yd": 2.0,
-     "snap_pct": 36,
-     "tm_off_snp": 131.0
-    },
-    "team": "HOU"
-   },
-   {
     "depth": "SWR4",
     "id": "9494",
     "last_week": {
@@ -2874,7 +2885,6 @@
    {
     "depth": "SWR3",
     "id": "7090",
-    "inj": "Questionable (Chest)",
     "last_week": {
      "gp": 1.0,
      "off_snp": 37.0,
@@ -3013,35 +3023,6 @@
     "team": "MIA"
    },
    {
-    "depth": "RWR2",
-    "id": "13285",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 56.0,
-     "pts_ppr": 7.0,
-     "rec": 3.0,
-     "rec_tgt": 5.0,
-     "rec_yd": 40.0,
-     "snap_pct": 84,
-     "tm_off_snp": 67.0
-    },
-    "name": "Malachi Fields",
-    "pos": "WR",
-    "rank": 199,
-    "season": {
-     "gp": 8.0,
-     "off_snp": 426.0,
-     "pts_ppr": 53.8,
-     "rec": 19.0,
-     "rec_td": 1.0,
-     "rec_tgt": 35.0,
-     "rec_yd": 288.0,
-     "snap_pct": 76,
-     "tm_off_snp": 557.0
-    },
-    "team": "NYG"
-   },
-   {
     "depth": "RWR3",
     "id": "12497",
     "last_week": {
@@ -3069,6 +3050,54 @@
      "tm_off_snp": 544.0
     },
     "team": "SEA"
+   },
+   {
+    "depth": "LWR7",
+    "id": "13268",
+    "last_week": null,
+    "name": "Elijah Sarratt",
+    "pos": "WR",
+    "rank": 201,
+    "season": {
+     "gp": 1.0,
+     "off_snp": 23.0,
+     "pts_ppr": 2.3,
+     "rec": 1.0,
+     "rec_tgt": 2.0,
+     "rec_yd": 13.0,
+     "snap_pct": 19,
+     "tm_off_snp": 122.0
+    },
+    "team": "BAL"
+   },
+   {
+    "depth": "RWR2",
+    "id": "13285",
+    "last_week": {
+     "gp": 1.0,
+     "off_snp": 56.0,
+     "pts_ppr": 7.0,
+     "rec": 3.0,
+     "rec_tgt": 5.0,
+     "rec_yd": 40.0,
+     "snap_pct": 84,
+     "tm_off_snp": 67.0
+    },
+    "name": "Malachi Fields",
+    "pos": "WR",
+    "rank": 201,
+    "season": {
+     "gp": 8.0,
+     "off_snp": 426.0,
+     "pts_ppr": 53.8,
+     "rec": 19.0,
+     "rec_td": 1.0,
+     "rec_tgt": 35.0,
+     "rec_yd": 288.0,
+     "snap_pct": 76,
+     "tm_off_snp": 557.0
+    },
+    "team": "NYG"
    },
    {
     "depth": "LWR2",
@@ -3117,14 +3146,14 @@
     "rank": 206,
     "season": {
      "gp": 8.0,
-     "off_snp": 328.0,
+     "off_snp": 377.0,
      "pts_ppr": 71.4,
      "rec": 23.0,
      "rec_td": 3.0,
      "rec_tgt": 33.0,
      "rec_yd": 304.0,
-     "snap_pct": 70,
-     "tm_off_snp": 471.0
+     "snap_pct": 68,
+     "tm_off_snp": 551.0
     },
     "team": "BUF"
    },
@@ -3308,7 +3337,7 @@
     },
     "name": "Zavion Thomas",
     "pos": "WR",
-    "rank": 366,
+    "rank": 365,
     "season": {
      "gp": 9.0,
      "off_snp": 67.0,
@@ -3340,6 +3369,22 @@
     "pos": "WR",
     "rank": 377,
     "team": "ATL"
+   },
+   {
+    "depth": "SWR8",
+    "id": "13402",
+    "last_week": null,
+    "name": "Skyler Bell",
+    "pos": "WR",
+    "rank": 390,
+    "season": {
+     "gp": 2.0,
+     "off_snp": 69.0,
+     "rec_tgt": 3.0,
+     "snap_pct": 36,
+     "tm_off_snp": 190.0
+    },
+    "team": "BUF"
    },
    {
     "depth": null,
@@ -3374,22 +3419,19 @@
     "team": "TEN"
    },
    {
-    "depth": "LWR6",
+    "depth": null,
     "id": "6154",
     "last_week": {
-     "gp": 1.0,
-     "off_snp": 6.0,
-     "snap_pct": 9,
-     "tm_off_snp": 68.0
+     "gp": 1.0
     },
     "name": "David Sills V",
     "pos": "WR",
     "rank": 405,
     "season": {
      "gp": 3.0,
-     "off_snp": 44.0,
-     "snap_pct": 23,
-     "tm_off_snp": 191.0
+     "off_snp": 38.0,
+     "snap_pct": 31,
+     "tm_off_snp": 123.0
     },
     "team": "TB"
    },
@@ -3469,135 +3511,19 @@
      "tm_off_snp": 350.0
     },
     "team": "LAR"
-   },
-   {
-    "depth": null,
-    "id": "6798",
-    "last_week": null,
-    "name": "Jalen Reagor",
-    "pos": "WR",
-    "rank": 442,
-    "team": "MIA"
-   },
-   {
-    "depth": "RWR5",
-    "id": "2078",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 2.0,
-     "snap_pct": 4,
-     "tm_off_snp": 48.0
-    },
-    "name": "Odell Beckham Jr.",
-    "pos": "WR",
-    "rank": 443,
-    "season": {
-     "gp": 4.0,
-     "off_snp": 14.0,
-     "rec_tgt": 1.0,
-     "snap_pct": 11,
-     "tm_off_snp": 127.0
-    },
-    "team": "MIN"
-   },
-   {
-    "depth": "SWR5",
-    "id": "13533",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 6.0,
-     "pts_ppr": 4.2,
-     "rec": 1.0,
-     "rec_tgt": 1.0,
-     "rec_yd": 52.0,
-     "snap_pct": 8,
-     "tm_off_snp": 75.0
-    },
-    "name": "Barion Brown",
-    "pos": "WR",
-    "rank": 462,
-    "season": {
-     "gp": 7.0,
-     "off_snp": 49.0,
-     "pts_ppr": 14.2,
-     "rec": 5.0,
-     "rec_tgt": 5.0,
-     "rec_yd": 114.0,
-     "rush_att": 2.0,
-     "rush_yd": -2.0,
-     "snap_pct": 10,
-     "tm_off_snp": 481.0
-    },
-    "team": "NO"
-   },
-   {
-    "depth": null,
-    "id": "6957",
-    "last_week": null,
-    "name": "James Proche II",
-    "pos": "WR",
-    "rank": 472,
-    "team": "ARI"
-   },
-   {
-    "depth": "LWR4",
-    "id": "13420",
-    "last_week": {
-     "gp": 1.0,
-     "off_snp": 38.0,
-     "rec_tgt": 1.0,
-     "snap_pct": 51,
-     "tm_off_snp": 75.0
-    },
-    "name": "Bryce Lance",
-    "pos": "WR",
-    "rank": 485,
-    "season": {
-     "gp": 8.0,
-     "off_snp": 370.0,
-     "pts_ppr": 22.8,
-     "rec": 9.0,
-     "rec_td": 1.0,
-     "rec_tgt": 23.0,
-     "rec_yd": 78.0,
-     "snap_pct": 67,
-     "tm_off_snp": 555.0
-    },
-    "team": "NO"
    }
   ]
  },
- "fetched_at": "2026-11-10T18:10:21+00:00",
+ "fetched_at": "2026-11-11T11:40:13+00:00",
  "note": "Unrostered in this league at fetch time. Healthy first (Out/IR/Doubtful/etc. last), then Sleeper search_rank.",
  "trending_24h": {
   "adds": [
    {
-    "count": 1769760,
-    "id": "9502",
-    "name": "Tank Dell",
-    "pos": "WR",
-    "rostered_by": null,
-    "season": {
-     "gp": 2.0,
-     "off_snp": 47.0,
-     "pts_ppr": 26.0,
-     "rec": 5.0,
-     "rec_td": 1.0,
-     "rec_tgt": 10.0,
-     "rec_yd": 148.0,
-     "rush_att": 1.0,
-     "rush_yd": 2.0,
-     "snap_pct": 36,
-     "tm_off_snp": 131.0
-    },
-    "team": "HOU"
-   },
-   {
-    "count": 1630632,
+    "count": 3810168,
     "id": "12491",
     "name": "Corey Kiner",
     "pos": "RB",
-    "rostered_by": null,
+    "rostered_by": "coltierney",
     "season": {
      "gp": 9.0,
      "off_snp": 77.0,
@@ -3614,11 +3540,32 @@
     "team": "NE"
    },
    {
-    "count": 1305873,
+    "count": 2445816,
+    "id": "9502",
+    "name": "Tank Dell",
+    "pos": "WR",
+    "rostered_by": "mvlzqz",
+    "season": {
+     "gp": 2.0,
+     "off_snp": 47.0,
+     "pts_ppr": 26.0,
+     "rec": 5.0,
+     "rec_td": 1.0,
+     "rec_tgt": 10.0,
+     "rec_yd": 148.0,
+     "rush_att": 1.0,
+     "rush_yd": 2.0,
+     "snap_pct": 36,
+     "tm_off_snp": 131.0
+    },
+    "team": "HOU"
+   },
+   {
+    "count": 2410884,
     "id": "12718",
     "name": "Konata Mumpfield",
     "pos": "WR",
-    "rostered_by": null,
+    "rostered_by": "TheDudePlayingADude",
     "season": {
      "gp": 9.0,
      "off_snp": 269.0,
@@ -3633,7 +3580,47 @@
     "team": "LAR"
    },
    {
-    "count": 450153,
+    "count": 1104304,
+    "id": "13269",
+    "name": "Fernando Mendoza",
+    "pos": "QB",
+    "rostered_by": null,
+    "season": {
+     "gp": 1.0,
+     "off_snp": 10.0,
+     "pass_att": 8.0,
+     "pass_yd": 48.0,
+     "pts_ppr": 2.22,
+     "rush_att": 1.0,
+     "rush_yd": 3.0,
+     "snap_pct": 2,
+     "tm_off_snp": 592.0
+    },
+    "team": "LV"
+   },
+   {
+    "count": 917895,
+    "id": "11579",
+    "name": "Audric Estime",
+    "pos": "RB",
+    "rostered_by": "brendonferreira",
+    "season": {
+     "gp": 2.0,
+     "off_snp": 35.0,
+     "pts_ppr": 22.6,
+     "rec": 1.0,
+     "rec_tgt": 1.0,
+     "rec_yd": 5.0,
+     "rush_att": 24.0,
+     "rush_td": 2.0,
+     "rush_yd": 91.0,
+     "snap_pct": 15,
+     "tm_off_snp": 227.0
+    },
+    "team": "NO"
+   },
+   {
+    "count": 891558,
     "id": "2505",
     "name": "Darren Waller",
     "pos": "TE",
@@ -3652,28 +3639,7 @@
     "team": "CAR"
    },
    {
-    "count": 418653,
-    "id": "11579",
-    "name": "Audric Estime",
-    "pos": "RB",
-    "rostered_by": null,
-    "season": {
-     "gp": 2.0,
-     "off_snp": 35.0,
-     "pts_ppr": 22.6,
-     "rec": 1.0,
-     "rec_tgt": 1.0,
-     "rec_yd": 5.0,
-     "rush_att": 24.0,
-     "rush_td": 2.0,
-     "rush_yd": 91.0,
-     "snap_pct": 15,
-     "tm_off_snp": 227.0
-    },
-    "team": "NO"
-   },
-   {
-    "count": 281386,
+    "count": 886921,
     "id": "7562",
     "name": "Tutu Atwell",
     "pos": "WR",
@@ -3691,30 +3657,22 @@
     "team": "LAR"
    },
    {
-    "count": 248440,
-    "id": "12634",
-    "name": "Jordan Watkins",
-    "pos": "WR",
+    "count": 696180,
+    "id": "12494",
+    "name": "Kyle McCord",
+    "pos": "QB",
     "rostered_by": null,
     "season": {
-     "gp": 6.0,
-     "off_snp": 215.0,
-     "pts_ppr": 38.4,
-     "rec": 10.0,
-     "rec_td": 1.0,
-     "rec_tgt": 13.0,
-     "rec_yd": 224.0,
-     "snap_pct": 56,
-     "tm_off_snp": 381.0
+     "tm_off_snp": 480.0
     },
-    "team": "SF"
+    "team": "MIA"
    },
    {
-    "count": 239499,
+    "count": 544260,
     "id": "BAL",
     "name": "BAL DEF",
     "pos": "DEF",
-    "rostered_by": null,
+    "rostered_by": "TheDudePlayingADude",
     "season": {
      "gp": 9.0,
      "pts_ppr": 41.0
@@ -3722,7 +3680,67 @@
     "team": "BAL"
    },
    {
-    "count": 202356,
+    "count": 473922,
+    "id": "8116",
+    "name": "Pierre Strong Jr.",
+    "pos": "RB",
+    "rostered_by": null,
+    "season": {
+     "gp": 5.0,
+     "off_snp": 113.0,
+     "pts_ppr": 22.0,
+     "rec": 10.0,
+     "rec_tgt": 12.0,
+     "rec_yd": 61.0,
+     "rush_att": 25.0,
+     "rush_yd": 59.0,
+     "snap_pct": 33,
+     "tm_off_snp": 338.0
+    },
+    "team": "GB"
+   },
+   {
+    "count": 382761,
+    "id": "3271",
+    "name": "Tyler Higbee",
+    "pos": "TE",
+    "rostered_by": "phile2211",
+    "season": {
+     "gp": 9.0,
+     "off_snp": 405.0,
+     "pts_ppr": 58.7,
+     "rec": 28.0,
+     "rec_td": 1.0,
+     "rec_tgt": 39.0,
+     "rec_yd": 287.0,
+     "snap_pct": 64,
+     "tm_off_snp": 634.0
+    },
+    "team": "LAR"
+   },
+   {
+    "count": 373851,
+    "id": "6427",
+    "name": "Ashton Dulin",
+    "pos": "WR",
+    "rostered_by": null,
+    "season": {
+     "gp": 5.0,
+     "off_snp": 67.0,
+     "pts_ppr": 19.0,
+     "rec": 4.0,
+     "rec_td": 1.0,
+     "rec_tgt": 9.0,
+     "rec_yd": 84.0,
+     "rush_att": 2.0,
+     "rush_yd": 6.0,
+     "snap_pct": 22,
+     "tm_off_snp": 303.0
+    },
+    "team": "IND"
+   },
+   {
+    "count": 327609,
     "id": "5995",
     "name": "Justice Hill",
     "pos": "RB",
@@ -3743,27 +3761,121 @@
     "team": "BAL"
    },
    {
-    "count": 200088,
-    "id": "8116",
-    "name": "Pierre Strong Jr.",
-    "pos": "RB",
+    "count": 307556,
+    "id": "12634",
+    "name": "Jordan Watkins",
+    "pos": "WR",
+    "rostered_by": null,
+    "season": {
+     "gp": 6.0,
+     "off_snp": 215.0,
+     "pts_ppr": 38.4,
+     "rec": 10.0,
+     "rec_td": 1.0,
+     "rec_tgt": 13.0,
+     "rec_yd": 224.0,
+     "snap_pct": 56,
+     "tm_off_snp": 381.0
+    },
+    "team": "SF"
+   },
+   {
+    "count": 277168,
+    "id": "96",
+    "name": "Aaron Rodgers",
+    "pos": "QB",
+    "rostered_by": "NikoGs",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 525.0,
+     "pass_att": 288.0,
+     "pass_int": 6.0,
+     "pass_td": 13.0,
+     "pass_yd": 1871.0,
+     "pts_ppr": 123.14,
+     "rush_att": 12.0,
+     "rush_yd": 23.0,
+     "snap_pct": 98,
+     "tm_off_snp": 533.0
+    },
+    "team": "PIT"
+   },
+   {
+    "count": 269088,
+    "id": "3286",
+    "name": "Demarcus Robinson",
+    "pos": "WR",
+    "rostered_by": null,
+    "season": {
+     "gp": 3.0,
+     "off_snp": 94.0,
+     "pts_ppr": 24.6,
+     "rec": 8.0,
+     "rec_td": 1.0,
+     "rec_tgt": 10.0,
+     "rec_yd": 106.0,
+     "snap_pct": 49,
+     "tm_off_snp": 190.0
+    },
+    "team": "SF"
+   },
+   {
+    "count": 268704,
+    "id": "11539",
+    "name": "Jake Bates",
+    "pos": "K",
+    "rostered_by": "dleach16",
+    "season": {
+     "gp": 8.0,
+     "pts_ppr": 79.0,
+     "tm_off_snp": 543.0
+    },
+    "team": "DET"
+   },
+   {
+    "count": 264120,
+    "id": "12492",
+    "name": "Pat Bryant",
+    "pos": "WR",
     "rostered_by": null,
     "season": {
      "gp": 5.0,
-     "off_snp": 113.0,
-     "pts_ppr": 22.0,
-     "rec": 10.0,
-     "rec_tgt": 12.0,
-     "rec_yd": 61.0,
-     "rush_att": 25.0,
-     "rush_yd": 59.0,
-     "snap_pct": 33,
-     "tm_off_snp": 338.0
+     "off_snp": 193.0,
+     "pts_ppr": 47.5,
+     "rec": 13.0,
+     "rec_td": 2.0,
+     "rec_tgt": 17.0,
+     "rec_yd": 189.0,
+     "rush_att": 1.0,
+     "rush_yd": 16.0,
+     "snap_pct": 60,
+     "tm_off_snp": 320.0
     },
-    "team": "GB"
+    "team": "DEN"
    },
    {
-    "count": 173866,
+    "count": 248735,
+    "id": "9500",
+    "name": "Josh Downs",
+    "pos": "WR",
+    "rostered_by": "mvlzqz",
+    "season": {
+     "gp": 9.0,
+     "off_snp": 479.0,
+     "pts_ppr": 75.1,
+     "rec": 33.0,
+     "rec_td": 1.0,
+     "rec_tgt": 57.0,
+     "rec_yd": 354.0,
+     "rush_att": 1.0,
+     "rush_yd": 7.0,
+     "snap_pct": 81,
+     "tm_off_snp": 593.0
+    },
+    "team": "KC"
+   },
+   {
+    "count": 241542,
     "id": "9758",
     "name": "C.J. Stroud",
     "pos": "QB",
@@ -3785,28 +3897,19 @@
     "team": "HOU"
    },
    {
-    "count": 165080,
-    "id": "12492",
-    "name": "Pat Bryant",
-    "pos": "WR",
-    "rostered_by": null,
+    "count": 223254,
+    "id": "JAX",
+    "name": "JAX DEF",
+    "pos": "DEF",
+    "rostered_by": "brendonferreira",
     "season": {
-     "gp": 5.0,
-     "off_snp": 193.0,
-     "pts_ppr": 47.5,
-     "rec": 13.0,
-     "rec_td": 2.0,
-     "rec_tgt": 17.0,
-     "rec_yd": 189.0,
-     "rush_att": 1.0,
-     "rush_yd": 16.0,
-     "snap_pct": 60,
-     "tm_off_snp": 320.0
+     "gp": 8.0,
+     "pts_ppr": 77.0
     },
-    "team": "DEN"
+    "team": "JAX"
    },
    {
-    "count": 163176,
+    "count": 212384,
     "id": "13296",
     "name": "Caleb Douglas",
     "pos": "WR",
@@ -3825,63 +3928,11 @@
     "team": "MIA"
    },
    {
-    "count": 148932,
-    "id": "3271",
-    "name": "Tyler Higbee",
-    "pos": "TE",
-    "rostered_by": "phile2211",
-    "season": {
-     "gp": 9.0,
-     "off_snp": 405.0,
-     "pts_ppr": 58.7,
-     "rec": 28.0,
-     "rec_td": 1.0,
-     "rec_tgt": 39.0,
-     "rec_yd": 287.0,
-     "snap_pct": 64,
-     "tm_off_snp": 634.0
-    },
-    "team": "LAR"
-   },
-   {
-    "count": 146190,
-    "id": "JAX",
-    "name": "JAX DEF",
-    "pos": "DEF",
-    "rostered_by": "brendonferreira",
-    "season": {
-     "gp": 8.0,
-     "pts_ppr": 77.0
-    },
-    "team": "JAX"
-   },
-   {
-    "count": 140208,
-    "id": "13424",
-    "name": "Seth McGowan",
-    "pos": "RB",
-    "rostered_by": "pauliv8811",
-    "season": {
-     "gp": 9.0,
-     "off_snp": 133.0,
-     "pts_ppr": 32.7,
-     "rec": 5.0,
-     "rec_tgt": 6.0,
-     "rec_yd": 9.0,
-     "rush_att": 43.0,
-     "rush_td": 1.0,
-     "rush_yd": 208.0,
-     "snap_pct": 22,
-     "tm_off_snp": 593.0
-    },
-    "team": "IND"
-   },
-   {
-    "count": 134002,
+    "count": 206809,
     "id": "GB",
     "name": "GB DEF",
     "pos": "DEF",
-    "rostered_by": null,
+    "rostered_by": "pauliv8811",
     "season": {
      "gp": 9.0,
      "pts_ppr": 74.0
@@ -3889,38 +3940,41 @@
     "team": "GB"
    },
    {
-    "count": 125488,
-    "id": "11539",
-    "name": "Jake Bates",
+    "count": 206730,
+    "id": "7042",
+    "name": "Tyler Bass",
     "pos": "K",
-    "rostered_by": "dleach16",
+    "rostered_by": "brendonferreira",
     "season": {
      "gp": 8.0,
-     "pts_ppr": 79.0,
-     "tm_off_snp": 543.0
+     "pts_ppr": 89.0,
+     "tm_off_snp": 551.0
     },
-    "team": "DET"
+    "team": "BUF"
    },
    {
-    "count": 121376,
-    "id": "13281",
-    "name": "Jordyn Tyson",
+    "count": 201222,
+    "id": "9756",
+    "name": "Jordan Addison",
     "pos": "WR",
-    "rostered_by": "kitano",
+    "rostered_by": "erictheleghel",
     "season": {
-     "gp": 1.0,
-     "off_snp": 18.0,
-     "pts_ppr": 5.0,
-     "rec": 4.0,
-     "rec_tgt": 5.0,
-     "rec_yd": 30.0,
-     "snap_pct": 24,
-     "tm_off_snp": 75.0
+     "gp": 7.0,
+     "off_snp": 380.0,
+     "pts_ppr": 53.9,
+     "rec": 18.0,
+     "rec_td": 1.0,
+     "rec_tgt": 36.0,
+     "rec_yd": 277.0,
+     "rush_att": 2.0,
+     "rush_yd": 2.0,
+     "snap_pct": 92,
+     "tm_off_snp": 414.0
     },
-    "team": "NO"
+    "team": "MIN"
    },
    {
-    "count": 116816,
+    "count": 200512,
     "id": "12545",
     "name": "Tyler Shough",
     "pos": "QB",
@@ -3942,47 +3996,19 @@
     "team": "NO"
    },
    {
-    "count": 115896,
-    "id": "3286",
-    "name": "Demarcus Robinson",
-    "pos": "WR",
-    "rostered_by": "wmont",
+    "count": 200508,
+    "id": "IND",
+    "name": "IND DEF",
+    "pos": "DEF",
+    "rostered_by": null,
     "season": {
-     "gp": 3.0,
-     "off_snp": 94.0,
-     "pts_ppr": 24.6,
-     "rec": 8.0,
-     "rec_td": 1.0,
-     "rec_tgt": 10.0,
-     "rec_yd": 106.0,
-     "snap_pct": 49,
-     "tm_off_snp": 190.0
+     "gp": 9.0,
+     "pts_ppr": 35.0
     },
-    "team": "SF"
+    "team": "IND"
    },
    {
-    "count": 108804,
-    "id": "96",
-    "name": "Aaron Rodgers",
-    "pos": "QB",
-    "rostered_by": "NikoGs",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 525.0,
-     "pass_att": 288.0,
-     "pass_int": 6.0,
-     "pass_td": 13.0,
-     "pass_yd": 1871.0,
-     "pts_ppr": 123.14,
-     "rush_att": 12.0,
-     "rush_yd": 23.0,
-     "snap_pct": 98,
-     "tm_off_snp": 533.0
-    },
-    "team": "PIT"
-   },
-   {
-    "count": 103740,
+    "count": 190420,
     "id": "9228",
     "name": "Bryce Young",
     "pos": "QB",
@@ -4004,7 +4030,45 @@
     "team": "CAR"
    },
    {
-    "count": 95481,
+    "count": 179406,
+    "id": "8134",
+    "name": "Khalil Shakir",
+    "pos": "WR",
+    "rostered_by": "dleach16",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 342.0,
+     "pts_ppr": 76.2,
+     "rec": 31.0,
+     "rec_td": 1.0,
+     "rec_tgt": 42.0,
+     "rec_yd": 412.0,
+     "snap_pct": 62,
+     "tm_off_snp": 551.0
+    },
+    "team": "BUF"
+   },
+   {
+    "count": 168260,
+    "id": "1479",
+    "name": "Keenan Allen",
+    "pos": "WR",
+    "rostered_by": "kitano",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 310.0,
+     "pts_ppr": 81.1,
+     "rec": 40.0,
+     "rec_td": 1.0,
+     "rec_tgt": 58.0,
+     "rec_yd": 351.0,
+     "snap_pct": 59,
+     "tm_off_snp": 527.0
+    },
+    "team": "SF"
+   },
+   {
+    "count": 159039,
     "id": "12773",
     "name": "DJ Uiagalelei",
     "pos": "QB",
@@ -4022,121 +4086,7 @@
     "team": "LAC"
    },
    {
-    "count": 86841,
-    "id": "8134",
-    "name": "Khalil Shakir",
-    "pos": "WR",
-    "rostered_by": "dleach16",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 300.0,
-     "pts_ppr": 76.2,
-     "rec": 31.0,
-     "rec_td": 1.0,
-     "rec_tgt": 42.0,
-     "rec_yd": 412.0,
-     "snap_pct": 64,
-     "tm_off_snp": 471.0
-    },
-    "team": "BUF"
-   },
-   {
-    "count": 84910,
-    "id": "7042",
-    "name": "Tyler Bass",
-    "pos": "K",
-    "rostered_by": "brendonferreira",
-    "season": {
-     "gp": 8.0,
-     "pts_ppr": 89.0,
-     "tm_off_snp": 471.0
-    },
-    "team": "BUF"
-   },
-   {
-    "count": 83208,
-    "id": "12524",
-    "name": "Shedeur Sanders",
-    "pos": "QB",
-    "rostered_by": null,
-    "season": {
-     "gp": 3.0,
-     "off_snp": 78.0,
-     "pass_att": 34.0,
-     "pass_td": 2.0,
-     "pass_yd": 299.0,
-     "pts_ppr": 22.76,
-     "rush_att": 10.0,
-     "rush_yd": 28.0,
-     "snap_pct": 13,
-     "tm_off_snp": 586.0
-    },
-    "team": "CLE"
-   },
-   {
-    "count": 82548,
-    "id": "5947",
-    "name": "Jakobi Meyers",
-    "pos": "WR",
-    "rostered_by": "brendonferreira",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 371.0,
-     "pts_ppr": 75.6,
-     "rec": 26.0,
-     "rec_td": 2.0,
-     "rec_tgt": 37.0,
-     "rec_yd": 374.0,
-     "rush_att": 1.0,
-     "rush_yd": 2.0,
-     "snap_pct": 75,
-     "tm_off_snp": 492.0
-    },
-    "team": "JAX"
-   },
-   {
-    "count": 79712,
-    "id": "11783",
-    "name": "Ryan Flournoy",
-    "pos": "WR",
-    "rostered_by": "mvlzqz",
-    "season": {
-     "gp": 9.0,
-     "off_snp": 479.0,
-     "pts_ppr": 83.8,
-     "rec": 32.0,
-     "rec_td": 2.0,
-     "rec_tgt": 47.0,
-     "rec_yd": 395.0,
-     "rush_att": 1.0,
-     "rush_yd": 3.0,
-     "snap_pct": 77,
-     "tm_off_snp": 624.0
-    },
-    "team": "DAL"
-   },
-   {
-    "count": 77283,
-    "id": "13286",
-    "name": "Jadarian Price",
-    "pos": "RB",
-    "rostered_by": "phile2211",
-    "season": {
-     "gp": 5.0,
-     "off_snp": 121.0,
-     "pts_ppr": 31.5,
-     "rec": 10.0,
-     "rec_tgt": 15.0,
-     "rec_yd": 83.0,
-     "rush_att": 47.0,
-     "rush_yd": 172.0,
-     "snap_pct": 38,
-     "tm_off_snp": 317.0
-    },
-    "team": "SEA"
-   },
-   {
-    "count": 75104,
+    "count": 156600,
     "id": "11586",
     "name": "Blake Corum",
     "pos": "RB",
@@ -4158,11 +4108,72 @@
     "team": "LAR"
    },
    {
-    "count": 72090,
+    "count": 141084,
+    "id": "5947",
+    "name": "Jakobi Meyers",
+    "pos": "WR",
+    "rostered_by": "brendonferreira",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 371.0,
+     "pts_ppr": 75.6,
+     "rec": 26.0,
+     "rec_td": 2.0,
+     "rec_tgt": 37.0,
+     "rec_yd": 374.0,
+     "rush_att": 1.0,
+     "rush_yd": 2.0,
+     "snap_pct": 75,
+     "tm_off_snp": 492.0
+    },
+    "team": "JAX"
+   },
+   {
+    "count": 139400,
+    "id": "13281",
+    "name": "Jordyn Tyson",
+    "pos": "WR",
+    "rostered_by": "kitano",
+    "season": {
+     "gp": 1.0,
+     "off_snp": 18.0,
+     "pts_ppr": 5.0,
+     "rec": 4.0,
+     "rec_tgt": 5.0,
+     "rec_yd": 30.0,
+     "snap_pct": 24,
+     "tm_off_snp": 75.0
+    },
+    "team": "NO"
+   },
+   {
+    "count": 138944,
+    "id": "1166",
+    "name": "Kirk Cousins",
+    "pos": "QB",
+    "rostered_by": "nusskyle",
+    "season": {
+     "gp": 9.0,
+     "off_snp": 582.0,
+     "pass_att": 315.0,
+     "pass_int": 8.0,
+     "pass_td": 20.0,
+     "pass_yd": 2340.0,
+     "pts_ppr": 180.3,
+     "rush_att": 22.0,
+     "rush_td": 2.0,
+     "rush_yd": 7.0,
+     "snap_pct": 98,
+     "tm_off_snp": 592.0
+    },
+    "team": "MIN"
+   },
+   {
+    "count": 134424,
     "id": "10219",
     "name": "Chris Rodriguez Jr.",
     "pos": "RB",
-    "rostered_by": null,
+    "rostered_by": "wmont",
     "season": {
      "gp": 8.0,
      "off_snp": 131.0,
@@ -4179,9 +4190,29 @@
     "team": "JAX"
    },
    {
-    "count": 70002,
+    "count": 128570,
+    "id": "7021",
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "rostered_by": "chopkins30",
+    "season": {
+     "gp": 5.0,
+     "off_snp": 134.0,
+     "pts_ppr": 44.6,
+     "rec": 13.0,
+     "rec_tgt": 17.0,
+     "rec_yd": 82.0,
+     "rush_att": 46.0,
+     "rush_td": 1.0,
+     "rush_yd": 174.0,
+     "snap_pct": 40,
+     "tm_off_snp": 339.0
+    },
+    "team": "PIT"
+   },
+   {
+    "count": 127089,
     "id": "13298",
-    "inj": "Questionable (Leg)",
     "name": "KC Concepcion Jr.",
     "pos": "WR",
     "rostered_by": "nusskyle",
@@ -4201,7 +4232,7 @@
     "team": "CLE"
    },
    {
-    "count": 69930,
+    "count": 126535,
     "id": "5119",
     "name": "Jason Sanders",
     "pos": "K",
@@ -4214,117 +4245,29 @@
     "team": "NYJ"
    },
    {
-    "count": 66456,
-    "id": "6130",
-    "name": "Devin Singletary",
-    "pos": "RB",
-    "rostered_by": "pauliv8811",
-    "season": {
-     "gp": 5.0,
-     "off_snp": 152.0,
-     "pts_ppr": 39.4,
-     "rec": 10.0,
-     "rec_td": 1.0,
-     "rec_tgt": 12.0,
-     "rec_yd": 63.0,
-     "rush_att": 39.0,
-     "rush_td": 1.0,
-     "rush_yd": 111.0,
-     "snap_pct": 45,
-     "tm_off_snp": 337.0
-    },
-    "team": "NYG"
-   },
-   {
-    "count": 65260,
-    "id": "TB",
-    "name": "TB DEF",
-    "pos": "DEF",
-    "rostered_by": "TheDudePlayingADude",
-    "season": {
-     "gp": 9.0,
-     "pts_ppr": 92.0
-    },
-    "team": "TB"
-   },
-   {
-    "count": 59408,
-    "id": "13276",
-    "name": "Omar Cooper Jr.",
+    "count": 115685,
+    "id": "3155",
+    "name": "Laquon Treadwell",
     "pos": "WR",
-    "rostered_by": "brendonferreira",
-    "season": {
-     "gp": 5.0,
-     "off_snp": 198.0,
-     "pts_ppr": 62.6,
-     "rec": 20.0,
-     "rec_td": 2.0,
-     "rec_tgt": 24.0,
-     "rec_yd": 306.0,
-     "snap_pct": 63,
-     "tm_off_snp": 315.0
-    },
-    "team": "NYJ"
-   },
-   {
-    "count": 59229,
-    "id": "5189",
-    "name": "Eddy Pineiro",
-    "pos": "K",
-    "rostered_by": "phile2211",
-    "season": {
-     "gp": 8.0,
-     "pts_ppr": 45.0,
-     "tm_off_snp": 498.0
-    },
-    "team": "SF"
-   },
-   {
-    "count": 53361,
-    "id": "9480",
-    "name": "Brenton Strange",
-    "pos": "TE",
-    "rostered_by": "coltierney",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 373.0,
-     "pts_ppr": 71.6,
-     "rec": 30.0,
-     "rec_td": 1.0,
-     "rec_tgt": 37.0,
-     "rec_yd": 356.0,
-     "snap_pct": 76,
-     "tm_off_snp": 492.0
-    },
-    "team": "JAX"
-   },
-   {
-    "count": 53145,
-    "id": "7021",
-    "name": "Rico Dowdle",
-    "pos": "RB",
     "rostered_by": null,
     "season": {
-     "gp": 5.0,
-     "off_snp": 134.0,
-     "pts_ppr": 44.6,
-     "rec": 13.0,
-     "rec_tgt": 17.0,
-     "rec_yd": 82.0,
-     "rush_att": 46.0,
-     "rush_td": 1.0,
-     "rush_yd": 174.0,
-     "snap_pct": 40,
-     "tm_off_snp": 339.0
+     "gp": 9.0,
+     "off_snp": 453.0,
+     "pts_ppr": 37.5,
+     "rec": 16.0,
+     "rec_tgt": 29.0,
+     "rec_yd": 215.0,
+     "snap_pct": 76,
+     "tm_off_snp": 593.0
     },
-    "team": "PIT"
+    "team": "IND"
    }
   ],
   "drops": [
    {
-    "count": 1471590,
+    "count": 1601622,
     "id": "10232",
-    "inj": "Out (Neck)",
+    "inj": "IR (Neck)",
     "name": "Michael Wilson",
     "pos": "WR",
     "rostered_by": "mvlzqz",
@@ -4343,10 +4286,32 @@
      "snap_pct": 88,
      "tm_off_snp": 638.0
     },
+    "status": "Inactive",
     "team": "ARI"
    },
    {
-    "count": 378927,
+    "count": 983784,
+    "id": "13424",
+    "name": "Seth McGowan",
+    "pos": "RB",
+    "rostered_by": "pauliv8811",
+    "season": {
+     "gp": 9.0,
+     "off_snp": 133.0,
+     "pts_ppr": 32.7,
+     "rec": 5.0,
+     "rec_tgt": 6.0,
+     "rec_yd": 9.0,
+     "rush_att": 43.0,
+     "rush_td": 1.0,
+     "rush_yd": 208.0,
+     "snap_pct": 22,
+     "tm_off_snp": 593.0
+    },
+    "team": "IND"
+   },
+   {
+    "count": 839169,
     "id": "6130",
     "name": "Devin Singletary",
     "pos": "RB",
@@ -4368,11 +4333,35 @@
     "team": "NYG"
    },
    {
-    "count": 348096,
+    "count": 817530,
+    "id": "8161",
+    "inj": "IR (Groin)",
+    "name": "Malik Willis",
+    "pos": "QB",
+    "rostered_by": "NikoGs",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 480.0,
+     "pass_att": 208.0,
+     "pass_int": 6.0,
+     "pass_td": 6.0,
+     "pass_yd": 1396.0,
+     "pts_ppr": 111.04,
+     "rush_att": 38.0,
+     "rush_td": 3.0,
+     "rush_yd": 232.0,
+     "snap_pct": 100,
+     "tm_off_snp": 480.0
+    },
+    "status": "Inactive",
+    "team": "MIA"
+   },
+   {
+    "count": 567520,
     "id": "11625",
     "name": "Adonai Mitchell",
     "pos": "WR",
-    "rostered_by": "TheDudePlayingADude",
+    "rostered_by": null,
     "season": {
      "gp": 5.0,
      "off_snp": 228.0,
@@ -4387,7 +4376,48 @@
     "team": "NYJ"
    },
    {
-    "count": 263944,
+    "count": 525546,
+    "id": "3161",
+    "name": "Carson Wentz",
+    "pos": "QB",
+    "rostered_by": null,
+    "season": {
+     "gp": 3.0,
+     "off_snp": 146.0,
+     "pass_att": 64.0,
+     "pass_int": 2.0,
+     "pass_td": 3.0,
+     "pass_yd": 357.0,
+     "pts_ppr": 24.78,
+     "rush_att": 9.0,
+     "rush_yd": 5.0,
+     "snap_pct": 30,
+     "tm_off_snp": 485.0
+    },
+    "team": "MIN"
+   },
+   {
+    "count": 522675,
+    "id": "7561",
+    "name": "Elijah Mitchell",
+    "pos": "RB",
+    "rostered_by": null,
+    "season": {
+     "gp": 3.0,
+     "off_snp": 82.0,
+     "pts_ppr": 19.7,
+     "rec": 10.0,
+     "rec_tgt": 14.0,
+     "rec_yd": 46.0,
+     "rush_att": 17.0,
+     "rush_yd": 51.0,
+     "snap_pct": 40,
+     "tm_off_snp": 205.0
+    },
+    "team": "PHI"
+   },
+   {
+    "count": 513352,
     "id": "6650",
     "name": "Chase McLaughlin",
     "pos": "K",
@@ -4400,7 +4430,7 @@
     "team": "TB"
    },
    {
-    "count": 262143,
+    "count": 481761,
     "id": "11435",
     "name": "Emanuel Wilson",
     "pos": "RB",
@@ -4422,34 +4452,23 @@
     "team": "SEA"
    },
    {
-    "count": 256557,
-    "id": "8161",
-    "inj": "Questionable (Groin)",
-    "name": "Malik Willis",
-    "pos": "QB",
-    "rostered_by": "NikoGs",
+    "count": 475209,
+    "id": "DET",
+    "name": "DET DEF",
+    "pos": "DEF",
+    "rostered_by": null,
     "season": {
      "gp": 8.0,
-     "off_snp": 480.0,
-     "pass_att": 208.0,
-     "pass_int": 6.0,
-     "pass_td": 6.0,
-     "pass_yd": 1396.0,
-     "pts_ppr": 111.04,
-     "rush_att": 38.0,
-     "rush_td": 3.0,
-     "rush_yd": 232.0,
-     "snap_pct": 100,
-     "tm_off_snp": 480.0
+     "pts_ppr": 49.0
     },
-    "team": "MIA"
+    "team": "DET"
    },
    {
-    "count": 248297,
+    "count": 474054,
     "id": "2020",
     "name": "Cairo Santos",
     "pos": "K",
-    "rostered_by": "PawtucketPatriot",
+    "rostered_by": null,
     "season": {
      "gp": 9.0,
      "pts_ppr": 79.0,
@@ -4458,7 +4477,63 @@
     "team": "CHI"
    },
    {
-    "count": 243915,
+    "count": 456352,
+    "id": "5849",
+    "inj": "Doubtful (Hamstring)",
+    "name": "Kyler Murray",
+    "pos": "QB",
+    "rostered_by": null,
+    "season": {
+     "gp": 6.0,
+     "off_snp": 331.0,
+     "pass_att": 154.0,
+     "pass_int": 3.0,
+     "pass_td": 5.0,
+     "pass_yd": 1022.0,
+     "pts_ppr": 76.58,
+     "rush_att": 29.0,
+     "rush_yd": 167.0,
+     "snap_pct": 86,
+     "tm_off_snp": 385.0
+    },
+    "team": "MIN"
+   },
+   {
+    "count": 399955,
+    "id": "NO",
+    "name": "NO DEF",
+    "pos": "DEF",
+    "rostered_by": "mvlzqz",
+    "season": {
+     "gp": 8.0,
+     "pts_ppr": 47.0
+    },
+    "team": "NO"
+   },
+   {
+    "count": 363736,
+    "id": "6011",
+    "inj": "IR (Elbow)",
+    "name": "Gardner Minshew II",
+    "pos": "QB",
+    "rostered_by": null,
+    "season": {
+     "gp": 2.0,
+     "off_snp": 87.0,
+     "pass_att": 53.0,
+     "pass_td": 3.0,
+     "pass_yd": 354.0,
+     "pts_ppr": 26.56,
+     "rush_att": 1.0,
+     "rush_yd": 4.0,
+     "snap_pct": 14,
+     "tm_off_snp": 638.0
+    },
+    "status": "Inactive",
+    "team": "ARI"
+   },
+   {
+    "count": 357070,
     "id": "11834",
     "name": "Devaughn Vele",
     "pos": "WR",
@@ -4477,51 +4552,7 @@
     "team": "NO"
    },
    {
-    "count": 243234,
-    "id": "DET",
-    "name": "DET DEF",
-    "pos": "DEF",
-    "rostered_by": "TheDudePlayingADude",
-    "season": {
-     "gp": 8.0,
-     "pts_ppr": 49.0
-    },
-    "team": "DET"
-   },
-   {
-    "count": 215100,
-    "id": "7561",
-    "name": "Elijah Mitchell",
-    "pos": "RB",
-    "rostered_by": null,
-    "season": {
-     "gp": 3.0,
-     "off_snp": 82.0,
-     "pts_ppr": 19.7,
-     "rec": 10.0,
-     "rec_tgt": 14.0,
-     "rec_yd": 46.0,
-     "rush_att": 17.0,
-     "rush_yd": 51.0,
-     "snap_pct": 40,
-     "tm_off_snp": 205.0
-    },
-    "team": "PHI"
-   },
-   {
-    "count": 193190,
-    "id": "NO",
-    "name": "NO DEF",
-    "pos": "DEF",
-    "rostered_by": "mvlzqz",
-    "season": {
-     "gp": 8.0,
-     "pts_ppr": 47.0
-    },
-    "team": "NO"
-   },
-   {
-    "count": 170107,
+    "count": 292537,
     "id": "NE",
     "name": "NE DEF",
     "pos": "DEF",
@@ -4533,178 +4564,7 @@
     "team": "NE"
    },
    {
-    "count": 166028,
-    "id": "6011",
-    "inj": "Questionable (Elbow)",
-    "name": "Gardner Minshew II",
-    "pos": "QB",
-    "rostered_by": null,
-    "season": {
-     "gp": 2.0,
-     "off_snp": 87.0,
-     "pass_att": 53.0,
-     "pass_td": 3.0,
-     "pass_yd": 354.0,
-     "pts_ppr": 26.56,
-     "rush_att": 1.0,
-     "rush_yd": 4.0,
-     "snap_pct": 14,
-     "tm_off_snp": 638.0
-    },
-    "team": "ARI"
-   },
-   {
-    "count": 157188,
-    "id": "3161",
-    "name": "Carson Wentz",
-    "pos": "QB",
-    "rostered_by": null,
-    "season": {
-     "gp": 3.0,
-     "off_snp": 106.0,
-     "pass_att": 64.0,
-     "pass_int": 2.0,
-     "pass_td": 3.0,
-     "pass_yd": 357.0,
-     "pts_ppr": 24.78,
-     "rush_att": 9.0,
-     "rush_yd": 5.0,
-     "snap_pct": 24,
-     "tm_off_snp": 437.0
-    },
-    "team": "MIN"
-   },
-   {
-    "count": 147222,
-    "id": "11637",
-    "name": "Keon Coleman",
-    "pos": "WR",
-    "rostered_by": null,
-    "season": {
-     "gp": 8.0,
-     "off_snp": 328.0,
-     "pts_ppr": 71.4,
-     "rec": 23.0,
-     "rec_td": 3.0,
-     "rec_tgt": 33.0,
-     "rec_yd": 304.0,
-     "snap_pct": 70,
-     "tm_off_snp": 471.0
-    },
-    "team": "BUF"
-   },
-   {
-    "count": 143984,
-    "id": "8129",
-    "name": "Dameon Pierce",
-    "pos": null,
-    "rostered_by": null,
-    "team": null
-   },
-   {
-    "count": 131262,
-    "id": "4037",
-    "name": "Chris Godwin Jr.",
-    "pos": "WR",
-    "rostered_by": "PawtucketPatriot",
-    "season": {
-     "gp": 9.0,
-     "off_snp": 492.0,
-     "pts_ppr": 57.9,
-     "rec": 29.0,
-     "rec_tgt": 38.0,
-     "rec_yd": 259.0,
-     "rush_att": 4.0,
-     "rush_yd": 30.0,
-     "snap_pct": 83,
-     "tm_off_snp": 592.0
-    },
-    "team": "TB"
-   },
-   {
-    "count": 130203,
-    "id": "10219",
-    "name": "Chris Rodriguez Jr.",
-    "pos": "RB",
-    "rostered_by": null,
-    "season": {
-     "gp": 8.0,
-     "off_snp": 131.0,
-     "pts_ppr": 54.4,
-     "rec": 4.0,
-     "rec_tgt": 5.0,
-     "rec_yd": 36.0,
-     "rush_att": 55.0,
-     "rush_td": 4.0,
-     "rush_yd": 228.0,
-     "snap_pct": 27,
-     "tm_off_snp": 492.0
-    },
-    "team": "JAX"
-   },
-   {
-    "count": 129834,
-    "id": "3286",
-    "name": "Demarcus Robinson",
-    "pos": "WR",
-    "rostered_by": "wmont",
-    "season": {
-     "gp": 3.0,
-     "off_snp": 94.0,
-     "pts_ppr": 24.6,
-     "rec": 8.0,
-     "rec_td": 1.0,
-     "rec_tgt": 10.0,
-     "rec_yd": 106.0,
-     "snap_pct": 49,
-     "tm_off_snp": 190.0
-    },
-    "team": "SF"
-   },
-   {
-    "count": 126224,
-    "id": "11610",
-    "name": "Malik Washington",
-    "pos": "WR",
-    "rostered_by": "PawtucketPatriot",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 392.0,
-     "pts_ppr": 75.8,
-     "rec": 33.0,
-     "rec_td": 1.0,
-     "rec_tgt": 48.0,
-     "rec_yd": 350.0,
-     "rush_att": 9.0,
-     "rush_yd": 38.0,
-     "snap_pct": 82,
-     "tm_off_snp": 480.0
-    },
-    "team": "MIA"
-   },
-   {
-    "count": 124164,
-    "id": "9756",
-    "name": "Jordan Addison",
-    "pos": "WR",
-    "rostered_by": "erictheleghel",
-    "season": {
-     "gp": 7.0,
-     "off_snp": 334.0,
-     "pts_ppr": 53.9,
-     "rec": 18.0,
-     "rec_td": 1.0,
-     "rec_tgt": 36.0,
-     "rec_yd": 277.0,
-     "rush_att": 2.0,
-     "rush_yd": 2.0,
-     "snap_pct": 91,
-     "tm_off_snp": 366.0
-    },
-    "team": "MIN"
-   },
-   {
-    "count": 118824,
+    "count": 279976,
     "id": "4035",
     "name": "Alvin Kamara",
     "pos": "RB",
@@ -4726,29 +4586,154 @@
     "team": "NO"
    },
    {
-    "count": 118336,
-    "id": "5849",
-    "inj": "Out (Hamstring)",
-    "name": "Kyler Murray",
-    "pos": "QB",
+    "count": 278632,
+    "id": "8129",
+    "name": "Dameon Pierce",
+    "pos": null,
     "rostered_by": null,
-    "season": {
-     "gp": 6.0,
-     "off_snp": 331.0,
-     "pass_att": 154.0,
-     "pass_int": 3.0,
-     "pass_td": 5.0,
-     "pass_yd": 1022.0,
-     "pts_ppr": 76.58,
-     "rush_att": 29.0,
-     "rush_yd": 167.0,
-     "snap_pct": 86,
-     "tm_off_snp": 385.0
-    },
-    "team": "MIN"
+    "team": null
    },
    {
-    "count": 113880,
+    "count": 268704,
+    "id": "10219",
+    "name": "Chris Rodriguez Jr.",
+    "pos": "RB",
+    "rostered_by": "wmont",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 131.0,
+     "pts_ppr": 54.4,
+     "rec": 4.0,
+     "rec_tgt": 5.0,
+     "rec_yd": 36.0,
+     "rush_att": 55.0,
+     "rush_td": 4.0,
+     "rush_yd": 228.0,
+     "snap_pct": 27,
+     "tm_off_snp": 492.0
+    },
+    "team": "JAX"
+   },
+   {
+    "count": 253710,
+    "id": "11637",
+    "name": "Keon Coleman",
+    "pos": "WR",
+    "rostered_by": null,
+    "season": {
+     "gp": 8.0,
+     "off_snp": 377.0,
+     "pts_ppr": 71.4,
+     "rec": 23.0,
+     "rec_td": 3.0,
+     "rec_tgt": 33.0,
+     "rec_yd": 304.0,
+     "snap_pct": 68,
+     "tm_off_snp": 551.0
+    },
+    "team": "BUF"
+   },
+   {
+    "count": 246344,
+    "id": "11610",
+    "name": "Malik Washington",
+    "pos": "WR",
+    "rostered_by": "PawtucketPatriot",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 392.0,
+     "pts_ppr": 75.8,
+     "rec": 33.0,
+     "rec_td": 1.0,
+     "rec_tgt": 48.0,
+     "rec_yd": 350.0,
+     "rush_att": 9.0,
+     "rush_yd": 38.0,
+     "snap_pct": 82,
+     "tm_off_snp": 480.0
+    },
+    "team": "MIA"
+   },
+   {
+    "count": 245136,
+    "id": "4037",
+    "name": "Chris Godwin Jr.",
+    "pos": "WR",
+    "rostered_by": "PawtucketPatriot",
+    "season": {
+     "gp": 9.0,
+     "off_snp": 492.0,
+     "pts_ppr": 57.9,
+     "rec": 29.0,
+     "rec_tgt": 38.0,
+     "rec_yd": 259.0,
+     "rush_att": 4.0,
+     "rush_yd": 30.0,
+     "snap_pct": 83,
+     "tm_off_snp": 592.0
+    },
+    "team": "TB"
+   },
+   {
+    "count": 237060,
+    "id": "3286",
+    "name": "Demarcus Robinson",
+    "pos": "WR",
+    "rostered_by": null,
+    "season": {
+     "gp": 3.0,
+     "off_snp": 94.0,
+     "pts_ppr": 24.6,
+     "rec": 8.0,
+     "rec_td": 1.0,
+     "rec_tgt": 10.0,
+     "rec_yd": 106.0,
+     "snap_pct": 49,
+     "tm_off_snp": 190.0
+    },
+    "team": "SF"
+   },
+   {
+    "count": 223038,
+    "id": "11624",
+    "inj": "Questionable (Hamstring)",
+    "name": "Xavier Worthy",
+    "pos": "WR",
+    "rostered_by": "nusskyle",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 421.0,
+     "pts_ppr": 66.8,
+     "rec": 33.0,
+     "rec_td": 1.0,
+     "rec_tgt": 47.0,
+     "rec_yd": 278.0,
+     "snap_pct": 83,
+     "tm_off_snp": 510.0
+    },
+    "team": "KC"
+   },
+   {
+    "count": 217782,
+    "id": "9482",
+    "name": "Michael Mayer",
+    "pos": "TE",
+    "rostered_by": "PawtucketPatriot",
+    "season": {
+     "gp": 9.0,
+     "off_snp": 478.0,
+     "pts_ppr": 81.8,
+     "rec": 39.0,
+     "rec_td": 1.0,
+     "rec_tgt": 46.0,
+     "rec_yd": 388.0,
+     "snap_pct": 81,
+     "tm_off_snp": 592.0
+    },
+    "team": "LV"
+   },
+   {
+    "count": 210504,
     "id": "11783",
     "name": "Ryan Flournoy",
     "pos": "WR",
@@ -4769,45 +4754,26 @@
     "team": "DAL"
    },
    {
-    "count": 112176,
-    "id": "9482",
-    "name": "Michael Mayer",
-    "pos": "TE",
-    "rostered_by": "PawtucketPatriot",
-    "season": {
-     "gp": 9.0,
-     "off_snp": 478.0,
-     "pts_ppr": 81.8,
-     "rec": 39.0,
-     "rec_td": 1.0,
-     "rec_tgt": 46.0,
-     "rec_yd": 388.0,
-     "snap_pct": 81,
-     "tm_off_snp": 592.0
-    },
-    "team": "LV"
-   },
-   {
-    "count": 107064,
-    "id": "9480",
-    "name": "Brenton Strange",
-    "pos": "TE",
-    "rostered_by": "coltierney",
+    "count": 205445,
+    "id": "11631",
+    "name": "Brian Thomas Jr.",
+    "pos": "WR",
+    "rostered_by": null,
     "season": {
      "gp": 8.0,
-     "off_snp": 373.0,
-     "pts_ppr": 71.6,
-     "rec": 30.0,
-     "rec_td": 1.0,
-     "rec_tgt": 37.0,
-     "rec_yd": 356.0,
-     "snap_pct": 76,
+     "off_snp": 212.0,
+     "pts_ppr": 33.7,
+     "rec": 10.0,
+     "rec_td": 2.0,
+     "rec_tgt": 22.0,
+     "rec_yd": 117.0,
+     "snap_pct": 43,
      "tm_off_snp": 492.0
     },
     "team": "JAX"
    },
    {
-    "count": 105308,
+    "count": 202564,
     "id": "11628",
     "name": "Marvin Harrison Jr.",
     "pos": "WR",
@@ -4826,7 +4792,7 @@
     "team": "HOU"
    },
    {
-    "count": 100576,
+    "count": 191219,
     "id": "13150",
     "name": "Darius Cooper",
     "pos": "WR",
@@ -4845,68 +4811,50 @@
     "team": "PHI"
    },
    {
-    "count": 96088,
-    "id": "1166",
-    "name": "Kirk Cousins",
-    "pos": "QB",
-    "rostered_by": "nusskyle",
+    "count": 189324,
+    "id": "NYG",
+    "name": "NYG DEF",
+    "pos": "DEF",
+    "rostered_by": "kitano",
     "season": {
-     "gp": 9.0,
-     "off_snp": 582.0,
-     "pass_att": 315.0,
-     "pass_int": 8.0,
-     "pass_td": 20.0,
-     "pass_yd": 2340.0,
-     "pts_ppr": 180.3,
-     "rush_att": 22.0,
-     "rush_td": 2.0,
-     "rush_yd": 7.0,
-     "snap_pct": 98,
-     "tm_off_snp": 592.0
+     "gp": 8.0,
+     "pts_ppr": 54.0
     },
-    "team": "LV"
+    "team": "NYG"
    },
    {
-    "count": 90900,
-    "id": "3271",
-    "name": "Tyler Higbee",
+    "count": 180880,
+    "id": "CLE",
+    "name": "CLE DEF",
+    "pos": "DEF",
+    "rostered_by": "PawtucketPatriot",
+    "season": {
+     "gp": 9.0,
+     "pts_ppr": 67.0
+    },
+    "team": "CLE"
+   },
+   {
+    "count": 177183,
+    "id": "9480",
+    "name": "Brenton Strange",
     "pos": "TE",
-    "rostered_by": "phile2211",
+    "rostered_by": "coltierney",
     "season": {
-     "gp": 9.0,
-     "off_snp": 405.0,
-     "pts_ppr": 58.7,
-     "rec": 28.0,
+     "gp": 8.0,
+     "off_snp": 373.0,
+     "pts_ppr": 71.6,
+     "rec": 30.0,
      "rec_td": 1.0,
-     "rec_tgt": 39.0,
-     "rec_yd": 287.0,
-     "snap_pct": 64,
-     "tm_off_snp": 634.0
+     "rec_tgt": 37.0,
+     "rec_yd": 356.0,
+     "snap_pct": 76,
+     "tm_off_snp": 492.0
     },
-    "team": "LAR"
+    "team": "JAX"
    },
    {
-    "count": 90792,
-    "id": "5012",
-    "name": "Mark Andrews",
-    "pos": "TE",
-    "rostered_by": null,
-    "season": {
-     "gp": 9.0,
-     "off_snp": 355.0,
-     "pts_ppr": 58.7,
-     "rec": 31.0,
-     "rec_td": 1.0,
-     "rec_tgt": 43.0,
-     "rec_yd": 237.0,
-     "rush_att": 2.0,
-     "snap_pct": 63,
-     "tm_off_snp": 561.0
-    },
-    "team": "BAL"
-   },
-   {
-    "count": 87948,
+    "count": 163478,
     "id": "7553",
     "name": "Kyle Pitts Sr.",
     "pos": "TE",
@@ -4925,21 +4873,9 @@
     "team": "ATL"
    },
    {
-    "count": 87010,
-    "id": "CLE",
-    "name": "CLE DEF",
-    "pos": "DEF",
-    "rostered_by": "PawtucketPatriot",
-    "season": {
-     "gp": 9.0,
-     "pts_ppr": 67.0
-    },
-    "team": "CLE"
-   },
-   {
-    "count": 86400,
+    "count": 161712,
     "id": "11581",
-    "inj": "Out (Knee)",
+    "inj": "Questionable (Knee)",
     "name": "MarShawn Lloyd",
     "pos": "RB",
     "rostered_by": null,
@@ -4960,46 +4896,7 @@
     "team": "GB"
    },
    {
-    "count": 83700,
-    "id": "11624",
-    "inj": "Out (Hamstring)",
-    "name": "Xavier Worthy",
-    "pos": "WR",
-    "rostered_by": "nusskyle",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 421.0,
-     "pts_ppr": 66.8,
-     "rec": 33.0,
-     "rec_td": 1.0,
-     "rec_tgt": 47.0,
-     "rec_yd": 278.0,
-     "snap_pct": 83,
-     "tm_off_snp": 510.0
-    },
-    "team": "KC"
-   },
-   {
-    "count": 82920,
-    "id": "4993",
-    "name": "Mike Gesicki",
-    "pos": "TE",
-    "rostered_by": "NikoGs",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 244.0,
-     "pts_ppr": 80.2,
-     "rec": 19.0,
-     "rec_td": 6.0,
-     "rec_tgt": 26.0,
-     "rec_yd": 252.0,
-     "snap_pct": 48,
-     "tm_off_snp": 506.0
-    },
-    "team": "CIN"
-   },
-   {
-    "count": 82710,
+    "count": 159606,
     "id": "421",
     "name": "Matthew Stafford",
     "pos": "QB",
@@ -5020,32 +4917,53 @@
     "team": "LAR"
    },
    {
-    "count": 82576,
-    "id": "9757",
-    "name": "Kendre Miller",
-    "pos": null,
+    "count": 156472,
+    "id": "9230",
+    "name": "Tanner McKee",
+    "pos": "QB",
     "rostered_by": null,
-    "team": null
-   },
-   {
-    "count": 81720,
-    "id": "NYG",
-    "name": "NYG DEF",
-    "pos": "DEF",
-    "rostered_by": "kitano",
     "season": {
-     "gp": 8.0,
-     "pts_ppr": 54.0
+     "gp": 3.0,
+     "off_snp": 199.0,
+     "pass_att": 114.0,
+     "pass_int": 2.0,
+     "pass_td": 2.0,
+     "pass_yd": 638.0,
+     "pts_ppr": 32.12,
+     "rush_att": 6.0,
+     "rush_yd": 26.0,
+     "snap_pct": 51,
+     "tm_off_snp": 392.0
     },
-    "team": "NYG"
+    "team": "PHI"
    },
    {
-    "count": 75957,
+    "count": 151299,
+    "id": "5012",
+    "name": "Mark Andrews",
+    "pos": "TE",
+    "rostered_by": null,
+    "season": {
+     "gp": 9.0,
+     "off_snp": 355.0,
+     "pts_ppr": 58.7,
+     "rec": 31.0,
+     "rec_td": 1.0,
+     "rec_tgt": 43.0,
+     "rec_yd": 237.0,
+     "rush_att": 2.0,
+     "snap_pct": 63,
+     "tm_off_snp": 561.0
+    },
+    "team": "BAL"
+   },
+   {
+    "count": 151018,
     "id": "8135",
-    "inj": "Out (Foot)",
+    "inj": "Questionable (Foot)",
     "name": "Treylon Burks",
     "pos": "WR",
-    "rostered_by": "pauliv8811",
+    "rostered_by": null,
     "season": {
      "gp": 6.0,
      "off_snp": 206.0,
@@ -5058,6 +4976,46 @@
      "tm_off_snp": 393.0
     },
     "team": "WAS"
+   },
+   {
+    "count": 137349,
+    "id": "9756",
+    "name": "Jordan Addison",
+    "pos": "WR",
+    "rostered_by": "erictheleghel",
+    "season": {
+     "gp": 7.0,
+     "off_snp": 380.0,
+     "pts_ppr": 53.9,
+     "rec": 18.0,
+     "rec_td": 1.0,
+     "rec_tgt": 36.0,
+     "rec_yd": 277.0,
+     "rush_att": 2.0,
+     "rush_yd": 2.0,
+     "snap_pct": 92,
+     "tm_off_snp": 414.0
+    },
+    "team": "MIN"
+   },
+   {
+    "count": 137043,
+    "id": "3271",
+    "name": "Tyler Higbee",
+    "pos": "TE",
+    "rostered_by": "phile2211",
+    "season": {
+     "gp": 9.0,
+     "off_snp": 405.0,
+     "pts_ppr": 58.7,
+     "rec": 28.0,
+     "rec_td": 1.0,
+     "rec_tgt": 39.0,
+     "rec_yd": 287.0,
+     "snap_pct": 64,
+     "tm_off_snp": 634.0
+    },
+    "team": "LAR"
    }
   ]
  }
