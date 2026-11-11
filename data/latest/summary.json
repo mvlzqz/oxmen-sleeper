@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T11:40:13+00:00",
+ "fetched_at": "2026-11-11T18:01:04+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1633,6 +1633,7 @@
     },
     {
      "id": "13276",
+     "inj": "Questionable (Ankle)",
      "name": "Omar Cooper Jr.",
      "pos": "WR",
      "season": {
@@ -1711,7 +1712,9 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "WR Omar Cooper Jr. is Questionable (Ankle)"
+   ],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
    "pa": 1078.44,
@@ -2070,27 +2073,8 @@
      "team": "LV"
     },
     {
-     "id": "11647",
-     "name": "Kimani Vidal",
-     "pos": "RB",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 162.0,
-      "pts_ppr": 43.8,
-      "rec": 10.0,
-      "rec_td": 1.0,
-      "rec_tgt": 17.0,
-      "rec_yd": 56.0,
-      "rush_att": 36.0,
-      "rush_td": 1.0,
-      "rush_yd": 162.0,
-      "snap_pct": 31,
-      "tm_off_snp": 531.0
-     },
-     "team": "LAC"
-    },
-    {
      "id": "13346",
+     "inj": "Questionable (Toe)",
      "name": "Denzel Boston",
      "pos": "WR",
      "season": {
@@ -2105,6 +2089,25 @@
       "tm_off_snp": 586.0
      },
      "team": "CLE"
+    },
+    {
+     "id": "5022",
+     "name": "Dallas Goedert",
+     "pos": "TE",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 326.0,
+      "pts_ppr": 74.0,
+      "rec": 31.0,
+      "rec_td": 2.0,
+      "rec_tgt": 42.0,
+      "rec_yd": 308.0,
+      "rush_att": 1.0,
+      "rush_yd": 2.0,
+      "snap_pct": 71,
+      "tm_off_snp": 462.0
+     },
+     "team": "PHI"
     },
     {
      "id": "8134",
@@ -2247,24 +2250,25 @@
      "team": "KC"
     },
     {
-     "id": "5022",
-     "name": "Dallas Goedert",
+     "id": "7600",
+     "name": "Pat Freiermuth",
      "pos": "TE",
      "season": {
-      "gp": 7.0,
-      "off_snp": 326.0,
-      "pts_ppr": 74.0,
-      "rec": 31.0,
-      "rec_td": 2.0,
-      "rec_tgt": 42.0,
-      "rec_yd": 308.0,
-      "rush_att": 1.0,
-      "rush_yd": 2.0,
-      "snap_pct": 71,
-      "tm_off_snp": 462.0
+      "gp": 8.0,
+      "off_snp": 349.0,
+      "pts_ppr": 79.0,
+      "rec": 25.0,
+      "rec_td": 4.0,
+      "rec_tgt": 35.0,
+      "rec_yd": 235.0,
+      "rush_att": 4.0,
+      "rush_td": 1.0,
+      "rush_yd": 5.0,
+      "snap_pct": 65,
+      "tm_off_snp": 533.0
      },
      "slot": "TE",
-     "team": "PHI"
+     "team": "PIT"
     },
     {
      "id": "11632",
@@ -2318,7 +2322,6 @@
     "10229",
     "11539",
     "11632",
-    "11647",
     "12527",
     "12534",
     "13346",
@@ -2326,6 +2329,7 @@
     "4199",
     "5022",
     "6794",
+    "7600",
     "8134",
     "KC"
    ],
@@ -2717,14 +2721,14 @@
      "team": "IND"
     },
     {
-     "id": "GB",
-     "name": "GB DEF",
+     "id": "CHI",
+     "name": "CHI DEF",
      "pos": "DEF",
      "season": {
       "gp": 9.0,
       "pts_ppr": 74.0
      },
-     "team": "GB"
+     "team": "CHI"
     }
    ],
    "ir": [
@@ -2919,15 +2923,15 @@
      "team": "IND"
     },
     {
-     "id": "CHI",
-     "name": "CHI DEF",
+     "id": "GB",
+     "name": "GB DEF",
      "pos": "DEF",
      "season": {
       "gp": 9.0,
       "pts_ppr": 74.0
      },
      "slot": "DEF",
-     "team": "CHI"
+     "team": "GB"
     }
    ],
    "lineup_flags": [],

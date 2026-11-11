@@ -1,7 +1,7 @@
 {
- "baseline": "2026-11-10_1140Z",
+ "baseline": "2026-11-10_1810Z",
  "first_run": false,
- "injury_baseline": "2026-11-10_1140Z",
+ "injury_baseline": "2026-11-10_1810Z",
  "injury_changes": [
   {
    "body_part": "Concussion",
@@ -68,6 +68,14 @@
    "to": "Questionable"
   },
   {
+   "body_part": "Toe",
+   "from": null,
+   "mine": false,
+   "owner": "dleach16",
+   "player": "Denzel Boston",
+   "to": "Questionable"
+  },
+  {
    "body_part": "Hamstring",
    "from": "Out",
    "mine": false,
@@ -90,6 +98,14 @@
    "owner": "NikoGs",
    "player": "Malik Willis",
    "to": "IR"
+  },
+  {
+   "body_part": "Ankle",
+   "from": null,
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Omar Cooper Jr.",
+   "to": "Questionable"
   },
   {
    "body_part": "Knee - MCL",
@@ -186,6 +202,17 @@
   },
   {
    "added": [
+    "Pat Freiermuth"
+   ],
+   "dropped": [
+    "Kimani Vidal"
+   ],
+   "moved_to_ir": [],
+   "owner": "dleach16",
+   "roster_id": 7
+  },
+  {
+   "added": [
     "Kaleb Johnson",
     "GB DEF"
    ],
@@ -235,7 +262,7 @@
    "roster_id": 14
   }
  ],
- "since": "2026-11-10T11:40:15+00:00",
+ "since": "2026-11-10T18:10:21+00:00",
  "waiver_moves": [
   {
    "from": 8,
