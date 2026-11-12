@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T11:40:15+00:00",
+ "fetched_at": "2026-11-12T18:33:24+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -587,7 +587,7 @@
    "record": "6-3",
    "roster_id": 1,
    "taxi": [],
-   "team_name": "JetFuel Doesnt Melt Beers",
+   "team_name": "Peacocks",
    "waiver_position": 14
   },
   {
@@ -1811,35 +1811,6 @@
      "team": "MIN"
     },
     {
-     "id": "9756",
-     "name": "Jordan Addison",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 380.0,
-      "pts_ppr": 53.9,
-      "rec": 18.0,
-      "rec_td": 1.0,
-      "rec_tgt": 36.0,
-      "rec_yd": 277.0,
-      "rush_att": 2.0,
-      "rush_yd": 2.0,
-      "snap_pct": 92,
-      "tm_off_snp": 414.0
-     },
-     "team": "MIN"
-    },
-    {
-     "id": "BAL",
-     "name": "BAL DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 9.0,
-      "pts_ppr": 41.0
-     },
-     "team": "BAL"
-    },
-    {
      "id": "TB",
      "name": "TB DEF",
      "pos": "DEF",
@@ -1934,8 +1905,24 @@
      "team": "CIN"
     },
     {
-     "empty": true,
-     "slot": "WR"
+     "id": "9756",
+     "name": "Jordan Addison",
+     "pos": "WR",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 380.0,
+      "pts_ppr": 53.9,
+      "rec": 18.0,
+      "rec_td": 1.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 277.0,
+      "rush_att": 2.0,
+      "rush_yd": 2.0,
+      "snap_pct": 92,
+      "tm_off_snp": 414.0
+     },
+     "slot": "WR",
+     "team": "MIN"
     },
     {
      "id": "13301",
@@ -2010,14 +1997,18 @@
      "team": "CIN"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "BAL",
+     "name": "BAL DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 9.0,
+      "pts_ppr": 41.0
+     },
+     "slot": "DEF",
+     "team": "BAL"
     }
    ],
-   "lineup_flags": [
-    "WR slot is EMPTY",
-    "DEF slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 1025.66,
@@ -3812,24 +3803,6 @@
   {
    "bench": [
     {
-     "id": "10236",
-     "inj": "Questionable (Ankle)",
-     "name": "Dalton Kincaid",
-     "pos": "TE",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 351.0,
-      "pts_ppr": 84.9,
-      "rec": 30.0,
-      "rec_td": 2.0,
-      "rec_tgt": 38.0,
-      "rec_yd": 429.0,
-      "snap_pct": 64,
-      "tm_off_snp": 551.0
-     },
-     "team": "BUF"
-    },
-    {
      "id": "11560",
      "name": "Caleb Williams",
      "pos": "QB",
@@ -3850,23 +3823,21 @@
      "team": "CHI"
     },
     {
-     "id": "5846",
-     "name": "DK Metcalf",
+     "id": "13150",
+     "name": "Darius Cooper",
      "pos": "WR",
      "season": {
-      "gp": 8.0,
-      "off_snp": 504.0,
-      "pts_ppr": 77.9,
-      "rec": 33.0,
-      "rec_td": 1.0,
-      "rec_tgt": 64.0,
-      "rec_yd": 378.0,
-      "rush_att": 1.0,
-      "rush_yd": 11.0,
-      "snap_pct": 95,
-      "tm_off_snp": 533.0
+      "gp": 9.0,
+      "off_snp": 383.0,
+      "pts_ppr": 57.0,
+      "rec": 13.0,
+      "rec_td": 4.0,
+      "rec_tgt": 32.0,
+      "rec_yd": 200.0,
+      "snap_pct": 67,
+      "tm_off_snp": 573.0
      },
-     "team": "PIT"
+     "team": "PHI"
     },
     {
      "id": "5892",
@@ -3888,6 +3859,27 @@
       "tm_off_snp": 334.0
      },
      "team": "HOU"
+    },
+    {
+     "id": "9493",
+     "inj": "Out (Knee - MCL)",
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 424.0,
+      "pts_ppr": 173.6,
+      "rec": 70.0,
+      "rec_td": 4.0,
+      "rec_tgt": 93.0,
+      "rec_yd": 715.0,
+      "rush_att": 7.0,
+      "rush_td": 1.0,
+      "rush_yd": 41.0,
+      "snap_pct": 87,
+      "tm_off_snp": 486.0
+     },
+     "team": "LAR"
     }
    ],
    "ir": [],
@@ -3955,28 +3947,6 @@
      "team": "HOU"
     },
     {
-     "id": "9493",
-     "inj": "Out (Knee - MCL)",
-     "name": "Puka Nacua",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 424.0,
-      "pts_ppr": 173.6,
-      "rec": 70.0,
-      "rec_td": 4.0,
-      "rec_tgt": 93.0,
-      "rec_yd": 715.0,
-      "rush_att": 7.0,
-      "rush_td": 1.0,
-      "rush_yd": 41.0,
-      "snap_pct": 87,
-      "tm_off_snp": 486.0
-     },
-     "slot": "WR",
-     "team": "LAR"
-    },
-    {
      "id": "13293",
      "name": "Ja'Kobi Lane",
      "pos": "WR",
@@ -3992,6 +3962,26 @@
      },
      "slot": "WR",
      "team": "BAL"
+    },
+    {
+     "id": "5846",
+     "name": "DK Metcalf",
+     "pos": "WR",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 504.0,
+      "pts_ppr": 77.9,
+      "rec": 33.0,
+      "rec_td": 1.0,
+      "rec_tgt": 64.0,
+      "rec_yd": 378.0,
+      "rush_att": 1.0,
+      "rush_yd": 11.0,
+      "snap_pct": 95,
+      "tm_off_snp": 533.0
+     },
+     "slot": "WR",
+     "team": "PIT"
     },
     {
      "id": "3271",
@@ -4012,22 +4002,23 @@
      "team": "LAR"
     },
     {
-     "id": "13150",
-     "name": "Darius Cooper",
-     "pos": "WR",
+     "id": "10236",
+     "inj": "Questionable (Ankle)",
+     "name": "Dalton Kincaid",
+     "pos": "TE",
      "season": {
-      "gp": 9.0,
-      "off_snp": 383.0,
-      "pts_ppr": 57.0,
-      "rec": 13.0,
-      "rec_td": 4.0,
-      "rec_tgt": 32.0,
-      "rec_yd": 200.0,
-      "snap_pct": 67,
-      "tm_off_snp": 573.0
+      "gp": 8.0,
+      "off_snp": 351.0,
+      "pts_ppr": 84.9,
+      "rec": 30.0,
+      "rec_td": 2.0,
+      "rec_tgt": 38.0,
+      "rec_yd": 429.0,
+      "snap_pct": 64,
+      "tm_off_snp": 551.0
      },
      "slot": "FLEX",
-     "team": "PHI"
+     "team": "BUF"
     },
     {
      "id": "5189",
@@ -4056,7 +4047,7 @@
    "lineup_flags": [
     "QB Jared Goff is Questionable (Chest)",
     "RB Woody Marks is Questionable (Knee)",
-    "WR Puka Nacua is Out (Knee - MCL)"
+    "FLEX Dalton Kincaid is Questionable (Ankle)"
    ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",

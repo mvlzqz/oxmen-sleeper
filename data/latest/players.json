@@ -137,7 +137,7 @@
  "10218": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "LWR",
   "first_name": "Xavier",
   "full_name": "Xavier Hutchinson",
@@ -2533,7 +2533,7 @@
  "11595": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Jared",
   "full_name": "Jared Wiley",
@@ -3017,7 +3017,7 @@
  "11625": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "RWR",
   "first_name": "Adonai",
   "full_name": "Adonai Mitchell",
@@ -3112,7 +3112,7 @@
  "11628": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RWR",
   "first_name": "Marvin",
   "full_name": "Marvin Harrison Jr.",
@@ -4098,6 +4098,23 @@
   },
   "status": "Active",
   "team": "TB",
+  "years_exp": 2
+ },
+ "12015": {
+  "active": true,
+  "age": 24,
+  "first_name": "Harrison",
+  "full_name": "Harrison Mevis",
+  "last_name": "Mevis",
+  "position": "K",
+  "search_rank": 154,
+  "season": {
+   "gp": 5.0,
+   "pts_ppr": 28.0,
+   "tm_off_snp": 293.0
+  },
+  "status": "Active",
+  "team": "BAL",
   "years_exp": 2
  },
  "12045": {
@@ -5138,7 +5155,7 @@
  "12496": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "LWR",
   "first_name": "Tai",
   "full_name": "Tai Felton",
@@ -7130,7 +7147,7 @@
  "12817": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Jake",
   "full_name": "Jake Briningstool",
@@ -7699,7 +7716,7 @@
  "13075": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Myles",
   "full_name": "Myles Price",
@@ -8206,7 +8223,7 @@
  "13276": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "SWR",
   "first_name": "Omar",
   "full_name": "Omar Cooper Jr.",
@@ -11718,7 +11735,7 @@
  "1479": {
   "active": true,
   "age": 34,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RWR",
   "first_name": "Keenan",
   "full_name": "Keenan Allen",
@@ -12746,7 +12763,7 @@
  "3286": {
   "active": true,
   "age": 32,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "LWR",
   "first_name": "Demarcus",
   "full_name": "Demarcus Robinson",
@@ -15829,22 +15846,6 @@
   },
   "status": "Active",
   "team": "BUF",
-  "years_exp": 7
- },
- "6045": {
-  "active": true,
-  "age": 29,
-  "first_name": "Gary",
-  "full_name": "Gary Jennings",
-  "last_name": "Jennings",
-  "last_week": null,
-  "position": "WR",
-  "search_rank": 527,
-  "season": {
-   "gp": 1.0
-  },
-  "status": "Active",
-  "team": "LAC",
   "years_exp": 7
  },
  "6083": {
@@ -19028,6 +19029,25 @@
   },
   "status": "Active",
   "team": "DET",
+  "years_exp": 5
+ },
+ "7922": {
+  "active": true,
+  "age": 27,
+  "depth_chart_order": 1,
+  "depth_chart_position": "K",
+  "first_name": "Riley",
+  "full_name": "Riley Patterson",
+  "last_name": "Patterson",
+  "position": "K",
+  "search_rank": 241,
+  "season": {
+   "gp": 5.0,
+   "pts_ppr": 24.0,
+   "tm_off_snp": 293.0
+  },
+  "status": "Active",
+  "team": "BAL",
   "years_exp": 5
  },
  "7933": {
@@ -22273,7 +22293,7 @@
  "9502": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "SWR",
   "first_name": "Tank",
   "full_name": "Tank Dell",
@@ -22313,7 +22333,7 @@
  "9504": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "RWR",
   "first_name": "Kayshon",
   "full_name": "Kayshon Boutte",
