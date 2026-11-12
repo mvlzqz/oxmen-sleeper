@@ -28,9 +28,12 @@
    "8148",
    "8151",
    "8167",
-   "9480"
+   "9480",
+   "CIN"
   ],
-  "reserve": null,
+  "reserve": [
+   "12529"
+  ],
   "roster_id": 1,
   "settings": {
    "fpts": 1054,
@@ -43,7 +46,7 @@
    "ties": 0,
    "total_moves": 0,
    "waiver_budget_used": 0,
-   "waiver_position": 10,
+   "waiver_position": 14,
    "wins": 6
   },
   "starters": [
@@ -55,7 +58,7 @@
    "8131",
    "13296",
    "11261",
-   "0"
+   "CIN"
   ],
   "taxi": null
  },
@@ -116,7 +119,7 @@
    "6786",
    "13298",
    "10859",
-   "11624",
+   "3214",
    "11533",
    "SF"
   ],
@@ -281,18 +284,18 @@
    "ties": 0,
    "total_moves": 0,
    "waiver_budget_used": 0,
-   "waiver_position": 11,
+   "waiver_position": 10,
    "wins": 7
   },
   "starters": [
    "7523",
-   "4035",
+   "11579",
    "4034",
    "8144",
    "13276",
    "8130",
    "5947",
-   "3451",
+   "7042",
    "JAX"
   ],
   "taxi": null
@@ -315,8 +318,6 @@
    "13301",
    "13414",
    "1466",
-   "421",
-   "5859",
    "6804",
    "7525",
    "7839",
@@ -324,11 +325,11 @@
    "8408",
    "9224",
    "9484",
+   "9756",
    "BAL",
    "TB"
   ],
   "reserve": [
-   "5859",
    "7525"
   ],
   "roster_id": 6,
@@ -343,7 +344,7 @@
    "ties": 0,
    "total_moves": 0,
    "waiver_budget_used": 0,
-   "waiver_position": 14,
+   "waiver_position": 13,
    "wins": 2
   },
   "starters": [
@@ -495,13 +496,13 @@
   "owner_id": "925598304476426240",
   "player_map": null,
   "players": [
+   "11630",
    "12185",
    "12469",
    "12504",
    "12517",
    "12526",
    "12545",
-   "13424",
    "5844",
    "6130",
    "7543",
@@ -527,7 +528,7 @@
    "ties": 0,
    "total_moves": 0,
    "waiver_budget_used": 0,
-   "waiver_position": 13,
+   "waiver_position": 12,
    "wins": 5
   },
   "starters": [
@@ -567,11 +568,10 @@
    "9500",
    "9502",
    "9758",
-   "NO"
+   "BUF"
   ],
   "reserve": [
-   "10232",
-   "8146"
+   "10232"
   ],
   "roster_id": 10,
   "settings": {
@@ -585,19 +585,19 @@
    "ties": 0,
    "total_moves": 0,
    "waiver_budget_used": 0,
-   "waiver_position": 12,
+   "waiver_position": 11,
    "wins": 5
   },
   "starters": [
    "9758",
    "6813",
    "12512",
-   "0",
+   "8146",
    "9500",
    "7002",
    "11783",
    "11792",
-   "NO"
+   "BUF"
   ],
   "taxi": null
  },
@@ -617,12 +617,13 @@
    "11786",
    "13345",
    "4046",
+   "421",
    "4217",
+   "5859",
    "6801",
    "7564",
    "7594",
    "8155",
-   "9756",
    "HOU",
    "PIT"
   ],

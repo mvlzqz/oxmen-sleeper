@@ -1,70 +1,54 @@
 {
- "baseline": "2026-11-10_1810Z",
+ "baseline": "2026-11-11_1140Z",
  "first_run": false,
- "injury_baseline": "2026-11-10_1810Z",
+ "injury_baseline": "2026-11-11_1140Z",
  "injury_changes": [
   {
-   "body_part": "Concussion",
-   "from": "Out",
+   "body_part": "Hand",
+   "from": null,
    "mine": true,
    "owner": "mvlzqz",
-   "player": "Garrett Wilson",
+   "player": "Tank Dell",
    "to": "Questionable"
   },
   {
-   "body_part": "Neck",
-   "from": "Out",
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Michael Wilson",
-   "to": "IR"
-  },
-  {
-   "body_part": "Achilles",
-   "from": "Out",
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Mike Evans",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Knee",
-   "from": "Out",
+   "body_part": "Back",
+   "from": null,
    "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "A.J. Brown",
+   "owner": "brendonferreira",
+   "player": "Alvin Kamara",
    "to": "Questionable"
   },
   {
-   "body_part": null,
-   "from": "Out",
+   "body_part": "Ribs",
+   "from": null,
    "mine": false,
-   "owner": "nusskyle",
-   "player": "Cam Skattebo",
-   "to": null
-  },
-  {
-   "body_part": "Shoulder",
-   "from": "Out",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Carnell Tate",
+   "owner": "pauliv8811",
+   "player": "Amon-Ra St. Brown",
    "to": "Questionable"
   },
   {
-   "body_part": "Groin",
-   "from": "Out",
+   "body_part": "Ankle",
+   "from": null,
+   "mine": false,
+   "owner": "PawtucketPatriot",
+   "player": "Bhayshul Tuten",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Hand",
+   "from": null,
+   "mine": false,
+   "owner": "wmont",
+   "player": "Chris Rodriguez Jr.",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Ankle",
+   "from": null,
    "mine": false,
    "owner": "phile2211",
-   "player": "David Montgomery",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Hamstring",
-   "from": "Out",
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "Deebo Samuel Sr.",
+   "player": "Dalton Kincaid",
    "to": "Questionable"
   },
   {
@@ -76,28 +60,36 @@
    "to": "Questionable"
   },
   {
-   "body_part": "Hamstring",
-   "from": "Out",
+   "body_part": "Groin",
+   "from": null,
    "mine": false,
-   "owner": "kitano",
-   "player": "George Pickens",
+   "owner": "wmont",
+   "player": "Harold Fannin Jr.",
    "to": "Questionable"
   },
   {
-   "body_part": null,
-   "from": "Questionable",
+   "body_part": "Foot",
+   "from": null,
    "mine": false,
    "owner": "nusskyle",
-   "player": "KC Concepcion Jr.",
-   "to": null
+   "player": "Hunter Henry",
+   "to": "Questionable"
   },
   {
-   "body_part": "Groin",
-   "from": "Questionable",
+   "body_part": "Ankle",
+   "from": null,
    "mine": false,
-   "owner": "NikoGs",
-   "player": "Malik Willis",
-   "to": "IR"
+   "owner": "brendonferreira",
+   "player": "Jakobi Meyers",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Chest",
+   "from": null,
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Jared Goff",
+   "to": "Questionable"
   },
   {
    "body_part": "Ankle",
@@ -108,93 +100,74 @@
    "to": "Questionable"
   },
   {
-   "body_part": "Knee - MCL",
+   "body_part": null,
    "from": "Questionable",
+   "mine": false,
+   "owner": "erictheleghel",
+   "player": "Patrick Mahomes",
+   "to": null
+  },
+  {
+   "body_part": "Knee - MCL",
+   "from": "Doubtful",
    "mine": false,
    "owner": "phile2211",
    "player": "Puka Nacua",
-   "to": "Doubtful"
+   "to": "Out"
   },
   {
-   "body_part": "Knee",
-   "from": "Out",
+   "body_part": "Wrist",
+   "from": null,
    "mine": false,
-   "owner": "brendonferreira",
-   "player": "Rhamondre Stevenson",
-   "to": "Doubtful"
+   "owner": "pauliv8811",
+   "player": "T.J. Hockenson",
+   "to": "Questionable"
   },
   {
    "body_part": "Illness",
-   "from": "Out",
+   "from": "Questionable",
    "mine": false,
    "owner": "coltierney",
    "player": "TreVeyon Henderson",
+   "to": "Out"
+  },
+  {
+   "body_part": "Knee",
+   "from": null,
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Woody Marks",
    "to": "Questionable"
   },
   {
-   "body_part": "Hamstring",
-   "from": "Out",
+   "body_part": null,
+   "from": "Questionable",
    "mine": false,
    "owner": "nusskyle",
    "player": "Xavier Worthy",
-   "to": "Questionable"
+   "to": null
   }
  ],
  "my_team_changed": true,
  "rosters": [
   {
    "added": [
-    "Andre Szmyt",
-    "Corey Kiner"
-   ],
-   "dropped": [
-    "Jason Myers",
     "CIN DEF"
    ],
-   "moved_to_ir": [],
+   "dropped": [],
+   "moved_to_ir": [
+    "TreVeyon Henderson"
+   ],
    "owner": "coltierney",
    "roster_id": 1
   },
   {
    "added": [
-    "Dominic Zvada",
-    "MIA DEF"
+    "Jordan Addison"
    ],
    "dropped": [
-    "Cairo Santos"
-   ],
-   "moved_to_ir": [],
-   "owner": "PawtucketPatriot",
-   "roster_id": 3
-  },
-  {
-   "added": [
-    "Keenan Allen"
-   ],
-   "dropped": [
-    "Courtland Sutton"
-   ],
-   "moved_to_ir": [],
-   "owner": "kitano",
-   "roster_id": 4
-  },
-  {
-   "added": [
-    "Audric Estime"
-   ],
-   "dropped": [],
-   "moved_to_ir": [],
-   "owner": "brendonferreira",
-   "roster_id": 5
-  },
-  {
-   "added": [
-    "Konata Mumpfield",
-    "BAL DEF"
-   ],
-   "dropped": [
-    "Adonai Mitchell",
-    "DET DEF"
+    "Matthew Stafford",
+    "A.J. Brown"
    ],
    "moved_to_ir": [],
    "owner": "TheDudePlayingADude",
@@ -213,12 +186,10 @@
   },
   {
    "added": [
-    "Kaleb Johnson",
-    "GB DEF"
+    "Roman Wilson"
    ],
    "dropped": [
-    "Brian Thomas Jr.",
-    "Treylon Burks"
+    "Seth McGowan"
    ],
    "moved_to_ir": [],
    "owner": "pauliv8811",
@@ -226,98 +197,54 @@
   },
   {
    "added": [
-    "Tank Dell"
+    "BUF DEF"
    ],
-   "dropped": [],
-   "moved_to_ir": [
-    "Michael Wilson"
+   "dropped": [
+    "NO DEF"
    ],
+   "moved_to_ir": [],
    "owner": "mvlzqz",
    "roster_id": 10
   },
   {
    "added": [
-    "Chris Rodriguez Jr."
+    "Matthew Stafford",
+    "A.J. Brown"
    ],
    "dropped": [
-    "Demarcus Robinson"
+    "Jordan Addison"
    ],
    "moved_to_ir": [],
-   "owner": "wmont",
-   "roster_id": 12
-  },
-  {
-   "added": [
-    "Ryan Fitzgerald",
-    "Rico Dowdle"
-   ],
-   "dropped": [
-    "Mike Washington Jr.",
-    "J.K. Dobbins"
-   ],
-   "moved_to_ir": [
-    "Jaylen Waddle"
-   ],
-   "owner": "chopkins30",
-   "roster_id": 14
+   "owner": "erictheleghel",
+   "roster_id": 11
   }
  ],
- "since": "2026-11-10T18:10:21+00:00",
+ "since": "2026-11-11T11:40:13+00:00",
  "waiver_moves": [
   {
-   "from": 8,
-   "owner": "coltierney",
-   "to": 10
-  },
-  {
-   "from": 13,
-   "owner": "nusskyle",
-   "to": 7
-  },
-  {
-   "from": 4,
-   "owner": "kitano",
-   "to": 9
-  },
-  {
-   "from": 9,
-   "owner": "brendonferreira",
-   "to": 11
-  },
-  {
-   "from": 7,
-   "owner": "dleach16",
-   "to": 5
-  },
-  {
-   "from": 5,
-   "owner": "NikoGs",
-   "to": 3
-  },
-  {
-   "from": 12,
-   "owner": "pauliv8811",
-   "to": 13
-  },
-  {
    "from": 10,
-   "owner": "mvlzqz",
-   "to": 12
+   "owner": "coltierney",
+   "to": 14
   },
   {
    "from": 11,
-   "owner": "erictheleghel",
-   "to": 6
+   "owner": "brendonferreira",
+   "to": 10
   },
   {
-   "from": 6,
-   "owner": "wmont",
-   "to": 4
+   "from": 14,
+   "owner": "TheDudePlayingADude",
+   "to": 13
   },
   {
-   "from": 3,
-   "owner": "chopkins30",
-   "to": 8
+   "from": 13,
+   "owner": "pauliv8811",
+   "to": 12
+  },
+  {
+   "from": 12,
+   "owner": "mvlzqz",
+   "to": 11
   }
  ]
 }
