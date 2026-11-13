@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T11:40:15+00:00",
+ "fetched_at": "2026-11-13T17:59:41+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -839,7 +839,6 @@
     },
     {
      "id": "3214",
-     "inj": "Questionable (Foot)",
      "name": "Hunter Henry",
      "pos": "TE",
      "season": {
@@ -880,9 +879,7 @@
      "team": "SF"
     }
    ],
-   "lineup_flags": [
-    "FLEX Hunter Henry is Questionable (Foot)"
-   ],
+   "lineup_flags": [],
    "owner": "nusskyle",
    "owner_id": "1129838942104412160",
    "pa": 1027.2,
@@ -1642,7 +1639,6 @@
     },
     {
      "id": "13276",
-     "inj": "Questionable (Ankle)",
      "name": "Omar Cooper Jr.",
      "pos": "WR",
      "season": {
@@ -1723,7 +1719,6 @@
     }
    ],
    "lineup_flags": [
-    "WR Omar Cooper Jr. is Questionable (Ankle)",
     "FLEX Jakobi Meyers is Questionable (Ankle)"
    ],
    "owner": "brendonferreira",
@@ -4080,25 +4075,6 @@
   {
    "bench": [
     {
-     "id": "11576",
-     "name": "Braelon Allen",
-     "pos": "RB",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 364.0,
-      "pts_ppr": 105.0,
-      "rec": 19.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 102.0,
-      "rush_att": 120.0,
-      "rush_td": 3.0,
-      "rush_yd": 598.0,
-      "snap_pct": 65,
-      "tm_off_snp": 557.0
-     },
-     "team": "NYJ"
-    },
-    {
      "id": "12519",
      "inj": "Questionable (Undisclosed)",
      "name": "Luther Burden III",
@@ -4117,6 +4093,24 @@
       "tm_off_snp": 660.0
      },
      "team": "CHI"
+    },
+    {
+     "id": "13279",
+     "inj": "Out (Shoulder)",
+     "name": "Carnell Tate",
+     "pos": "WR",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 329.0,
+      "pts_ppr": 77.3,
+      "rec": 34.0,
+      "rec_td": 1.0,
+      "rec_tgt": 51.0,
+      "rec_yd": 413.0,
+      "snap_pct": 82,
+      "tm_off_snp": 399.0
+     },
+     "team": "TEN"
     },
     {
      "id": "6650",
@@ -4315,23 +4309,24 @@
      "team": "IND"
     },
     {
-     "id": "13279",
-     "inj": "Questionable (Shoulder)",
-     "name": "Carnell Tate",
-     "pos": "WR",
+     "id": "11576",
+     "name": "Braelon Allen",
+     "pos": "RB",
      "season": {
-      "gp": 7.0,
-      "off_snp": 329.0,
-      "pts_ppr": 77.3,
-      "rec": 34.0,
-      "rec_td": 1.0,
-      "rec_tgt": 51.0,
-      "rec_yd": 413.0,
-      "snap_pct": 82,
-      "tm_off_snp": 399.0
+      "gp": 9.0,
+      "off_snp": 364.0,
+      "pts_ppr": 105.0,
+      "rec": 19.0,
+      "rec_tgt": 24.0,
+      "rec_yd": 102.0,
+      "rush_att": 120.0,
+      "rush_td": 3.0,
+      "rush_yd": 598.0,
+      "snap_pct": 65,
+      "tm_off_snp": 557.0
      },
      "slot": "FLEX",
-     "team": "TEN"
+     "team": "NYJ"
     },
     {
      "id": "12961",
@@ -4359,9 +4354,7 @@
      "team": "LAR"
     }
    ],
-   "lineup_flags": [
-    "FLEX Carnell Tate is Questionable (Shoulder)"
-   ],
+   "lineup_flags": [],
    "owner": "chopkins30",
    "owner_id": "1258779579946897408",
    "pa": 1218.56,

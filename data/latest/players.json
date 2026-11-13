@@ -2558,7 +2558,7 @@
  "11595": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Jared",
   "full_name": "Jared Wiley",
@@ -2976,7 +2976,7 @@
  "11623": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 8,
+  "depth_chart_order": 9,
   "depth_chart_position": "KR",
   "first_name": "Jordan",
   "full_name": "Jordan Whittington",
@@ -7175,7 +7175,7 @@
  "12817": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Jake",
   "full_name": "Jake Briningstool",
@@ -7641,7 +7641,7 @@
  "13011": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 9,
+  "depth_chart_order": 10,
   "depth_chart_position": "RWR",
   "first_name": "Brennan",
   "full_name": "Brennan Presley",
@@ -8257,8 +8257,6 @@
   "depth_chart_position": "SWR",
   "first_name": "Omar",
   "full_name": "Omar Cooper Jr.",
-  "injury_body_part": "Ankle",
-  "injury_status": "Questionable",
   "last_name": "Cooper Jr.",
   "last_week": {
    "gp": 1.0,
@@ -8347,7 +8345,7 @@
   "first_name": "Carnell",
   "full_name": "Carnell Tate",
   "injury_body_part": "Shoulder",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Tate",
   "position": "WR",
   "search_rank": 61,
@@ -9026,7 +9024,7 @@
   "first_name": "Chris",
   "full_name": "Chris Bell",
   "injury_body_part": "Knee",
-  "injury_status": "Questionable",
+  "injury_status": "Doubtful",
   "last_name": "Bell",
   "last_week": {
    "gp": 1.0,
@@ -12180,8 +12178,8 @@
   "active": true,
   "age": 33,
   "first_name": "Phillip",
-  "full_name": "Phillip Dorsett II",
-  "last_name": "Dorsett II",
+  "full_name": "Phillip Dorsett",
+  "last_name": "Dorsett",
   "position": "WR",
   "search_rank": 560,
   "season": null,
@@ -12637,8 +12635,6 @@
   "depth_chart_position": "TE",
   "first_name": "Hunter",
   "full_name": "Hunter Henry",
-  "injury_body_part": "Foot",
-  "injury_status": "Questionable",
   "last_name": "Henry",
   "last_week": {
    "gp": 1.0,
@@ -15117,40 +15113,6 @@
   },
   "status": "Active",
   "team": "PIT",
-  "years_exp": 7
- },
- "5848": {
-  "active": true,
-  "age": 29,
-  "first_name": "Marquise",
-  "full_name": "Marquise Brown",
-  "last_name": "Brown",
-  "last_week": {
-   "gp": 1.0,
-   "off_snp": 35.0,
-   "pts_ppr": 2.6,
-   "rec": 1.0,
-   "rec_tgt": 1.0,
-   "rec_yd": 16.0,
-   "snap_pct": 50,
-   "tm_off_snp": 70.0
-  },
-  "position": "WR",
-  "search_rank": 685,
-  "season": {
-   "gp": 4.0,
-   "off_snp": 120.0,
-   "pts_ppr": 12.5,
-   "rec": 5.0,
-   "rec_tgt": 8.0,
-   "rec_yd": 63.0,
-   "rush_att": 2.0,
-   "rush_yd": 12.0,
-   "snap_pct": 36,
-   "tm_off_snp": 336.0
-  },
-  "status": "Active",
-  "team": "PHI",
   "years_exp": 7
  },
  "5849": {
