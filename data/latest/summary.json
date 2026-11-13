@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T18:33:24+00:00",
+ "fetched_at": "2026-11-13T11:40:15+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -25,6 +25,25 @@
     "team": "DEN"
    },
    {
+    "id": "11783",
+    "name": "Ryan Flournoy",
+    "pos": "WR",
+    "season": {
+     "gp": 9.0,
+     "off_snp": 479.0,
+     "pts_ppr": 83.8,
+     "rec": 32.0,
+     "rec_td": 2.0,
+     "rec_tgt": 47.0,
+     "rec_yd": 395.0,
+     "rush_att": 1.0,
+     "rush_yd": 3.0,
+     "snap_pct": 77,
+     "tm_off_snp": 624.0
+    },
+    "team": "DAL"
+   },
+   {
     "id": "2216",
     "inj": "Questionable (Achilles)",
     "name": "Mike Evans",
@@ -43,27 +62,7 @@
     "team": "SF"
    },
    {
-    "id": "5967",
-    "name": "Tony Pollard",
-    "pos": "RB",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 296.0,
-     "pts_ppr": 116.5,
-     "rec": 14.0,
-     "rec_tgt": 21.0,
-     "rec_yd": 70.0,
-     "rush_att": 133.0,
-     "rush_td": 6.0,
-     "rush_yd": 595.0,
-     "snap_pct": 62,
-     "tm_off_snp": 476.0
-    },
-    "team": "TEN"
-   },
-   {
     "id": "9502",
-    "inj": "Questionable (Hand)",
     "name": "Tank Dell",
     "pos": "WR",
     "season": {
@@ -227,24 +226,25 @@
     "team": "NO"
    },
    {
-    "id": "11783",
-    "name": "Ryan Flournoy",
-    "pos": "WR",
+    "id": "5967",
+    "inj": "Questionable (Finger)",
+    "name": "Tony Pollard",
+    "pos": "RB",
     "season": {
-     "gp": 9.0,
-     "off_snp": 479.0,
-     "pts_ppr": 83.8,
-     "rec": 32.0,
-     "rec_td": 2.0,
-     "rec_tgt": 47.0,
-     "rec_yd": 395.0,
-     "rush_att": 1.0,
-     "rush_yd": 3.0,
-     "snap_pct": 77,
-     "tm_off_snp": 624.0
+     "gp": 8.0,
+     "off_snp": 296.0,
+     "pts_ppr": 116.5,
+     "rec": 14.0,
+     "rec_tgt": 21.0,
+     "rec_yd": 70.0,
+     "rush_att": 133.0,
+     "rush_td": 6.0,
+     "rush_yd": 595.0,
+     "snap_pct": 62,
+     "tm_off_snp": 476.0
     },
     "slot": "FLEX",
-    "team": "DAL"
+    "team": "TEN"
    },
    {
     "id": "11792",
@@ -271,7 +271,8 @@
    }
   ],
   "lineup_flags": [
-   "WR Garrett Wilson is Questionable (Concussion)"
+   "WR Garrett Wilson is Questionable (Concussion)",
+   "FLEX Tony Pollard is Questionable (Finger)"
   ],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
@@ -428,16 +429,16 @@
      "name": "Rachaad White",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 242.0,
-      "pts_ppr": 69.7,
-      "rec": 18.0,
+      "pts_ppr": 75.9,
+      "rec": 19.0,
       "rec_td": 2.0,
-      "rec_tgt": 21.0,
-      "rec_yd": 129.0,
-      "rush_att": 54.0,
+      "rec_tgt": 23.0,
+      "rec_yd": 134.0,
+      "rush_att": 65.0,
       "rush_td": 1.0,
-      "rush_yd": 228.0,
+      "rush_yd": 275.0,
       "snap_pct": 52,
       "tm_off_snp": 461.0
      },
@@ -508,13 +509,13 @@
      "name": "Isaiah Likely",
      "pos": "TE",
      "season": {
-      "gp": 8.0,
+      "gp": 9.0,
       "off_snp": 420.0,
-      "pts_ppr": 128.8,
-      "rec": 46.0,
-      "rec_td": 6.0,
-      "rec_tgt": 69.0,
-      "rec_yd": 448.0,
+      "pts_ppr": 156.5,
+      "rec": 55.0,
+      "rec_td": 7.0,
+      "rec_tgt": 80.0,
+      "rec_yd": 575.0,
       "snap_pct": 75,
       "tm_off_snp": 557.0
      },
@@ -742,15 +743,15 @@
      "name": "Cam Skattebo",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 267.0,
-      "pts_ppr": 70.4,
-      "rec": 11.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 76.0,
-      "rush_att": 98.0,
-      "rush_td": 2.0,
-      "rush_yd": 418.0,
+      "pts_ppr": 97.6,
+      "rec": 14.0,
+      "rec_tgt": 17.0,
+      "rec_yd": 120.0,
+      "rush_att": 116.0,
+      "rush_td": 4.0,
+      "rush_yd": 496.0,
       "snap_pct": 54,
       "tm_off_snp": 490.0
      },
@@ -762,14 +763,14 @@
      "name": "Austin Ekeler",
      "pos": "RB",
      "season": {
-      "gp": 5.0,
+      "gp": 6.0,
       "off_snp": 78.0,
-      "pts_ppr": 21.1,
-      "rec": 6.0,
-      "rec_tgt": 8.0,
-      "rec_yd": 48.0,
-      "rush_att": 24.0,
-      "rush_yd": 83.0,
+      "pts_ppr": 30.3,
+      "rec": 10.0,
+      "rec_tgt": 12.0,
+      "rec_yd": 74.0,
+      "rush_att": 33.0,
+      "rush_yd": 109.0,
       "snap_pct": 25,
       "tm_off_snp": 315.0
      },
@@ -1129,8 +1130,8 @@
      "name": "Dominic Zvada",
      "pos": "K",
      "season": {
-      "gp": 8.0,
-      "pts_ppr": 74.0,
+      "gp": 9.0,
+      "pts_ppr": 76.0,
       "tm_off_snp": 557.0
      },
      "slot": "K",
@@ -1409,8 +1410,8 @@
      "name": "NYG DEF",
      "pos": "DEF",
      "season": {
-      "gp": 8.0,
-      "pts_ppr": 54.0
+      "gp": 9.0,
+      "pts_ppr": 59.0
      },
      "slot": "DEF",
      "team": "NYG"
@@ -1476,7 +1477,6 @@
     },
     {
      "id": "4035",
-     "inj": "Questionable (Back)",
      "name": "Alvin Kamara",
      "pos": "RB",
      "season": {
@@ -1497,7 +1497,7 @@
     },
     {
      "id": "7611",
-     "inj": "Doubtful (Knee)",
+     "inj": "Questionable (Knee)",
      "name": "Rhamondre Stevenson",
      "pos": "RB",
      "season": {
@@ -1756,23 +1756,6 @@
   {
    "bench": [
     {
-     "id": "12718",
-     "name": "Konata Mumpfield",
-     "pos": "WR",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 269.0,
-      "pts_ppr": 33.2,
-      "rec": 11.0,
-      "rec_td": 1.0,
-      "rec_tgt": 23.0,
-      "rec_yd": 162.0,
-      "snap_pct": 42,
-      "tm_off_snp": 634.0
-     },
-     "team": "LAR"
-    },
-    {
      "id": "13414",
      "name": "Kaelon Black",
      "pos": "RB",
@@ -1809,6 +1792,25 @@
       "tm_off_snp": 225.0
      },
      "team": "MIN"
+    },
+    {
+     "id": "9484",
+     "name": "Tucker Kraft",
+     "pos": "TE",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 487.0,
+      "pts_ppr": 90.4,
+      "rec": 36.0,
+      "rec_td": 3.0,
+      "rec_tgt": 52.0,
+      "rec_yd": 351.0,
+      "rush_att": 4.0,
+      "rush_yd": 13.0,
+      "snap_pct": 82,
+      "tm_off_snp": 591.0
+     },
+     "team": "GB"
     },
     {
      "id": "TB",
@@ -1929,14 +1931,14 @@
      "name": "Antonio Williams",
      "pos": "WR",
      "season": {
-      "gp": 8.0,
+      "gp": 9.0,
       "off_snp": 322.0,
       "pass_att": 1.0,
-      "pts_ppr": 60.4,
-      "rec": 26.0,
-      "rec_td": 1.0,
-      "rec_tgt": 39.0,
-      "rec_yd": 284.0,
+      "pts_ppr": 72.6,
+      "rec": 28.0,
+      "rec_td": 2.0,
+      "rec_tgt": 41.0,
+      "rec_yd": 326.0,
       "snap_pct": 61,
       "tm_off_snp": 525.0
      },
@@ -1965,24 +1967,22 @@
      "team": "KC"
     },
     {
-     "id": "9484",
-     "name": "Tucker Kraft",
-     "pos": "TE",
+     "id": "12718",
+     "name": "Konata Mumpfield",
+     "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 487.0,
-      "pts_ppr": 90.4,
-      "rec": 36.0,
-      "rec_td": 3.0,
-      "rec_tgt": 52.0,
-      "rec_yd": 351.0,
-      "rush_att": 4.0,
-      "rush_yd": 13.0,
-      "snap_pct": 82,
-      "tm_off_snp": 591.0
+      "off_snp": 269.0,
+      "pts_ppr": 33.2,
+      "rec": 11.0,
+      "rec_td": 1.0,
+      "rec_tgt": 23.0,
+      "rec_yd": 162.0,
+      "snap_pct": 42,
+      "tm_off_snp": 634.0
      },
      "slot": "FLEX",
-     "team": "GB"
+     "team": "LAR"
     },
     {
      "id": "7839",
@@ -2032,7 +2032,7 @@
    "record": "2-7",
    "roster_id": 6,
    "taxi": [],
-   "team_name": "Weak Side",
+   "team_name": "Strong Side",
    "waiver_position": 13
   },
   {
@@ -2259,13 +2259,13 @@
      "name": "Malik Nabers",
      "pos": "WR",
      "season": {
-      "gp": 8.0,
+      "gp": 9.0,
       "off_snp": 427.0,
-      "pts_ppr": 129.8,
-      "rec": 53.0,
+      "pts_ppr": 137.2,
+      "rec": 58.0,
       "rec_td": 2.0,
-      "rec_tgt": 78.0,
-      "rec_yd": 648.0,
+      "rec_tgt": 85.0,
+      "rec_yd": 692.0,
       "snap_pct": 77,
       "tm_off_snp": 557.0
      },
@@ -2803,16 +2803,16 @@
      "name": "Devin Singletary",
      "pos": "RB",
      "season": {
-      "gp": 5.0,
+      "gp": 6.0,
       "off_snp": 152.0,
-      "pts_ppr": 39.4,
+      "pts_ppr": 39.7,
       "rec": 10.0,
       "rec_td": 1.0,
       "rec_tgt": 12.0,
       "rec_yd": 63.0,
-      "rush_att": 39.0,
+      "rush_att": 40.0,
       "rush_td": 1.0,
-      "rush_yd": 111.0,
+      "rush_yd": 114.0,
       "snap_pct": 45,
       "tm_off_snp": 337.0
      },
@@ -2974,6 +2974,25 @@
      "team": "DEN"
     },
     {
+     "id": "11783",
+     "name": "Ryan Flournoy",
+     "pos": "WR",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 479.0,
+      "pts_ppr": 83.8,
+      "rec": 32.0,
+      "rec_td": 2.0,
+      "rec_tgt": 47.0,
+      "rec_yd": 395.0,
+      "rush_att": 1.0,
+      "rush_yd": 3.0,
+      "snap_pct": 77,
+      "tm_off_snp": 624.0
+     },
+     "team": "DAL"
+    },
+    {
      "id": "2216",
      "inj": "Questionable (Achilles)",
      "name": "Mike Evans",
@@ -2992,27 +3011,7 @@
      "team": "SF"
     },
     {
-     "id": "5967",
-     "name": "Tony Pollard",
-     "pos": "RB",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 296.0,
-      "pts_ppr": 116.5,
-      "rec": 14.0,
-      "rec_tgt": 21.0,
-      "rec_yd": 70.0,
-      "rush_att": 133.0,
-      "rush_td": 6.0,
-      "rush_yd": 595.0,
-      "snap_pct": 62,
-      "tm_off_snp": 476.0
-     },
-     "team": "TEN"
-    },
-    {
      "id": "9502",
-     "inj": "Questionable (Hand)",
      "name": "Tank Dell",
      "pos": "WR",
      "season": {
@@ -3176,24 +3175,25 @@
      "team": "NO"
     },
     {
-     "id": "11783",
-     "name": "Ryan Flournoy",
-     "pos": "WR",
+     "id": "5967",
+     "inj": "Questionable (Finger)",
+     "name": "Tony Pollard",
+     "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 479.0,
-      "pts_ppr": 83.8,
-      "rec": 32.0,
-      "rec_td": 2.0,
-      "rec_tgt": 47.0,
-      "rec_yd": 395.0,
-      "rush_att": 1.0,
-      "rush_yd": 3.0,
-      "snap_pct": 77,
-      "tm_off_snp": 624.0
+      "gp": 8.0,
+      "off_snp": 296.0,
+      "pts_ppr": 116.5,
+      "rec": 14.0,
+      "rec_tgt": 21.0,
+      "rec_yd": 70.0,
+      "rush_att": 133.0,
+      "rush_td": 6.0,
+      "rush_yd": 595.0,
+      "snap_pct": 62,
+      "tm_off_snp": 476.0
      },
      "slot": "FLEX",
-     "team": "DAL"
+     "team": "TEN"
     },
     {
      "id": "11792",
@@ -3220,7 +3220,8 @@
     }
    ],
    "lineup_flags": [
-    "WR Garrett Wilson is Questionable (Concussion)"
+    "WR Garrett Wilson is Questionable (Concussion)",
+    "FLEX Tony Pollard is Questionable (Finger)"
    ],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",
@@ -3552,13 +3553,13 @@
      "name": "Stefon Diggs",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 281.0,
-      "pts_ppr": 90.3,
-      "rec": 30.0,
-      "rec_td": 5.0,
-      "rec_tgt": 49.0,
-      "rec_yd": 303.0,
+      "pts_ppr": 110.6,
+      "rec": 36.0,
+      "rec_td": 6.0,
+      "rec_tgt": 59.0,
+      "rec_yd": 386.0,
       "snap_pct": 61,
       "tm_off_snp": 463.0
      },
@@ -3611,15 +3612,16 @@
      "name": "Jayden Daniels",
      "pos": "QB",
      "season": {
-      "gp": 6.0,
+      "gp": 7.0,
       "off_snp": 360.0,
-      "pass_att": 180.0,
-      "pass_td": 7.0,
-      "pass_yd": 1250.0,
-      "pts_ppr": 115.2,
-      "rush_att": 31.0,
+      "pass_att": 213.0,
+      "pass_int": 2.0,
+      "pass_td": 10.0,
+      "pass_yd": 1499.0,
+      "pts_ppr": 137.96,
+      "rush_att": 42.0,
       "rush_td": 2.0,
-      "rush_yd": 252.0,
+      "rush_yd": 280.0,
       "snap_pct": 92,
       "tm_off_snp": 392.0
      },
@@ -3862,7 +3864,7 @@
     },
     {
      "id": "9493",
-     "inj": "Out (Knee - MCL)",
+     "inj": "IR (Knee - MCL)",
      "name": "Puka Nacua",
      "pos": "WR",
      "season": {
@@ -3879,6 +3881,7 @@
       "snap_pct": 87,
       "tm_off_snp": 486.0
      },
+     "status": "Inactive",
      "team": "LAR"
     }
    ],
@@ -3886,7 +3889,6 @@
    "lineup": [
     {
      "id": "3163",
-     "inj": "Questionable (Chest)",
      "name": "Jared Goff",
      "pos": "QB",
      "season": {
@@ -3985,6 +3987,7 @@
     },
     {
      "id": "3271",
+     "inj": "Questionable (Illness)",
      "name": "Tyler Higbee",
      "pos": "TE",
      "season": {
@@ -4045,8 +4048,8 @@
     }
    ],
    "lineup_flags": [
-    "QB Jared Goff is Questionable (Chest)",
     "RB Woody Marks is Questionable (Knee)",
+    "TE Tyler Higbee is Questionable (Illness)",
     "FLEX Dalton Kincaid is Questionable (Ankle)"
    ],
    "owner": "phile2211",
