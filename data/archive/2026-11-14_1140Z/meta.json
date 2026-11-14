@@ -1,0 +1,21 @@
+{
+ "counts": {
+  "expected_rosters": 14,
+  "last_week_stats": 2255,
+  "players_trimmed": 902,
+  "rostered_players": 198,
+  "rosters": 14,
+  "season_stats": 8210,
+  "transactions": 66
+ },
+ "fetched_at": "2026-11-14T11:40:14+00:00",
+ "kind": "daily",
+ "ok": true,
+ "season": "2026",
+ "trigger": {
+  "event": "workflow_dispatch",
+  "kind": "daily"
+ },
+ "warnings": [],
+ "week": 10
+}
