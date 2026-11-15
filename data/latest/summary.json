@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T16:42:03+00:00",
+ "fetched_at": "2026-11-15T11:40:13+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -379,6 +379,24 @@
      "team": "NE"
     },
     {
+     "id": "8122",
+     "name": "Zonovan Knight",
+     "pos": "RB",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 105.0,
+      "pts_ppr": 25.1,
+      "rec": 6.0,
+      "rec_tgt": 9.0,
+      "rec_yd": 43.0,
+      "rush_att": 28.0,
+      "rush_yd": 168.0,
+      "snap_pct": 18,
+      "tm_off_snp": 585.0
+     },
+     "team": "ARI"
+    },
+    {
      "id": "9480",
      "name": "Brenton Strange",
      "pos": "TE",
@@ -399,7 +417,7 @@
    "ir": [
     {
      "id": "12529",
-     "inj": "Out (Illness)",
+     "inj": "IR (Illness)",
      "name": "TreVeyon Henderson",
      "pos": "RB",
      "season": {
@@ -415,7 +433,29 @@
       "snap_pct": 32,
       "tm_off_snp": 391.0
      },
+     "status": "Inactive",
      "team": "NE"
+    },
+    {
+     "id": "8151",
+     "inj": "Out (Groin)",
+     "name": "Kenneth Walker III",
+     "pos": "RB",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 379.0,
+      "pts_ppr": 196.4,
+      "rec": 26.0,
+      "rec_td": 4.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 172.0,
+      "rush_att": 159.0,
+      "rush_td": 7.0,
+      "rush_yd": 872.0,
+      "snap_pct": 74,
+      "tm_off_snp": 510.0
+     },
+     "team": "KC"
     }
    ],
    "lineup": [
@@ -462,26 +502,8 @@
      "team": "WAS"
     },
     {
-     "id": "8151",
-     "inj": "Out (Groin)",
-     "name": "Kenneth Walker III",
-     "pos": "RB",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 379.0,
-      "pts_ppr": 196.4,
-      "rec": 26.0,
-      "rec_td": 4.0,
-      "rec_tgt": 36.0,
-      "rec_yd": 172.0,
-      "rush_att": 159.0,
-      "rush_td": 7.0,
-      "rush_yd": 872.0,
-      "snap_pct": 74,
-      "tm_off_snp": 510.0
-     },
-     "slot": "RB",
-     "team": "KC"
+     "empty": true,
+     "slot": "RB"
     },
     {
      "id": "8148",
@@ -582,7 +604,7 @@
     }
    ],
    "lineup_flags": [
-    "RB Kenneth Walker III is Out (Groin)"
+    "RB slot is EMPTY"
    ],
    "owner": "coltierney",
    "owner_id": "1028748479369187328",
@@ -596,6 +618,7 @@
     "12529",
     "13296",
     "3294",
+    "8122",
     "8131",
     "8136",
     "8148",
@@ -2246,6 +2269,7 @@
     },
     {
      "id": "7600",
+     "inj": "Questionable (Illness)",
      "name": "Pat Freiermuth",
      "pos": "TE",
      "season": {
@@ -2307,7 +2331,9 @@
      "team": "KC"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "TE Pat Freiermuth is Questionable (Illness)"
+   ],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
    "pa": 971.02,
@@ -2897,7 +2923,7 @@
     },
     {
      "id": "7543",
-     "inj": "IR (Hamstring)",
+     "inj": "Questionable (Hamstring)",
      "name": "Travis Etienne Jr.",
      "pos": "RB",
      "season": {
@@ -2913,7 +2939,6 @@
       "tm_off_snp": 232.0
      },
      "slot": "FLEX",
-     "status": "Inactive",
      "team": "NO"
     },
     {
@@ -2942,7 +2967,7 @@
    ],
    "lineup_flags": [
     "WR Amon-Ra St. Brown is Questionable (Ribs)",
-    "FLEX Travis Etienne Jr. is IR (Hamstring)"
+    "FLEX Travis Etienne Jr. is Questionable (Hamstring)"
    ],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
@@ -3874,7 +3899,7 @@
     },
     {
      "id": "5892",
-     "inj": "Questionable (Groin)",
+     "inj": "Out (Groin)",
      "name": "David Montgomery",
      "pos": "RB",
      "season": {
@@ -3892,7 +3917,9 @@
       "tm_off_snp": 334.0
      },
      "team": "HOU"
-    },
+    }
+   ],
+   "ir": [
     {
      "id": "9493",
      "inj": "IR (Knee - MCL)",
@@ -3916,7 +3943,6 @@
      "team": "LAR"
     }
    ],
-   "ir": [],
    "lineup": [
     {
      "id": "3163",
