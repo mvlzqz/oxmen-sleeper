@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T17:22:46+00:00",
+ "fetched_at": "2026-11-15T19:24:28+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -314,10 +314,10 @@
   "waiver_position": 11
  },
  "opponent_this_week": {
-  "my_points": 0.0,
+  "my_points": 50.7,
   "owner": "erictheleghel",
   "roster_id": 11,
-  "their_points": 0.0
+  "their_points": 47.34
  },
  "rosters": [
   {
@@ -1671,6 +1671,7 @@
     },
     {
      "id": "13276",
+     "inj": "Questionable (Ankle)",
      "name": "Omar Cooper Jr.",
      "pos": "WR",
      "season": {
@@ -1749,7 +1750,9 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "WR Omar Cooper Jr. is Questionable (Ankle)"
+   ],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
    "pa": 1078.44,
@@ -1970,6 +1973,7 @@
     },
     {
      "id": "1466",
+     "inj": "Questionable (Ankle)",
      "name": "Travis Kelce",
      "pos": "TE",
      "season": {
@@ -2033,7 +2037,9 @@
      "team": "BAL"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "TE Travis Kelce is Questionable (Ankle)"
+   ],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 1025.66,
