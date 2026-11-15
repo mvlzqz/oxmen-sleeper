@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T11:40:13+00:00",
+ "fetched_at": "2026-11-15T17:22:46+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -187,7 +187,6 @@
    },
    {
     "id": "8146",
-    "inj": "Questionable (Concussion)",
     "name": "Garrett Wilson",
     "pos": "WR",
     "season": {
@@ -286,9 +285,7 @@
     "team": "BUF"
    }
   ],
-  "lineup_flags": [
-   "WR Garrett Wilson is Questionable (Concussion)"
-  ],
+  "lineup_flags": [],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
   "pa": 997.02,
@@ -358,25 +355,6 @@
       "tm_off_snp": 555.0
      },
      "team": "NO"
-    },
-    {
-     "id": "12491",
-     "name": "Corey Kiner",
-     "pos": "RB",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 77.0,
-      "pts_ppr": 32.0,
-      "rec": 2.0,
-      "rec_tgt": 2.0,
-      "rec_yd": 16.0,
-      "rush_att": 50.0,
-      "rush_td": 1.0,
-      "rush_yd": 244.0,
-      "snap_pct": 13,
-      "tm_off_snp": 585.0
-     },
-     "team": "NE"
     },
     {
      "id": "8122",
@@ -502,8 +480,24 @@
      "team": "WAS"
     },
     {
-     "empty": true,
-     "slot": "RB"
+     "id": "12491",
+     "name": "Corey Kiner",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 77.0,
+      "pts_ppr": 32.0,
+      "rec": 2.0,
+      "rec_tgt": 2.0,
+      "rec_yd": 16.0,
+      "rush_att": 50.0,
+      "rush_td": 1.0,
+      "rush_yd": 244.0,
+      "snap_pct": 13,
+      "tm_off_snp": 585.0
+     },
+     "slot": "RB",
+     "team": "NE"
     },
     {
      "id": "8148",
@@ -603,9 +597,7 @@
      "team": "CIN"
     }
    ],
-   "lineup_flags": [
-    "RB slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "coltierney",
    "owner_id": "1028748479369187328",
    "pa": 1012.32,
@@ -1292,6 +1284,7 @@
    "lineup": [
     {
      "id": "11564",
+     "inj": "Out (Ankle)",
      "name": "Drake Maye",
      "pos": "QB",
      "season": {
@@ -1452,7 +1445,9 @@
      "team": "NYG"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "QB Drake Maye is Out (Ankle)"
+   ],
    "owner": "kitano",
    "owner_id": "473949092301500416",
    "pa": 969.8,
@@ -1532,7 +1527,6 @@
     },
     {
      "id": "7611",
-     "inj": "Questionable (Knee)",
      "name": "Rhamondre Stevenson",
      "pos": "RB",
      "season": {
@@ -1677,7 +1671,6 @@
     },
     {
      "id": "13276",
-     "inj": "Questionable (Ankle)",
      "name": "Omar Cooper Jr.",
      "pos": "WR",
      "season": {
@@ -1756,9 +1749,7 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [
-    "WR Omar Cooper Jr. is Questionable (Ankle)"
-   ],
+   "lineup_flags": [],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
    "pa": 1078.44,
@@ -1828,7 +1819,7 @@
     },
     {
      "id": "9756",
-     "inj": "Questionable (Thumb)",
+     "inj": "Out (Thumb)",
      "name": "Jordan Addison",
      "pos": "WR",
      "season": {
@@ -2092,7 +2083,6 @@
     },
     {
      "id": "13346",
-     "inj": "Questionable (Toe)",
      "name": "Denzel Boston",
      "pos": "WR",
      "season": {
@@ -2363,43 +2353,64 @@
   {
    "bench": [
     {
-     "id": "5872",
-     "name": "Deebo Samuel Sr.",
+     "id": "12514",
+     "name": "Emeka Egbuka",
      "pos": "WR",
      "season": {
-      "gp": 5.0,
-      "off_snp": 169.0,
-      "pts_ppr": 60.4,
-      "rec": 16.0,
-      "rec_td": 3.0,
-      "rec_tgt": 20.0,
-      "rec_yd": 206.0,
-      "rush_att": 9.0,
-      "rush_yd": 78.0,
-      "snap_pct": 57,
-      "tm_off_snp": 297.0
+      "gp": 7.0,
+      "off_snp": 395.0,
+      "pts_ppr": 78.0,
+      "rec": 31.0,
+      "rec_td": 2.0,
+      "rec_tgt": 54.0,
+      "rec_yd": 278.0,
+      "rush_att": 3.0,
+      "rush_td": 1.0,
+      "rush_yd": 12.0,
+      "snap_pct": 84,
+      "tm_off_snp": 469.0
      },
-     "team": "SF"
+     "team": "TB"
     },
     {
-     "id": "8132",
-     "name": "Tyler Allgeier",
+     "id": "5850",
+     "inj": "Out (Finger)",
+     "name": "Josh Jacobs",
+     "pos": "RB",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 94.0,
+      "pts_ppr": 43.8,
+      "rec": 11.0,
+      "rec_td": 2.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 68.0,
+      "rush_att": 36.0,
+      "rush_td": 1.0,
+      "rush_yd": 80.0,
+      "snap_pct": 16,
+      "tm_off_snp": 591.0
+     },
+     "team": "GB"
+    },
+    {
+     "id": "6790",
+     "name": "D'Andre Swift",
      "pos": "RB",
      "season": {
       "gp": 9.0,
-      "off_snp": 352.0,
-      "pts_ppr": 90.7,
-      "rec": 23.0,
-      "rec_td": 1.0,
-      "rec_tgt": 25.0,
-      "rec_yd": 128.0,
-      "rush_att": 89.0,
-      "rush_td": 2.0,
-      "rush_yd": 369.0,
-      "snap_pct": 55,
-      "tm_off_snp": 638.0
+      "off_snp": 418.0,
+      "pts_ppr": 153.8,
+      "rec": 24.0,
+      "rec_tgt": 30.0,
+      "rec_yd": 162.0,
+      "rush_att": 155.0,
+      "rush_td": 10.0,
+      "rush_yd": 576.0,
+      "snap_pct": 63,
+      "tm_off_snp": 660.0
      },
-     "team": "ARI"
+     "team": "CHI"
     },
     {
      "id": "9501",
@@ -2417,25 +2428,6 @@
       "tm_off_snp": 585.0
      },
      "team": "NE"
-    },
-    {
-     "id": "96",
-     "name": "Aaron Rodgers",
-     "pos": "QB",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 525.0,
-      "pass_att": 288.0,
-      "pass_int": 6.0,
-      "pass_td": 13.0,
-      "pass_yd": 1871.0,
-      "pts_ppr": 123.14,
-      "rush_att": 12.0,
-      "rush_yd": 23.0,
-      "snap_pct": 98,
-      "tm_off_snp": 533.0
-     },
-     "team": "PIT"
     }
    ],
    "ir": [
@@ -2484,27 +2476,45 @@
    ],
    "lineup": [
     {
-     "id": "8161",
-     "inj": "IR (Groin)",
-     "name": "Malik Willis",
+     "id": "96",
+     "name": "Aaron Rodgers",
      "pos": "QB",
      "season": {
       "gp": 8.0,
-      "off_snp": 480.0,
-      "pass_att": 208.0,
+      "off_snp": 525.0,
+      "pass_att": 288.0,
       "pass_int": 6.0,
-      "pass_td": 6.0,
-      "pass_yd": 1396.0,
-      "pts_ppr": 111.04,
-      "rush_att": 38.0,
-      "rush_td": 3.0,
-      "rush_yd": 232.0,
-      "snap_pct": 100,
-      "tm_off_snp": 480.0
+      "pass_td": 13.0,
+      "pass_yd": 1871.0,
+      "pts_ppr": 123.14,
+      "rush_att": 12.0,
+      "rush_yd": 23.0,
+      "snap_pct": 98,
+      "tm_off_snp": 533.0
      },
      "slot": "QB",
-     "status": "Inactive",
-     "team": "MIA"
+     "team": "PIT"
+    },
+    {
+     "id": "8132",
+     "name": "Tyler Allgeier",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 352.0,
+      "pts_ppr": 90.7,
+      "rec": 23.0,
+      "rec_td": 1.0,
+      "rec_tgt": 25.0,
+      "rec_yd": 128.0,
+      "rush_att": 89.0,
+      "rush_td": 2.0,
+      "rush_yd": 369.0,
+      "snap_pct": 55,
+      "tm_off_snp": 638.0
+     },
+     "slot": "RB",
+     "team": "ARI"
     },
     {
      "id": "9509",
@@ -2528,26 +2538,6 @@
      "team": "ATL"
     },
     {
-     "id": "6790",
-     "name": "D'Andre Swift",
-     "pos": "RB",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 418.0,
-      "pts_ppr": 153.8,
-      "rec": 24.0,
-      "rec_tgt": 30.0,
-      "rec_yd": 162.0,
-      "rush_att": 155.0,
-      "rush_td": 10.0,
-      "rush_yd": 576.0,
-      "snap_pct": 63,
-      "tm_off_snp": 660.0
-     },
-     "slot": "RB",
-     "team": "CHI"
-    },
-    {
      "id": "4983",
      "name": "DJ Moore",
      "pos": "WR",
@@ -2568,25 +2558,24 @@
      "team": "BUF"
     },
     {
-     "id": "12514",
-     "name": "Emeka Egbuka",
+     "id": "5872",
+     "name": "Deebo Samuel Sr.",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
-      "off_snp": 395.0,
-      "pts_ppr": 78.0,
-      "rec": 31.0,
-      "rec_td": 2.0,
-      "rec_tgt": 54.0,
-      "rec_yd": 278.0,
-      "rush_att": 3.0,
-      "rush_td": 1.0,
-      "rush_yd": 12.0,
-      "snap_pct": 84,
-      "tm_off_snp": 469.0
+      "gp": 5.0,
+      "off_snp": 169.0,
+      "pts_ppr": 60.4,
+      "rec": 16.0,
+      "rec_td": 3.0,
+      "rec_tgt": 20.0,
+      "rec_yd": 206.0,
+      "rush_att": 9.0,
+      "rush_yd": 78.0,
+      "snap_pct": 57,
+      "tm_off_snp": 297.0
      },
      "slot": "WR",
-     "team": "TB"
+     "team": "SF"
     },
     {
      "id": "4993",
@@ -2607,26 +2596,22 @@
      "team": "CIN"
     },
     {
-     "id": "5850",
-     "inj": "Out (Finger)",
-     "name": "Josh Jacobs",
-     "pos": "RB",
+     "id": "12499",
+     "name": "Elic Ayomanor",
+     "pos": "WR",
      "season": {
-      "gp": 3.0,
-      "off_snp": 94.0,
-      "pts_ppr": 43.8,
-      "rec": 11.0,
-      "rec_td": 2.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 68.0,
-      "rush_att": 36.0,
-      "rush_td": 1.0,
-      "rush_yd": 80.0,
-      "snap_pct": 16,
-      "tm_off_snp": 591.0
+      "gp": 8.0,
+      "off_snp": 309.0,
+      "pts_ppr": 40.1,
+      "rec": 13.0,
+      "rec_td": 1.0,
+      "rec_tgt": 26.0,
+      "rec_yd": 211.0,
+      "snap_pct": 65,
+      "tm_off_snp": 476.0
      },
      "slot": "FLEX",
-     "team": "GB"
+     "team": "TEN"
     },
     {
      "id": "4227",
@@ -2641,26 +2626,24 @@
      "team": "KC"
     },
     {
-     "id": "DAL",
-     "name": "DAL DEF",
+     "id": "IND",
+     "name": "IND DEF",
      "pos": "DEF",
      "season": {
       "gp": 9.0,
-      "pts_ppr": 38.0
+      "pts_ppr": 35.0
      },
      "slot": "DEF",
-     "team": "DAL"
+     "team": "IND"
     }
    ],
-   "lineup_flags": [
-    "QB Malik Willis is IR (Groin)",
-    "FLEX Josh Jacobs is Out (Finger)"
-   ],
+   "lineup_flags": [],
    "owner": "NikoGs",
    "owner_id": "1130659599352180736",
    "pa": 910.9,
    "pf": 918.2,
    "player_ids": [
+    "12499",
     "12508",
     "12514",
     "4227",
@@ -2671,11 +2654,10 @@
     "5872",
     "6790",
     "8132",
-    "8161",
     "9501",
     "9509",
     "96",
-    "DAL"
+    "IND"
    ],
    "record": "5-4",
    "roster_id": 8,
@@ -2687,7 +2669,6 @@
    "bench": [
     {
      "id": "11625",
-     "inj": "Questionable (Knee)",
      "name": "Adonai Mitchell",
      "pos": "WR",
      "season": {
@@ -2881,7 +2862,6 @@
     },
     {
      "id": "7547",
-     "inj": "Questionable (Ribs)",
      "name": "Amon-Ra St. Brown",
      "pos": "WR",
      "season": {
@@ -2923,7 +2903,6 @@
     },
     {
      "id": "7543",
-     "inj": "Questionable (Hamstring)",
      "name": "Travis Etienne Jr.",
      "pos": "RB",
      "season": {
@@ -2965,10 +2944,7 @@
      "team": "GB"
     }
    ],
-   "lineup_flags": [
-    "WR Amon-Ra St. Brown is Questionable (Ribs)",
-    "FLEX Travis Etienne Jr. is Questionable (Hamstring)"
-   ],
+   "lineup_flags": [],
    "owner": "pauliv8811",
    "owner_id": "925598304476426240",
    "pa": 936.68,
@@ -3181,7 +3157,6 @@
     },
     {
      "id": "8146",
-     "inj": "Questionable (Concussion)",
      "name": "Garrett Wilson",
      "pos": "WR",
      "season": {
@@ -3280,9 +3255,7 @@
      "team": "BUF"
     }
    ],
-   "lineup_flags": [
-    "WR Garrett Wilson is Questionable (Concussion)"
-   ],
+   "lineup_flags": [],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",
    "pa": 997.02,
@@ -3372,7 +3345,7 @@
     },
     {
      "id": "5859",
-     "inj": "Questionable (Knee)",
+     "inj": "Out (Hamstring)",
      "name": "A.J. Brown",
      "pos": "WR",
      "season": {
