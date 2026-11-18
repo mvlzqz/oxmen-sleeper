@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T11:40:18+00:00",
+ "fetched_at": "2026-11-18T18:59:54+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -817,22 +817,24 @@
      "team": "DAL"
     },
     {
-     "id": "11624",
-     "name": "Xavier Worthy",
+     "id": "12540",
+     "name": "Chimere Dike",
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 478.0,
-      "pts_ppr": 66.8,
-      "rec": 33.0,
+      "off_snp": 169.0,
+      "pts_ppr": 29.5,
+      "rec": 13.0,
       "rec_td": 1.0,
-      "rec_tgt": 50.0,
-      "rec_yd": 278.0,
-      "snap_pct": 83,
-      "tm_off_snp": 575.0
+      "rec_tgt": 17.0,
+      "rec_yd": 140.0,
+      "rush_att": 1.0,
+      "rush_yd": 5.0,
+      "snap_pct": 32,
+      "tm_off_snp": 533.0
      },
      "slot": "WR",
-     "team": "KC"
+     "team": "TEN"
     },
     {
      "id": "10859",
@@ -906,10 +908,10 @@
    "player_ids": [
     "10859",
     "11533",
-    "11624",
     "1166",
     "12481",
     "12489",
+    "12540",
     "13298",
     "3214",
     "4147",
@@ -1201,25 +1203,6 @@
   {
    "bench": [
     {
-     "id": "11565",
-     "name": "J.J. McCarthy",
-     "pos": "QB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 210.0,
-      "pass_att": 104.0,
-      "pass_int": 2.0,
-      "pass_td": 2.0,
-      "pass_yd": 915.0,
-      "pts_ppr": 53.1,
-      "rush_att": 15.0,
-      "rush_yd": 85.0,
-      "snap_pct": 43,
-      "tm_off_snp": 483.0
-     },
-     "team": "NYG"
-    },
-    {
      "id": "12492",
      "name": "Pat Bryant",
      "pos": "WR",
@@ -1273,35 +1256,6 @@
       "tm_off_snp": 592.0
      },
      "team": "SF"
-    },
-    {
-     "id": "5012",
-     "name": "Mark Andrews",
-     "pos": "TE",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 395.0,
-      "pts_ppr": 74.9,
-      "rec": 39.0,
-      "rec_td": 1.0,
-      "rec_tgt": 51.0,
-      "rec_yd": 319.0,
-      "rush_att": 2.0,
-      "snap_pct": 63,
-      "tm_off_snp": 630.0
-     },
-     "team": "BAL"
-    },
-    {
-     "id": "6528",
-     "name": "Joey Slye",
-     "pos": "K",
-     "season": {
-      "gp": 9.0,
-      "pts_ppr": 71.0,
-      "tm_off_snp": 533.0
-     },
-     "team": "TEN"
     },
     {
      "id": "9753",
@@ -1368,8 +1322,24 @@
    ],
    "lineup": [
     {
-     "empty": true,
-     "slot": "QB"
+     "id": "11565",
+     "name": "J.J. McCarthy",
+     "pos": "QB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 210.0,
+      "pass_att": 104.0,
+      "pass_int": 2.0,
+      "pass_td": 2.0,
+      "pass_yd": 915.0,
+      "pts_ppr": 53.1,
+      "rush_att": 15.0,
+      "rush_yd": 85.0,
+      "snap_pct": 43,
+      "tm_off_snp": 483.0
+     },
+     "slot": "QB",
+     "team": "NYG"
     },
     {
      "id": "3198",
@@ -1450,8 +1420,23 @@
      "team": "DAL"
     },
     {
-     "empty": true,
-     "slot": "TE"
+     "id": "5012",
+     "name": "Mark Andrews",
+     "pos": "TE",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 395.0,
+      "pts_ppr": 74.9,
+      "rec": 39.0,
+      "rec_td": 1.0,
+      "rec_tgt": 51.0,
+      "rec_yd": 319.0,
+      "rush_att": 2.0,
+      "snap_pct": 63,
+      "tm_off_snp": 630.0
+     },
+     "slot": "TE",
+     "team": "BAL"
     },
     {
      "id": "13337",
@@ -1475,26 +1460,30 @@
      "team": "KC"
     },
     {
-     "empty": true,
-     "slot": "K"
+     "id": "6528",
+     "name": "Joey Slye",
+     "pos": "K",
+     "season": {
+      "gp": 9.0,
+      "pts_ppr": 71.0,
+      "tm_off_snp": 533.0
+     },
+     "slot": "K",
+     "team": "TEN"
     },
     {
-     "id": "NYG",
-     "name": "NYG DEF",
+     "id": "LAC",
+     "name": "LAC DEF",
      "pos": "DEF",
      "season": {
       "gp": 9.0,
-      "pts_ppr": 59.0
+      "pts_ppr": 48.0
      },
      "slot": "DEF",
-     "team": "NYG"
+     "team": "LAC"
     }
    ],
-   "lineup_flags": [
-    "QB slot is EMPTY",
-    "TE slot is EMPTY",
-    "K slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "kitano",
    "owner_id": "473949092301500416",
    "pa": 1128.56,
@@ -1514,7 +1503,7 @@
     "8126",
     "8137",
     "9753",
-    "NYG"
+    "LAC"
    ],
    "record": "2-8",
    "roster_id": 4,
@@ -1830,24 +1819,21 @@
   {
    "bench": [
     {
-     "id": "12522",
-     "name": "Cam Ward",
-     "pos": "QB",
+     "id": "12718",
+     "name": "Konata Mumpfield",
+     "pos": "WR",
      "season": {
-      "gp": 9.0,
-      "off_snp": 533.0,
-      "pass_att": 287.0,
-      "pass_int": 6.0,
-      "pass_td": 8.0,
-      "pass_yd": 1714.0,
-      "pts_ppr": 125.66,
-      "rush_att": 29.0,
-      "rush_td": 2.0,
-      "rush_yd": 151.0,
-      "snap_pct": 100,
-      "tm_off_snp": 533.0
+      "gp": 10.0,
+      "off_snp": 317.0,
+      "pts_ppr": 44.3,
+      "rec": 14.0,
+      "rec_td": 1.0,
+      "rec_tgt": 27.0,
+      "rec_yd": 243.0,
+      "snap_pct": 45,
+      "tm_off_snp": 710.0
      },
-     "team": "TEN"
+     "team": "LAR"
     },
     {
      "id": "13414",
@@ -1869,57 +1855,6 @@
      "team": "SF"
     },
     {
-     "id": "9484",
-     "name": "Tucker Kraft",
-     "pos": "TE",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 539.0,
-      "pts_ppr": 93.3,
-      "rec": 37.0,
-      "rec_td": 3.0,
-      "rec_tgt": 56.0,
-      "rec_yd": 370.0,
-      "rush_att": 4.0,
-      "rush_yd": 13.0,
-      "snap_pct": 83,
-      "tm_off_snp": 646.0
-     },
-     "team": "GB"
-    },
-    {
-     "id": "PIT",
-     "name": "PIT DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 9.0,
-      "pts_ppr": 82.0
-     },
-     "team": "PIT"
-    }
-   ],
-   "ir": [
-    {
-     "id": "7525",
-     "inj": "Questionable (Hamstring)",
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 211.0,
-      "pts_ppr": 69.0,
-      "rec": 26.0,
-      "rec_td": 2.0,
-      "rec_tgt": 41.0,
-      "rec_yd": 310.0,
-      "snap_pct": 86,
-      "tm_off_snp": 245.0
-     },
-     "team": "PHI"
-    }
-   ],
-   "lineup": [
-    {
      "id": "6804",
      "name": "Jordan Love",
      "pos": "QB",
@@ -1937,8 +1872,50 @@
       "snap_pct": 98,
       "tm_off_snp": 646.0
      },
-     "slot": "QB",
      "team": "GB"
+    },
+    {
+     "id": "9484",
+     "name": "Tucker Kraft",
+     "pos": "TE",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 539.0,
+      "pts_ppr": 93.3,
+      "rec": 37.0,
+      "rec_td": 3.0,
+      "rec_tgt": 56.0,
+      "rec_yd": 370.0,
+      "rush_att": 4.0,
+      "rush_yd": 13.0,
+      "snap_pct": 83,
+      "tm_off_snp": 646.0
+     },
+     "team": "GB"
+    }
+   ],
+   "ir": [],
+   "lineup": [
+    {
+     "id": "12522",
+     "name": "Cam Ward",
+     "pos": "QB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 533.0,
+      "pass_att": 287.0,
+      "pass_int": 6.0,
+      "pass_td": 8.0,
+      "pass_yd": 1714.0,
+      "pts_ppr": 125.66,
+      "rush_att": 29.0,
+      "rush_td": 2.0,
+      "rush_yd": 151.0,
+      "snap_pct": 100,
+      "tm_off_snp": 533.0
+     },
+     "slot": "QB",
+     "team": "TEN"
     },
     {
      "id": "8228",
@@ -1983,22 +1960,23 @@
      "team": "CIN"
     },
     {
-     "id": "12718",
-     "name": "Konata Mumpfield",
+     "id": "7525",
+     "inj": "Questionable (Hamstring)",
+     "name": "DeVonta Smith",
      "pos": "WR",
      "season": {
-      "gp": 10.0,
-      "off_snp": 317.0,
-      "pts_ppr": 44.3,
-      "rec": 14.0,
-      "rec_td": 1.0,
-      "rec_tgt": 27.0,
-      "rec_yd": 243.0,
-      "snap_pct": 45,
-      "tm_off_snp": 710.0
+      "gp": 4.0,
+      "off_snp": 211.0,
+      "pts_ppr": 69.0,
+      "rec": 26.0,
+      "rec_td": 2.0,
+      "rec_tgt": 41.0,
+      "rec_yd": 310.0,
+      "snap_pct": 86,
+      "tm_off_snp": 245.0
      },
      "slot": "WR",
-     "team": "LAR"
+     "team": "PHI"
     },
     {
      "id": "13301",
@@ -2073,18 +2051,20 @@
      "team": "CIN"
     },
     {
-     "id": "TB",
-     "name": "TB DEF",
+     "id": "PIT",
+     "name": "PIT DEF",
      "pos": "DEF",
      "season": {
       "gp": 9.0,
-      "pts_ppr": 92.0
+      "pts_ppr": 82.0
      },
      "slot": "DEF",
-     "team": "TB"
+     "team": "PIT"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "WR DeVonta Smith is Questionable (Hamstring)"
+   ],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 1096.64,
@@ -2102,8 +2082,7 @@
     "8408",
     "9224",
     "9484",
-    "PIT",
-    "TB"
+    "PIT"
    ],
    "record": "3-7",
    "roster_id": 6,
@@ -2740,43 +2719,22 @@
      "team": "CLE"
     },
     {
-     "id": "12504",
-     "name": "Kaleb Johnson",
-     "pos": "RB",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 110.0,
-      "pts_ppr": 27.4,
-      "rec": 1.0,
-      "rec_tgt": 3.0,
-      "rec_yd": 10.0,
-      "rush_att": 52.0,
-      "rush_td": 1.0,
-      "rush_yd": 214.0,
-      "snap_pct": 22,
-      "tm_off_snp": 510.0
-     },
-     "team": "GB"
-    },
-    {
-     "id": "13330",
-     "name": "Kenyon Sadiq",
+     "id": "5844",
+     "inj": "Questionable (Wrist)",
+     "name": "T.J. Hockenson",
      "pos": "TE",
      "season": {
-      "gp": 10.0,
-      "off_snp": 268.0,
-      "pts_ppr": 56.1,
-      "rec": 22.0,
-      "rec_td": 1.0,
-      "rec_tgt": 33.0,
-      "rec_yd": 238.0,
-      "rush_att": 1.0,
-      "rush_td": 1.0,
-      "rush_yd": 3.0,
-      "snap_pct": 43,
-      "tm_off_snp": 628.0
+      "gp": 8.0,
+      "off_snp": 324.0,
+      "pts_ppr": 85.8,
+      "rec": 35.0,
+      "rec_td": 3.0,
+      "rec_tgt": 44.0,
+      "rec_yd": 328.0,
+      "snap_pct": 67,
+      "tm_off_snp": 485.0
      },
-     "team": "NYJ"
+     "team": "MIN"
     },
     {
      "id": "6130",
@@ -2797,6 +2755,16 @@
       "tm_off_snp": 402.0
      },
      "team": "NYG"
+    },
+    {
+     "id": "GB",
+     "name": "GB DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 10.0,
+      "pts_ppr": 78.0
+     },
+     "team": "GB"
     }
    ],
    "ir": [
@@ -2818,24 +2786,6 @@
      },
      "status": "Inactive",
      "team": "PIT"
-    },
-    {
-     "id": "5844",
-     "inj": "Questionable (Wrist)",
-     "name": "T.J. Hockenson",
-     "pos": "TE",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 324.0,
-      "pts_ppr": 85.8,
-      "rec": 35.0,
-      "rec_td": 3.0,
-      "rec_tgt": 44.0,
-      "rec_yd": 328.0,
-      "snap_pct": 67,
-      "tm_off_snp": 485.0
-     },
-     "team": "MIN"
     }
    ],
    "lineup": [
@@ -2987,15 +2937,15 @@
      "team": "IND"
     },
     {
-     "id": "GB",
-     "name": "GB DEF",
+     "id": "CAR",
+     "name": "CAR DEF",
      "pos": "DEF",
      "season": {
-      "gp": 10.0,
-      "pts_ppr": 78.0
+      "gp": 9.0,
+      "pts_ppr": 51.0
      },
      "slot": "DEF",
-     "team": "GB"
+     "team": "CAR"
     }
    ],
    "lineup_flags": [],
@@ -3008,16 +2958,15 @@
     "11630",
     "12185",
     "12469",
-    "12504",
     "12517",
     "12526",
     "12545",
-    "13330",
     "5844",
     "6130",
     "7543",
     "7547",
     "7588",
+    "CAR",
     "GB"
    ],
    "record": "5-5",
@@ -3657,25 +3606,6 @@
      "team": "PIT"
     },
     {
-     "id": "13424",
-     "name": "Seth McGowan",
-     "pos": "RB",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 150.0,
-      "pts_ppr": 46.4,
-      "rec": 5.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 9.0,
-      "rush_att": 55.0,
-      "rush_td": 2.0,
-      "rush_yd": 285.0,
-      "snap_pct": 23,
-      "tm_off_snp": 652.0
-     },
-     "team": "IND"
-    },
-    {
      "id": "8112",
      "inj": "Questionable (Head)",
      "name": "Drake London",
@@ -3740,8 +3670,24 @@
      "team": "WAS"
     },
     {
-     "empty": true,
-     "slot": "RB"
+     "id": "13424",
+     "name": "Seth McGowan",
+     "pos": "RB",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 150.0,
+      "pts_ppr": 46.4,
+      "rec": 5.0,
+      "rec_tgt": 6.0,
+      "rec_yd": 9.0,
+      "rush_att": 55.0,
+      "rush_td": 2.0,
+      "rush_yd": 285.0,
+      "snap_pct": 23,
+      "tm_off_snp": 652.0
+     },
+     "slot": "RB",
+     "team": "IND"
     },
     {
      "id": "4866",
@@ -3863,9 +3809,7 @@
      "team": "MIN"
     }
    ],
-   "lineup_flags": [
-    "RB slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
    "pa": 1186.66,
@@ -3894,26 +3838,6 @@
   {
    "bench": [
     {
-     "id": "11560",
-     "name": "Caleb Williams",
-     "pos": "QB",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 416.0,
-      "pass_att": 195.0,
-      "pass_int": 5.0,
-      "pass_td": 8.0,
-      "pass_yd": 1546.0,
-      "pts_ppr": 115.34,
-      "rush_att": 31.0,
-      "rush_td": 2.0,
-      "rush_yd": 145.0,
-      "snap_pct": 98,
-      "tm_off_snp": 426.0
-     },
-     "team": "CHI"
-    },
-    {
      "id": "13150",
      "name": "Darius Cooper",
      "pos": "WR",
@@ -3931,24 +3855,43 @@
      "team": "PHI"
     },
     {
-     "id": "5892",
-     "name": "David Montgomery",
+     "id": "13286",
+     "name": "Jadarian Price",
      "pos": "RB",
      "season": {
-      "gp": 5.0,
-      "off_snp": 155.0,
-      "pts_ppr": 45.5,
-      "rec": 7.0,
-      "rec_td": 1.0,
-      "rec_tgt": 7.0,
-      "rec_yd": 67.0,
-      "rush_att": 52.0,
-      "rush_td": 2.0,
-      "rush_yd": 138.0,
-      "snap_pct": 46,
-      "tm_off_snp": 334.0
+      "gp": 6.0,
+      "off_snp": 137.0,
+      "pts_ppr": 42.9,
+      "rec": 11.0,
+      "rec_tgt": 16.0,
+      "rec_yd": 91.0,
+      "rush_att": 56.0,
+      "rush_td": 1.0,
+      "rush_yd": 208.0,
+      "snap_pct": 37,
+      "tm_off_snp": 374.0
      },
-     "team": "HOU"
+     "team": "SEA"
+    },
+    {
+     "id": "3163",
+     "name": "Jared Goff",
+     "pos": "QB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 601.0,
+      "pass_att": 304.0,
+      "pass_int": 4.0,
+      "pass_td": 18.0,
+      "pass_yd": 2437.0,
+      "pts_ppr": 171.78,
+      "rush_att": 20.0,
+      "rush_td": 1.0,
+      "rush_yd": 23.0,
+      "snap_pct": 98,
+      "tm_off_snp": 614.0
+     },
+     "team": "DET"
     }
    ],
    "ir": [
@@ -3977,45 +3920,46 @@
    ],
    "lineup": [
     {
-     "id": "3163",
-     "name": "Jared Goff",
+     "id": "11560",
+     "name": "Caleb Williams",
      "pos": "QB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 601.0,
-      "pass_att": 304.0,
-      "pass_int": 4.0,
-      "pass_td": 18.0,
-      "pass_yd": 2437.0,
-      "pts_ppr": 171.78,
-      "rush_att": 20.0,
-      "rush_td": 1.0,
-      "rush_yd": 23.0,
+      "gp": 6.0,
+      "off_snp": 416.0,
+      "pass_att": 195.0,
+      "pass_int": 5.0,
+      "pass_td": 8.0,
+      "pass_yd": 1546.0,
+      "pts_ppr": 115.34,
+      "rush_att": 31.0,
+      "rush_td": 2.0,
+      "rush_yd": 145.0,
       "snap_pct": 98,
-      "tm_off_snp": 614.0
+      "tm_off_snp": 426.0
      },
      "slot": "QB",
-     "team": "DET"
+     "team": "CHI"
     },
     {
-     "id": "13286",
-     "name": "Jadarian Price",
+     "id": "5892",
+     "name": "David Montgomery",
      "pos": "RB",
      "season": {
-      "gp": 6.0,
-      "off_snp": 137.0,
-      "pts_ppr": 42.9,
-      "rec": 11.0,
-      "rec_tgt": 16.0,
-      "rec_yd": 91.0,
-      "rush_att": 56.0,
-      "rush_td": 1.0,
-      "rush_yd": 208.0,
-      "snap_pct": 37,
-      "tm_off_snp": 374.0
+      "gp": 5.0,
+      "off_snp": 155.0,
+      "pts_ppr": 45.5,
+      "rec": 7.0,
+      "rec_td": 1.0,
+      "rec_tgt": 7.0,
+      "rec_yd": 67.0,
+      "rush_att": 52.0,
+      "rush_td": 2.0,
+      "rush_yd": 138.0,
+      "snap_pct": 46,
+      "tm_off_snp": 334.0
      },
      "slot": "RB",
-     "team": "SEA"
+     "team": "HOU"
     },
     {
      "id": "12474",

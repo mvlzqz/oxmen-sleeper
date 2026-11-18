@@ -220,7 +220,7 @@
   "first_name": "Will",
   "full_name": "Will Mallory",
   "injury_body_part": "Hamstring",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Mallory",
   "position": "TE",
   "search_rank": 681,
@@ -276,20 +276,6 @@
   },
   "status": "Inactive",
   "team": "GB",
-  "years_exp": 3
- },
- "10223": {
-  "active": true,
-  "age": 27,
-  "first_name": "Eric",
-  "full_name": "Eric Gray",
-  "last_name": "Gray",
-  "last_week": null,
-  "position": "RB",
-  "search_rank": 569,
-  "season": null,
-  "status": "Active",
-  "team": "NYG",
   "years_exp": 3
  },
  "10224": {
@@ -874,20 +860,6 @@
   "team": "LAR",
   "years_exp": 3
  },
- "11065": {
-  "active": true,
-  "age": 26,
-  "first_name": "Adrian",
-  "full_name": "Adrian Martinez",
-  "last_name": "Martinez",
-  "last_week": null,
-  "position": "QB",
-  "search_rank": 635,
-  "season": null,
-  "status": "Active",
-  "team": "SEA",
-  "years_exp": 3
- },
  "11068": {
   "active": true,
   "age": 27,
@@ -1460,9 +1432,6 @@
   "depth_chart_position": "RWR",
   "first_name": "Tyrell",
   "full_name": "Tyrell Shavers",
-  "injury_body_part": "Knee - ACL",
-  "injury_notes": "Surgery",
-  "injury_status": "PUP",
   "last_name": "Shavers",
   "last_week": null,
   "position": "WR",
@@ -2738,6 +2707,8 @@
   "depth_chart_position": "SWR",
   "first_name": "Isaiah",
   "full_name": "Isaiah Williams",
+  "injury_body_part": "Ribs",
+  "injury_status": "Questionable",
   "last_name": "Williams",
   "last_week": {
    "gp": 1.0,
@@ -3701,20 +3672,6 @@
   "team": "DET",
   "years_exp": 2
  },
- "11748": {
-  "active": true,
-  "age": 25,
-  "first_name": "Bub",
-  "full_name": "Bub Means",
-  "last_name": "Means",
-  "last_week": null,
-  "position": "WR",
-  "search_rank": 663,
-  "season": null,
-  "status": "Active",
-  "team": "KC",
-  "years_exp": 2
- },
  "11762": {
   "active": true,
   "age": 25,
@@ -4070,24 +4027,6 @@
   },
   "status": "Active",
   "team": "TB",
-  "years_exp": 2
- },
- "12015": {
-  "active": true,
-  "age": 24,
-  "first_name": "Harrison",
-  "full_name": "Harrison Mevis",
-  "last_name": "Mevis",
-  "last_week": null,
-  "position": "K",
-  "search_rank": 154,
-  "season": {
-   "gp": 5.0,
-   "pts_ppr": 28.0,
-   "tm_off_snp": 293.0
-  },
-  "status": "Active",
-  "team": "BAL",
   "years_exp": 2
  },
  "12045": {
@@ -6544,20 +6483,6 @@
   "team": "NE",
   "years_exp": 1
  },
- "12548": {
-  "active": true,
-  "age": 24,
-  "first_name": "Lenny",
-  "full_name": "Lenny Krieg",
-  "last_name": "Krieg",
-  "last_week": null,
-  "position": "K",
-  "search_rank": 396,
-  "season": null,
-  "status": "Active",
-  "team": "GB",
-  "years_exp": 4
- },
  "12634": {
   "active": true,
   "age": 24,
@@ -7429,6 +7354,19 @@
   },
   "status": "Active",
   "team": "LAC",
+  "years_exp": 1
+ },
+ "12907": {
+  "active": true,
+  "age": 24,
+  "first_name": "Quentin",
+  "full_name": "Quentin Skinner",
+  "last_name": "Skinner",
+  "position": "WR",
+  "search_rank": 574,
+  "season": null,
+  "status": "Active",
+  "team": "PHI",
   "years_exp": 1
  },
  "12908": {
@@ -9936,9 +9874,7 @@
   "injury_notes": "Soreness",
   "injury_status": "IR",
   "last_name": "Caldwell",
-  "last_week": {
-   "gp": 1.0
-  },
+  "last_week": null,
   "position": "WR",
   "search_rank": 575,
   "season": {
@@ -10980,27 +10916,6 @@
   "team": "DEN",
   "years_exp": 0
  },
- "13580": {
-  "active": true,
-  "age": 23,
-  "first_name": "Carsen",
-  "full_name": "Carsen Ryan",
-  "last_name": "Ryan",
-  "last_week": {
-   "gp": 1.0
-  },
-  "position": "TE",
-  "search_rank": 600,
-  "season": {
-   "gp": 9.0,
-   "off_snp": 2.0,
-   "snap_pct": 0,
-   "tm_off_snp": 518.0
-  },
-  "status": "Active",
-  "team": "CLE",
-  "years_exp": 0
- },
  "13582": {
   "active": true,
   "age": 24,
@@ -11570,23 +11485,6 @@
   "season": null,
   "status": "Active",
   "team": "MIN",
-  "years_exp": 0
- },
- "13904": {
-  "active": true,
-  "first_name": "Jacob",
-  "full_name": "Jacob De Jesus",
-  "last_name": "De Jesus",
-  "last_week": {
-   "gp": 1.0
-  },
-  "position": "WR",
-  "search_rank": 672,
-  "season": {
-   "gp": 1.0
-  },
-  "status": "Active",
-  "team": "KC",
   "years_exp": 0
  },
  "13905": {
@@ -17204,20 +17102,6 @@
   },
   "status": "Active",
   "team": "MIN",
-  "years_exp": 6
- },
- "6957": {
-  "active": true,
-  "age": 30,
-  "first_name": "James",
-  "full_name": "James Proche II",
-  "last_name": "Proche II",
-  "last_week": null,
-  "position": "WR",
-  "search_rank": 472,
-  "season": null,
-  "status": "Active",
-  "team": "ARI",
   "years_exp": 6
  },
  "6992": {

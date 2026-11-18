@@ -1,7 +1,7 @@
 {
- "baseline": "2026-11-17_1140Z",
+ "baseline": "2026-11-17_1919Z",
  "first_run": false,
- "injury_baseline": "2026-11-17_1140Z",
+ "injury_baseline": "2026-11-17_1919Z",
  "injury_changes": [
   {
    "body_part": "Achilles",
@@ -153,6 +153,17 @@
   },
   {
    "added": [
+    "Chimere Dike"
+   ],
+   "dropped": [
+    "Xavier Worthy"
+   ],
+   "moved_to_ir": [],
+   "owner": "nusskyle",
+   "roster_id": 2
+  },
+  {
+   "added": [
     "Cairo Santos",
     "DET DEF"
    ],
@@ -168,11 +179,13 @@
     "J.J. McCarthy",
     "Pat Bryant",
     "Mark Andrews",
-    "Joey Slye"
+    "Joey Slye",
+    "LAC DEF"
    ],
    "dropped": [
     "Brandon McManus",
-    "Dalton Schultz"
+    "Dalton Schultz",
+    "NYG DEF"
    ],
    "moved_to_ir": [
     "Wan'Dale Robinson"
@@ -186,21 +199,23 @@
     "PIT DEF"
    ],
    "dropped": [
-    "Jordan Addison",
-    "BAL DEF"
+    "TB DEF"
    ],
    "moved_to_ir": [],
    "owner": "TheDudePlayingADude",
    "roster_id": 6
   },
   {
-   "added": [],
-   "dropped": [],
-   "moved_to_ir": [
-    "Geno Smith"
+   "added": [
+    "CAR DEF"
    ],
-   "owner": "dleach16",
-   "roster_id": 7
+   "dropped": [
+    "Kaleb Johnson",
+    "Kenyon Sadiq"
+   ],
+   "moved_to_ir": [],
+   "owner": "pauliv8811",
+   "roster_id": 9
   },
   {
    "added": [
@@ -236,7 +251,7 @@
    "roster_id": 14
   }
  ],
- "since": "2026-11-17T11:40:14+00:00",
+ "since": "2026-11-17T19:19:33+00:00",
  "waiver_moves": [
   {
    "from": 14,

@@ -1,0 +1,307 @@
+{
+ "baseline": "2026-11-17_1919Z",
+ "first_run": false,
+ "injury_baseline": "2026-11-17_1919Z",
+ "injury_changes": [
+  {
+   "body_part": "Achilles",
+   "from": "Out",
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Mike Evans",
+   "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Xavier Hutchinson",
+   "to": null
+  },
+  {
+   "body_part": "Ankle",
+   "from": "Out",
+   "mine": false,
+   "owner": "PawtucketPatriot",
+   "player": "Brock Bowers",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Shoulder",
+   "from": "Out",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Carnell Tate",
+   "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Out",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "David Montgomery",
+   "to": null
+  },
+  {
+   "body_part": "Hamstring",
+   "from": "Out",
+   "mine": false,
+   "owner": "TheDudePlayingADude",
+   "player": "DeVonta Smith",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Ankle",
+   "from": "Out",
+   "mine": false,
+   "owner": "dleach16",
+   "player": "Geno Smith",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Concussion",
+   "from": "Out",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Jaylen Waddle",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Groin",
+   "from": "Out",
+   "mine": false,
+   "owner": "coltierney",
+   "player": "Kenneth Walker III",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Toe",
+   "from": "Out",
+   "mine": false,
+   "owner": "dleach16",
+   "player": "Kyle Monangai",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Back",
+   "from": "Out",
+   "mine": false,
+   "owner": "erictheleghel",
+   "player": "Ladd McConkey",
+   "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Luther Burden III",
+   "to": null
+  },
+  {
+   "body_part": "Ankle",
+   "from": "Out",
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Omar Cooper Jr.",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Wrist",
+   "from": "Out",
+   "mine": false,
+   "owner": "pauliv8811",
+   "player": "T.J. Hockenson",
+   "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "TheDudePlayingADude",
+   "player": "Travis Kelce",
+   "to": null
+  },
+  {
+   "body_part": "Ankle",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "kitano",
+   "player": "Wan'Dale Robinson",
+   "to": "IR"
+  },
+  {
+   "body_part": "Concussion",
+   "from": "Out",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Woody Marks",
+   "to": "Doubtful"
+  }
+ ],
+ "my_team_changed": true,
+ "rosters": [
+  {
+   "added": [
+    "Jason Sanders"
+   ],
+   "dropped": [],
+   "moved_to_ir": [],
+   "owner": "coltierney",
+   "roster_id": 1
+  },
+  {
+   "added": [
+    "Chimere Dike"
+   ],
+   "dropped": [
+    "Xavier Worthy"
+   ],
+   "moved_to_ir": [],
+   "owner": "nusskyle",
+   "roster_id": 2
+  },
+  {
+   "added": [
+    "Cairo Santos",
+    "DET DEF"
+   ],
+   "dropped": [
+    "Dominic Zvada"
+   ],
+   "moved_to_ir": [],
+   "owner": "PawtucketPatriot",
+   "roster_id": 3
+  },
+  {
+   "added": [
+    "J.J. McCarthy",
+    "Pat Bryant",
+    "Mark Andrews",
+    "Joey Slye",
+    "LAC DEF"
+   ],
+   "dropped": [
+    "Brandon McManus",
+    "Dalton Schultz",
+    "NYG DEF"
+   ],
+   "moved_to_ir": [
+    "Wan'Dale Robinson"
+   ],
+   "owner": "kitano",
+   "roster_id": 4
+  },
+  {
+   "added": [
+    "Cam Ward",
+    "PIT DEF"
+   ],
+   "dropped": [
+    "TB DEF"
+   ],
+   "moved_to_ir": [],
+   "owner": "TheDudePlayingADude",
+   "roster_id": 6
+  },
+  {
+   "added": [
+    "CAR DEF"
+   ],
+   "dropped": [
+    "Kaleb Johnson",
+    "Kenyon Sadiq"
+   ],
+   "moved_to_ir": [],
+   "owner": "pauliv8811",
+   "roster_id": 9
+  },
+  {
+   "added": [
+    "Xavier Hutchinson"
+   ],
+   "dropped": [
+    "Tank Dell"
+   ],
+   "moved_to_ir": [],
+   "owner": "mvlzqz",
+   "roster_id": 10
+  },
+  {
+   "added": [
+    "Seth McGowan"
+   ],
+   "dropped": [
+    "Chris Rodriguez Jr."
+   ],
+   "moved_to_ir": [],
+   "owner": "wmont",
+   "roster_id": 12
+  },
+  {
+   "added": [
+    "CHI DEF"
+   ],
+   "dropped": [
+    "Ryan Fitzgerald"
+   ],
+   "moved_to_ir": [],
+   "owner": "chopkins30",
+   "roster_id": 14
+  }
+ ],
+ "since": "2026-11-17T19:19:33+00:00",
+ "waiver_moves": [
+  {
+   "from": 14,
+   "owner": "coltierney",
+   "to": 9
+  },
+  {
+   "from": 7,
+   "owner": "nusskyle",
+   "to": 6
+  },
+  {
+   "from": 9,
+   "owner": "kitano",
+   "to": 14
+  },
+  {
+   "from": 10,
+   "owner": "brendonferreira",
+   "to": 7
+  },
+  {
+   "from": 5,
+   "owner": "dleach16",
+   "to": 4
+  },
+  {
+   "from": 12,
+   "owner": "pauliv8811",
+   "to": 8
+  },
+  {
+   "from": 11,
+   "owner": "mvlzqz",
+   "to": 12
+  },
+  {
+   "from": 6,
+   "owner": "erictheleghel",
+   "to": 5
+  },
+  {
+   "from": 4,
+   "owner": "wmont",
+   "to": 10
+  },
+  {
+   "from": 8,
+   "owner": "chopkins30",
+   "to": 11
+  }
+ ]
+}
