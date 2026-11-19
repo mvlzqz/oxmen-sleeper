@@ -1,7 +1,7 @@
 {
- "baseline": "2026-11-18_1140Z",
+ "baseline": "2026-11-18_1859Z",
  "first_run": false,
- "injury_baseline": "2026-11-18_1140Z",
+ "injury_baseline": "2026-11-18_1859Z",
  "injury_changes": [
   {
    "body_part": "Knee",
@@ -80,45 +80,13 @@
  "rosters": [
   {
    "added": [
-    "Chimere Dike"
-   ],
-   "dropped": [
-    "Xavier Worthy"
-   ],
-   "moved_to_ir": [],
-   "owner": "nusskyle",
-   "roster_id": 2
-  },
-  {
-   "added": [
-    "LAC DEF"
-   ],
-   "dropped": [
-    "NYG DEF"
-   ],
-   "moved_to_ir": [],
-   "owner": "kitano",
-   "roster_id": 4
-  },
-  {
-   "added": [],
-   "dropped": [
-    "TB DEF"
-   ],
-   "moved_to_ir": [],
-   "owner": "TheDudePlayingADude",
-   "roster_id": 6
-  },
-  {
-   "added": [
     "Jonathon Brooks",
     "J.K. Dobbins",
-    "CAR DEF"
+    "TB DEF"
    ],
    "dropped": [
-    "Kaleb Johnson",
-    "Kenyon Sadiq",
-    "Devin Singletary"
+    "Devin Singletary",
+    "CAR DEF"
    ],
    "moved_to_ir": [
     "Jonathon Brooks"
@@ -141,6 +109,42 @@
    "roster_id": 11
   }
  ],
- "since": "2026-11-18T11:40:18+00:00",
- "waiver_moves": []
+ "since": "2026-11-18T18:59:54+00:00",
+ "waiver_moves": [
+  {
+   "from": 9,
+   "owner": "coltierney",
+   "to": 8
+  },
+  {
+   "from": 14,
+   "owner": "kitano",
+   "to": 13
+  },
+  {
+   "from": 13,
+   "owner": "TheDudePlayingADude",
+   "to": 12
+  },
+  {
+   "from": 8,
+   "owner": "pauliv8811",
+   "to": 14
+  },
+  {
+   "from": 12,
+   "owner": "mvlzqz",
+   "to": 11
+  },
+  {
+   "from": 10,
+   "owner": "wmont",
+   "to": 9
+  },
+  {
+   "from": 11,
+   "owner": "chopkins30",
+   "to": 10
+  }
+ ]
 }
