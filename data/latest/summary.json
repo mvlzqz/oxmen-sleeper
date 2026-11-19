@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T18:59:54+00:00",
+ "fetched_at": "2026-11-19T11:40:15+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -226,6 +226,7 @@
    },
    {
     "id": "2505",
+    "inj": "Questionable (Knee)",
     "name": "Darren Waller",
     "pos": "TE",
     "season": {
@@ -286,7 +287,9 @@
     "team": "BUF"
    }
   ],
-  "lineup_flags": [],
+  "lineup_flags": [
+   "TE Darren Waller is Questionable (Knee)"
+  ],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
   "pa": 1166.54,
@@ -540,6 +543,7 @@
     },
     {
      "id": "13296",
+     "inj": "Questionable (Shoulder)",
      "name": "Caleb Douglas",
      "pos": "WR",
      "season": {
@@ -581,7 +585,8 @@
     }
    ],
    "lineup_flags": [
-    "RB Kenneth Walker III is Questionable (Groin)"
+    "RB Kenneth Walker III is Questionable (Groin)",
+    "FLEX Caleb Douglas is Questionable (Shoulder)"
    ],
    "owner": "coltierney",
    "owner_id": "1028748479369187328",
@@ -1026,6 +1031,7 @@
     },
     {
      "id": "12490",
+     "inj": "Questionable (Ankle)",
      "name": "Bhayshul Tuten",
      "pos": "RB",
      "season": {
@@ -1173,6 +1179,7 @@
     }
    ],
    "lineup_flags": [
+    "RB Bhayshul Tuten is Questionable (Ankle)",
     "FLEX Brock Bowers is Questionable (Ankle)"
    ],
    "owner": "PawtucketPatriot",
@@ -1386,6 +1393,7 @@
     },
     {
      "id": "13281",
+     "inj": "Questionable (Chest)",
      "name": "Jordyn Tyson",
      "pos": "WR",
      "season": {
@@ -1483,7 +1491,9 @@
      "team": "LAC"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "WR Jordyn Tyson is Questionable (Chest)"
+   ],
    "owner": "kitano",
    "owner_id": "473949092301500416",
    "pa": 1128.56,
@@ -1746,6 +1756,7 @@
     },
     {
      "id": "5947",
+     "inj": "Questionable (Appendix)",
      "name": "Jakobi Meyers",
      "pos": "WR",
      "season": {
@@ -1788,7 +1799,9 @@
      "team": "JAX"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "FLEX Jakobi Meyers is Questionable (Appendix)"
+   ],
    "owner": "brendonferreira",
    "owner_id": "1129841310569099264",
    "pa": 1162.76,
@@ -2168,7 +2181,6 @@
    "ir": [
     {
      "id": "12534",
-     "inj": "Questionable (Toe)",
      "name": "Kyle Monangai",
      "pos": "RB",
      "season": {
@@ -2737,24 +2749,23 @@
      "team": "MIN"
     },
     {
-     "id": "6130",
-     "name": "Devin Singletary",
+     "id": "6806",
+     "name": "J.K. Dobbins",
      "pos": "RB",
      "season": {
-      "gp": 6.0,
-      "off_snp": 157.0,
-      "pts_ppr": 39.7,
-      "rec": 10.0,
-      "rec_td": 1.0,
-      "rec_tgt": 12.0,
-      "rec_yd": 63.0,
-      "rush_att": 40.0,
-      "rush_td": 1.0,
-      "rush_yd": 114.0,
-      "snap_pct": 39,
-      "tm_off_snp": 402.0
+      "gp": 9.0,
+      "off_snp": 198.0,
+      "pts_ppr": 62.5,
+      "rec": 9.0,
+      "rec_tgt": 10.0,
+      "rec_yd": 31.0,
+      "rush_att": 98.0,
+      "rush_td": 3.0,
+      "rush_yd": 324.0,
+      "snap_pct": 35,
+      "tm_off_snp": 565.0
      },
-     "team": "NYG"
+     "team": "DEN"
     },
     {
      "id": "GB",
@@ -2768,6 +2779,26 @@
     }
    ],
    "ir": [
+    {
+     "id": "11583",
+     "inj": "IR (Abdomen)",
+     "name": "Jonathon Brooks",
+     "pos": "RB",
+     "season": {
+      "gp": 2.0,
+      "off_snp": 33.0,
+      "pts_ppr": 9.3,
+      "rec": 2.0,
+      "rec_tgt": 3.0,
+      "rec_yd": 43.0,
+      "rush_att": 9.0,
+      "rush_yd": 30.0,
+      "snap_pct": 25,
+      "tm_off_snp": 134.0
+     },
+     "status": "Inactive",
+     "team": "CAR"
+    },
     {
      "id": "11630",
      "inj": "IR (Finger)",
@@ -2954,6 +2985,7 @@
    "pa": 1028.08,
    "pf": 1044.46,
    "player_ids": [
+    "11583",
     "11625",
     "11630",
     "12185",
@@ -2962,7 +2994,7 @@
     "12526",
     "12545",
     "5844",
-    "6130",
+    "6806",
     "7543",
     "7547",
     "7588",
@@ -3199,6 +3231,7 @@
     },
     {
      "id": "2505",
+     "inj": "Questionable (Knee)",
      "name": "Darren Waller",
      "pos": "TE",
      "season": {
@@ -3259,7 +3292,9 @@
      "team": "BUF"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "TE Darren Waller is Questionable (Knee)"
+   ],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",
    "pa": 1166.54,
@@ -3289,6 +3324,24 @@
   },
   {
    "bench": [
+    {
+     "id": "11635",
+     "inj": "Questionable (Back)",
+     "name": "Ladd McConkey",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 206.0,
+      "pts_ppr": 51.6,
+      "rec": 17.0,
+      "rec_td": 1.0,
+      "rec_tgt": 24.0,
+      "rec_yd": 286.0,
+      "snap_pct": 39,
+      "tm_off_snp": 531.0
+     },
+     "team": "LAC"
+    },
     {
      "id": "421",
      "name": "Matthew Stafford",
@@ -3328,35 +3381,26 @@
      "team": "NYJ"
     },
     {
-     "id": "DEN",
-     "name": "DEN DEF",
-     "pos": "DEF",
+     "id": "9502",
+     "name": "Tank Dell",
+     "pos": "WR",
      "season": {
-      "gp": 9.0,
-      "pts_ppr": 72.0
+      "gp": 3.0,
+      "off_snp": 80.0,
+      "pts_ppr": 31.1,
+      "rec": 8.0,
+      "rec_td": 1.0,
+      "rec_tgt": 14.0,
+      "rec_yd": 169.0,
+      "rush_att": 2.0,
+      "rush_yd": 2.0,
+      "snap_pct": 40,
+      "tm_off_snp": 198.0
      },
-     "team": "DEN"
+     "team": "HOU"
     }
    ],
    "ir": [
-    {
-     "id": "11635",
-     "inj": "Questionable (Back)",
-     "name": "Ladd McConkey",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 206.0,
-      "pts_ppr": 51.6,
-      "rec": 17.0,
-      "rec_td": 1.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 286.0,
-      "snap_pct": 39,
-      "tm_off_snp": 531.0
-     },
-     "team": "LAC"
-    },
     {
      "id": "5859",
      "inj": "Out (Hamstring)",
@@ -3372,6 +3416,25 @@
       "snap_pct": 63,
       "tm_off_snp": 252.0
      },
+     "team": "NE"
+    },
+    {
+     "id": "8121",
+     "inj": "IR (Shoulder)",
+     "name": "Romeo Doubs",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 236.0,
+      "pts_ppr": 58.1,
+      "rec": 14.0,
+      "rec_td": 3.0,
+      "rec_tgt": 24.0,
+      "rec_yd": 261.0,
+      "snap_pct": 58,
+      "tm_off_snp": 408.0
+     },
+     "status": "Inactive",
      "team": "NE"
     }
    ],
@@ -3526,15 +3589,15 @@
      "team": "JAX"
     },
     {
-     "id": "HOU",
-     "name": "HOU DEF",
+     "id": "DEN",
+     "name": "DEN DEF",
      "pos": "DEF",
      "season": {
       "gp": 9.0,
-      "pts_ppr": 62.0
+      "pts_ppr": 72.0
      },
      "slot": "DEF",
-     "team": "HOU"
+     "team": "DEN"
     }
    ],
    "lineup_flags": [],
@@ -3554,9 +3617,10 @@
     "6801",
     "7564",
     "7594",
+    "8121",
     "8155",
-    "DEN",
-    "HOU"
+    "9502",
+    "DEN"
    ],
    "record": "9-1",
    "roster_id": 11,
@@ -3787,6 +3851,7 @@
     },
     {
      "id": "6083",
+     "inj": "Questionable (Hip)",
      "name": "Matt Gay",
      "pos": "K",
      "season": {
@@ -3809,7 +3874,9 @@
      "team": "MIN"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "K Matt Gay is Questionable (Hip)"
+   ],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
    "pa": 1186.66,
@@ -3963,7 +4030,7 @@
     },
     {
      "id": "12474",
-     "inj": "Doubtful (Concussion)",
+     "inj": "Out (Concussion)",
      "name": "Woody Marks",
      "pos": "RB",
      "season": {
@@ -4039,6 +4106,7 @@
     },
     {
      "id": "10236",
+     "inj": "Questionable (Thumb)",
      "name": "Dalton Kincaid",
      "pos": "TE",
      "season": {
@@ -4080,7 +4148,8 @@
     }
    ],
    "lineup_flags": [
-    "RB Woody Marks is Doubtful (Concussion)"
+    "RB Woody Marks is Out (Concussion)",
+    "FLEX Dalton Kincaid is Questionable (Thumb)"
    ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
