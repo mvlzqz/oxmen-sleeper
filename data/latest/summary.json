@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T19:07:47+00:00",
+ "fetched_at": "2026-11-20T11:40:15+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -9,13 +9,13 @@
     "name": "Xavier Hutchinson",
     "pos": "WR",
     "season": {
-     "gp": 9.0,
+     "gp": 10.0,
      "off_snp": 358.0,
-     "pts_ppr": 82.1,
-     "rec": 28.0,
+     "pts_ppr": 85.4,
+     "rec": 30.0,
      "rec_td": 3.0,
-     "rec_tgt": 54.0,
-     "rec_yd": 345.0,
+     "rec_tgt": 57.0,
+     "rec_yd": 358.0,
      "rush_att": 4.0,
      "rush_yd": 16.0,
      "snap_pct": 60,
@@ -129,16 +129,16 @@
     "name": "C.J. Stroud",
     "pos": "QB",
     "season": {
-     "gp": 9.0,
+     "gp": 10.0,
      "off_snp": 587.0,
-     "pass_att": 320.0,
-     "pass_int": 3.0,
-     "pass_td": 19.0,
-     "pass_yd": 2462.0,
-     "pts_ppr": 187.48,
-     "rush_att": 23.0,
+     "pass_att": 347.0,
+     "pass_int": 4.0,
+     "pass_td": 22.0,
+     "pass_yd": 2656.0,
+     "pts_ppr": 208.94,
+     "rush_att": 29.0,
      "rush_td": 1.0,
-     "rush_yd": 120.0,
+     "rush_yd": 147.0,
      "snap_pct": 99,
      "tm_off_snp": 595.0
     },
@@ -150,15 +150,15 @@
     "name": "Jonathan Taylor",
     "pos": "RB",
     "season": {
-     "gp": 10.0,
+     "gp": 11.0,
      "off_snp": 496.0,
-     "pts_ppr": 165.9,
-     "rec": 28.0,
-     "rec_tgt": 40.0,
-     "rec_yd": 240.0,
-     "rush_att": 177.0,
+     "pts_ppr": 172.6,
+     "rec": 32.0,
+     "rec_tgt": 45.0,
+     "rec_yd": 246.0,
+     "rush_att": 188.0,
      "rush_td": 8.0,
-     "rush_yd": 739.0,
+     "rush_yd": 760.0,
      "snap_pct": 76,
      "tm_off_snp": 652.0
     },
@@ -318,30 +318,30 @@
   "waiver_position": 11
  },
  "opponent_this_week": {
-  "my_points": 0.0,
+  "my_points": 28.16,
   "owner": "brendonferreira",
   "roster_id": 5,
-  "their_points": 0.0
+  "their_points": 6.0
  },
  "rosters": [
   {
    "bench": [
     {
-     "id": "11834",
-     "name": "Devaughn Vele",
+     "id": "5045",
+     "name": "Courtland Sutton",
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 563.0,
-      "pts_ppr": 92.9,
-      "rec": 37.0,
-      "rec_td": 3.0,
-      "rec_tgt": 54.0,
-      "rec_yd": 379.0,
-      "snap_pct": 91,
-      "tm_off_snp": 618.0
+      "off_snp": 443.0,
+      "pts_ppr": 63.6,
+      "rec": 25.0,
+      "rec_td": 2.0,
+      "rec_tgt": 46.0,
+      "rec_yd": 266.0,
+      "snap_pct": 78,
+      "tm_off_snp": 565.0
      },
-     "team": "NO"
+     "team": "DEN"
     },
     {
      "id": "5995",
@@ -594,10 +594,10 @@
    "pf": 1165.66,
    "player_ids": [
     "11620",
-    "11834",
     "12529",
     "13296",
     "3294",
+    "5045",
     "5119",
     "5995",
     "8131",
@@ -1780,8 +1780,8 @@
      "name": "Ka'imi Fairbairn",
      "pos": "K",
      "season": {
-      "gp": 9.0,
-      "pts_ppr": 99.0,
+      "gp": 10.0,
+      "pts_ppr": 105.0,
       "tm_off_snp": 595.0
      },
      "slot": "K",
@@ -1849,25 +1849,6 @@
      "team": "LAR"
     },
     {
-     "id": "13414",
-     "name": "Kaelon Black",
-     "pos": "RB",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 170.0,
-      "pts_ppr": 52.3,
-      "rec": 5.0,
-      "rec_tgt": 8.0,
-      "rec_yd": 17.0,
-      "rush_att": 79.0,
-      "rush_td": 2.0,
-      "rush_yd": 356.0,
-      "snap_pct": 30,
-      "tm_off_snp": 563.0
-     },
-     "team": "SF"
-    },
-    {
      "id": "6804",
      "name": "Jordan Love",
      "pos": "QB",
@@ -1886,6 +1867,25 @@
       "tm_off_snp": 646.0
      },
      "team": "GB"
+    },
+    {
+     "id": "8408",
+     "name": "Jordan Mason",
+     "pos": "RB",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 142.0,
+      "pts_ppr": 32.8,
+      "rec": 2.0,
+      "rec_tgt": 6.0,
+      "rec_yd": 7.0,
+      "rush_att": 60.0,
+      "rush_td": 1.0,
+      "rush_yd": 241.0,
+      "snap_pct": 48,
+      "tm_off_snp": 294.0
+     },
+     "team": "MIN"
     },
     {
      "id": "9484",
@@ -1974,7 +1974,6 @@
     },
     {
      "id": "7525",
-     "inj": "Questionable (Hamstring)",
      "name": "DeVonta Smith",
      "pos": "WR",
      "season": {
@@ -2032,24 +2031,24 @@
      "team": "KC"
     },
     {
-     "id": "8408",
-     "name": "Jordan Mason",
+     "id": "13414",
+     "name": "Kaelon Black",
      "pos": "RB",
      "season": {
-      "gp": 5.0,
-      "off_snp": 142.0,
-      "pts_ppr": 32.8,
-      "rec": 2.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 7.0,
-      "rush_att": 60.0,
-      "rush_td": 1.0,
-      "rush_yd": 241.0,
-      "snap_pct": 48,
-      "tm_off_snp": 294.0
+      "gp": 9.0,
+      "off_snp": 170.0,
+      "pts_ppr": 52.3,
+      "rec": 5.0,
+      "rec_tgt": 8.0,
+      "rec_yd": 17.0,
+      "rush_att": 79.0,
+      "rush_td": 2.0,
+      "rush_yd": 356.0,
+      "snap_pct": 30,
+      "tm_off_snp": 563.0
      },
      "slot": "FLEX",
-     "team": "MIN"
+     "team": "SF"
     },
     {
      "id": "7839",
@@ -2075,9 +2074,7 @@
      "team": "PIT"
     }
    ],
-   "lineup_flags": [
-    "WR DeVonta Smith is Questionable (Hamstring)"
-   ],
+   "lineup_flags": [],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 1096.64,
@@ -2675,8 +2672,8 @@
      "name": "IND DEF",
      "pos": "DEF",
      "season": {
-      "gp": 10.0,
-      "pts_ppr": 48.0
+      "gp": 11.0,
+      "pts_ppr": 51.0
      },
      "slot": "DEF",
      "team": "IND"
@@ -2960,8 +2957,8 @@
      "name": "Spencer Shrader",
      "pos": "K",
      "season": {
-      "gp": 10.0,
-      "pts_ppr": 111.0,
+      "gp": 11.0,
+      "pts_ppr": 112.0,
       "tm_off_snp": 652.0
      },
      "slot": "K",
@@ -3014,13 +3011,13 @@
      "name": "Xavier Hutchinson",
      "pos": "WR",
      "season": {
-      "gp": 9.0,
+      "gp": 10.0,
       "off_snp": 358.0,
-      "pts_ppr": 82.1,
-      "rec": 28.0,
+      "pts_ppr": 85.4,
+      "rec": 30.0,
       "rec_td": 3.0,
-      "rec_tgt": 54.0,
-      "rec_yd": 345.0,
+      "rec_tgt": 57.0,
+      "rec_yd": 358.0,
       "rush_att": 4.0,
       "rush_yd": 16.0,
       "snap_pct": 60,
@@ -3134,16 +3131,16 @@
      "name": "C.J. Stroud",
      "pos": "QB",
      "season": {
-      "gp": 9.0,
+      "gp": 10.0,
       "off_snp": 587.0,
-      "pass_att": 320.0,
-      "pass_int": 3.0,
-      "pass_td": 19.0,
-      "pass_yd": 2462.0,
-      "pts_ppr": 187.48,
-      "rush_att": 23.0,
+      "pass_att": 347.0,
+      "pass_int": 4.0,
+      "pass_td": 22.0,
+      "pass_yd": 2656.0,
+      "pts_ppr": 208.94,
+      "rush_att": 29.0,
       "rush_td": 1.0,
-      "rush_yd": 120.0,
+      "rush_yd": 147.0,
       "snap_pct": 99,
       "tm_off_snp": 595.0
      },
@@ -3155,15 +3152,15 @@
      "name": "Jonathan Taylor",
      "pos": "RB",
      "season": {
-      "gp": 10.0,
+      "gp": 11.0,
       "off_snp": 496.0,
-      "pts_ppr": 165.9,
-      "rec": 28.0,
-      "rec_tgt": 40.0,
-      "rec_yd": 240.0,
-      "rush_att": 177.0,
+      "pts_ppr": 172.6,
+      "rec": 32.0,
+      "rec_tgt": 45.0,
+      "rec_yd": 246.0,
+      "rush_att": 188.0,
       "rush_td": 8.0,
-      "rush_yd": 739.0,
+      "rush_yd": 760.0,
       "snap_pct": 76,
       "tm_off_snp": 652.0
      },
@@ -3325,6 +3322,23 @@
   {
    "bench": [
     {
+     "id": "11624",
+     "name": "Xavier Worthy",
+     "pos": "WR",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 478.0,
+      "pts_ppr": 66.8,
+      "rec": 33.0,
+      "rec_td": 1.0,
+      "rec_tgt": 50.0,
+      "rec_yd": 278.0,
+      "snap_pct": 83,
+      "tm_off_snp": 575.0
+     },
+     "team": "KC"
+    },
+    {
      "id": "11635",
      "inj": "Questionable (Back)",
      "name": "Ladd McConkey",
@@ -3379,25 +3393,6 @@
       "tm_off_snp": 341.0
      },
      "team": "NYJ"
-    },
-    {
-     "id": "9502",
-     "name": "Tank Dell",
-     "pos": "WR",
-     "season": {
-      "gp": 3.0,
-      "off_snp": 80.0,
-      "pts_ppr": 31.1,
-      "rec": 8.0,
-      "rec_td": 1.0,
-      "rec_tgt": 14.0,
-      "rec_yd": 169.0,
-      "rush_att": 2.0,
-      "rush_yd": 2.0,
-      "snap_pct": 40,
-      "tm_off_snp": 198.0
-     },
-     "team": "HOU"
     }
    ],
    "ir": [
@@ -3607,6 +3602,7 @@
    "pf": 1338.68,
    "player_ids": [
     "11584",
+    "11624",
     "11635",
     "11786",
     "13345",
@@ -3619,7 +3615,6 @@
     "7594",
     "8121",
     "8155",
-    "9502",
     "DEN"
    ],
    "record": "9-1",
@@ -3735,18 +3730,19 @@
     },
     {
      "id": "13424",
+     "inj": "Out (Hamstring)",
      "name": "Seth McGowan",
      "pos": "RB",
      "season": {
-      "gp": 10.0,
+      "gp": 11.0,
       "off_snp": 150.0,
-      "pts_ppr": 46.4,
-      "rec": 5.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 9.0,
-      "rush_att": 55.0,
+      "pts_ppr": 48.2,
+      "rec": 6.0,
+      "rec_tgt": 7.0,
+      "rec_yd": 10.0,
+      "rush_att": 58.0,
       "rush_td": 2.0,
-      "rush_yd": 285.0,
+      "rush_yd": 292.0,
       "snap_pct": 23,
       "tm_off_snp": 652.0
      },
@@ -3778,13 +3774,13 @@
      "name": "Nico Collins",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
+      "gp": 8.0,
       "off_snp": 337.0,
-      "pts_ppr": 116.0,
-      "rec": 37.0,
-      "rec_td": 5.0,
-      "rec_tgt": 55.0,
-      "rec_yd": 478.0,
+      "pts_ppr": 130.8,
+      "rec": 40.0,
+      "rec_td": 6.0,
+      "rec_tgt": 60.0,
+      "rec_yd": 536.0,
       "rush_att": 2.0,
       "rush_yd": 12.0,
       "snap_pct": 73,
@@ -3875,6 +3871,7 @@
     }
    ],
    "lineup_flags": [
+    "RB Seth McGowan is Out (Hamstring)",
     "K Matt Gay is Questionable (Hip)"
    ],
    "owner": "wmont",
@@ -3905,21 +3902,23 @@
   {
    "bench": [
     {
-     "id": "13150",
-     "name": "Darius Cooper",
-     "pos": "WR",
+     "id": "12491",
+     "name": "Corey Kiner",
+     "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 383.0,
-      "pts_ppr": 57.0,
-      "rec": 13.0,
-      "rec_td": 4.0,
-      "rec_tgt": 32.0,
-      "rec_yd": 200.0,
-      "snap_pct": 67,
-      "tm_off_snp": 573.0
+      "gp": 10.0,
+      "off_snp": 102.0,
+      "pts_ppr": 34.5,
+      "rec": 2.0,
+      "rec_tgt": 2.0,
+      "rec_yd": 16.0,
+      "rush_att": 60.0,
+      "rush_td": 1.0,
+      "rush_yd": 269.0,
+      "snap_pct": 16,
+      "tm_off_snp": 644.0
      },
-     "team": "PHI"
+     "team": "NE"
     },
     {
      "id": "13286",
@@ -3959,9 +3958,39 @@
       "tm_off_snp": 614.0
      },
      "team": "DET"
+    },
+    {
+     "id": "SEA",
+     "name": "SEA DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 10.0,
+      "pts_ppr": 83.0
+     },
+     "team": "SEA"
     }
    ],
    "ir": [
+    {
+     "id": "12474",
+     "inj": "Out (Concussion)",
+     "name": "Woody Marks",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 357.0,
+      "pts_ppr": 78.4,
+      "rec": 16.0,
+      "rec_tgt": 22.0,
+      "rec_yd": 113.0,
+      "rush_att": 107.0,
+      "rush_td": 2.0,
+      "rush_yd": 391.0,
+      "snap_pct": 60,
+      "tm_off_snp": 595.0
+     },
+     "team": "HOU"
+    },
     {
      "id": "9493",
      "inj": "IR (Knee - MCL)",
@@ -3981,7 +4010,6 @@
       "snap_pct": 87,
       "tm_off_snp": 486.0
      },
-     "status": "Inactive",
      "team": "LAR"
     }
    ],
@@ -4008,43 +4036,43 @@
      "team": "CHI"
     },
     {
+     "id": "6130",
+     "name": "Devin Singletary",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 157.0,
+      "pts_ppr": 39.7,
+      "rec": 10.0,
+      "rec_td": 1.0,
+      "rec_tgt": 12.0,
+      "rec_yd": 63.0,
+      "rush_att": 40.0,
+      "rush_td": 1.0,
+      "rush_yd": 114.0,
+      "snap_pct": 39,
+      "tm_off_snp": 402.0
+     },
+     "slot": "RB",
+     "team": "NYG"
+    },
+    {
      "id": "5892",
      "name": "David Montgomery",
      "pos": "RB",
      "season": {
-      "gp": 5.0,
+      "gp": 6.0,
       "off_snp": 155.0,
-      "pts_ppr": 45.5,
-      "rec": 7.0,
+      "pts_ppr": 60.9,
+      "rec": 10.0,
       "rec_td": 1.0,
-      "rec_tgt": 7.0,
-      "rec_yd": 67.0,
-      "rush_att": 52.0,
+      "rec_tgt": 11.0,
+      "rec_yd": 84.0,
+      "rush_att": 78.0,
       "rush_td": 2.0,
-      "rush_yd": 138.0,
+      "rush_yd": 245.0,
       "snap_pct": 46,
       "tm_off_snp": 334.0
-     },
-     "slot": "RB",
-     "team": "HOU"
-    },
-    {
-     "id": "12474",
-     "inj": "Out (Concussion)",
-     "name": "Woody Marks",
-     "pos": "RB",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 357.0,
-      "pts_ppr": 78.4,
-      "rec": 16.0,
-      "rec_tgt": 22.0,
-      "rec_yd": 113.0,
-      "rush_att": 107.0,
-      "rush_td": 2.0,
-      "rush_yd": 391.0,
-      "snap_pct": 60,
-      "tm_off_snp": 595.0
      },
      "slot": "RB",
      "team": "HOU"
@@ -4087,22 +4115,22 @@
      "team": "PIT"
     },
     {
-     "id": "3271",
-     "name": "Tyler Higbee",
+     "id": "12700",
+     "name": "Gavin Bartholomew",
      "pos": "TE",
      "season": {
-      "gp": 10.0,
-      "off_snp": 456.0,
-      "pts_ppr": 69.4,
-      "rec": 31.0,
-      "rec_td": 2.0,
-      "rec_tgt": 43.0,
-      "rec_yd": 304.0,
-      "snap_pct": 64,
-      "tm_off_snp": 710.0
+      "gp": 9.0,
+      "off_snp": 133.0,
+      "pts_ppr": 25.0,
+      "rec": 10.0,
+      "rec_td": 1.0,
+      "rec_tgt": 12.0,
+      "rec_yd": 90.0,
+      "snap_pct": 24,
+      "tm_off_snp": 554.0
      },
      "slot": "TE",
-     "team": "LAR"
+     "team": "MIN"
     },
     {
      "id": "10236",
@@ -4136,19 +4164,18 @@
      "team": "SF"
     },
     {
-     "id": "SEA",
-     "name": "SEA DEF",
+     "id": "CAR",
+     "name": "CAR DEF",
      "pos": "DEF",
      "season": {
-      "gp": 10.0,
-      "pts_ppr": 83.0
+      "gp": 9.0,
+      "pts_ppr": 51.0
      },
      "slot": "DEF",
-     "team": "SEA"
+     "team": "CAR"
     }
    ],
    "lineup_flags": [
-    "RB Woody Marks is Out (Concussion)",
     "FLEX Dalton Kincaid is Questionable (Thumb)"
    ],
    "owner": "phile2211",
@@ -4159,15 +4186,17 @@
     "10236",
     "11560",
     "12474",
-    "13150",
+    "12491",
+    "12700",
     "13286",
     "13293",
     "3163",
-    "3271",
     "5189",
     "5846",
     "5892",
+    "6130",
     "9493",
+    "CAR",
     "SEA"
    ],
    "record": "2-8",
@@ -4404,13 +4433,13 @@
      "name": "Tyler Warren",
      "pos": "TE",
      "season": {
-      "gp": 8.0,
+      "gp": 9.0,
       "off_snp": 446.0,
-      "pts_ppr": 86.5,
-      "rec": 40.0,
+      "pts_ppr": 89.7,
+      "rec": 41.0,
       "rec_td": 2.0,
-      "rec_tgt": 56.0,
-      "rec_yd": 276.0,
+      "rec_tgt": 61.0,
+      "rec_yd": 298.0,
       "rush_att": 4.0,
       "rush_td": 1.0,
       "rush_yd": 9.0,

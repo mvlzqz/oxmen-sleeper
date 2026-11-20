@@ -1,78 +1,22 @@
 {
- "baseline": "2026-11-18_1859Z",
+ "baseline": "2026-11-19_1140Z",
  "first_run": false,
- "injury_baseline": "2026-11-18_1859Z",
+ "injury_baseline": "2026-11-19_1140Z",
  "injury_changes": [
-  {
-   "body_part": "Knee",
-   "from": null,
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Darren Waller",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Ankle",
-   "from": null,
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "Bhayshul Tuten",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Shoulder",
-   "from": null,
-   "mine": false,
-   "owner": "coltierney",
-   "player": "Caleb Douglas",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Thumb",
-   "from": null,
-   "mine": false,
-   "owner": "phile2211",
-   "player": "Dalton Kincaid",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Appendix",
-   "from": null,
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Jakobi Meyers",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Chest",
-   "from": null,
-   "mine": false,
-   "owner": "kitano",
-   "player": "Jordyn Tyson",
-   "to": "Questionable"
-  },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "dleach16",
-   "player": "Kyle Monangai",
+   "owner": "TheDudePlayingADude",
+   "player": "DeVonta Smith",
    "to": null
   },
   {
-   "body_part": "Hip",
+   "body_part": "Hamstring",
    "from": null,
    "mine": false,
    "owner": "wmont",
-   "player": "Matt Gay",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Concussion",
-   "from": "Doubtful",
-   "mine": false,
-   "owner": "phile2211",
-   "player": "Woody Marks",
+   "player": "Seth McGowan",
    "to": "Out"
   }
  ],
@@ -80,36 +24,56 @@
  "rosters": [
   {
    "added": [
-    "Jonathon Brooks",
-    "J.K. Dobbins",
+    "Courtland Sutton"
+   ],
+   "dropped": [
+    "Devaughn Vele"
+   ],
+   "moved_to_ir": [],
+   "owner": "coltierney",
+   "roster_id": 1
+  },
+  {
+   "added": [
     "TB DEF"
    ],
    "dropped": [
-    "Devin Singletary",
     "CAR DEF"
    ],
-   "moved_to_ir": [
-    "Jonathon Brooks"
-   ],
+   "moved_to_ir": [],
    "owner": "pauliv8811",
    "roster_id": 9
   },
   {
    "added": [
-    "Romeo Doubs",
-    "Tank Dell"
+    "Xavier Worthy"
    ],
    "dropped": [
-    "HOU DEF"
+    "Tank Dell"
    ],
-   "moved_to_ir": [
-    "Romeo Doubs"
-   ],
+   "moved_to_ir": [],
    "owner": "erictheleghel",
    "roster_id": 11
+  },
+  {
+   "added": [
+    "Corey Kiner",
+    "Gavin Bartholomew",
+    "Devin Singletary",
+    "CAR DEF"
+   ],
+   "dropped": [
+    "Darius Cooper",
+    "Tyler Higbee"
+   ],
+   "moved_to_ir": [
+    "Woody Marks"
+   ],
+   "owner": "phile2211",
+   "roster_id": 13
   }
  ],
- "since": "2026-11-18T18:59:54+00:00",
+ "since": "2026-11-19T11:40:15+00:00",
  "waiver_moves": [
   {
    "from": 9,
