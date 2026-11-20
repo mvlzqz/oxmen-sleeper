@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T11:40:15+00:00",
+ "fetched_at": "2026-11-20T18:46:11+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -344,25 +344,6 @@
      "team": "DEN"
     },
     {
-     "id": "5995",
-     "name": "Justice Hill",
-     "pos": "RB",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 280.0,
-      "pts_ppr": 69.9,
-      "rec": 25.0,
-      "rec_tgt": 35.0,
-      "rec_yd": 145.0,
-      "rush_att": 36.0,
-      "rush_td": 1.0,
-      "rush_yd": 244.0,
-      "snap_pct": 44,
-      "tm_off_snp": 630.0
-     },
-     "team": "BAL"
-    },
-    {
      "id": "8167",
      "name": "Christian Watson",
      "pos": "WR",
@@ -525,6 +506,7 @@
     },
     {
      "id": "8131",
+     "inj": "Questionable (Undisclosed)",
      "name": "Isaiah Likely",
      "pos": "TE",
      "season": {
@@ -586,6 +568,7 @@
    ],
    "lineup_flags": [
     "RB Kenneth Walker III is Questionable (Groin)",
+    "TE Isaiah Likely is Questionable (Undisclosed)",
     "FLEX Caleb Douglas is Questionable (Shoulder)"
    ],
    "owner": "coltierney",
@@ -599,7 +582,6 @@
     "3294",
     "5045",
     "5119",
-    "5995",
     "8131",
     "8136",
     "8148",
@@ -1544,7 +1526,7 @@
     },
     {
      "id": "13276",
-     "inj": "Questionable (Ankle)",
+     "inj": "Out (Ankle)",
      "name": "Omar Cooper Jr.",
      "pos": "WR",
      "season": {
@@ -2139,6 +2121,25 @@
      "team": "CLE"
     },
     {
+     "id": "4199",
+     "name": "Aaron Jones Sr.",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 321.0,
+      "pts_ppr": 95.4,
+      "rec": 17.0,
+      "rec_tgt": 23.0,
+      "rec_yd": 103.0,
+      "rush_att": 126.0,
+      "rush_td": 3.0,
+      "rush_yd": 521.0,
+      "snap_pct": 58,
+      "tm_off_snp": 554.0
+     },
+     "team": "MIN"
+    },
+    {
      "id": "8134",
      "name": "Khalil Shakir",
      "pos": "WR",
@@ -2156,70 +2157,31 @@
       "tm_off_snp": 608.0
      },
      "team": "BUF"
-    },
-    {
-     "id": "9479",
-     "name": "Darnell Washington",
-     "pos": "TE",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 375.0,
-      "pts_ppr": 63.9,
-      "rec": 20.0,
-      "rec_td": 3.0,
-      "rec_tgt": 31.0,
-      "rec_yd": 259.0,
-      "snap_pct": 63,
-      "tm_off_snp": 594.0
-     },
-     "team": "PIT"
     }
    ],
-   "ir": [
-    {
-     "id": "12534",
-     "name": "Kyle Monangai",
-     "pos": "RB",
-     "season": {
-      "gp": 4.0,
-      "off_snp": 129.0,
-      "pts_ppr": 59.3,
-      "rec": 5.0,
-      "rec_tgt": 5.0,
-      "rec_yd": 39.0,
-      "rush_att": 60.0,
-      "rush_td": 3.0,
-      "rush_yd": 324.0,
-      "snap_pct": 41,
-      "tm_off_snp": 314.0
-     },
-     "team": "CHI"
-    },
-    {
-     "id": "1373",
-     "inj": "Questionable (Ankle)",
-     "name": "Geno Smith",
-     "pos": "QB",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 591.0,
-      "pass_att": 292.0,
-      "pass_int": 3.0,
-      "pass_td": 12.0,
-      "pass_yd": 2226.0,
-      "pts_ppr": 139.44,
-      "rush_att": 24.0,
-      "rush_yd": 54.0,
-      "snap_pct": 94,
-      "tm_off_snp": 628.0
-     },
-     "team": "NYJ"
-    }
-   ],
+   "ir": [],
    "lineup": [
     {
-     "empty": true,
-     "slot": "QB"
+     "id": "6797",
+     "name": "Justin Herbert",
+     "pos": "QB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 573.0,
+      "pass_att": 253.0,
+      "pass_int": 11.0,
+      "pass_td": 6.0,
+      "pass_yd": 1720.0,
+      "pts_ppr": 107.9,
+      "rec_tgt": 1.0,
+      "rush_att": 41.0,
+      "rush_td": 1.0,
+      "rush_yd": 241.0,
+      "snap_pct": 97,
+      "tm_off_snp": 588.0
+     },
+     "slot": "QB",
+     "team": "LAC"
     },
     {
      "id": "12527",
@@ -2243,24 +2205,24 @@
      "team": "LV"
     },
     {
-     "id": "4199",
-     "name": "Aaron Jones Sr.",
+     "id": "12534",
+     "name": "Kyle Monangai",
      "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 321.0,
-      "pts_ppr": 95.4,
-      "rec": 17.0,
-      "rec_tgt": 23.0,
-      "rec_yd": 103.0,
-      "rush_att": 126.0,
+      "gp": 4.0,
+      "off_snp": 129.0,
+      "pts_ppr": 59.3,
+      "rec": 5.0,
+      "rec_tgt": 5.0,
+      "rec_yd": 39.0,
+      "rush_att": 60.0,
       "rush_td": 3.0,
-      "rush_yd": 521.0,
-      "snap_pct": 58,
-      "tm_off_snp": 554.0
+      "rush_yd": 324.0,
+      "snap_pct": 41,
+      "tm_off_snp": 314.0
      },
      "slot": "RB",
-     "team": "MIN"
+     "team": "CHI"
     },
     {
      "id": "6794",
@@ -2362,9 +2324,7 @@
      "team": "KC"
     }
    ],
-   "lineup_flags": [
-    "QB slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
    "pa": 1078.3,
@@ -2377,12 +2337,11 @@
     "12527",
     "12534",
     "13346",
-    "1373",
     "4199",
     "5022",
     "6794",
+    "6797",
     "8134",
-    "9479",
     "KC"
    ],
    "record": "5-5",
@@ -4134,7 +4093,7 @@
     },
     {
      "id": "10236",
-     "inj": "Questionable (Thumb)",
+     "inj": "Doubtful (Thumb)",
      "name": "Dalton Kincaid",
      "pos": "TE",
      "season": {
@@ -4176,7 +4135,7 @@
     }
    ],
    "lineup_flags": [
-    "FLEX Dalton Kincaid is Questionable (Thumb)"
+    "FLEX Dalton Kincaid is Doubtful (Thumb)"
    ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",

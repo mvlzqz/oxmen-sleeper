@@ -574,7 +574,7 @@
   "first_name": "Dalton",
   "full_name": "Dalton Kincaid",
   "injury_body_part": "Thumb",
-  "injury_status": "Questionable",
+  "injury_status": "Doubtful",
   "last_name": "Kincaid",
   "last_week": {
    "gp": 1.0,
@@ -2742,7 +2742,7 @@
   "first_name": "Isaiah",
   "full_name": "Isaiah Williams",
   "injury_body_part": "Ribs",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Williams",
   "last_week": {
    "gp": 1.0,
@@ -8363,7 +8363,7 @@
   "first_name": "Omar",
   "full_name": "Omar Cooper Jr.",
   "injury_body_part": "Ankle",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Cooper Jr.",
   "last_week": {
    "gp": 1.0,
@@ -9070,7 +9070,7 @@
  "13307": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Marlin",
   "full_name": "Marlin Klein",
@@ -11078,8 +11078,8 @@
   "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "Gregory",
-  "full_name": "Gregory Desrosiers",
-  "last_name": "Desrosiers",
+  "full_name": "Gregory Desrosiers Jr.",
+  "last_name": "Desrosiers Jr.",
   "last_week": {
    "gp": 1.0,
    "tm_off_snp": 65.0
@@ -13329,7 +13329,7 @@
  "4054": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Mo",
   "full_name": "Mo Alie-Cox",
@@ -13883,7 +13883,7 @@
  "4443": {
   "active": true,
   "age": 32,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Pharaoh",
   "full_name": "Pharaoh Brown",
@@ -14565,6 +14565,8 @@
   "depth_chart_position": "TE",
   "first_name": "Ian",
   "full_name": "Ian Thomas",
+  "injury_body_part": "Calf",
+  "injury_status": "Questionable",
   "last_name": "Thomas",
   "last_week": {
    "gp": 1.0,
@@ -18139,7 +18141,7 @@
  "7568": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "TE",
   "first_name": "Brevin",
   "full_name": "Brevin Jordan",
@@ -19026,38 +19028,6 @@
   "team": "SF",
   "years_exp": 5
  },
- "7865": {
-  "active": true,
-  "age": 27,
-  "first_name": "Brandon",
-  "full_name": "Brandon Smith",
-  "last_name": "Smith",
-  "last_week": {
-   "gp": 1.0,
-   "off_snp": 47.0,
-   "pts_ppr": 3.5,
-   "rec": 2.0,
-   "rec_tgt": 3.0,
-   "rec_yd": 15.0,
-   "snap_pct": 77,
-   "tm_off_snp": 61.0
-  },
-  "position": "WR",
-  "search_rank": 645,
-  "season": {
-   "gp": 5.0,
-   "off_snp": 154.0,
-   "pts_ppr": 7.9,
-   "rec": 4.0,
-   "rec_tgt": 5.0,
-   "rec_yd": 39.0,
-   "snap_pct": 48,
-   "tm_off_snp": 323.0
-  },
-  "status": "Active",
-  "team": "PIT",
-  "years_exp": 5
- },
  "7891": {
   "active": true,
   "age": 27,
@@ -19317,32 +19287,6 @@
   "season": null,
   "status": "Active",
   "team": "PHI",
-  "years_exp": 4
- },
- "8116": {
-  "active": true,
-  "age": 27,
-  "first_name": "Pierre",
-  "full_name": "Pierre Strong Jr.",
-  "injury_body_part": "Coach's Decision",
-  "injury_status": "Out",
-  "last_name": "Strong Jr.",
-  "position": "RB",
-  "search_rank": 631,
-  "season": {
-   "gp": 5.0,
-   "off_snp": 113.0,
-   "pts_ppr": 22.0,
-   "rec": 10.0,
-   "rec_tgt": 12.0,
-   "rec_yd": 61.0,
-   "rush_att": 25.0,
-   "rush_yd": 59.0,
-   "snap_pct": 33,
-   "tm_off_snp": 338.0
-  },
-  "status": "Active",
-  "team": "GB",
   "years_exp": 4
  },
  "8117": {
@@ -19642,6 +19586,8 @@
   "depth_chart_position": "TE",
   "first_name": "Isaiah",
   "full_name": "Isaiah Likely",
+  "injury_body_part": "Undisclosed",
+  "injury_status": "Questionable",
   "last_name": "Likely",
   "last_week": {
    "gp": 1.0,

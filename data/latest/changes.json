@@ -1,8 +1,16 @@
 {
- "baseline": "2026-11-19_1140Z",
+ "baseline": "2026-11-19_1907Z",
  "first_run": false,
- "injury_baseline": "2026-11-19_1140Z",
+ "injury_baseline": "2026-11-19_1907Z",
  "injury_changes": [
+  {
+   "body_part": "Thumb",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Dalton Kincaid",
+   "to": "Doubtful"
+  },
   {
    "body_part": null,
    "from": "Questionable",
@@ -10,6 +18,22 @@
    "owner": "TheDudePlayingADude",
    "player": "DeVonta Smith",
    "to": null
+  },
+  {
+   "body_part": "Undisclosed",
+   "from": null,
+   "mine": false,
+   "owner": "coltierney",
+   "player": "Isaiah Likely",
+   "to": "Questionable"
+  },
+  {
+   "body_part": "Ankle",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Omar Cooper Jr.",
+   "to": "Out"
   },
   {
    "body_part": "Hamstring",
@@ -20,14 +44,15 @@
    "to": "Out"
   }
  ],
- "my_team_changed": true,
+ "my_team_changed": false,
  "rosters": [
   {
    "added": [
     "Courtland Sutton"
    ],
    "dropped": [
-    "Devaughn Vele"
+    "Devaughn Vele",
+    "Justice Hill"
    ],
    "moved_to_ir": [],
    "owner": "coltierney",
@@ -35,14 +60,15 @@
   },
   {
    "added": [
-    "TB DEF"
+    "Justin Herbert"
    ],
    "dropped": [
-    "CAR DEF"
+    "Geno Smith",
+    "Darnell Washington"
    ],
    "moved_to_ir": [],
-   "owner": "pauliv8811",
-   "roster_id": 9
+   "owner": "dleach16",
+   "roster_id": 7
   },
   {
    "added": [
@@ -73,42 +99,6 @@
    "roster_id": 13
   }
  ],
- "since": "2026-11-19T11:40:15+00:00",
- "waiver_moves": [
-  {
-   "from": 9,
-   "owner": "coltierney",
-   "to": 8
-  },
-  {
-   "from": 14,
-   "owner": "kitano",
-   "to": 13
-  },
-  {
-   "from": 13,
-   "owner": "TheDudePlayingADude",
-   "to": 12
-  },
-  {
-   "from": 8,
-   "owner": "pauliv8811",
-   "to": 14
-  },
-  {
-   "from": 12,
-   "owner": "mvlzqz",
-   "to": 11
-  },
-  {
-   "from": 10,
-   "owner": "wmont",
-   "to": 9
-  },
-  {
-   "from": 11,
-   "owner": "chopkins30",
-   "to": 10
-  }
- ]
+ "since": "2026-11-19T19:07:47+00:00",
+ "waiver_moves": []
 }
