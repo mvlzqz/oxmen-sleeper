@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T17:44:37+00:00",
+ "fetched_at": "2026-11-22T11:40:17+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -24,24 +24,23 @@
     "team": "HOU"
    },
    {
-    "id": "11563",
-    "name": "Bo Nix",
-    "pos": "QB",
+    "id": "11783",
+    "name": "Ryan Flournoy",
+    "pos": "WR",
     "season": {
-     "gp": 9.0,
-     "off_snp": 565.0,
-     "pass_att": 287.0,
-     "pass_int": 4.0,
-     "pass_td": 11.0,
-     "pass_yd": 1730.0,
-     "pts_ppr": 134.8,
-     "rush_att": 37.0,
-     "rush_td": 2.0,
-     "rush_yd": 116.0,
-     "snap_pct": 100,
-     "tm_off_snp": 565.0
+     "gp": 10.0,
+     "off_snp": 546.0,
+     "pts_ppr": 102.9,
+     "rec": 38.0,
+     "rec_td": 3.0,
+     "rec_tgt": 54.0,
+     "rec_yd": 466.0,
+     "rush_att": 1.0,
+     "rush_yd": 3.0,
+     "snap_pct": 77,
+     "tm_off_snp": 707.0
     },
-    "team": "DEN"
+    "team": "DAL"
    },
    {
     "id": "12512",
@@ -78,46 +77,6 @@
      "tm_off_snp": 618.0
     },
     "team": "NO"
-   },
-   {
-    "id": "8136",
-    "inj": "Questionable (Heel)",
-    "name": "Rachaad White",
-    "pos": "RB",
-    "season": {
-     "gp": 8.0,
-     "off_snp": 278.0,
-     "pts_ppr": 75.9,
-     "rec": 19.0,
-     "rec_td": 2.0,
-     "rec_tgt": 23.0,
-     "rec_yd": 134.0,
-     "rush_att": 65.0,
-     "rush_td": 1.0,
-     "rush_yd": 275.0,
-     "snap_pct": 52,
-     "tm_off_snp": 530.0
-    },
-    "team": "WAS"
-   },
-   {
-    "id": "8148",
-    "name": "Jameson Williams",
-    "pos": "WR",
-    "season": {
-     "gp": 9.0,
-     "off_snp": 532.0,
-     "pts_ppr": 114.7,
-     "rec": 32.0,
-     "rec_td": 5.0,
-     "rec_tgt": 53.0,
-     "rec_yd": 518.0,
-     "rush_att": 1.0,
-     "rush_yd": 9.0,
-     "snap_pct": 87,
-     "tm_off_snp": 614.0
-    },
-    "team": "DET"
    }
   ],
   "ir": [
@@ -143,24 +102,6 @@
     },
     "status": "Inactive",
     "team": "ARI"
-   },
-   {
-    "id": "2216",
-    "inj": "Questionable (Achilles)",
-    "name": "Mike Evans",
-    "pos": "WR",
-    "season": {
-     "gp": 6.0,
-     "off_snp": 197.0,
-     "pts_ppr": 89.0,
-     "rec": 27.0,
-     "rec_td": 3.0,
-     "rec_tgt": 39.0,
-     "rec_yd": 420.0,
-     "snap_pct": 55,
-     "tm_off_snp": 359.0
-    },
-    "team": "SF"
    }
   ],
   "lineup": [
@@ -206,8 +147,26 @@
     "team": "IND"
    },
    {
-    "empty": true,
-    "slot": "RB"
+    "id": "8136",
+    "inj": "Questionable (Heel)",
+    "name": "Rachaad White",
+    "pos": "RB",
+    "season": {
+     "gp": 8.0,
+     "off_snp": 278.0,
+     "pts_ppr": 75.9,
+     "rec": 19.0,
+     "rec_td": 2.0,
+     "rec_tgt": 23.0,
+     "rec_yd": 134.0,
+     "rush_att": 65.0,
+     "rush_td": 1.0,
+     "rush_yd": 275.0,
+     "snap_pct": 52,
+     "tm_off_snp": 530.0
+    },
+    "slot": "RB",
+    "team": "WAS"
    },
    {
     "id": "8146",
@@ -228,8 +187,23 @@
     "team": "NYJ"
    },
    {
-    "empty": true,
-    "slot": "WR"
+    "id": "2216",
+    "inj": "Questionable (Achilles)",
+    "name": "Mike Evans",
+    "pos": "WR",
+    "season": {
+     "gp": 6.0,
+     "off_snp": 197.0,
+     "pts_ppr": 89.0,
+     "rec": 27.0,
+     "rec_td": 3.0,
+     "rec_tgt": 39.0,
+     "rec_yd": 420.0,
+     "snap_pct": 55,
+     "tm_off_snp": 359.0
+    },
+    "slot": "WR",
+    "team": "SF"
    },
    {
     "id": "2505",
@@ -251,24 +225,24 @@
     "team": "CAR"
    },
    {
-    "id": "11783",
-    "name": "Ryan Flournoy",
+    "id": "8148",
+    "name": "Jameson Williams",
     "pos": "WR",
     "season": {
-     "gp": 10.0,
-     "off_snp": 546.0,
-     "pts_ppr": 102.9,
-     "rec": 38.0,
-     "rec_td": 3.0,
-     "rec_tgt": 54.0,
-     "rec_yd": 466.0,
+     "gp": 9.0,
+     "off_snp": 532.0,
+     "pts_ppr": 114.7,
+     "rec": 32.0,
+     "rec_td": 5.0,
+     "rec_tgt": 53.0,
+     "rec_yd": 518.0,
      "rush_att": 1.0,
-     "rush_yd": 3.0,
-     "snap_pct": 77,
-     "tm_off_snp": 707.0
+     "rush_yd": 9.0,
+     "snap_pct": 87,
+     "tm_off_snp": 614.0
     },
     "slot": "FLEX",
-    "team": "DAL"
+    "team": "DET"
    },
    {
     "id": "11792",
@@ -295,8 +269,8 @@
    }
   ],
   "lineup_flags": [
-   "RB slot is EMPTY",
-   "WR slot is EMPTY",
+   "RB Rachaad White is Questionable (Heel)",
+   "WR Mike Evans is Questionable (Achilles)",
    "TE Darren Waller is Questionable (Knee)"
   ],
   "owner": "mvlzqz",
@@ -306,7 +280,6 @@
   "player_ids": [
    "10218",
    "10232",
-   "11563",
    "11783",
    "11792",
    "12512",
@@ -981,6 +954,7 @@
     },
     {
      "id": "8150",
+     "inj": "Questionable (Toe)",
      "name": "Kyren Williams",
      "pos": "RB",
      "season": {
@@ -998,6 +972,25 @@
       "tm_off_snp": 710.0
      },
      "team": "LAR"
+    },
+    {
+     "id": "9482",
+     "name": "Michael Mayer",
+     "pos": "TE",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 527.0,
+      "pts_ppr": 85.6,
+      "rec": 41.0,
+      "rec_td": 1.0,
+      "rec_tgt": 49.0,
+      "rec_yd": 404.0,
+      "rush_att": 1.0,
+      "rush_yd": 2.0,
+      "snap_pct": 81,
+      "tm_off_snp": 651.0
+     },
+     "team": "LV"
     },
     {
      "id": "9488",
@@ -1019,16 +1012,6 @@
       "tm_off_snp": 651.0
      },
      "team": "SEA"
-    },
-    {
-     "id": "CLE",
-     "name": "CLE DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 10.0,
-      "pts_ppr": 70.0
-     },
-     "team": "CLE"
     }
    ],
    "ir": [],
@@ -1138,26 +1121,6 @@
      "team": "TB"
     },
     {
-     "id": "9482",
-     "name": "Michael Mayer",
-     "pos": "TE",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 527.0,
-      "pts_ppr": 85.6,
-      "rec": 41.0,
-      "rec_td": 1.0,
-      "rec_tgt": 49.0,
-      "rec_yd": 404.0,
-      "rush_att": 1.0,
-      "rush_yd": 2.0,
-      "snap_pct": 81,
-      "tm_off_snp": 651.0
-     },
-     "slot": "TE",
-     "team": "LV"
-    },
-    {
      "id": "11604",
      "inj": "Questionable (Ankle)",
      "name": "Brock Bowers",
@@ -1175,8 +1138,25 @@
       "snap_pct": 78,
       "tm_off_snp": 520.0
      },
-     "slot": "FLEX",
+     "slot": "TE",
      "team": "LV"
+    },
+    {
+     "id": "8210",
+     "name": "Chig Okonkwo",
+     "pos": "TE",
+     "season": {
+      "gp": 7.0,
+      "off_snp": 304.0,
+      "pts_ppr": 51.3,
+      "rec": 27.0,
+      "rec_tgt": 39.0,
+      "rec_yd": 263.0,
+      "snap_pct": 67,
+      "tm_off_snp": 454.0
+     },
+     "slot": "FLEX",
+     "team": "WAS"
     },
     {
      "id": "2020",
@@ -1203,7 +1183,7 @@
     }
    ],
    "lineup_flags": [
-    "FLEX Brock Bowers is Questionable (Ankle)"
+    "TE Brock Bowers is Questionable (Ankle)"
    ],
    "owner": "PawtucketPatriot",
    "owner_id": "1129839158073237504",
@@ -1219,9 +1199,9 @@
     "6770",
     "8138",
     "8150",
+    "8210",
     "9482",
     "9488",
-    "CLE",
     "DET"
    ],
    "record": "9-1",
@@ -2684,6 +2664,24 @@
   {
    "bench": [
     {
+     "id": "11630",
+     "inj": "Questionable (Hand)",
+     "name": "Roman Wilson",
+     "pos": "WR",
+     "season": {
+      "gp": 5.0,
+      "off_snp": 158.0,
+      "pts_ppr": 44.8,
+      "rec": 14.0,
+      "rec_td": 2.0,
+      "rec_tgt": 25.0,
+      "rec_yd": 188.0,
+      "snap_pct": 48,
+      "tm_off_snp": 331.0
+     },
+     "team": "PIT"
+    },
+    {
      "id": "12469",
      "name": "Dylan Sampson",
      "pos": "RB",
@@ -2736,16 +2734,6 @@
       "tm_off_snp": 565.0
      },
      "team": "DEN"
-    },
-    {
-     "id": "GB",
-     "name": "GB DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 10.0,
-      "pts_ppr": 78.0
-     },
-     "team": "GB"
     }
    ],
    "ir": [
@@ -2768,25 +2756,6 @@
      },
      "status": "Inactive",
      "team": "CAR"
-    },
-    {
-     "id": "11630",
-     "inj": "IR (Finger)",
-     "name": "Roman Wilson",
-     "pos": "WR",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 158.0,
-      "pts_ppr": 44.8,
-      "rec": 14.0,
-      "rec_td": 2.0,
-      "rec_tgt": 25.0,
-      "rec_yd": 188.0,
-      "snap_pct": 48,
-      "tm_off_snp": 331.0
-     },
-     "status": "Inactive",
-     "team": "PIT"
     }
    ],
    "lineup": [
@@ -2968,7 +2937,6 @@
     "7543",
     "7547",
     "7588",
-    "GB",
     "TB"
    ],
    "record": "5-5",
@@ -2999,24 +2967,23 @@
      "team": "HOU"
     },
     {
-     "id": "11563",
-     "name": "Bo Nix",
-     "pos": "QB",
+     "id": "11783",
+     "name": "Ryan Flournoy",
+     "pos": "WR",
      "season": {
-      "gp": 9.0,
-      "off_snp": 565.0,
-      "pass_att": 287.0,
-      "pass_int": 4.0,
-      "pass_td": 11.0,
-      "pass_yd": 1730.0,
-      "pts_ppr": 134.8,
-      "rush_att": 37.0,
-      "rush_td": 2.0,
-      "rush_yd": 116.0,
-      "snap_pct": 100,
-      "tm_off_snp": 565.0
+      "gp": 10.0,
+      "off_snp": 546.0,
+      "pts_ppr": 102.9,
+      "rec": 38.0,
+      "rec_td": 3.0,
+      "rec_tgt": 54.0,
+      "rec_yd": 466.0,
+      "rush_att": 1.0,
+      "rush_yd": 3.0,
+      "snap_pct": 77,
+      "tm_off_snp": 707.0
      },
-     "team": "DEN"
+     "team": "DAL"
     },
     {
      "id": "12512",
@@ -3053,46 +3020,6 @@
       "tm_off_snp": 618.0
      },
      "team": "NO"
-    },
-    {
-     "id": "8136",
-     "inj": "Questionable (Heel)",
-     "name": "Rachaad White",
-     "pos": "RB",
-     "season": {
-      "gp": 8.0,
-      "off_snp": 278.0,
-      "pts_ppr": 75.9,
-      "rec": 19.0,
-      "rec_td": 2.0,
-      "rec_tgt": 23.0,
-      "rec_yd": 134.0,
-      "rush_att": 65.0,
-      "rush_td": 1.0,
-      "rush_yd": 275.0,
-      "snap_pct": 52,
-      "tm_off_snp": 530.0
-     },
-     "team": "WAS"
-    },
-    {
-     "id": "8148",
-     "name": "Jameson Williams",
-     "pos": "WR",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 532.0,
-      "pts_ppr": 114.7,
-      "rec": 32.0,
-      "rec_td": 5.0,
-      "rec_tgt": 53.0,
-      "rec_yd": 518.0,
-      "rush_att": 1.0,
-      "rush_yd": 9.0,
-      "snap_pct": 87,
-      "tm_off_snp": 614.0
-     },
-     "team": "DET"
     }
    ],
    "ir": [
@@ -3118,24 +3045,6 @@
      },
      "status": "Inactive",
      "team": "ARI"
-    },
-    {
-     "id": "2216",
-     "inj": "Questionable (Achilles)",
-     "name": "Mike Evans",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 197.0,
-      "pts_ppr": 89.0,
-      "rec": 27.0,
-      "rec_td": 3.0,
-      "rec_tgt": 39.0,
-      "rec_yd": 420.0,
-      "snap_pct": 55,
-      "tm_off_snp": 359.0
-     },
-     "team": "SF"
     }
    ],
    "lineup": [
@@ -3181,8 +3090,26 @@
      "team": "IND"
     },
     {
-     "empty": true,
-     "slot": "RB"
+     "id": "8136",
+     "inj": "Questionable (Heel)",
+     "name": "Rachaad White",
+     "pos": "RB",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 278.0,
+      "pts_ppr": 75.9,
+      "rec": 19.0,
+      "rec_td": 2.0,
+      "rec_tgt": 23.0,
+      "rec_yd": 134.0,
+      "rush_att": 65.0,
+      "rush_td": 1.0,
+      "rush_yd": 275.0,
+      "snap_pct": 52,
+      "tm_off_snp": 530.0
+     },
+     "slot": "RB",
+     "team": "WAS"
     },
     {
      "id": "8146",
@@ -3203,8 +3130,23 @@
      "team": "NYJ"
     },
     {
-     "empty": true,
-     "slot": "WR"
+     "id": "2216",
+     "inj": "Questionable (Achilles)",
+     "name": "Mike Evans",
+     "pos": "WR",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 197.0,
+      "pts_ppr": 89.0,
+      "rec": 27.0,
+      "rec_td": 3.0,
+      "rec_tgt": 39.0,
+      "rec_yd": 420.0,
+      "snap_pct": 55,
+      "tm_off_snp": 359.0
+     },
+     "slot": "WR",
+     "team": "SF"
     },
     {
      "id": "2505",
@@ -3226,24 +3168,24 @@
      "team": "CAR"
     },
     {
-     "id": "11783",
-     "name": "Ryan Flournoy",
+     "id": "8148",
+     "name": "Jameson Williams",
      "pos": "WR",
      "season": {
-      "gp": 10.0,
-      "off_snp": 546.0,
-      "pts_ppr": 102.9,
-      "rec": 38.0,
-      "rec_td": 3.0,
-      "rec_tgt": 54.0,
-      "rec_yd": 466.0,
+      "gp": 9.0,
+      "off_snp": 532.0,
+      "pts_ppr": 114.7,
+      "rec": 32.0,
+      "rec_td": 5.0,
+      "rec_tgt": 53.0,
+      "rec_yd": 518.0,
       "rush_att": 1.0,
-      "rush_yd": 3.0,
-      "snap_pct": 77,
-      "tm_off_snp": 707.0
+      "rush_yd": 9.0,
+      "snap_pct": 87,
+      "tm_off_snp": 614.0
      },
      "slot": "FLEX",
-     "team": "DAL"
+     "team": "DET"
     },
     {
      "id": "11792",
@@ -3270,8 +3212,8 @@
     }
    ],
    "lineup_flags": [
-    "RB slot is EMPTY",
-    "WR slot is EMPTY",
+    "RB Rachaad White is Questionable (Heel)",
+    "WR Mike Evans is Questionable (Achilles)",
     "TE Darren Waller is Questionable (Knee)"
    ],
    "owner": "mvlzqz",
@@ -3281,7 +3223,6 @@
    "player_ids": [
     "10218",
     "10232",
-    "11563",
     "11783",
     "11792",
     "12512",
@@ -3303,6 +3244,26 @@
   },
   {
    "bench": [
+    {
+     "id": "11584",
+     "name": "Bucky Irving",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 375.0,
+      "pts_ppr": 159.1,
+      "rec": 22.0,
+      "rec_td": 1.0,
+      "rec_tgt": 28.0,
+      "rec_yd": 106.0,
+      "rush_att": 167.0,
+      "rush_td": 7.0,
+      "rush_yd": 825.0,
+      "snap_pct": 63,
+      "tm_off_snp": 592.0
+     },
+     "team": "TB"
+    },
     {
      "id": "11635",
      "inj": "Questionable (Back)",
@@ -3355,25 +3316,6 @@
       "tm_off_snp": 385.0
      },
      "team": "MIN"
-    },
-    {
-     "id": "8155",
-     "name": "Breece Hall",
-     "pos": "RB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 187.0,
-      "pts_ppr": 69.0,
-      "rec": 17.0,
-      "rec_tgt": 18.0,
-      "rec_yd": 195.0,
-      "rush_att": 77.0,
-      "rush_td": 1.0,
-      "rush_yd": 265.0,
-      "snap_pct": 55,
-      "tm_off_snp": 341.0
-     },
-     "team": "NYJ"
     }
    ],
    "ir": [
@@ -3458,25 +3400,24 @@
      "team": "CAR"
     },
     {
-     "id": "11584",
-     "name": "Bucky Irving",
+     "id": "8155",
+     "name": "Breece Hall",
      "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 375.0,
-      "pts_ppr": 159.1,
-      "rec": 22.0,
-      "rec_td": 1.0,
-      "rec_tgt": 28.0,
-      "rec_yd": 106.0,
-      "rush_att": 167.0,
-      "rush_td": 7.0,
-      "rush_yd": 825.0,
-      "snap_pct": 63,
-      "tm_off_snp": 592.0
+      "gp": 5.0,
+      "off_snp": 187.0,
+      "pts_ppr": 69.0,
+      "rec": 17.0,
+      "rec_tgt": 18.0,
+      "rec_yd": 195.0,
+      "rush_att": 77.0,
+      "rush_td": 1.0,
+      "rush_yd": 265.0,
+      "snap_pct": 55,
+      "tm_off_snp": 341.0
      },
      "slot": "RB",
-     "team": "TB"
+     "team": "NYJ"
     },
     {
      "id": "7564",
@@ -3991,6 +3932,7 @@
       "snap_pct": 87,
       "tm_off_snp": 486.0
      },
+     "status": "Inactive",
      "team": "LAR"
     }
    ],
@@ -4189,52 +4131,60 @@
   {
    "bench": [
     {
-     "id": "12519",
-     "name": "Luther Burden III",
+     "id": "11576",
+     "name": "Braelon Allen",
+     "pos": "RB",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 398.0,
+      "pts_ppr": 110.6,
+      "rec": 20.0,
+      "rec_tgt": 25.0,
+      "rec_yd": 108.0,
+      "rush_att": 128.0,
+      "rush_td": 3.0,
+      "rush_yd": 638.0,
+      "snap_pct": 63,
+      "tm_off_snp": 628.0
+     },
+     "team": "NYJ"
+    },
+    {
+     "id": "11646",
+     "name": "Jalen Coker",
+     "pos": "WR",
+     "season": {
+      "gp": 8.0,
+      "off_snp": 404.0,
+      "pts_ppr": 86.3,
+      "rec": 31.0,
+      "rec_td": 3.0,
+      "rec_tgt": 53.0,
+      "rec_yd": 393.0,
+      "rush_att": 2.0,
+      "snap_pct": 73,
+      "tm_off_snp": 555.0
+     },
+     "team": "CAR"
+    },
+    {
+     "id": "7526",
+     "name": "Jaylen Waddle",
      "pos": "WR",
      "season": {
       "gp": 9.0,
-      "off_snp": 392.0,
-      "pts_ppr": 136.3,
-      "rec": 49.0,
-      "rec_td": 4.0,
-      "rec_tgt": 66.0,
-      "rec_yd": 644.0,
-      "rush_att": 8.0,
-      "rush_yd": 29.0,
-      "snap_pct": 59,
-      "tm_off_snp": 660.0
+      "off_snp": 325.0,
+      "pts_ppr": 82.0,
+      "rec": 30.0,
+      "rec_td": 2.0,
+      "rec_tgt": 52.0,
+      "rec_yd": 337.0,
+      "rush_att": 2.0,
+      "rush_yd": 23.0,
+      "snap_pct": 58,
+      "tm_off_snp": 565.0
      },
-     "team": "CHI"
-    },
-    {
-     "id": "13279",
-     "inj": "Questionable (Shoulder)",
-     "name": "Carnell Tate",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 329.0,
-      "pts_ppr": 77.3,
-      "rec": 34.0,
-      "rec_td": 1.0,
-      "rec_tgt": 51.0,
-      "rec_yd": 413.0,
-      "snap_pct": 82,
-      "tm_off_snp": 399.0
-     },
-     "team": "TEN"
-    },
-    {
-     "id": "6650",
-     "name": "Chase McLaughlin",
-     "pos": "K",
-     "season": {
-      "gp": 9.0,
-      "pts_ppr": 99.0,
-      "tm_off_snp": 592.0
-     },
-     "team": "TB"
+     "team": "DEN"
     },
     {
      "id": "7553",
@@ -4252,16 +4202,6 @@
       "tm_off_snp": 632.0
      },
      "team": "ATL"
-    },
-    {
-     "id": "CHI",
-     "name": "CHI DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 9.0,
-      "pts_ppr": 74.0
-     },
-     "team": "CHI"
     }
    ],
    "ir": [
@@ -4285,25 +4225,6 @@
      },
      "status": "Inactive",
      "team": "WAS"
-    },
-    {
-     "id": "7526",
-     "name": "Jaylen Waddle",
-     "pos": "WR",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 325.0,
-      "pts_ppr": 82.0,
-      "rec": 30.0,
-      "rec_td": 2.0,
-      "rec_tgt": 52.0,
-      "rec_yd": 337.0,
-      "rush_att": 2.0,
-      "rush_yd": 23.0,
-      "snap_pct": 58,
-      "tm_off_snp": 565.0
-     },
-     "team": "DEN"
     }
    ],
    "lineup": [
@@ -4390,23 +4311,23 @@
      "team": "BAL"
     },
     {
-     "id": "11646",
-     "name": "Jalen Coker",
+     "id": "13279",
+     "inj": "Questionable (Shoulder)",
+     "name": "Carnell Tate",
      "pos": "WR",
      "season": {
-      "gp": 8.0,
-      "off_snp": 404.0,
-      "pts_ppr": 86.3,
-      "rec": 31.0,
-      "rec_td": 3.0,
-      "rec_tgt": 53.0,
-      "rec_yd": 393.0,
-      "rush_att": 2.0,
-      "snap_pct": 73,
-      "tm_off_snp": 555.0
+      "gp": 7.0,
+      "off_snp": 329.0,
+      "pts_ppr": 77.3,
+      "rec": 34.0,
+      "rec_td": 1.0,
+      "rec_tgt": 51.0,
+      "rec_yd": 413.0,
+      "snap_pct": 82,
+      "tm_off_snp": 399.0
      },
      "slot": "WR",
-     "team": "CAR"
+     "team": "TEN"
     },
     {
      "id": "12518",
@@ -4430,43 +4351,51 @@
      "team": "IND"
     },
     {
-     "id": "11576",
-     "name": "Braelon Allen",
-     "pos": "RB",
+     "id": "12519",
+     "name": "Luther Burden III",
+     "pos": "WR",
      "season": {
-      "gp": 10.0,
-      "off_snp": 398.0,
-      "pts_ppr": 110.6,
-      "rec": 20.0,
-      "rec_tgt": 25.0,
-      "rec_yd": 108.0,
-      "rush_att": 128.0,
-      "rush_td": 3.0,
-      "rush_yd": 638.0,
-      "snap_pct": 63,
-      "tm_off_snp": 628.0
+      "gp": 9.0,
+      "off_snp": 392.0,
+      "pts_ppr": 136.3,
+      "rec": 49.0,
+      "rec_td": 4.0,
+      "rec_tgt": 66.0,
+      "rec_yd": 644.0,
+      "rush_att": 8.0,
+      "rush_yd": 29.0,
+      "snap_pct": 59,
+      "tm_off_snp": 660.0
      },
      "slot": "FLEX",
-     "team": "NYJ"
+     "team": "CHI"
     },
     {
-     "empty": true,
-     "slot": "K"
+     "id": "6650",
+     "name": "Chase McLaughlin",
+     "pos": "K",
+     "season": {
+      "gp": 9.0,
+      "pts_ppr": 99.0,
+      "tm_off_snp": 592.0
+     },
+     "slot": "K",
+     "team": "TB"
     },
     {
-     "id": "LAR",
-     "name": "LAR DEF",
+     "id": "CHI",
+     "name": "CHI DEF",
      "pos": "DEF",
      "season": {
-      "gp": 10.0,
-      "pts_ppr": 77.0
+      "gp": 9.0,
+      "pts_ppr": 74.0
      },
      "slot": "DEF",
-     "team": "LAR"
+     "team": "CHI"
     }
    ],
    "lineup_flags": [
-    "K slot is EMPTY"
+    "WR Carnell Tate is Questionable (Shoulder)"
    ],
    "owner": "chopkins30",
    "owner_id": "1258779579946897408",
@@ -4486,8 +4415,7 @@
     "8183",
     "9221",
     "9997",
-    "CHI",
-    "LAR"
+    "CHI"
    ],
    "record": "4-6",
    "roster_id": 14,

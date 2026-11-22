@@ -1,134 +1,75 @@
 {
- "baseline": "2026-11-20_1846Z",
+ "baseline": "2026-11-21_1140Z",
  "first_run": false,
- "injury_baseline": "2026-11-20_1846Z",
+ "injury_baseline": "2026-11-21_1140Z",
  "injury_changes": [
   {
-   "body_part": "Heel",
+   "body_part": "Toe",
    "from": null,
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Rachaad White",
+   "mine": false,
+   "owner": "PawtucketPatriot",
+   "player": "Kyren Williams",
    "to": "Questionable"
   },
   {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "Bhayshul Tuten",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "coltierney",
-   "player": "Caleb Douglas",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "coltierney",
-   "player": "Isaiah Likely",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Jakobi Meyers",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Jaylen Waddle",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "kitano",
-   "player": "Jordyn Tyson",
-   "to": null
-  },
-  {
-   "body_part": "Groin",
-   "from": "Questionable",
-   "mine": false,
-   "owner": "coltierney",
-   "player": "Kenneth Walker III",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
+   "body_part": "Hand",
+   "from": "IR",
    "mine": false,
    "owner": "pauliv8811",
-   "player": "T.J. Hockenson",
-   "to": null
+   "player": "Roman Wilson",
+   "to": "Questionable"
   }
  ],
  "my_team_changed": true,
  "rosters": [
   {
    "added": [
-    "Omarion Hampton",
-    "Tony Pollard",
-    "Justice Hill",
-    "Josh Downs"
+    "Justice Hill"
    ],
-   "dropped": [
-    "Rachaad White",
-    "Jameson Williams"
-   ],
-   "moved_to_ir": [
-    "Kenneth Walker III"
-   ],
+   "dropped": [],
+   "moved_to_ir": [],
    "owner": "coltierney",
    "roster_id": 1
   },
   {
-   "added": [],
+   "added": [
+    "Chig Okonkwo"
+   ],
    "dropped": [
-    "Omarion Hampton"
+    "CLE DEF"
    ],
    "moved_to_ir": [],
-   "owner": "kitano",
-   "roster_id": 4
+   "owner": "PawtucketPatriot",
+   "roster_id": 3
   },
   {
-   "added": [
-    "Rachaad White",
-    "Jameson Williams"
-   ],
+   "added": [],
    "dropped": [
-    "Tony Pollard",
-    "Josh Downs"
+    "GB DEF"
+   ],
+   "moved_to_ir": [],
+   "owner": "pauliv8811",
+   "roster_id": 9
+  },
+  {
+   "added": [],
+   "dropped": [
+    "Bo Nix"
    ],
    "moved_to_ir": [],
    "owner": "mvlzqz",
    "roster_id": 10
   },
   {
-   "added": [
-    "Jauan Jennings"
-   ],
+   "added": [],
    "dropped": [
-    "Xavier Worthy"
+    "LAR DEF"
    ],
    "moved_to_ir": [],
-   "owner": "erictheleghel",
-   "roster_id": 11
+   "owner": "chopkins30",
+   "roster_id": 14
   }
  ],
- "since": "2026-11-20T18:46:11+00:00",
+ "since": "2026-11-21T11:40:15+00:00",
  "waiver_moves": []
 }
