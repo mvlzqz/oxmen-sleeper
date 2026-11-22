@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T11:40:17+00:00",
+ "fetched_at": "2026-11-22T17:59:54+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -207,7 +207,6 @@
    },
    {
     "id": "2505",
-    "inj": "Questionable (Knee)",
     "name": "Darren Waller",
     "pos": "TE",
     "season": {
@@ -270,8 +269,7 @@
   ],
   "lineup_flags": [
    "RB Rachaad White is Questionable (Heel)",
-   "WR Mike Evans is Questionable (Achilles)",
-   "TE Darren Waller is Questionable (Knee)"
+   "WR Mike Evans is Questionable (Achilles)"
   ],
   "owner": "mvlzqz",
   "owner_id": "1134465499829592064",
@@ -1505,6 +1503,7 @@
    "bench": [
     {
      "id": "11579",
+     "inj": "Out (Coach's Decision)",
      "name": "Audric Estime",
      "pos": "RB",
      "season": {
@@ -1826,6 +1825,25 @@
      "team": "LAR"
     },
     {
+     "id": "13414",
+     "name": "Kaelon Black",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 170.0,
+      "pts_ppr": 52.3,
+      "rec": 5.0,
+      "rec_tgt": 8.0,
+      "rec_yd": 17.0,
+      "rush_att": 79.0,
+      "rush_td": 2.0,
+      "rush_yd": 356.0,
+      "snap_pct": 30,
+      "tm_off_snp": 563.0
+     },
+     "team": "SF"
+    },
+    {
      "id": "6804",
      "name": "Jordan Love",
      "pos": "QB",
@@ -1844,25 +1862,6 @@
       "tm_off_snp": 646.0
      },
      "team": "GB"
-    },
-    {
-     "id": "8408",
-     "name": "Jordan Mason",
-     "pos": "RB",
-     "season": {
-      "gp": 5.0,
-      "off_snp": 142.0,
-      "pts_ppr": 32.8,
-      "rec": 2.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 7.0,
-      "rush_att": 60.0,
-      "rush_td": 1.0,
-      "rush_yd": 241.0,
-      "snap_pct": 48,
-      "tm_off_snp": 294.0
-     },
-     "team": "MIN"
     },
     {
      "id": "9484",
@@ -2008,24 +2007,24 @@
      "team": "KC"
     },
     {
-     "id": "13414",
-     "name": "Kaelon Black",
+     "id": "8408",
+     "name": "Jordan Mason",
      "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 170.0,
-      "pts_ppr": 52.3,
-      "rec": 5.0,
-      "rec_tgt": 8.0,
-      "rec_yd": 17.0,
-      "rush_att": 79.0,
-      "rush_td": 2.0,
-      "rush_yd": 356.0,
-      "snap_pct": 30,
-      "tm_off_snp": 563.0
+      "gp": 5.0,
+      "off_snp": 142.0,
+      "pts_ppr": 32.8,
+      "rec": 2.0,
+      "rec_tgt": 6.0,
+      "rec_yd": 7.0,
+      "rush_att": 60.0,
+      "rush_td": 1.0,
+      "rush_yd": 241.0,
+      "snap_pct": 48,
+      "tm_off_snp": 294.0
      },
      "slot": "FLEX",
-     "team": "SF"
+     "team": "MIN"
     },
     {
      "id": "7839",
@@ -2348,24 +2347,21 @@
   {
    "bench": [
     {
-     "id": "12514",
-     "name": "Emeka Egbuka",
+     "id": "12499",
+     "name": "Elic Ayomanor",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
-      "off_snp": 395.0,
-      "pts_ppr": 78.0,
-      "rec": 31.0,
-      "rec_td": 2.0,
-      "rec_tgt": 54.0,
-      "rec_yd": 278.0,
-      "rush_att": 3.0,
-      "rush_td": 1.0,
-      "rush_yd": 12.0,
-      "snap_pct": 84,
-      "tm_off_snp": 469.0
+      "gp": 9.0,
+      "off_snp": 363.0,
+      "pts_ppr": 53.0,
+      "rec": 18.0,
+      "rec_td": 1.0,
+      "rec_tgt": 36.0,
+      "rec_yd": 290.0,
+      "snap_pct": 68,
+      "tm_off_snp": 533.0
      },
-     "team": "TB"
+     "team": "TEN"
     },
     {
      "id": "5850",
@@ -2389,25 +2385,6 @@
      "team": "GB"
     },
     {
-     "id": "6790",
-     "name": "D'Andre Swift",
-     "pos": "RB",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 418.0,
-      "pts_ppr": 153.8,
-      "rec": 24.0,
-      "rec_tgt": 30.0,
-      "rec_yd": 162.0,
-      "rush_att": 155.0,
-      "rush_td": 10.0,
-      "rush_yd": 576.0,
-      "snap_pct": 63,
-      "tm_off_snp": 660.0
-     },
-     "team": "CHI"
-    },
-    {
      "id": "9501",
      "name": "DeMario Douglas",
      "pos": "WR",
@@ -2423,6 +2400,26 @@
       "tm_off_snp": 644.0
      },
      "team": "NE"
+    },
+    {
+     "id": "9509",
+     "name": "Bijan Robinson",
+     "pos": "RB",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 461.0,
+      "pts_ppr": 197.7,
+      "rec": 35.0,
+      "rec_td": 1.0,
+      "rec_tgt": 45.0,
+      "rec_yd": 256.0,
+      "rush_att": 185.0,
+      "rush_td": 6.0,
+      "rush_yd": 951.0,
+      "snap_pct": 73,
+      "tm_off_snp": 632.0
+     },
+     "team": "ATL"
     }
    ],
    "ir": [
@@ -2512,25 +2509,24 @@
      "team": "ARI"
     },
     {
-     "id": "9509",
-     "name": "Bijan Robinson",
+     "id": "6790",
+     "name": "D'Andre Swift",
      "pos": "RB",
      "season": {
-      "gp": 10.0,
-      "off_snp": 461.0,
-      "pts_ppr": 197.7,
-      "rec": 35.0,
-      "rec_td": 1.0,
-      "rec_tgt": 45.0,
-      "rec_yd": 256.0,
-      "rush_att": 185.0,
-      "rush_td": 6.0,
-      "rush_yd": 951.0,
-      "snap_pct": 73,
-      "tm_off_snp": 632.0
+      "gp": 9.0,
+      "off_snp": 418.0,
+      "pts_ppr": 153.8,
+      "rec": 24.0,
+      "rec_tgt": 30.0,
+      "rec_yd": 162.0,
+      "rush_att": 155.0,
+      "rush_td": 10.0,
+      "rush_yd": 576.0,
+      "snap_pct": 63,
+      "tm_off_snp": 660.0
      },
      "slot": "RB",
-     "team": "ATL"
+     "team": "CHI"
     },
     {
      "id": "4983",
@@ -2592,22 +2588,25 @@
      "team": "CIN"
     },
     {
-     "id": "12499",
-     "name": "Elic Ayomanor",
+     "id": "12514",
+     "name": "Emeka Egbuka",
      "pos": "WR",
      "season": {
-      "gp": 9.0,
-      "off_snp": 363.0,
-      "pts_ppr": 53.0,
-      "rec": 18.0,
-      "rec_td": 1.0,
-      "rec_tgt": 36.0,
-      "rec_yd": 290.0,
-      "snap_pct": 68,
-      "tm_off_snp": 533.0
+      "gp": 7.0,
+      "off_snp": 395.0,
+      "pts_ppr": 78.0,
+      "rec": 31.0,
+      "rec_td": 2.0,
+      "rec_tgt": 54.0,
+      "rec_yd": 278.0,
+      "rush_att": 3.0,
+      "rush_td": 1.0,
+      "rush_yd": 12.0,
+      "snap_pct": 84,
+      "tm_off_snp": 469.0
      },
      "slot": "FLEX",
-     "team": "TEN"
+     "team": "TB"
     },
     {
      "id": "4227",
@@ -2665,7 +2664,6 @@
    "bench": [
     {
      "id": "11630",
-     "inj": "Questionable (Hand)",
      "name": "Roman Wilson",
      "pos": "WR",
      "season": {
@@ -3150,7 +3148,6 @@
     },
     {
      "id": "2505",
-     "inj": "Questionable (Knee)",
      "name": "Darren Waller",
      "pos": "TE",
      "season": {
@@ -3213,8 +3210,7 @@
    ],
    "lineup_flags": [
     "RB Rachaad White is Questionable (Heel)",
-    "WR Mike Evans is Questionable (Achilles)",
-    "TE Darren Waller is Questionable (Knee)"
+    "WR Mike Evans is Questionable (Achilles)"
    ],
    "owner": "mvlzqz",
    "owner_id": "1134465499829592064",
@@ -4057,7 +4053,7 @@
     },
     {
      "id": "10236",
-     "inj": "Doubtful (Thumb)",
+     "inj": "Out (Thumb)",
      "name": "Dalton Kincaid",
      "pos": "TE",
      "season": {
@@ -4099,7 +4095,7 @@
     }
    ],
    "lineup_flags": [
-    "FLEX Dalton Kincaid is Doubtful (Thumb)"
+    "FLEX Dalton Kincaid is Out (Thumb)"
    ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
@@ -4312,7 +4308,6 @@
     },
     {
      "id": "13279",
-     "inj": "Questionable (Shoulder)",
      "name": "Carnell Tate",
      "pos": "WR",
      "season": {
@@ -4394,9 +4389,7 @@
      "team": "CHI"
     }
    ],
-   "lineup_flags": [
-    "WR Carnell Tate is Questionable (Shoulder)"
-   ],
+   "lineup_flags": [],
    "owner": "chopkins30",
    "owner_id": "1258779579946897408",
    "pa": 1330.18,

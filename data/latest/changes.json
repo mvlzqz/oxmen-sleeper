@@ -1,8 +1,40 @@
 {
- "baseline": "2026-11-21_1140Z",
+ "baseline": "2026-11-21_1744Z",
  "first_run": false,
- "injury_baseline": "2026-11-21_1140Z",
+ "injury_baseline": "2026-11-21_1744Z",
  "injury_changes": [
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": true,
+   "owner": "mvlzqz",
+   "player": "Darren Waller",
+   "to": null
+  },
+  {
+   "body_part": "Coach's Decision",
+   "from": null,
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Audric Estime",
+   "to": "Out"
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Carnell Tate",
+   "to": null
+  },
+  {
+   "body_part": "Thumb",
+   "from": "Doubtful",
+   "mine": false,
+   "owner": "phile2211",
+   "player": "Dalton Kincaid",
+   "to": "Out"
+  },
   {
    "body_part": "Toe",
    "from": null,
@@ -12,25 +44,16 @@
    "to": "Questionable"
   },
   {
-   "body_part": "Hand",
+   "body_part": null,
    "from": "IR",
    "mine": false,
    "owner": "pauliv8811",
    "player": "Roman Wilson",
-   "to": "Questionable"
+   "to": null
   }
  ],
  "my_team_changed": true,
  "rosters": [
-  {
-   "added": [
-    "Justice Hill"
-   ],
-   "dropped": [],
-   "moved_to_ir": [],
-   "owner": "coltierney",
-   "roster_id": 1
-  },
   {
    "added": [
     "Chig Okonkwo"
@@ -70,6 +93,6 @@
    "roster_id": 14
   }
  ],
- "since": "2026-11-21T11:40:15+00:00",
+ "since": "2026-11-21T17:44:37+00:00",
  "waiver_moves": []
 }
