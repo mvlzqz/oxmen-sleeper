@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T17:59:54+00:00",
+ "fetched_at": "2026-11-22T20:24:04+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -298,10 +298,10 @@
   "waiver_position": 11
  },
  "opponent_this_week": {
-  "my_points": 28.16,
+  "my_points": 62.66,
   "owner": "brendonferreira",
   "roster_id": 5,
-  "their_points": 6.0
+  "their_points": 35.5
  },
  "rosters": [
   {
@@ -1120,7 +1120,7 @@
     },
     {
      "id": "11604",
-     "inj": "Questionable (Ankle)",
+     "inj": "Out (Ankle)",
      "name": "Brock Bowers",
      "pos": "TE",
      "season": {
@@ -1181,7 +1181,7 @@
     }
    ],
    "lineup_flags": [
-    "TE Brock Bowers is Questionable (Ankle)"
+    "TE Brock Bowers is Out (Ankle)"
    ],
    "owner": "PawtucketPatriot",
    "owner_id": "1129839158073237504",
@@ -2530,6 +2530,7 @@
     },
     {
      "id": "4983",
+     "inj": "Questionable (Knee)",
      "name": "DJ Moore",
      "pos": "WR",
      "season": {
@@ -2632,7 +2633,9 @@
      "team": "IND"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "WR DJ Moore is Questionable (Knee)"
+   ],
    "owner": "NikoGs",
    "owner_id": "1130659599352180736",
    "pa": 1054.16,
@@ -3262,7 +3265,6 @@
     },
     {
      "id": "11635",
-     "inj": "Questionable (Back)",
      "name": "Ladd McConkey",
      "pos": "WR",
      "season": {
@@ -3765,7 +3767,6 @@
     },
     {
      "id": "6083",
-     "inj": "Questionable (Hip)",
      "name": "Matt Gay",
      "pos": "K",
      "season": {
@@ -3789,8 +3790,7 @@
     }
    ],
    "lineup_flags": [
-    "RB Seth McGowan is Out (Hamstring)",
-    "K Matt Gay is Questionable (Hip)"
+    "RB Seth McGowan is Out (Hamstring)"
    ],
    "owner": "wmont",
    "owner_id": "1135271814399246336",

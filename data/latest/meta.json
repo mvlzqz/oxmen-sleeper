@@ -8,15 +8,15 @@
   "season_stats": 8215,
   "transactions": 76
  },
- "fetched_at": "2026-11-22T17:59:54+00:00",
- "kind": "daily",
+ "fetched_at": "2026-11-22T20:24:04+00:00",
+ "kind": "sunday",
  "ok": true,
  "season": "2026",
  "trigger": {
-  "cron_lag_min": 440,
+  "cron_lag_min": 424,
   "event": "schedule",
-  "kind": "daily",
-  "schedule": "40 10 * * *"
+  "kind": "sunday",
+  "schedule": "20 13 * * 0"
  },
  "warnings": [],
  "week": 11
