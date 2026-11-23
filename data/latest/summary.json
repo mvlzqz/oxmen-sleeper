@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T11:40:17+00:00",
+ "fetched_at": "2026-11-23T22:11:48+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1036,6 +1036,7 @@
     },
     {
      "id": "12490",
+     "inj": "Questionable (Undisclosed)",
      "name": "Bhayshul Tuten",
      "pos": "RB",
      "season": {
@@ -1180,6 +1181,7 @@
     }
    ],
    "lineup_flags": [
+    "RB Bhayshul Tuten is Questionable (Undisclosed)",
     "TE Brock Bowers is Out (Ankle)"
    ],
    "owner": "PawtucketPatriot",
@@ -3293,6 +3295,25 @@
      "team": "LAC"
     },
     {
+     "id": "12487",
+     "inj": "IR (Ankle)",
+     "name": "Terrance Ferguson",
+     "pos": "TE",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 89.0,
+      "pts_ppr": 19.3,
+      "rec": 7.0,
+      "rec_td": 1.0,
+      "rec_tgt": 12.0,
+      "rec_yd": 63.0,
+      "snap_pct": 43,
+      "tm_off_snp": 209.0
+     },
+     "status": "Inactive",
+     "team": "LAR"
+    },
+    {
      "id": "421",
      "name": "Matthew Stafford",
      "pos": "QB",
@@ -3310,22 +3331,6 @@
       "tm_off_snp": 710.0
      },
      "team": "LAR"
-    },
-    {
-     "id": "7049",
-     "name": "Jauan Jennings",
-     "pos": "WR",
-     "season": {
-      "gp": 7.0,
-      "off_snp": 263.0,
-      "pts_ppr": 16.4,
-      "rec": 9.0,
-      "rec_tgt": 16.0,
-      "rec_yd": 74.0,
-      "snap_pct": 68,
-      "tm_off_snp": 385.0
-     },
-     "team": "MIN"
     }
    ],
    "ir": [
@@ -3506,6 +3511,7 @@
     },
     {
      "id": "11786",
+     "inj": "Questionable (Lower Body)",
      "name": "Cam Little",
      "pos": "K",
      "season": {
@@ -3528,7 +3534,9 @@
      "team": "DEN"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "K Cam Little is Questionable (Lower Body)"
+   ],
    "owner": "erictheleghel",
    "owner_id": "730759755336929280",
    "pa": 1076.38,
@@ -3537,13 +3545,13 @@
     "11584",
     "11635",
     "11786",
+    "12487",
     "13345",
     "4046",
     "421",
     "4217",
     "5859",
     "6801",
-    "7049",
     "7564",
     "7594",
     "8121",
@@ -4216,7 +4224,6 @@
    "ir": [
     {
      "id": "12533",
-     "inj": "IR (Groin)",
      "name": "Jacory Croskey-Merritt",
      "pos": "RB",
      "season": {
@@ -4232,7 +4239,6 @@
       "snap_pct": 45,
       "tm_off_snp": 336.0
      },
-     "status": "Inactive",
      "team": "WAS"
     }
    ],

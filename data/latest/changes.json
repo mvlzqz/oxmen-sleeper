@@ -1,16 +1,8 @@
 {
- "baseline": "2026-11-22_1140Z",
+ "baseline": "2026-11-22_2024Z",
  "first_run": false,
- "injury_baseline": "2026-11-22_1140Z",
+ "injury_baseline": "2026-11-22_2024Z",
  "injury_changes": [
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Darren Waller",
-   "to": null
-  },
   {
    "body_part": "Hamstring",
    "from": null,
@@ -28,44 +20,20 @@
    "to": null
   },
   {
-   "body_part": "Coach's Decision",
+   "body_part": "Undisclosed",
    "from": null,
-   "mine": false,
-   "owner": "brendonferreira",
-   "player": "Audric Estime",
-   "to": "Out"
-  },
-  {
-   "body_part": "Ankle",
-   "from": "Questionable",
    "mine": false,
    "owner": "PawtucketPatriot",
-   "player": "Brock Bowers",
-   "to": "Out"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Carnell Tate",
-   "to": null
-  },
-  {
-   "body_part": "Knee",
-   "from": null,
-   "mine": false,
-   "owner": "NikoGs",
-   "player": "DJ Moore",
+   "player": "Bhayshul Tuten",
    "to": "Questionable"
   },
   {
-   "body_part": "Thumb",
-   "from": "Doubtful",
+   "body_part": "Lower Body",
+   "from": null,
    "mine": false,
-   "owner": "phile2211",
-   "player": "Dalton Kincaid",
-   "to": "Out"
+   "owner": "erictheleghel",
+   "player": "Cam Little",
+   "to": "Questionable"
   },
   {
    "body_part": "Concussion",
@@ -74,6 +42,14 @@
    "owner": "kitano",
    "player": "Derrick Henry",
    "to": "Questionable"
+  },
+  {
+   "body_part": null,
+   "from": "IR",
+   "mine": false,
+   "owner": "chopkins30",
+   "player": "Jacory Croskey-Merritt",
+   "to": null
   },
   {
    "body_part": "Undisclosed",
@@ -92,30 +68,6 @@
    "to": "Questionable"
   },
   {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "erictheleghel",
-   "player": "Ladd McConkey",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "wmont",
-   "player": "Matt Gay",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "pauliv8811",
-   "player": "Roman Wilson",
-   "to": null
-  },
-  {
    "body_part": "Arm",
    "from": null,
    "mine": false,
@@ -128,6 +80,17 @@
  "rosters": [
   {
    "added": [
+    "Terrance Ferguson"
+   ],
+   "dropped": [
+    "Jauan Jennings"
+   ],
+   "moved_to_ir": [],
+   "owner": "erictheleghel",
+   "roster_id": 11
+  },
+  {
+   "added": [
     "Mason Taylor"
    ],
    "dropped": [
@@ -138,6 +101,6 @@
    "roster_id": 12
   }
  ],
- "since": "2026-11-22T11:40:17+00:00",
+ "since": "2026-11-22T20:24:04+00:00",
  "waiver_moves": []
 }

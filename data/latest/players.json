@@ -278,6 +278,20 @@
   "team": "GB",
   "years_exp": 3
  },
+ "10223": {
+  "active": true,
+  "age": 27,
+  "first_name": "Eric",
+  "full_name": "Eric Gray",
+  "last_name": "Gray",
+  "last_week": null,
+  "position": "RB",
+  "search_rank": 569,
+  "season": null,
+  "status": "Active",
+  "team": "IND",
+  "years_exp": 3
+ },
  "10224": {
   "active": true,
   "age": 27,
@@ -507,7 +521,7 @@
  "10234": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "SWR",
   "first_name": "Derius",
   "full_name": "Derius Davis",
@@ -569,7 +583,7 @@
  "10236": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 1,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Dalton",
   "full_name": "Dalton Kincaid",
@@ -2228,7 +2242,7 @@
  "11579": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 3,
+  "depth_chart_order": 6,
   "depth_chart_position": "RB",
   "first_name": "Audric",
   "full_name": "Audric Estime",
@@ -2649,7 +2663,7 @@
  "11600": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "TE",
   "first_name": "Ja'Tavion",
   "full_name": "Ja'Tavion Sanders",
@@ -2707,7 +2721,7 @@
  "11604": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 1,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Brock",
   "full_name": "Brock Bowers",
@@ -2828,7 +2842,7 @@
  "11616": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 9,
+  "depth_chart_order": 8,
   "depth_chart_position": "SWR",
   "first_name": "Jacob",
   "full_name": "Jacob Cowing",
@@ -3336,7 +3350,7 @@
  "11638": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 10,
+  "depth_chart_order": 9,
   "first_name": "Ricky",
   "full_name": "Ricky Pearsall",
   "injury_body_part": "Knee - PCL",
@@ -3391,8 +3405,6 @@
  "11644": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 6,
-  "depth_chart_position": "RB",
   "first_name": "Cody",
   "full_name": "Cody Schrader",
   "last_name": "Schrader",
@@ -3595,7 +3607,7 @@
  "11655": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Tyrone",
   "full_name": "Tyrone Tracy Jr.",
@@ -3814,6 +3826,8 @@
   "depth_chart_position": "K",
   "first_name": "Cam",
   "full_name": "Cam Little",
+  "injury_body_part": "Lower Body",
+  "injury_status": "Questionable",
   "last_name": "Little",
   "last_week": {
    "gp": 1.0,
@@ -4963,6 +4977,8 @@
   "depth_chart_position": "RB",
   "first_name": "Bhayshul",
   "full_name": "Bhayshul Tuten",
+  "injury_body_part": "Undisclosed",
+  "injury_status": "Questionable",
   "last_name": "Tuten",
   "last_week": {
    "gp": 1.0,
@@ -5178,7 +5194,7 @@
  "12496": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "LWR",
   "first_name": "Tai",
   "full_name": "Tai Felton",
@@ -6162,8 +6178,6 @@
   "depth_chart_position": "RB",
   "first_name": "Jacory",
   "full_name": "Jacory Croskey-Merritt",
-  "injury_body_part": "Groin",
-  "injury_status": "IR",
   "last_name": "Croskey-Merritt",
   "last_week": null,
   "position": "RB",
@@ -6181,7 +6195,7 @@
    "snap_pct": 45,
    "tm_off_snp": 336.0
   },
-  "status": "Inactive",
+  "status": "Active",
   "team": "WAS",
   "years_exp": 1
  },
@@ -6363,7 +6377,7 @@
  "12541": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 5,
+  "depth_chart_order": 7,
   "depth_chart_position": "LWR",
   "first_name": "Dont'e",
   "full_name": "Dont'e Thornton Jr.",
@@ -6647,7 +6661,7 @@
  "12658": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "TE",
   "first_name": "Jackson",
   "full_name": "Jackson Hawes",
@@ -6677,7 +6691,7 @@
  "12670": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 6,
+  "depth_chart_order": 7,
   "depth_chart_position": "LWR",
   "first_name": "KeAndre",
   "full_name": "KeAndre Lambert-Smith",
@@ -6949,8 +6963,6 @@
  "12738": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 6,
-  "depth_chart_position": "RB",
   "first_name": "Phil",
   "full_name": "Phil Mafah",
   "last_name": "Mafah",
@@ -7009,7 +7021,7 @@
  "12765": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Keleki",
   "full_name": "Keleki Latu",
@@ -7230,7 +7242,7 @@
  "12860": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 7,
+  "depth_chart_order": 5,
   "depth_chart_position": "RWR",
   "first_name": "Theo",
   "full_name": "Theo Wease Jr.",
@@ -7385,8 +7397,6 @@
  "12897": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
-  "depth_chart_position": "RB",
   "first_name": "Nate",
   "full_name": "Nate Carter",
   "last_name": "Carter",
@@ -7801,7 +7811,7 @@
  "13075": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "SWR",
   "first_name": "Myles",
   "full_name": "Myles Price",
@@ -7928,8 +7938,6 @@
  "13122": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 4,
-  "depth_chart_position": "TE",
   "first_name": "Carter",
   "full_name": "Carter Runyon",
   "last_name": "Runyon",
@@ -8062,8 +8070,6 @@
  "13200": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 10,
-  "depth_chart_position": "SWR",
   "first_name": "Max",
   "full_name": "Max Hurleman",
   "last_name": "Hurleman",
@@ -8425,7 +8431,7 @@
  "13277": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "CJ",
   "full_name": "CJ Donaldson",
@@ -8681,7 +8687,7 @@
  "13288": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 2,
+  "depth_chart_order": 6,
   "depth_chart_position": "RB",
   "first_name": "Nicholas",
   "full_name": "Nicholas Singleton",
@@ -8993,7 +8999,7 @@
  "13302": {
   "active": true,
   "age": 22,
-  "depth_chart_order": 4,
+  "depth_chart_order": 5,
   "depth_chart_position": "RB",
   "first_name": "Adam",
   "full_name": "Adam Randall",
@@ -9208,7 +9214,7 @@
   "first_name": "Josh",
   "full_name": "Josh Kattus",
   "injury_body_part": "Undisclosed",
-  "injury_status": "Out",
+  "injury_status": "Questionable",
   "last_name": "Kattus",
   "last_week": null,
   "position": "TE",
@@ -9472,7 +9478,7 @@
  "13329": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 7,
+  "depth_chart_order": 8,
   "depth_chart_position": "SWR",
   "first_name": "Malik",
   "full_name": "Malik Benson",
@@ -9917,7 +9923,7 @@
  "13380": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 4,
+  "depth_chart_order": 9,
   "depth_chart_position": "SWR",
   "first_name": "Brenen",
   "full_name": "Brenen Thompson",
@@ -10057,7 +10063,7 @@
  "13402": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 6,
+  "depth_chart_order": 9,
   "depth_chart_position": "SWR",
   "first_name": "Skyler",
   "full_name": "Skyler Bell",
@@ -10356,7 +10362,7 @@
  "13417": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 11,
+  "depth_chart_order": 10,
   "depth_chart_position": "SWR",
   "first_name": "De'Zhaun",
   "full_name": "De'Zhaun Stribling",
@@ -10842,7 +10848,7 @@
  "13491": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 5,
+  "depth_chart_order": 10,
   "depth_chart_position": "SWR",
   "first_name": "Kaden",
   "full_name": "Kaden Wetjen",
@@ -11134,7 +11140,7 @@
  "13603": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 3,
+  "depth_chart_order": 6,
   "depth_chart_position": "RB",
   "first_name": "Gregory",
   "full_name": "Gregory Desrosiers Jr.",
@@ -12653,8 +12659,6 @@
  "3200": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 5,
-  "depth_chart_position": "SWR",
   "first_name": "Sterling",
   "full_name": "Sterling Shepard",
   "last_name": "Shepard",
@@ -12805,8 +12809,6 @@
  "3258": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 4,
-  "depth_chart_position": "TE",
   "first_name": "Nick",
   "full_name": "Nick Vannett",
   "last_name": "Vannett",
@@ -13437,8 +13439,6 @@
  "4080": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 4,
-  "depth_chart_position": "LWR",
   "first_name": "Zay",
   "full_name": "Zay Jones",
   "last_name": "Jones",
@@ -14626,7 +14626,7 @@
  "4995": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Ian",
   "full_name": "Ian Thomas",
@@ -14849,8 +14849,6 @@
  "5095": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 1,
-  "depth_chart_position": "K",
   "first_name": "Daniel",
   "full_name": "Daniel Carlson",
   "last_name": "Carlson",
@@ -15470,7 +15468,7 @@
  "5906": {
   "active": true,
   "age": 30,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "TE",
   "first_name": "Dawson",
   "full_name": "Dawson Knox",
@@ -16744,7 +16742,6 @@
  "6803": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 8,
   "first_name": "Brandon",
   "full_name": "Brandon Aiyuk",
   "injury_body_part": "Knee - ACL + MCL",
@@ -16874,7 +16871,7 @@
  "6819": {
   "active": true,
   "age": 29,
-  "depth_chart_order": 7,
+  "depth_chart_order": 6,
   "depth_chart_position": "RWR",
   "first_name": "Michael",
   "full_name": "Michael Pittman Jr.",
@@ -17138,8 +17135,6 @@
  "6918": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 4,
-  "depth_chart_position": "RB",
   "first_name": "Salvon",
   "full_name": "Salvon Ahmed",
   "last_name": "Ahmed",
@@ -17807,7 +17802,7 @@
  "7531": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "TE",
   "first_name": "Feleipe",
   "full_name": "Feleipe Franks",
@@ -18619,8 +18614,6 @@
  "7607": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 3,
-  "depth_chart_position": "RB",
   "first_name": "Michael",
   "full_name": "Michael Carter",
   "last_name": "Carter",
@@ -18765,7 +18758,7 @@
  "7670": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 8,
+  "depth_chart_order": 7,
   "depth_chart_position": "RWR",
   "first_name": "Joshua",
   "full_name": "Joshua Palmer",
@@ -19920,6 +19913,7 @@
   "active": true,
   "age": 26,
   "depth_chart_order": 9,
+  "depth_chart_position": "LWR",
   "first_name": "Alec",
   "full_name": "Alec Pierce",
   "injury_body_part": "Heel",
@@ -20644,8 +20638,6 @@
  "8194": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 2,
-  "depth_chart_position": "RB",
   "first_name": "Jashaun",
   "full_name": "Jashaun Corbin",
   "last_name": "Corbin",
@@ -21051,7 +21043,7 @@
  "8230": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Ty",
   "full_name": "Ty Chandler",
@@ -21148,7 +21140,7 @@
  "8254": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "Julius",
   "full_name": "Julius Chestnut",
@@ -21426,7 +21418,7 @@
  "8527": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 6,
+  "depth_chart_order": 5,
   "depth_chart_position": "SWR",
   "first_name": "Dareke",
   "full_name": "Dareke Young",
@@ -22098,7 +22090,7 @@
  "9482": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "TE",
   "first_name": "Michael",
   "full_name": "Michael Mayer",
@@ -22549,7 +22541,7 @@
  "9508": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 5,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Tyjae",
   "full_name": "Tyjae Spears",
