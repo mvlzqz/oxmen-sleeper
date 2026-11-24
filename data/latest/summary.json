@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T11:40:15+00:00",
+ "fetched_at": "2026-11-24T20:50:25+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -629,24 +629,23 @@
      "team": "MIN"
     },
     {
-     "id": "13298",
-     "name": "KC Concepcion Jr.",
+     "id": "12540",
+     "name": "Chimere Dike",
      "pos": "WR",
      "season": {
       "gp": 10.0,
-      "off_snp": 489.0,
-      "pts_ppr": 100.1,
-      "rec": 40.0,
+      "off_snp": 223.0,
+      "pts_ppr": 42.8,
+      "rec": 19.0,
       "rec_td": 1.0,
-      "rec_tgt": 63.0,
-      "rec_yd": 458.0,
-      "rush_att": 11.0,
-      "rush_td": 1.0,
-      "rush_yd": 43.0,
-      "snap_pct": 75,
-      "tm_off_snp": 654.0
+      "rec_tgt": 24.0,
+      "rec_yd": 209.0,
+      "rush_att": 2.0,
+      "rush_yd": 9.0,
+      "snap_pct": 37,
+      "tm_off_snp": 602.0
      },
-     "team": "CLE"
+     "team": "TEN"
     },
     {
      "id": "3214",
@@ -814,24 +813,25 @@
      "team": "DAL"
     },
     {
-     "id": "12540",
-     "name": "Chimere Dike",
+     "id": "13298",
+     "name": "KC Concepcion Jr.",
      "pos": "WR",
      "season": {
       "gp": 10.0,
-      "off_snp": 223.0,
-      "pts_ppr": 42.8,
-      "rec": 19.0,
+      "off_snp": 489.0,
+      "pts_ppr": 100.1,
+      "rec": 40.0,
       "rec_td": 1.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 209.0,
-      "rush_att": 2.0,
-      "rush_yd": 9.0,
-      "snap_pct": 37,
-      "tm_off_snp": 602.0
+      "rec_tgt": 63.0,
+      "rec_yd": 458.0,
+      "rush_att": 11.0,
+      "rush_td": 1.0,
+      "rush_yd": 43.0,
+      "snap_pct": 75,
+      "tm_off_snp": 654.0
      },
      "slot": "WR",
-     "team": "TEN"
+     "team": "CLE"
     },
     {
      "id": "10859",
@@ -951,25 +951,30 @@
       "tm_off_snp": 606.0
      },
      "team": "MIA"
-    },
+    }
+   ],
+   "ir": [
     {
-     "id": "8210",
-     "name": "Chig Okonkwo",
+     "id": "11604",
+     "inj": "Out (Ankle)",
+     "name": "Brock Bowers",
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 304.0,
-      "pts_ppr": 61.9,
-      "rec": 31.0,
-      "rec_tgt": 44.0,
-      "rec_yd": 329.0,
-      "snap_pct": 67,
-      "tm_off_snp": 454.0
+      "off_snp": 403.0,
+      "pts_ppr": 149.8,
+      "rec": 50.0,
+      "rec_td": 6.0,
+      "rec_tgt": 72.0,
+      "rec_yd": 676.0,
+      "rush_att": 1.0,
+      "rush_yd": 2.0,
+      "snap_pct": 78,
+      "tm_off_snp": 520.0
      },
-     "team": "WAS"
+     "team": "LV"
     }
    ],
-   "ir": [],
    "lineup": [
     {
      "id": "6770",
@@ -1077,25 +1082,21 @@
      "team": "SEA"
     },
     {
-     "id": "11604",
-     "inj": "Out (Ankle)",
-     "name": "Brock Bowers",
+     "id": "8210",
+     "name": "Chig Okonkwo",
      "pos": "TE",
      "season": {
       "gp": 8.0,
-      "off_snp": 403.0,
-      "pts_ppr": 149.8,
-      "rec": 50.0,
-      "rec_td": 6.0,
-      "rec_tgt": 72.0,
-      "rec_yd": 676.0,
-      "rush_att": 1.0,
-      "rush_yd": 2.0,
-      "snap_pct": 78,
-      "tm_off_snp": 520.0
+      "off_snp": 304.0,
+      "pts_ppr": 61.9,
+      "rec": 31.0,
+      "rec_tgt": 44.0,
+      "rec_yd": 329.0,
+      "snap_pct": 67,
+      "tm_off_snp": 454.0
      },
      "slot": "TE",
-     "team": "LV"
+     "team": "WAS"
     },
     {
      "id": "12490",
@@ -1138,7 +1139,6 @@
    ],
    "lineup_flags": [
     "RB Kyren Williams is Questionable (Toe)",
-    "TE Brock Bowers is Out (Ankle)",
     "FLEX Bhayshul Tuten is Questionable (Undisclosed)",
     "DEF slot is EMPTY"
    ],
@@ -1774,6 +1774,26 @@
   {
    "bench": [
     {
+     "id": "12522",
+     "name": "Cam Ward",
+     "pos": "QB",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 602.0,
+      "pass_att": 317.0,
+      "pass_int": 6.0,
+      "pass_td": 10.0,
+      "pass_yd": 1962.0,
+      "pts_ppr": 147.88,
+      "rush_att": 31.0,
+      "rush_td": 3.0,
+      "rush_yd": 154.0,
+      "snap_pct": 100,
+      "tm_off_snp": 602.0
+     },
+     "team": "TEN"
+    },
+    {
      "id": "12718",
      "name": "Konata Mumpfield",
      "pos": "WR",
@@ -1810,6 +1830,28 @@
      "team": "SF"
     },
     {
+     "id": "8408",
+     "name": "Jordan Mason",
+     "pos": "RB",
+     "season": {
+      "gp": 6.0,
+      "off_snp": 170.0,
+      "pts_ppr": 37.5,
+      "rec": 3.0,
+      "rec_tgt": 7.0,
+      "rec_yd": 6.0,
+      "rush_att": 71.0,
+      "rush_td": 1.0,
+      "rush_yd": 279.0,
+      "snap_pct": 47,
+      "tm_off_snp": 361.0
+     },
+     "team": "MIN"
+    }
+   ],
+   "ir": [],
+   "lineup": [
+    {
      "id": "6804",
      "name": "Jordan Love",
      "pos": "QB",
@@ -1827,50 +1869,8 @@
       "snap_pct": 98,
       "tm_off_snp": 646.0
      },
-     "team": "GB"
-    },
-    {
-     "id": "9484",
-     "name": "Tucker Kraft",
-     "pos": "TE",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 539.0,
-      "pts_ppr": 93.3,
-      "rec": 37.0,
-      "rec_td": 3.0,
-      "rec_tgt": 56.0,
-      "rec_yd": 370.0,
-      "rush_att": 4.0,
-      "rush_yd": 13.0,
-      "snap_pct": 83,
-      "tm_off_snp": 646.0
-     },
-     "team": "GB"
-    }
-   ],
-   "ir": [],
-   "lineup": [
-    {
-     "id": "12522",
-     "name": "Cam Ward",
-     "pos": "QB",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 602.0,
-      "pass_att": 317.0,
-      "pass_int": 6.0,
-      "pass_td": 10.0,
-      "pass_yd": 1962.0,
-      "pts_ppr": 147.88,
-      "rush_att": 31.0,
-      "rush_td": 3.0,
-      "rush_yd": 154.0,
-      "snap_pct": 100,
-      "tm_off_snp": 602.0
-     },
      "slot": "QB",
-     "team": "TEN"
+     "team": "GB"
     },
     {
      "id": "8228",
@@ -1973,24 +1973,24 @@
      "team": "KC"
     },
     {
-     "id": "8408",
-     "name": "Jordan Mason",
-     "pos": "RB",
+     "id": "9484",
+     "name": "Tucker Kraft",
+     "pos": "TE",
      "season": {
-      "gp": 6.0,
-      "off_snp": 170.0,
-      "pts_ppr": 37.5,
-      "rec": 3.0,
-      "rec_tgt": 7.0,
-      "rec_yd": 6.0,
-      "rush_att": 71.0,
-      "rush_td": 1.0,
-      "rush_yd": 279.0,
-      "snap_pct": 47,
-      "tm_off_snp": 361.0
+      "gp": 10.0,
+      "off_snp": 539.0,
+      "pts_ppr": 93.3,
+      "rec": 37.0,
+      "rec_td": 3.0,
+      "rec_tgt": 56.0,
+      "rec_yd": 370.0,
+      "rush_att": 4.0,
+      "rush_yd": 13.0,
+      "snap_pct": 83,
+      "tm_off_snp": 646.0
      },
      "slot": "FLEX",
-     "team": "MIN"
+     "team": "GB"
     },
     {
      "id": "7839",
@@ -2065,6 +2065,7 @@
     },
     {
      "id": "13346",
+     "inj": "Questionable (Toe)",
      "name": "Denzel Boston",
      "pos": "WR",
      "season": {

@@ -1,7 +1,7 @@
 {
- "baseline": "2026-11-23_1140Z",
+ "baseline": "2026-11-23_2211Z",
  "first_run": false,
- "injury_baseline": "2026-11-23_1140Z",
+ "injury_baseline": "2026-11-23_2211Z",
  "injury_changes": [
   {
    "body_part": null,
@@ -12,22 +12,6 @@
    "to": null
   },
   {
-   "body_part": "Undisclosed",
-   "from": null,
-   "mine": false,
-   "owner": "PawtucketPatriot",
-   "player": "Bhayshul Tuten",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Lower Body",
-   "from": null,
-   "mine": false,
-   "owner": "erictheleghel",
-   "player": "Cam Little",
-   "to": "Questionable"
-  },
-  {
    "body_part": "Shin",
    "from": null,
    "mine": false,
@@ -36,12 +20,12 @@
    "to": "Questionable"
   },
   {
-   "body_part": null,
-   "from": "IR",
+   "body_part": "Toe",
+   "from": null,
    "mine": false,
-   "owner": "chopkins30",
-   "player": "Jacory Croskey-Merritt",
-   "to": null
+   "owner": "dleach16",
+   "player": "Denzel Boston",
+   "to": "Questionable"
   },
   {
    "body_part": "Ankle",
@@ -61,7 +45,9 @@
     "Michael Mayer",
     "DET DEF"
    ],
-   "moved_to_ir": [],
+   "moved_to_ir": [
+    "Brock Bowers"
+   ],
    "owner": "PawtucketPatriot",
    "roster_id": 3
   },
@@ -79,13 +65,13 @@
   {
    "added": [],
    "dropped": [
-    "Jauan Jennings"
+    "Terrance Ferguson"
    ],
    "moved_to_ir": [],
    "owner": "erictheleghel",
    "roster_id": 11
   }
  ],
- "since": "2026-11-23T11:40:17+00:00",
+ "since": "2026-11-23T22:11:48+00:00",
  "waiver_moves": []
 }
