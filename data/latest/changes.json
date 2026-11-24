@@ -1,22 +1,14 @@
 {
- "baseline": "2026-11-22_2024Z",
+ "baseline": "2026-11-23_1140Z",
  "first_run": false,
- "injury_baseline": "2026-11-22_2024Z",
+ "injury_baseline": "2026-11-23_1140Z",
  "injury_changes": [
-  {
-   "body_part": "Hamstring",
-   "from": null,
-   "mine": true,
-   "owner": "mvlzqz",
-   "player": "Juwan Johnson",
-   "to": "Questionable"
-  },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": true,
    "owner": "mvlzqz",
-   "player": "Mike Evans",
+   "player": "Rachaad White",
    "to": null
   },
   {
@@ -36,11 +28,11 @@
    "to": "Questionable"
   },
   {
-   "body_part": "Concussion",
+   "body_part": "Shin",
    "from": null,
    "mine": false,
-   "owner": "kitano",
-   "player": "Derrick Henry",
+   "owner": "dleach16",
+   "player": "Dallas Goedert",
    "to": "Questionable"
   },
   {
@@ -52,55 +44,48 @@
    "to": null
   },
   {
-   "body_part": "Undisclosed",
+   "body_part": "Ankle",
    "from": null,
    "mine": false,
-   "owner": "chopkins30",
-   "player": "Jalen Coker",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Concussion",
-   "from": null,
-   "mine": false,
-   "owner": "dleach16",
-   "player": "Justin Herbert",
-   "to": "Questionable"
-  },
-  {
-   "body_part": "Arm",
-   "from": null,
-   "mine": false,
-   "owner": "wmont",
-   "player": "Saquon Barkley",
+   "owner": "nusskyle",
+   "player": "Sam LaPorta",
    "to": "Questionable"
   }
  ],
  "my_team_changed": true,
  "rosters": [
   {
-   "added": [
-    "Terrance Ferguson"
+   "added": [],
+   "dropped": [
+    "Chris Godwin Jr.",
+    "Michael Mayer",
+    "DET DEF"
    ],
+   "moved_to_ir": [],
+   "owner": "PawtucketPatriot",
+   "roster_id": 3
+  },
+  {
+   "added": [
+    "Treylon Burks"
+   ],
+   "dropped": [
+    "J.K. Dobbins"
+   ],
+   "moved_to_ir": [],
+   "owner": "pauliv8811",
+   "roster_id": 9
+  },
+  {
+   "added": [],
    "dropped": [
     "Jauan Jennings"
    ],
    "moved_to_ir": [],
    "owner": "erictheleghel",
    "roster_id": 11
-  },
-  {
-   "added": [
-    "Mason Taylor"
-   ],
-   "dropped": [
-    "Bryce Young"
-   ],
-   "moved_to_ir": [],
-   "owner": "wmont",
-   "roster_id": 12
   }
  ],
- "since": "2026-11-22T20:24:04+00:00",
+ "since": "2026-11-23T11:40:17+00:00",
  "waiver_moves": []
 }
