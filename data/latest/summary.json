@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T11:40:15+00:00",
+ "fetched_at": "2026-11-25T20:07:36+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -397,7 +397,7 @@
     },
     {
      "id": "8151",
-     "inj": "Questionable (Groin)",
+     "inj": "Out (Groin)",
      "name": "Kenneth Walker III",
      "pos": "RB",
      "season": {
@@ -629,25 +629,6 @@
      "team": "MIN"
     },
     {
-     "id": "12540",
-     "name": "Chimere Dike",
-     "pos": "WR",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 223.0,
-      "pts_ppr": 42.8,
-      "rec": 19.0,
-      "rec_td": 1.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 209.0,
-      "rush_att": 2.0,
-      "rush_yd": 9.0,
-      "snap_pct": 37,
-      "tm_off_snp": 602.0
-     },
-     "team": "TEN"
-    },
-    {
      "id": "3214",
      "name": "Hunter Henry",
      "pos": "TE",
@@ -681,6 +662,25 @@
       "tm_off_snp": 452.0
      },
      "team": "WAS"
+    },
+    {
+     "id": "7567",
+     "name": "Kenny Gainwell",
+     "pos": "RB",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 248.0,
+      "pts_ppr": 73.5,
+      "rec": 19.0,
+      "rec_td": 1.0,
+      "rec_tgt": 26.0,
+      "rec_yd": 164.0,
+      "rush_att": 67.0,
+      "rush_yd": 321.0,
+      "snap_pct": 38,
+      "tm_off_snp": 661.0
+     },
+     "team": "TB"
     }
    ],
    "ir": [
@@ -854,24 +854,24 @@
      "team": "DET"
     },
     {
-     "id": "7567",
-     "name": "Kenny Gainwell",
-     "pos": "RB",
+     "id": "12540",
+     "name": "Chimere Dike",
+     "pos": "WR",
      "season": {
       "gp": 10.0,
-      "off_snp": 248.0,
-      "pts_ppr": 73.5,
+      "off_snp": 223.0,
+      "pts_ppr": 42.8,
       "rec": 19.0,
       "rec_td": 1.0,
-      "rec_tgt": 26.0,
-      "rec_yd": 164.0,
-      "rush_att": 67.0,
-      "rush_yd": 321.0,
-      "snap_pct": 38,
-      "tm_off_snp": 661.0
+      "rec_tgt": 24.0,
+      "rec_yd": 209.0,
+      "rush_att": 2.0,
+      "rush_yd": 9.0,
+      "snap_pct": 37,
+      "tm_off_snp": 602.0
      },
      "slot": "FLEX",
-     "team": "TB"
+     "team": "TEN"
     },
     {
      "id": "11533",
@@ -1241,26 +1241,6 @@
      "team": "DEN"
     },
     {
-     "id": "13269",
-     "name": "Fernando Mendoza",
-     "pos": "QB",
-     "season": {
-      "gp": 3.0,
-      "off_snp": 139.0,
-      "pass_att": 74.0,
-      "pass_int": 1.0,
-      "pass_td": 3.0,
-      "pass_yd": 458.0,
-      "pts_ppr": 40.02,
-      "rush_att": 11.0,
-      "rush_td": 1.0,
-      "rush_yd": 47.0,
-      "snap_pct": 19,
-      "tm_off_snp": 721.0
-     },
-     "team": "LV"
-    },
-    {
      "id": "1479",
      "name": "Keenan Allen",
      "pos": "WR",
@@ -1294,16 +1274,6 @@
       "tm_off_snp": 187.0
      },
      "team": "SEA"
-    },
-    {
-     "id": "NYG",
-     "name": "NYG DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 10.0,
-      "pts_ppr": 67.0
-     },
-     "team": "NYG"
     }
    ],
    "ir": [
@@ -1352,11 +1322,29 @@
    ],
    "lineup": [
     {
-     "empty": true,
-     "slot": "QB"
+     "id": "13269",
+     "name": "Fernando Mendoza",
+     "pos": "QB",
+     "season": {
+      "gp": 3.0,
+      "off_snp": 139.0,
+      "pass_att": 74.0,
+      "pass_int": 1.0,
+      "pass_td": 3.0,
+      "pass_yd": 458.0,
+      "pts_ppr": 40.02,
+      "rush_att": 11.0,
+      "rush_td": 1.0,
+      "rush_yd": 47.0,
+      "snap_pct": 19,
+      "tm_off_snp": 721.0
+     },
+     "slot": "QB",
+     "team": "LV"
     },
     {
      "id": "3198",
+     "inj": "Questionable (Concussion)",
      "name": "Derrick Henry",
      "pos": "RB",
      "season": {
@@ -1491,13 +1479,19 @@
      "team": "TEN"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "NYG",
+     "name": "NYG DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 10.0,
+      "pts_ppr": 67.0
+     },
+     "slot": "DEF",
+     "team": "NYG"
     }
    ],
    "lineup_flags": [
-    "QB slot is EMPTY",
-    "DEF slot is EMPTY"
+    "RB Derrick Henry is Questionable (Concussion)"
    ],
    "owner": "kitano",
    "owner_id": "473949092301500416",
@@ -1566,6 +1560,26 @@
      "team": "NYJ"
     },
     {
+     "id": "4035",
+     "name": "Alvin Kamara",
+     "pos": "RB",
+     "season": {
+      "gp": 9.0,
+      "off_snp": 196.0,
+      "pts_ppr": 97.3,
+      "rec": 29.0,
+      "rec_td": 3.0,
+      "rec_tgt": 37.0,
+      "rec_yd": 161.0,
+      "rush_att": 50.0,
+      "rush_td": 3.0,
+      "rush_yd": 162.0,
+      "snap_pct": 33,
+      "tm_off_snp": 600.0
+     },
+     "team": "NO"
+    },
+    {
      "id": "7042",
      "name": "Tyler Bass",
      "pos": "K",
@@ -1575,26 +1589,6 @@
       "tm_off_snp": 686.0
      },
      "team": "BUF"
-    },
-    {
-     "id": "7611",
-     "name": "Rhamondre Stevenson",
-     "pos": "RB",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 404.0,
-      "pts_ppr": 115.2,
-      "rec": 27.0,
-      "rec_td": 2.0,
-      "rec_tgt": 32.0,
-      "rec_yd": 259.0,
-      "rush_att": 108.0,
-      "rush_td": 2.0,
-      "rush_yd": 403.0,
-      "snap_pct": 63,
-      "tm_off_snp": 644.0
-     },
-     "team": "NE"
     }
    ],
    "ir": [
@@ -1662,25 +1656,25 @@
      "team": "JAX"
     },
     {
-     "id": "4035",
-     "name": "Alvin Kamara",
+     "id": "7611",
+     "name": "Rhamondre Stevenson",
      "pos": "RB",
      "season": {
-      "gp": 9.0,
-      "off_snp": 196.0,
-      "pts_ppr": 97.3,
-      "rec": 29.0,
-      "rec_td": 3.0,
-      "rec_tgt": 37.0,
-      "rec_yd": 161.0,
-      "rush_att": 50.0,
-      "rush_td": 3.0,
-      "rush_yd": 162.0,
-      "snap_pct": 33,
-      "tm_off_snp": 600.0
+      "gp": 10.0,
+      "off_snp": 404.0,
+      "pts_ppr": 115.2,
+      "rec": 27.0,
+      "rec_td": 2.0,
+      "rec_tgt": 32.0,
+      "rec_yd": 259.0,
+      "rush_att": 108.0,
+      "rush_td": 2.0,
+      "rush_yd": 403.0,
+      "snap_pct": 63,
+      "tm_off_snp": 644.0
      },
      "slot": "RB",
-     "team": "NO"
+     "team": "NE"
     },
     {
      "id": "4034",
@@ -1909,16 +1903,6 @@
       "tm_off_snp": 361.0
      },
      "team": "MIN"
-    },
-    {
-     "id": "HOU",
-     "name": "HOU DEF",
-     "pos": "DEF",
-     "season": {
-      "gp": 10.0,
-      "pts_ppr": 77.0
-     },
-     "team": "HOU"
     }
    ],
    "ir": [],
@@ -2077,13 +2061,18 @@
      "team": "CIN"
     },
     {
-     "empty": true,
-     "slot": "DEF"
+     "id": "HOU",
+     "name": "HOU DEF",
+     "pos": "DEF",
+     "season": {
+      "gp": 10.0,
+      "pts_ppr": 77.0
+     },
+     "slot": "DEF",
+     "team": "HOU"
     }
    ],
-   "lineup_flags": [
-    "DEF slot is EMPTY"
-   ],
+   "lineup_flags": [],
    "owner": "TheDudePlayingADude",
    "owner_id": "1129893647417270272",
    "pa": 1181.1,
@@ -2112,24 +2101,23 @@
   {
    "bench": [
     {
-     "id": "11563",
-     "name": "Bo Nix",
-     "pos": "QB",
+     "id": "12534",
+     "name": "Kyle Monangai",
+     "pos": "RB",
      "season": {
-      "gp": 10.0,
-      "off_snp": 638.0,
-      "pass_att": 322.0,
-      "pass_int": 5.0,
-      "pass_td": 12.0,
-      "pass_yd": 1955.0,
-      "pts_ppr": 147.3,
-      "rush_att": 43.0,
-      "rush_td": 2.0,
-      "rush_yd": 121.0,
-      "snap_pct": 100,
-      "tm_off_snp": 638.0
+      "gp": 5.0,
+      "off_snp": 152.0,
+      "pts_ppr": 61.1,
+      "rec": 5.0,
+      "rec_tgt": 6.0,
+      "rec_yd": 39.0,
+      "rush_att": 68.0,
+      "rush_td": 3.0,
+      "rush_yd": 342.0,
+      "snap_pct": 41,
+      "tm_off_snp": 375.0
      },
-     "team": "DEN"
+     "team": "CHI"
     },
     {
      "id": "13346",
@@ -2150,23 +2138,26 @@
      "team": "CLE"
     },
     {
-     "id": "4199",
-     "name": "Aaron Jones Sr.",
-     "pos": "RB",
+     "id": "6797",
+     "inj": "Questionable (Concussion)",
+     "name": "Justin Herbert",
+     "pos": "QB",
      "season": {
       "gp": 10.0,
-      "off_snp": 347.0,
-      "pts_ppr": 106.7,
-      "rec": 18.0,
-      "rec_tgt": 24.0,
-      "rec_yd": 116.0,
-      "rush_att": 134.0,
-      "rush_td": 4.0,
-      "rush_yd": 551.0,
-      "snap_pct": 56,
-      "tm_off_snp": 621.0
+      "off_snp": 633.0,
+      "pass_att": 274.0,
+      "pass_int": 11.0,
+      "pass_td": 8.0,
+      "pass_yd": 1851.0,
+      "pts_ppr": 130.34,
+      "rec_tgt": 1.0,
+      "rush_att": 49.0,
+      "rush_td": 2.0,
+      "rush_yd": 273.0,
+      "snap_pct": 98,
+      "tm_off_snp": 648.0
      },
-     "team": "MIN"
+     "team": "LAC"
     },
     {
      "id": "8134",
@@ -2191,27 +2182,25 @@
    "ir": [],
    "lineup": [
     {
-     "id": "6797",
-     "inj": "Questionable (Concussion)",
-     "name": "Justin Herbert",
+     "id": "11563",
+     "name": "Bo Nix",
      "pos": "QB",
      "season": {
       "gp": 10.0,
-      "off_snp": 633.0,
-      "pass_att": 274.0,
-      "pass_int": 11.0,
-      "pass_td": 8.0,
-      "pass_yd": 1851.0,
-      "pts_ppr": 130.34,
-      "rec_tgt": 1.0,
-      "rush_att": 49.0,
+      "off_snp": 638.0,
+      "pass_att": 322.0,
+      "pass_int": 5.0,
+      "pass_td": 12.0,
+      "pass_yd": 1955.0,
+      "pts_ppr": 147.3,
+      "rush_att": 43.0,
       "rush_td": 2.0,
-      "rush_yd": 273.0,
-      "snap_pct": 98,
-      "tm_off_snp": 648.0
+      "rush_yd": 121.0,
+      "snap_pct": 100,
+      "tm_off_snp": 638.0
      },
      "slot": "QB",
-     "team": "LAC"
+     "team": "DEN"
     },
     {
      "id": "12527",
@@ -2235,24 +2224,24 @@
      "team": "LV"
     },
     {
-     "id": "12534",
-     "name": "Kyle Monangai",
+     "id": "4199",
+     "name": "Aaron Jones Sr.",
      "pos": "RB",
      "season": {
-      "gp": 5.0,
-      "off_snp": 152.0,
-      "pts_ppr": 61.1,
-      "rec": 5.0,
-      "rec_tgt": 6.0,
-      "rec_yd": 39.0,
-      "rush_att": 68.0,
-      "rush_td": 3.0,
-      "rush_yd": 342.0,
-      "snap_pct": 41,
-      "tm_off_snp": 375.0
+      "gp": 10.0,
+      "off_snp": 347.0,
+      "pts_ppr": 106.7,
+      "rec": 18.0,
+      "rec_tgt": 24.0,
+      "rec_yd": 116.0,
+      "rush_att": 134.0,
+      "rush_td": 4.0,
+      "rush_yd": 551.0,
+      "snap_pct": 56,
+      "tm_off_snp": 621.0
      },
      "slot": "RB",
-     "team": "CHI"
+     "team": "MIN"
     },
     {
      "id": "6794",
@@ -2354,9 +2343,7 @@
      "team": "KC"
     }
    ],
-   "lineup_flags": [
-    "QB Justin Herbert is Questionable (Concussion)"
-   ],
+   "lineup_flags": [],
    "owner": "dleach16",
    "owner_id": "1130197213680058368",
    "pa": 1177.4,
@@ -2932,16 +2919,16 @@
      "team": "MIN"
     },
     {
-     "id": "12185",
-     "name": "Spencer Shrader",
+     "id": "1945",
+     "name": "Chris Boswell",
      "pos": "K",
      "season": {
-      "gp": 11.0,
-      "pts_ppr": 112.0,
-      "tm_off_snp": 702.0
+      "gp": 10.0,
+      "pts_ppr": 95.0,
+      "tm_off_snp": 665.0
      },
      "slot": "K",
-     "team": "IND"
+     "team": "PIT"
     },
     {
      "id": "TB",
@@ -2964,12 +2951,12 @@
     "10219",
     "11583",
     "11630",
-    "12185",
     "12469",
     "12483",
     "12517",
     "12526",
     "12545",
+    "1945",
     "5844",
     "7543",
     "7547",
@@ -3313,6 +3300,23 @@
      "team": "LAC"
     },
     {
+     "id": "13317",
+     "name": "Ted Hurst III",
+     "pos": "WR",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 343.0,
+      "pts_ppr": 56.4,
+      "rec": 16.0,
+      "rec_td": 3.0,
+      "rec_tgt": 32.0,
+      "rec_yd": 224.0,
+      "snap_pct": 52,
+      "tm_off_snp": 661.0
+     },
+     "team": "TB"
+    },
+    {
      "id": "421",
      "name": "Matthew Stafford",
      "pos": "QB",
@@ -3541,6 +3545,7 @@
     "11584",
     "11635",
     "11786",
+    "13317",
     "13345",
     "4046",
     "421",
@@ -3830,23 +3835,21 @@
   {
    "bench": [
     {
-     "id": "12491",
-     "name": "Corey Kiner",
-     "pos": "RB",
+     "id": "12700",
+     "name": "Gavin Bartholomew",
+     "pos": "TE",
      "season": {
       "gp": 10.0,
-      "off_snp": 102.0,
-      "pts_ppr": 34.5,
-      "rec": 2.0,
-      "rec_tgt": 2.0,
-      "rec_yd": 16.0,
-      "rush_att": 60.0,
-      "rush_td": 1.0,
-      "rush_yd": 269.0,
-      "snap_pct": 16,
-      "tm_off_snp": 644.0
+      "off_snp": 151.0,
+      "pts_ppr": 26.5,
+      "rec": 11.0,
+      "rec_td": 1.0,
+      "rec_tgt": 15.0,
+      "rec_yd": 95.0,
+      "snap_pct": 24,
+      "tm_off_snp": 621.0
      },
-     "team": "NE"
+     "team": "MIN"
     },
     {
      "id": "13286",
@@ -3888,37 +3891,27 @@
      "team": "DET"
     },
     {
-     "id": "SEA",
-     "name": "SEA DEF",
-     "pos": "DEF",
+     "id": "6130",
+     "name": "Devin Singletary",
+     "pos": "RB",
      "season": {
-      "gp": 10.0,
-      "pts_ppr": 83.0
+      "gp": 7.0,
+      "off_snp": 168.0,
+      "pts_ppr": 41.7,
+      "rec": 11.0,
+      "rec_td": 1.0,
+      "rec_tgt": 13.0,
+      "rec_yd": 68.0,
+      "rush_att": 41.0,
+      "rush_td": 1.0,
+      "rush_yd": 119.0,
+      "snap_pct": 36,
+      "tm_off_snp": 472.0
      },
-     "team": "SEA"
+     "team": "NYG"
     }
    ],
    "ir": [
-    {
-     "id": "12474",
-     "inj": "Questionable (Concussion)",
-     "name": "Woody Marks",
-     "pos": "RB",
-     "season": {
-      "gp": 9.0,
-      "off_snp": 357.0,
-      "pts_ppr": 78.4,
-      "rec": 16.0,
-      "rec_tgt": 22.0,
-      "rec_yd": 113.0,
-      "rush_att": 107.0,
-      "rush_td": 2.0,
-      "rush_yd": 391.0,
-      "snap_pct": 60,
-      "tm_off_snp": 595.0
-     },
-     "team": "HOU"
-    },
     {
      "id": "9493",
      "inj": "IR (Knee - MCL)",
@@ -3965,25 +3958,25 @@
      "team": "CHI"
     },
     {
-     "id": "6130",
-     "name": "Devin Singletary",
+     "id": "12474",
+     "inj": "Questionable (Concussion)",
+     "name": "Woody Marks",
      "pos": "RB",
      "season": {
-      "gp": 7.0,
-      "off_snp": 168.0,
-      "pts_ppr": 41.7,
-      "rec": 11.0,
-      "rec_td": 1.0,
-      "rec_tgt": 13.0,
-      "rec_yd": 68.0,
-      "rush_att": 41.0,
-      "rush_td": 1.0,
-      "rush_yd": 119.0,
-      "snap_pct": 36,
-      "tm_off_snp": 472.0
+      "gp": 9.0,
+      "off_snp": 357.0,
+      "pts_ppr": 78.4,
+      "rec": 16.0,
+      "rec_tgt": 22.0,
+      "rec_yd": 113.0,
+      "rush_att": 107.0,
+      "rush_td": 2.0,
+      "rush_yd": 391.0,
+      "snap_pct": 60,
+      "tm_off_snp": 595.0
      },
      "slot": "RB",
-     "team": "NYG"
+     "team": "HOU"
     },
     {
      "id": "5892",
@@ -4044,24 +4037,6 @@
      "team": "PIT"
     },
     {
-     "id": "12700",
-     "name": "Gavin Bartholomew",
-     "pos": "TE",
-     "season": {
-      "gp": 10.0,
-      "off_snp": 151.0,
-      "pts_ppr": 26.5,
-      "rec": 11.0,
-      "rec_td": 1.0,
-      "rec_tgt": 15.0,
-      "rec_yd": 95.0,
-      "snap_pct": 24,
-      "tm_off_snp": 621.0
-     },
-     "slot": "TE",
-     "team": "MIN"
-    },
-    {
      "id": "10236",
      "inj": "Questionable (Thumb)",
      "name": "Dalton Kincaid",
@@ -4077,8 +4052,28 @@
       "snap_pct": 62,
       "tm_off_snp": 608.0
      },
-     "slot": "FLEX",
+     "slot": "TE",
      "team": "BUF"
+    },
+    {
+     "id": "12491",
+     "name": "Corey Kiner",
+     "pos": "RB",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 102.0,
+      "pts_ppr": 34.5,
+      "rec": 2.0,
+      "rec_tgt": 2.0,
+      "rec_yd": 16.0,
+      "rush_att": 60.0,
+      "rush_td": 1.0,
+      "rush_yd": 269.0,
+      "snap_pct": 16,
+      "tm_off_snp": 644.0
+     },
+     "slot": "FLEX",
+     "team": "NE"
     },
     {
      "id": "5189",
@@ -4093,19 +4088,20 @@
      "team": "SF"
     },
     {
-     "id": "CAR",
-     "name": "CAR DEF",
+     "id": "SEA",
+     "name": "SEA DEF",
      "pos": "DEF",
      "season": {
       "gp": 10.0,
-      "pts_ppr": 59.0
+      "pts_ppr": 83.0
      },
      "slot": "DEF",
-     "team": "CAR"
+     "team": "SEA"
     }
    ],
    "lineup_flags": [
-    "FLEX Dalton Kincaid is Questionable (Thumb)"
+    "RB Woody Marks is Questionable (Concussion)",
+    "TE Dalton Kincaid is Questionable (Thumb)"
    ],
    "owner": "phile2211",
    "owner_id": "1257752308066820096",
@@ -4125,7 +4121,6 @@
     "5892",
     "6130",
     "9493",
-    "CAR",
     "SEA"
    ],
    "record": "2-9",
@@ -4234,6 +4229,7 @@
    "lineup": [
     {
      "id": "8183",
+     "inj": "Questionable (Ankle)",
      "name": "Brock Purdy",
      "pos": "QB",
      "season": {
@@ -4397,7 +4393,9 @@
      "team": "CHI"
     }
    ],
-   "lineup_flags": [],
+   "lineup_flags": [
+    "QB Brock Purdy is Questionable (Ankle)"
+   ],
    "owner": "chopkins30",
    "owner_id": "1258779579946897408",
    "pa": 1452.44,

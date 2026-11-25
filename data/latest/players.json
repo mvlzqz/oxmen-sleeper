@@ -2214,8 +2214,6 @@
   "depth_chart_position": "RB",
   "first_name": "Will",
   "full_name": "Will Shipley",
-  "injury_body_part": "Illness",
-  "injury_status": "Questionable",
   "last_name": "Shipley",
   "last_week": {
    "gp": 1.0,
@@ -6627,32 +6625,6 @@
   "team": "GB",
   "years_exp": 1
  },
- "12699": {
-  "active": true,
-  "age": 24,
-  "first_name": "LaJohntay",
-  "full_name": "LaJohntay Wester",
-  "last_name": "Wester",
-  "last_week": {
-   "gp": 1.0,
-   "pts_ppr": -2.0
-  },
-  "position": "WR",
-  "search_rank": 689,
-  "season": {
-   "gp": 11.0,
-   "off_snp": 81.0,
-   "pts_ppr": 6.8,
-   "rec": 5.0,
-   "rec_tgt": 6.0,
-   "rec_yd": 58.0,
-   "snap_pct": 13,
-   "tm_off_snp": 630.0
-  },
-  "status": "Active",
-  "team": "BAL",
-  "years_exp": 1
- },
  "12700": {
   "active": true,
   "age": 23,
@@ -6816,7 +6788,7 @@
  "12735": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 6,
+  "depth_chart_order": 5,
   "depth_chart_position": "TE",
   "first_name": "Caleb",
   "full_name": "Caleb Lohner",
@@ -7113,31 +7085,6 @@
   "season": null,
   "status": "Active",
   "team": "HOU",
-  "years_exp": 1
- },
- "12860": {
-  "active": true,
-  "age": 25,
-  "first_name": "Theo",
-  "full_name": "Theo Wease Jr.",
-  "last_name": "Wease Jr.",
-  "last_week": {
-   "gp": 1.0
-  },
-  "position": "WR",
-  "search_rank": 666,
-  "season": {
-   "gp": 4.0,
-   "off_snp": 80.0,
-   "pts_ppr": 6.7,
-   "rec": 3.0,
-   "rec_tgt": 5.0,
-   "rec_yd": 37.0,
-   "snap_pct": 42,
-   "tm_off_snp": 192.0
-  },
-  "status": "Active",
-  "team": "LAC",
   "years_exp": 1
  },
  "12863": {
@@ -10792,7 +10739,7 @@
  "13577": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 4,
+  "depth_chart_order": 6,
   "depth_chart_position": "TE",
   "first_name": "Dallen",
   "full_name": "Dallen Bentley",
@@ -11329,6 +11276,19 @@
   },
   "status": "Active",
   "team": "NYG",
+  "years_exp": 0
+ },
+ "13861": {
+  "active": true,
+  "age": 24,
+  "first_name": "Daniel",
+  "full_name": "Daniel Sobkowicz",
+  "last_name": "Sobkowicz",
+  "position": "WR",
+  "search_rank": 678,
+  "season": null,
+  "status": "Active",
+  "team": "HOU",
   "years_exp": 0
  },
  "13870": {
@@ -11897,6 +11857,29 @@
   "team": "LAR",
   "years_exp": 12
  },
+ "2197": {
+  "active": true,
+  "age": 33,
+  "first_name": "Brandin",
+  "full_name": "Brandin Cooks",
+  "last_name": "Cooks",
+  "position": "WR",
+  "search_rank": 587,
+  "season": {
+   "gp": 5.0,
+   "off_snp": 141.0,
+   "pts_ppr": 16.8,
+   "rec": 5.0,
+   "rec_td": 1.0,
+   "rec_tgt": 10.0,
+   "rec_yd": 58.0,
+   "snap_pct": 43,
+   "tm_off_snp": 327.0
+  },
+  "status": "Active",
+  "team": "SF",
+  "years_exp": 12
+ },
  "2216": {
   "active": true,
   "age": 33,
@@ -12376,6 +12359,8 @@
   "depth_chart_position": "RB",
   "first_name": "Derrick",
   "full_name": "Derrick Henry",
+  "injury_body_part": "Concussion",
+  "injury_status": "Questionable",
   "last_name": "Henry",
   "last_week": {
    "gp": 1.0,
@@ -13762,32 +13747,6 @@
   "team": "CAR",
   "years_exp": 1
  },
- "4574": {
-  "active": true,
-  "age": 33,
-  "first_name": "Cooper",
-  "full_name": "Cooper Rush",
-  "last_name": "Rush",
-  "last_week": null,
-  "position": "QB",
-  "search_rank": 682,
-  "season": {
-   "gp": 2.0,
-   "off_snp": 100.0,
-   "pass_att": 39.0,
-   "pass_int": 4.0,
-   "pass_td": 1.0,
-   "pass_yd": 229.0,
-   "pts_ppr": 9.16,
-   "rush_att": 2.0,
-   "rush_yd": 20.0,
-   "snap_pct": 78,
-   "tm_off_snp": 129.0
-  },
-  "status": "Active",
-  "team": "TB",
-  "years_exp": 9
- },
  "4602": {
   "active": true,
   "age": 32,
@@ -14158,7 +14117,7 @@
  "4972": {
   "active": true,
   "age": 31,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "QB",
   "first_name": "Mason",
   "full_name": "Mason Rudolph",
@@ -16113,28 +16072,6 @@
   "team": "TB",
   "years_exp": 7
  },
- "6659": {
-  "active": true,
-  "age": 30,
-  "first_name": "Craig",
-  "full_name": "Craig Reynolds",
-  "last_name": "Reynolds",
-  "last_week": null,
-  "position": "RB",
-  "search_rank": 614,
-  "season": {
-   "gp": 1.0,
-   "off_snp": 6.0,
-   "pts_ppr": 0.4,
-   "rush_att": 2.0,
-   "rush_yd": 4.0,
-   "snap_pct": 9,
-   "tm_off_snp": 64.0
-  },
-  "status": "Active",
-  "team": "WAS",
-  "years_exp": 7
- },
  "6677": {
   "active": false,
   "age": 24,
@@ -16472,6 +16409,23 @@
   },
   "status": "Active",
   "team": "CIN",
+  "years_exp": 6
+ },
+ "6803": {
+  "active": true,
+  "age": 28,
+  "first_name": "Brandon",
+  "full_name": "Brandon Aiyuk",
+  "last_name": "Aiyuk",
+  "last_week": null,
+  "position": "WR",
+  "search_rank": 177,
+  "season": {
+   "gp": 1.0,
+   "tm_off_snp": 563.0
+  },
+  "status": "Active",
+  "team": "WAS",
   "years_exp": 6
  },
  "6804": {
@@ -17141,23 +17095,6 @@
   "team": "MIN",
   "years_exp": 6
  },
- "7050": {
-  "active": true,
-  "age": 29,
-  "first_name": "Josiah",
-  "full_name": "Josiah Deguara",
-  "last_name": "Deguara",
-  "last_week": null,
-  "position": "TE",
-  "search_rank": 542,
-  "season": {
-   "gp": 1.0,
-   "tm_off_snp": 61.0
-  },
-  "status": "Active",
-  "team": "LAC",
-  "years_exp": 6
- },
  "7066": {
   "active": true,
   "age": 29,
@@ -17213,9 +17150,7 @@
   "injury_notes": "Sprain",
   "injury_status": "IR",
   "last_name": "Huntley",
-  "last_week": {
-   "gp": 1.0
-  },
+  "last_week": null,
   "position": "QB",
   "search_rank": 690,
   "season": {
@@ -18685,6 +18620,8 @@
   "depth_chart_position": "TE",
   "first_name": "Noah",
   "full_name": "Noah Gray",
+  "injury_body_part": "Ribs",
+  "injury_status": "Questionable",
   "last_name": "Gray",
   "last_week": {
    "gp": 1.0,
@@ -18964,7 +18901,7 @@
   "first_name": "Jake",
   "full_name": "Jake Ferguson",
   "injury_body_part": "Knee",
-  "injury_status": "Doubtful",
+  "injury_status": "Out",
   "last_name": "Ferguson",
   "position": "TE",
   "search_rank": 97,
@@ -19888,7 +19825,7 @@
   "full_name": "Kenneth Walker III",
   "injury_body_part": "Groin",
   "injury_notes": "Soreness",
-  "injury_status": "Questionable",
+  "injury_status": "Out",
   "last_name": "Walker III",
   "position": "RB",
   "search_rank": 19,
@@ -20277,6 +20214,8 @@
   "depth_chart_position": "QB",
   "first_name": "Brock",
   "full_name": "Brock Purdy",
+  "injury_body_part": "Ankle",
+  "injury_status": "Questionable",
   "last_name": "Purdy",
   "last_week": {
    "gp": 1.0,
@@ -20397,6 +20336,28 @@
   },
   "status": "Active",
   "team": "LAR",
+  "years_exp": 4
+ },
+ "8200": {
+  "active": true,
+  "age": 26,
+  "first_name": "Kevin",
+  "full_name": "Kevin Austin Jr.",
+  "last_name": "Austin Jr.",
+  "position": "WR",
+  "search_rank": 999,
+  "season": {
+   "gp": 4.0,
+   "off_snp": 29.0,
+   "pts_ppr": 1.7,
+   "rec": 1.0,
+   "rec_tgt": 1.0,
+   "rec_yd": 7.0,
+   "snap_pct": 9,
+   "tm_off_snp": 306.0
+  },
+  "status": "Active",
+  "team": "NO",
   "years_exp": 4
  },
  "8204": {
@@ -22325,7 +22286,7 @@
  "96": {
   "active": true,
   "age": 42,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "QB",
   "first_name": "Aaron",
   "full_name": "Aaron Rodgers",
