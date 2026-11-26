@@ -1415,7 +1415,7 @@
  "11370": {
   "active": true,
   "age": 26,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "Chris",
   "full_name": "Chris Brooks",
@@ -2279,7 +2279,7 @@
  "11581": {
   "active": true,
   "age": 25,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RB",
   "first_name": "MarShawn",
   "full_name": "MarShawn Lloyd",
@@ -5150,8 +5150,6 @@
   "depth_chart_position": "LWR",
   "first_name": "Tai",
   "full_name": "Tai Felton",
-  "injury_body_part": "Hip",
-  "injury_status": "Questionable",
   "last_name": "Felton",
   "last_week": {
    "gp": 1.0,
@@ -5388,7 +5386,7 @@
  "12504": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "RB",
   "first_name": "Kaleb",
   "full_name": "Kaleb Johnson",
@@ -5703,6 +5701,8 @@
   "depth_chart_position": "TE",
   "first_name": "Colston",
   "full_name": "Colston Loveland",
+  "injury_body_part": "Knee",
+  "injury_status": "Out",
   "last_name": "Loveland",
   "last_week": {
    "gp": 1.0,
@@ -7119,6 +7119,31 @@
   "team": "HOU",
   "years_exp": 1
  },
+ "12860": {
+  "active": true,
+  "age": 25,
+  "first_name": "Theo",
+  "full_name": "Theo Wease Jr.",
+  "last_name": "Wease Jr.",
+  "last_week": {
+   "gp": 1.0
+  },
+  "position": "WR",
+  "search_rank": 666,
+  "season": {
+   "gp": 4.0,
+   "off_snp": 80.0,
+   "pts_ppr": 6.7,
+   "rec": 3.0,
+   "rec_tgt": 5.0,
+   "rec_yd": 37.0,
+   "snap_pct": 42,
+   "tm_off_snp": 192.0
+  },
+  "status": "Active",
+  "team": "LAC",
+  "years_exp": 1
+ },
  "12863": {
   "active": true,
   "age": 26,
@@ -7379,7 +7404,7 @@
  "12939": {
   "active": true,
   "age": 23,
-  "depth_chart_order": 3,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Anthony",
   "full_name": "Anthony Tyus III",
@@ -8052,7 +8077,7 @@
  "13270": {
   "active": true,
   "age": 24,
-  "depth_chart_order": 3,
+  "depth_chart_order": 2,
   "depth_chart_position": "RWR",
   "first_name": "CJ",
   "full_name": "CJ Daniels",
@@ -11718,6 +11743,8 @@
   "depth_chart_position": "QB",
   "first_name": "Case",
   "full_name": "Case Keenum",
+  "injury_body_part": "Coach's Decision",
+  "injury_status": "Out",
   "last_name": "Keenum",
   "position": "QB",
   "search_rank": 555,
@@ -12634,7 +12661,7 @@
  "3271": {
   "active": true,
   "age": 33,
-  "depth_chart_order": 1,
+  "depth_chart_order": 2,
   "depth_chart_position": "TE",
   "first_name": "Tyler",
   "full_name": "Tyler Higbee",
@@ -13876,31 +13903,6 @@
   "team": "BAL",
   "years_exp": 1
  },
- "4718": {
-  "active": true,
-  "age": 32,
-  "first_name": "Dare",
-  "full_name": "Dare Ogunbowale",
-  "last_name": "Ogunbowale",
-  "last_week": null,
-  "position": "RB",
-  "search_rank": 661,
-  "season": {
-   "gp": 6.0,
-   "off_snp": 31.0,
-   "pts_ppr": 3.8,
-   "rec": 2.0,
-   "rec_tgt": 2.0,
-   "rec_yd": 16.0,
-   "rush_att": 1.0,
-   "rush_yd": 2.0,
-   "snap_pct": 8,
-   "tm_off_snp": 382.0
-  },
-  "status": "Active",
-  "team": "HOU",
-  "years_exp": 9
- },
  "4744": {
   "active": true,
   "age": 23,
@@ -15013,7 +15015,7 @@
  "5850": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 1,
+  "depth_chart_order": 4,
   "depth_chart_position": "RB",
   "first_name": "Josh",
   "full_name": "Josh Jacobs",
@@ -16593,7 +16595,7 @@
   "full_name": "Michael Pittman Jr.",
   "injury_body_part": "Foot",
   "injury_notes": "Plantar Fasciitis",
-  "injury_status": "IR",
+  "injury_status": "Questionable",
   "last_name": "Pittman Jr.",
   "last_week": null,
   "position": "WR",
@@ -16608,7 +16610,7 @@
    "snap_pct": 78,
    "tm_off_snp": 201.0
   },
-  "status": "Inactive",
+  "status": "Active",
   "team": "PIT",
   "years_exp": 6
  },
@@ -16643,7 +16645,7 @@
  "6828": {
   "active": true,
   "age": 28,
-  "depth_chart_order": 4,
+  "depth_chart_order": 3,
   "depth_chart_position": "RB",
   "first_name": "AJ",
   "full_name": "AJ Dillon",
@@ -16745,7 +16747,7 @@
  "6865": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 2,
+  "depth_chart_order": 1,
   "depth_chart_position": "TE",
   "first_name": "Colby",
   "full_name": "Colby Parkinson",
@@ -17780,7 +17782,7 @@
  "7562": {
   "active": true,
   "age": 27,
-  "depth_chart_order": 2,
+  "depth_chart_order": 3,
   "depth_chart_position": "LWR",
   "first_name": "Tutu",
   "full_name": "Tutu Atwell",
@@ -18607,7 +18609,7 @@
   "first_name": "Ben",
   "full_name": "Ben Skowronek",
   "injury_body_part": "Calf",
-  "injury_status": "Questionable",
+  "injury_status": "IR",
   "last_name": "Skowronek",
   "last_week": {
    "gp": 1.0,
@@ -18628,7 +18630,7 @@
    "snap_pct": 14,
    "tm_off_snp": 463.0
   },
-  "status": "Active",
+  "status": "Inactive",
   "team": "PIT",
   "years_exp": 5
  },
@@ -22351,40 +22353,6 @@
   "status": "Active",
   "team": "LAC",
   "years_exp": 3
- },
- "96": {
-  "active": true,
-  "age": 42,
-  "first_name": "Aaron",
-  "full_name": "Aaron Rodgers",
-  "last_name": "Rodgers",
-  "last_week": {
-   "gp": 1.0,
-   "pass_att": 44.0,
-   "pass_td": 1.0,
-   "pass_yd": 227.0,
-   "pts_ppr": 15.98,
-   "rush_att": 5.0,
-   "rush_yd": 29.0
-  },
-  "position": "QB",
-  "search_rank": 186,
-  "season": {
-   "gp": 10.0,
-   "off_snp": 575.0,
-   "pass_att": 361.0,
-   "pass_int": 6.0,
-   "pass_td": 16.0,
-   "pass_yd": 2241.0,
-   "pts_ppr": 154.74,
-   "rush_att": 19.0,
-   "rush_yd": 51.0,
-   "snap_pct": 97,
-   "tm_off_snp": 594.0
-  },
-  "status": "Active",
-  "team": "PIT",
-  "years_exp": 21
  },
  "9753": {
   "active": true,
