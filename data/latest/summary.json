@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T11:40:14+00:00",
+ "fetched_at": "2026-11-27T19:36:42+00:00",
  "league": "Oxmen",
  "my_roster_id": 10,
  "my_team": {
@@ -1572,7 +1572,7 @@
     },
     {
      "id": "13276",
-     "inj": "Questionable (Ankle)",
+     "inj": "Out (Ankle)",
      "name": "Omar Cooper Jr.",
      "pos": "WR",
      "season": {
@@ -2748,23 +2748,6 @@
      "team": "JAX"
     },
     {
-     "id": "11630",
-     "name": "Roman Wilson",
-     "pos": "WR",
-     "season": {
-      "gp": 6.0,
-      "off_snp": 207.0,
-      "pts_ppr": 52.1,
-      "rec": 17.0,
-      "rec_td": 2.0,
-      "rec_tgt": 31.0,
-      "rec_yd": 231.0,
-      "snap_pct": 51,
-      "tm_off_snp": 402.0
-     },
-     "team": "PIT"
-    },
-    {
      "id": "12469",
      "name": "Dylan Sampson",
      "pos": "RB",
@@ -2783,21 +2766,40 @@
      "team": "CLE"
     },
     {
-     "id": "12483",
-     "name": "Jack Bech",
+     "id": "13394",
+     "name": "Josh Cameron",
      "pos": "WR",
      "season": {
-      "gp": 7.0,
-      "off_snp": 202.0,
-      "pts_ppr": 43.5,
-      "rec": 16.0,
-      "rec_td": 2.0,
+      "gp": 10.0,
+      "off_snp": 237.0,
+      "pts_ppr": 56.4,
+      "rec": 15.0,
+      "rec_td": 3.0,
       "rec_tgt": 24.0,
-      "rec_yd": 155.0,
-      "snap_pct": 46,
-      "tm_off_snp": 443.0
+      "rec_yd": 234.0,
+      "snap_pct": 37,
+      "tm_off_snp": 637.0
      },
-     "team": "LV"
+     "team": "JAX"
+    },
+    {
+     "id": "1373",
+     "name": "Geno Smith",
+     "pos": "QB",
+     "season": {
+      "gp": 11.0,
+      "off_snp": 651.0,
+      "pass_att": 313.0,
+      "pass_int": 3.0,
+      "pass_td": 15.0,
+      "pass_yd": 2402.0,
+      "pts_ppr": 158.88,
+      "rush_att": 25.0,
+      "rush_yd": 58.0,
+      "snap_pct": 95,
+      "tm_off_snp": 688.0
+     },
+     "team": "NYJ"
     }
    ],
    "ir": [
@@ -2820,6 +2822,14 @@
      },
      "status": "Inactive",
      "team": "CAR"
+    },
+    {
+     "id": "11638",
+     "inj": "IR (Knee - PCL)",
+     "name": "Ricky Pearsall",
+     "pos": "WR",
+     "status": "Inactive",
+     "team": "SF"
     }
    ],
    "lineup": [
@@ -2995,12 +3005,13 @@
    "player_ids": [
     "10219",
     "11583",
-    "11630",
+    "11638",
     "12469",
-    "12483",
     "12517",
     "12526",
     "12545",
+    "13394",
+    "1373",
     "1945",
     "5844",
     "7543",
@@ -3393,7 +3404,7 @@
    "ir": [
     {
      "id": "5859",
-     "inj": "Doubtful (Hamstring)",
+     "inj": "Out (Hamstring)",
      "name": "A.J. Brown",
      "pos": "WR",
      "season": {
@@ -3621,21 +3632,21 @@
   {
    "bench": [
     {
-     "id": "12498",
-     "name": "Mason Taylor",
-     "pos": "TE",
+     "id": "11631",
+     "name": "Brian Thomas Jr.",
+     "pos": "WR",
      "season": {
-      "gp": 9.0,
-      "off_snp": 372.0,
-      "pts_ppr": 57.2,
-      "rec": 24.0,
-      "rec_td": 2.0,
-      "rec_tgt": 31.0,
-      "rec_yd": 192.0,
-      "snap_pct": 63,
-      "tm_off_snp": 590.0
+      "gp": 10.0,
+      "off_snp": 284.0,
+      "pts_ppr": 48.4,
+      "rec": 14.0,
+      "rec_td": 3.0,
+      "rec_tgt": 29.0,
+      "rec_yd": 164.0,
+      "snap_pct": 45,
+      "tm_off_snp": 637.0
      },
-     "team": "NYJ"
+     "team": "JAX"
     },
     {
      "id": "13274",
@@ -3677,24 +3688,58 @@
      "team": "IND"
     },
     {
-     "id": "2449",
-     "name": "Stefon Diggs",
+     "id": "6819",
+     "name": "Michael Pittman Jr.",
      "pos": "WR",
      "season": {
-      "gp": 9.0,
-      "off_snp": 370.0,
-      "pts_ppr": 119.1,
-      "rec": 40.0,
-      "rec_td": 6.0,
-      "rec_tgt": 65.0,
-      "rec_yd": 431.0,
-      "snap_pct": 62,
-      "tm_off_snp": 600.0
+      "gp": 3.0,
+      "off_snp": 156.0,
+      "pts_ppr": 15.9,
+      "rec": 7.0,
+      "rec_tgt": 12.0,
+      "rec_yd": 89.0,
+      "snap_pct": 78,
+      "tm_off_snp": 201.0
      },
-     "team": "WAS"
+     "team": "PIT"
     }
    ],
-   "ir": [],
+   "ir": [
+    {
+     "id": "13417",
+     "inj": "IR (Ankle)",
+     "name": "De'Zhaun Stribling",
+     "pos": "WR",
+     "season": {
+      "gp": 1.0,
+      "off_snp": 21.0,
+      "snap_pct": 32,
+      "tm_off_snp": 65.0
+     },
+     "status": "Inactive",
+     "team": "SF"
+    },
+    {
+     "id": "9487",
+     "inj": "Out (Shoulder)",
+     "name": "Parker Washington",
+     "pos": "WR",
+     "season": {
+      "gp": 10.0,
+      "off_snp": 482.0,
+      "pts_ppr": 156.1,
+      "rec": 44.0,
+      "rec_td": 6.0,
+      "rec_tgt": 81.0,
+      "rec_yd": 748.0,
+      "rush_att": 2.0,
+      "rush_yd": 13.0,
+      "snap_pct": 76,
+      "tm_off_snp": 637.0
+     },
+     "team": "JAX"
+    }
+   ],
    "lineup": [
     {
      "id": "11566",
@@ -3780,25 +3825,22 @@
      "team": "HOU"
     },
     {
-     "id": "9487",
-     "inj": "Questionable (Shoulder)",
-     "name": "Parker Washington",
+     "id": "2449",
+     "name": "Stefon Diggs",
      "pos": "WR",
      "season": {
-      "gp": 10.0,
-      "off_snp": 482.0,
-      "pts_ppr": 156.1,
-      "rec": 44.0,
+      "gp": 9.0,
+      "off_snp": 370.0,
+      "pts_ppr": 119.1,
+      "rec": 40.0,
       "rec_td": 6.0,
-      "rec_tgt": 81.0,
-      "rec_yd": 748.0,
-      "rush_att": 2.0,
-      "rush_yd": 13.0,
-      "snap_pct": 76,
-      "tm_off_snp": 637.0
+      "rec_tgt": 65.0,
+      "rec_yd": 431.0,
+      "snap_pct": 62,
+      "tm_off_snp": 600.0
      },
      "slot": "WR",
-     "team": "JAX"
+     "team": "WAS"
     },
     {
      "id": "12506",
@@ -3863,8 +3905,7 @@
     }
    ],
    "lineup_flags": [
-    "RB Saquon Barkley is Questionable (Neck)",
-    "WR Parker Washington is Questionable (Shoulder)"
+    "RB Saquon Barkley is Questionable (Neck)"
    ],
    "owner": "wmont",
    "owner_id": "1135271814399246336",
@@ -3873,13 +3914,15 @@
    "player_ids": [
     "11566",
     "11586",
-    "12498",
+    "11631",
     "12506",
     "13274",
+    "13417",
     "13424",
     "2449",
     "4866",
     "6083",
+    "6819",
     "7569",
     "8112",
     "9487",

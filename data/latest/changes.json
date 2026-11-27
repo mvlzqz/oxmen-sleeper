@@ -1,7 +1,7 @@
 {
- "baseline": "2026-11-26_1140Z",
+ "baseline": "2026-11-26_1947Z",
  "first_run": false,
- "injury_baseline": "2026-11-26_1140Z",
+ "injury_baseline": "2026-11-26_1947Z",
  "injury_changes": [
   {
    "body_part": "Knee",
@@ -12,20 +12,20 @@
    "to": "Questionable"
   },
   {
+   "body_part": "Hamstring",
+   "from": "Doubtful",
+   "mine": false,
+   "owner": "erictheleghel",
+   "player": "A.J. Brown",
+   "to": "Out"
+  },
+  {
    "body_part": "Undisclosed",
    "from": null,
    "mine": false,
    "owner": "phile2211",
    "player": "Caleb Williams",
    "to": "Questionable"
-  },
-  {
-   "body_part": "Knee",
-   "from": null,
-   "mine": false,
-   "owner": "pauliv8811",
-   "player": "Colston Loveland",
-   "to": "Out"
   },
   {
    "body_part": "Shoulder",
@@ -60,12 +60,28 @@
    "to": null
   },
   {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "wmont",
+   "player": "Michael Pittman Jr.",
+   "to": null
+  },
+  {
+   "body_part": "Ankle",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Omar Cooper Jr.",
+   "to": "Out"
+  },
+  {
    "body_part": "Shoulder",
    "from": null,
    "mine": false,
    "owner": "wmont",
    "player": "Parker Washington",
-   "to": "Questionable"
+   "to": "Out"
   },
   {
    "body_part": "Neck",
@@ -96,6 +112,22 @@
  "rosters": [
   {
    "added": [
+    "Ricky Pearsall",
+    "Josh Cameron",
+    "Geno Smith"
+   ],
+   "dropped": [
+    "Roman Wilson",
+    "Jack Bech"
+   ],
+   "moved_to_ir": [
+    "Ricky Pearsall"
+   ],
+   "owner": "pauliv8811",
+   "roster_id": 9
+  },
+  {
+   "added": [
     "Bryce Young"
    ],
    "dropped": [
@@ -104,6 +136,22 @@
    "moved_to_ir": [],
    "owner": "erictheleghel",
    "roster_id": 11
+  },
+  {
+   "added": [
+    "Brian Thomas Jr.",
+    "De'Zhaun Stribling",
+    "Michael Pittman Jr."
+   ],
+   "dropped": [
+    "Mason Taylor"
+   ],
+   "moved_to_ir": [
+    "De'Zhaun Stribling",
+    "Parker Washington"
+   ],
+   "owner": "wmont",
+   "roster_id": 12
   },
   {
    "added": [],
@@ -115,6 +163,6 @@
    "roster_id": 14
   }
  ],
- "since": "2026-11-26T11:40:16+00:00",
+ "since": "2026-11-26T19:47:18+00:00",
  "waiver_moves": []
 }
