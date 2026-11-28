@@ -1,15 +1,15 @@
 {
- "baseline": "2026-11-26_1947Z",
+ "baseline": "2026-11-27_1140Z",
  "first_run": false,
- "injury_baseline": "2026-11-26_1947Z",
+ "injury_baseline": "2026-11-27_1140Z",
  "injury_changes": [
   {
-   "body_part": "Knee",
-   "from": null,
+   "body_part": "Hamstring",
+   "from": "Questionable",
    "mine": true,
    "owner": "mvlzqz",
-   "player": "Darren Waller",
-   "to": "Questionable"
+   "player": "Juwan Johnson",
+   "to": "Out"
   },
   {
    "body_part": "Hamstring",
@@ -20,52 +20,68 @@
    "to": "Out"
   },
   {
-   "body_part": "Undisclosed",
-   "from": null,
+   "body_part": "Ankle",
+   "from": "Questionable",
    "mine": false,
-   "owner": "phile2211",
-   "player": "Caleb Williams",
-   "to": "Questionable"
+   "owner": "PawtucketPatriot",
+   "player": "Bhayshul Tuten",
+   "to": "Out"
   },
   {
-   "body_part": "Shoulder",
-   "from": null,
+   "body_part": "Ankle",
+   "from": "Questionable",
    "mine": false,
-   "owner": "dleach16",
-   "player": "Dallas Goedert",
+   "owner": "chopkins30",
+   "player": "Brock Purdy",
    "to": "Out"
   },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "phile2211",
-   "player": "Dalton Kincaid",
-   "to": null
-  },
-  {
-   "body_part": "Back",
-   "from": null,
-   "mine": false,
-   "owner": "TheDudePlayingADude",
-   "player": "DeVonta Smith",
-   "to": "Questionable"
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "wmont",
-   "player": "Harold Fannin Jr.",
+   "owner": "kitano",
+   "player": "Derrick Henry",
    "to": null
   },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "wmont",
-   "player": "Michael Pittman Jr.",
+   "owner": "coltierney",
+   "player": "Isaiah Likely",
    "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "brendonferreira",
+   "player": "Jakobi Meyers",
+   "to": null
+  },
+  {
+   "body_part": null,
+   "from": "Questionable",
+   "mine": false,
+   "owner": "PawtucketPatriot",
+   "player": "Jaxon Smith-Njigba",
+   "to": null
+  },
+  {
+   "body_part": "Thumb",
+   "from": "Doubtful",
+   "mine": false,
+   "owner": "PawtucketPatriot",
+   "player": "Jordan Addison",
+   "to": "Out"
+  },
+  {
+   "body_part": "Concussion",
+   "from": "Questionable",
+   "mine": false,
+   "owner": "dleach16",
+   "player": "Justin Herbert",
+   "to": "Out"
   },
   {
    "body_part": "Ankle",
@@ -77,34 +93,26 @@
   },
   {
    "body_part": "Shoulder",
-   "from": null,
+   "from": "Questionable",
    "mine": false,
    "owner": "wmont",
    "player": "Parker Washington",
    "to": "Out"
   },
   {
-   "body_part": "Neck",
+   "body_part": "Hamstring",
    "from": null,
    "mine": false,
-   "owner": "wmont",
-   "player": "Saquon Barkley",
+   "owner": "erictheleghel",
+   "player": "Tee Higgins",
    "to": "Questionable"
   },
   {
    "body_part": null,
    "from": "Questionable",
    "mine": false,
-   "owner": "wmont",
-   "player": "Stefon Diggs",
-   "to": null
-  },
-  {
-   "body_part": null,
-   "from": "Questionable",
-   "mine": false,
-   "owner": "chopkins30",
-   "player": "Zay Flowers",
+   "owner": "phile2211",
+   "player": "Woody Marks",
    "to": null
   }
  ],
@@ -112,9 +120,20 @@
  "rosters": [
   {
    "added": [
+    "NE DEF"
+   ],
+   "dropped": [
+    "NYG DEF"
+   ],
+   "moved_to_ir": [],
+   "owner": "kitano",
+   "roster_id": 4
+  },
+  {
+   "added": [
     "Ricky Pearsall",
     "Josh Cameron",
-    "Geno Smith"
+    "Mac Jones"
    ],
    "dropped": [
     "Roman Wilson",
@@ -125,17 +144,6 @@
    ],
    "owner": "pauliv8811",
    "roster_id": 9
-  },
-  {
-   "added": [
-    "Bryce Young"
-   ],
-   "dropped": [
-    "Ted Hurst III"
-   ],
-   "moved_to_ir": [],
-   "owner": "erictheleghel",
-   "roster_id": 11
   },
   {
    "added": [
@@ -154,15 +162,17 @@
    "roster_id": 12
   },
   {
-   "added": [],
-   "dropped": [
-    "Rico Dowdle"
+   "added": [
+    "Geno Smith"
    ],
-   "moved_to_ir": [],
+   "dropped": [],
+   "moved_to_ir": [
+    "Brock Purdy"
+   ],
    "owner": "chopkins30",
    "roster_id": 14
   }
  ],
- "since": "2026-11-26T19:47:18+00:00",
+ "since": "2026-11-27T11:40:14+00:00",
  "waiver_moves": []
 }
